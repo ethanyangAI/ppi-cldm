@@ -1,0 +1,28 @@
+# PPI Inhibitor Generation — configuration template
+# Copy to config.yaml and fill in your values. NEVER commit config.yaml.
+
+connection:
+  host: "YOUR_HPC_HOST"
+  port: 22
+  username: "YOUR_USERNAME"
+  workdir: "/home/youruser/zjy"
+
+project:
+  name: "PPI_Inhibitor_Generation"
+
+target_proteins:
+  protein_A:
+    pdb_id: "1YCR"
+    chain: "A"
+    name: "MDM2"
+  protein_B:
+    pdb_id: "1YCR"
+    chain: "B"
+    name: "p53"
+
+interface:
+  distance_threshold: 5.0
+  pocket_radius: 10.0
+
+databases:
+  primary: "ZINC15"

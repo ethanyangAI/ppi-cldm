@@ -1,0 +1,213 @@
+# PPI-CLDM: Conditional Latent Diffusion for PPI Inhibitor Discovery
+
+A **Conditional Latent Diffusion Model (CLDM)** that generates de novo small-molecule inhibitors targeting protein-protein interactions (PPIs). The pipeline combines interface-aware pocket conditioning, GRU-VAE constrained decoding, AutoDock Vina docking, and 83-target counter-screening to produce selective, drug-like candidates.
+
+---
+
+## Architecture
+
+```
+PDB complex
+    │
+    ▼
+interface_extractor.py ──→ PocketEncoder ──→ cond vector c [256]
+                                                    │
+                                     DDPM reverse diffusion (T=1000)
+                                     z_T ~ N(0,I) ──→ z_0
+                                                    │
+                                     GRU-VAE constrained decode
+                                     (token-level SMILES validity filter)
+                                                    │
+                                     Lipinski + PAINS + chemically_reasonable
+                                                    │
+                                     Tanimoto diversity filter (threshold=0.4)
+                                                    │
+                                     AutoDock Vina  ←── receptor.pdbqt
+                                                    │
+                                     Counter-screen (83 off-targets)
+                                     Selectivity = vina_self − mean(vina_off)
+                                                    │
+                                              candidates.csv
+                                          full_screened.csv
+```
+
+### Key Components
+
+| File | Role |
+|------|------|
+| `gru_vae.py` | GRU-VAE encoder/decoder; character-level SMILES tokenizer |
+| `latent_diffusion.py` | DDPM + DenoiseMLP (Transformer blocks) + PocketEncoder |
+| `interface_extractor.py` | PPI interface residue extraction → pocket feature tensor |
+| `ppi_pipeline_universal.py` | **Main entry point** — generation → docking → screening |
+| `ppi_targets.py` | Builds `ppi_target_db.json` (downloads PDB, computes pocket centers) |
+| `build_offtarget_db.py` | Builds `offtarget_db.json` (~83 diverse human drug targets) |
+| `counter_screen_module.py` | Off-target Vina docking + PAINS/Brenk filtering |
+| `full_counter_screen.py` | SLURM-array batch version of counter-screening |
+| `run_retrosynthesis.py` | AiZynthFinder retrosynthesis analysis |
+| `complex_builder.py` | ColabFold/ESMFold complex modeling for novel targets |
+| `train_vae.py` | GRU-VAE training on ZINC 100k |
+| `train_diffusion.py` | DDPM training on pocket-ligand pairs |
+| `train_diffusion_large.py` | Fine-tuning on MW>350 subset for larger molecules |
+
+---
+
+## Supported Targets
+
+10 canonical PPI targets pre-registered in `ppi_target_db.json`:
+
+| Target | Disease | Known Inhibitors |
+|--------|---------|-----------------|
+| MDM2_TP53 | Cancer (p53 pathway) | Nutlin-3a, AMG232 |
+| BCL2_BAX | Apoptosis / Cancer | Venetoclax |
+| KRAS_SOS1 | Lung/Pancreatic Cancer | BI-3406 |
+| PD1_PDL1 | Immunotherapy | CA-170, BMS-202 |
+| MENIN_MLL | Leukemia | Revumenib |
+| MYC_MAX | Pan-cancer | 10058-F4 |
+| VHL_HIF1A | Renal cancer | Belzutifan |
+| XIAP_SMAC | Apoptosis resistance | Birinapant |
+| IL2_IL2RA | Autoimmune | SP4206 |
+| BRD4_HISTONE | Cancer / Inflammation | JQ1 |
+
+Custom targets can be added via `complex_builder.py`.
+
+---
+
+## Installation
+
+```bash
+# 1. Clone
+git clone https://github.com/ethanyangAI/ppi-cldm.git
+cd ppi-cldm
+
+# 2. Conda environment
+conda create -n ppi_env python=3.10
+conda activate ppi_env
+pip install -r requirements.txt
+
+# 3. Install AutoDock Vina
+conda install -c conda-forge vina
+
+# 4. Download model weights  ← see Releases tab
+# Place in: core/denovo/checkpoints/
+#   vae_ppi.pt                (~40 MB)
+#   diffusion_cleaned_mw350.pt (~51 MB)
+
+# 5. Build target databases (downloads PDB files)
+cd core/denovo
+python ppi_targets.py            # ppi_target_db.json
+python build_offtarget_db.py     # offtarget_db.json
+```
+
+---
+
+## Quick Start
+
+```bash
+cd core/denovo
+conda activate ppi_env
+
+# List available targets
+python ppi_pipeline_universal.py --list
+
+# Generate 100 candidates for MDM2-TP53
+python ppi_pipeline_universal.py --target MDM2_TP53 --n 100
+
+# Full pipeline: generation + docking + counter-screening
+python ppi_pipeline_universal.py \
+    --target MENIN_MLL --n 100 \
+    --vae vae_ppi.pt \
+    --counter_screen --cs_top_n 30 --cs_workers 4
+```
+
+### SLURM Jobs (HPC)
+
+```bash
+# Standard generation (GPU)
+sbatch slurm_generate.sh
+
+# Full pipeline with counter-screening (GPU + CPU)
+TARGET=KRAS_SOS1 N_MOLS=200 sbatch slurm_full_pipeline.sh
+
+# Counter-screening array (40 tasks × CPU)
+sbatch slurm_counter_screen.sh
+```
+
+### Training from Scratch
+
+```bash
+# 1. Train GRU-VAE on ZINC 100k
+sbatch submit_vae_train.sh          # → checkpoints/vae_best.pt
+
+# 2. Train DDPM conditioned on pockets
+sbatch submit_diffusion_train.sh    # → checkpoints/diffusion_best.pt
+
+# 3. Fine-tune on MW>350 molecules
+python train_diffusion_large.py     # → diffusion_cleaned_mw350.pt
+```
+
+### Retrosynthesis
+
+```bash
+# Analyze top candidates for synthetic accessibility
+python run_retrosynthesis.py --csv results/MDM2_TP53_candidates.csv --top 5
+
+# Single SMILES
+python run_retrosynthesis.py --smiles "CCO" --name test_mol
+```
+
+---
+
+## Output Files
+
+| File | Description |
+|------|-------------|
+| `results/{TARGET}_candidates.csv` | Generated + docked candidates |
+| `results/{TARGET}_full_screened.csv` | After 83-target counter-screening |
+| `results/{TARGET}_manifest.latest.json` | Run metadata + statistics |
+
+Key columns in `full_screened.csv`:
+
+| Column | Meaning |
+|--------|---------|
+| `vina_self` | Docking score to target (kcal/mol; lower = stronger) |
+| `selectivity` | `vina_self − mean(vina_offtargets)`; **negative = target-selective** |
+| `composite` | Multi-objective score (lower = better) |
+| `pains_flag` | PAINS/Brenk alert (empty = clean) |
+| `qed` | Drug-likeness (0–1; higher = better) |
+| `vina_CYP3A4` | CYP3A4 off-target score (metabolic liability) |
+| `vina_hERG` | hERG off-target score (cardiac safety) |
+
+---
+
+## Composite Score
+
+```
+composite = vina × 0.6  −  qed × 3.0  +  size_penalty(MW)
+```
+Lower is better. When `--counter_screen` is used, results are re-ranked by selectivity.
+
+---
+
+## Checkpoints
+
+Model weights are distributed via GitHub Releases (not tracked by git):
+
+| File | Size | Description |
+|------|------|-------------|
+| `vae_ppi.pt` | ~40 MB | GRU-VAE fine-tuned on 1401 ChEMBL PPI inhibitors |
+| `diffusion_cleaned_mw350.pt` | ~51 MB | DDPM trained on MW>350 pocket-ligand pairs |
+
+---
+
+## Citation
+
+If you use this pipeline in your research, please cite:
+
+```bibtex
+@software{ppi_cldm_2026,
+  title  = {PPI-CLDM: Conditional Latent Diffusion for PPI Inhibitor Discovery},
+  author = {Yang, Zijian},
+  year   = {2026},
+  url    = {https://github.com/ethanyangAI/ppi-cldm}
+}
+```

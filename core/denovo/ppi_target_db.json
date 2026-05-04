@@ -1,0 +1,234 @@
+{
+  "PD1_PDL1": {
+    "pdb": "4zqk",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/4zqk.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/PD1_PDL1_receptor.pdbqt",
+    "pocket_center": [
+      11.96,
+      50.2,
+      104.13
+    ],
+    "description": "PD-1/PD-L1检查点抑制",
+    "disease": "免疫治疗",
+    "known_drugs": [
+      "CA-170",
+      "BMS-202"
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ],
+    "chain_receptor": "A",
+    "chain_ligand": "B"
+  },
+  "IL2_IL2RA": {
+    "pdb": "1z92",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/1z92.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/IL2_IL2RA_receptor.pdbqt",
+    "pocket_center": [
+      13.98,
+      -35.54,
+      12.59
+    ],
+    "description": "IL-2与IL-2Rα结合激活T细胞",
+    "disease": "自身免疫/炎症",
+    "known_drugs": [
+      "SP4206"
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ],
+    "chain_receptor": "A",
+    "chain_ligand": "B"
+  },
+  "KRAS_SOS1": {
+    "pdb": "6epn",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/6epn.pdb",
+    "pdbqt_path": null,
+    "pocket_center": [
+      178.76,
+      140.93,
+      263.27
+    ],
+    "description": "SOS1是KRAS的鸟嘌呤核苷酸交换因子",
+    "disease": "肺癌/胰腺癌",
+    "known_drugs": [
+      "BI-3406",
+      "BAY-293"
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ],
+    "chain_receptor": "R",
+    "chain_ligand": "S"
+  },
+  "MYC_MAX": {
+    "pdb": "1nkp",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/1nkp.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/MYC_MAX_receptor.pdbqt",
+    "pocket_center": [
+      64.84,
+      60.77,
+      41.38
+    ],
+    "description": "MYC-MAX二聚化驱动基因转录",
+    "disease": "多种癌症",
+    "known_drugs": [
+      "10058-F4",
+      "Omomyc"
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ],
+    "chain_receptor": "A",
+    "chain_ligand": "B"
+  },
+  "XIAP_SMAC": {
+    "pdb": "1g73",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/1g73.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/XIAP_SMAC_receptor.pdbqt",
+    "pocket_center": [
+      16.88,
+      -14.69,
+      46.06
+    ],
+    "description": "XIAP抑制caspase，Smac拮抗XIAP",
+    "disease": "癌症/凋亡抵抗",
+    "known_drugs": [
+      "LCL161",
+      "Birinapant"
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ],
+    "chain_receptor": "A",
+    "chain_ligand": "B"
+  },
+  "VHL_HIF1A": {
+    "pdb": "1lm8",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/1lm8.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/VHL_HIF1A_receptor.pdbqt",
+    "pocket_center": [
+      53.32,
+      29.47,
+      110.4
+    ],
+    "description": "VHL识别HIF1α进行泛素化降解",
+    "disease": "肾癌/缺氧",
+    "known_drugs": [
+      "VH032",
+      "PT2977 (Belzutifan)"
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ],
+    "chain_receptor": "B",
+    "chain_ligand": "C"
+  },
+  "BRD4_HISTONE": {
+    "pdb": "3oni",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/3oni.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/BRD4_HISTONE_receptor.pdbqt",
+    "pocket_center": [
+      40.97,
+      39.56,
+      -9.37
+    ],
+    "description": "BRD4溴结构域识别乙酰化组蛋白",
+    "disease": "癌症/炎症",
+    "known_drugs": [
+      "JQ1",
+      "I-BET762",
+      "OTX015"
+    ],
+    "box_size": [
+      20,
+      20,
+      20
+    ],
+    "chain_receptor": "A",
+    "chain_ligand": "A"
+  },
+  "MDM2_TP53": {
+    "pdb": "1ycr",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/1ycr.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/MDM2_TP53_receptor.pdbqt",
+    "pocket_center": [
+      25.42,
+      -25.14,
+      -7.92
+    ],
+    "description": "MDM2与p53转录激活域结合，抑制p53功能",
+    "disease": "癌症（p53通路）",
+    "known_drugs": [
+      "Nutlin-3a",
+      "RG7112",
+      "AMG232"
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ],
+    "chain_receptor": "A",
+    "chain_ligand": "B"
+  },
+  "BCL2_BAX": {
+    "pdb": "2xa0",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/2xa0.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/BCL2_BAX_receptor.pdbqt",
+    "pocket_center": [
+      61.17,
+      -13.96,
+      -32.2
+    ],
+    "description": "BCL2抑制BAX介导的细胞凋亡",
+    "disease": "癌症/凋亡",
+    "known_drugs": [
+      "ABT-199 (Venetoclax)",
+      "ABT-737"
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ],
+    "chain_receptor": "A",
+    "chain_ligand": "B"
+  },
+  "MENIN_MLL": {
+    "pdb": "4gq6",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/4gq6.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/ppi_targets/MENIN_MLL_receptor.pdbqt",
+    "pocket_center": [
+      -9.31,
+      14.81,
+      6.26
+    ],
+    "description": "Menin-MLL融合蛋白驱动白血病",
+    "disease": "白血病",
+    "known_drugs": [
+      "MI-2",
+      "VTP-50469",
+      "Revumenib"
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ],
+    "chain_receptor": "A",
+    "chain_ligand": "B"
+  }
+}

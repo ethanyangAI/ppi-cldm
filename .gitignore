@@ -1,0 +1,52 @@
+# Model weights (large binaries — download separately)
+**/*.pt
+**/*.pth
+**/*.ckpt
+
+# Protein structure files
+**/*.pdb
+**/*.pdbqt
+!core/denovo/receptors/*.pdbqt
+structures/
+
+# Generated results & screening data
+core/denovo/results/
+core/denovo/full_cs_partial/
+core/denovo/cs_tmp/
+core/denovo/docking_tmp/
+core/denovo/full_cs_tmp/
+
+# Raw & processed training data (large)
+data/raw/
+data/processed/
+
+# Archive & compressed
+archive/
+archive_*.tar.gz
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Logs
+logs/
+*.log
+*.err
+*.out
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — never commit
+configs/config.yaml
+configs/secrets.yaml

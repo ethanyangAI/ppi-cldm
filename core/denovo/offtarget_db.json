@@ -1,0 +1,1413 @@
+{
+  "CDK2": {
+    "pdb_id": "1hcl",
+    "chain_receptor": "A",
+    "description": "Cyclin-dependent kinase 2",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/CDK2_1hcl.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/CDK2_receptor.pdbqt",
+    "pocket_center": [
+      104.14,
+      87.19,
+      79.67
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "EGFR": {
+    "pdb_id": "1iep",
+    "chain_receptor": "A",
+    "description": "EGF receptor kinase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/EGFR_1iep.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/EGFR_receptor.pdbqt",
+    "pocket_center": [
+      15.61,
+      53.38,
+      15.45
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "ABL1": {
+    "pdb_id": "2hyy",
+    "chain_receptor": "A",
+    "description": "BCR-ABL tyrosine kinase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/ABL1_2hyy.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/ABL1_receptor.pdbqt",
+    "pocket_center": [
+      14.25,
+      15.28,
+      17.63
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "SRC": {
+    "pdb_id": "2src",
+    "chain_receptor": "A",
+    "description": "Proto-oncogene Src kinase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/SRC_2src.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/SRC_receptor.pdbqt",
+    "pocket_center": [
+      20.45,
+      29.05,
+      67.81
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "BRAF": {
+    "pdb_id": "1uwh",
+    "chain_receptor": "A",
+    "description": "BRAF serine/threonine kinase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/BRAF_1uwh.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/BRAF_receptor.pdbqt",
+    "pocket_center": [
+      75.15,
+      44.83,
+      65.03
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "AKT1": {
+    "pdb_id": "3cqw",
+    "chain_receptor": "A",
+    "description": "AKT1 serine/threonine kinase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/AKT1_3cqw.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/AKT1_receptor.pdbqt",
+    "pocket_center": [
+      6.81,
+      -4.44,
+      21.73
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "MAPK14": {
+    "pdb_id": "1a9u",
+    "chain_receptor": "A",
+    "description": "p38 MAP kinase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/MAPK14_1a9u.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/MAPK14_receptor.pdbqt",
+    "pocket_center": [
+      2.71,
+      14.69,
+      28.52
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "JAK2": {
+    "pdb_id": "2xj4",
+    "chain_receptor": "A",
+    "description": "JAK2 kinase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/JAK2_2xj4.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/JAK2_receptor.pdbqt",
+    "pocket_center": [
+      15.81,
+      -20.11,
+      3.55
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "VEGFR2": {
+    "pdb_id": "2oh4",
+    "chain_receptor": "A",
+    "description": "VEGF receptor 2",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/VEGFR2_2oh4.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/VEGFR2_receptor.pdbqt",
+    "pocket_center": [
+      -5.71,
+      30.93,
+      18.87
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "PLK1": {
+    "pdb_id": "2ojx",
+    "chain_receptor": "A",
+    "description": "Polo-like kinase 1",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PLK1_2ojx.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PLK1_receptor.pdbqt",
+    "pocket_center": [
+      12.64,
+      0.15,
+      9.03
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "Aurora_A": {
+    "pdb_id": "1mq4",
+    "chain_receptor": "A",
+    "description": "Aurora kinase A",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/Aurora_A_1mq4.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/Aurora_A_receptor.pdbqt",
+    "pocket_center": [
+      -7.29,
+      27.38,
+      80.08
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "ROCK1": {
+    "pdb_id": "2esm",
+    "chain_receptor": "A",
+    "description": "Rho-associated kinase 1",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/ROCK1_2esm.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/ROCK1_receptor.pdbqt",
+    "pocket_center": [
+      51.9,
+      99.75,
+      28.27
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "PI3K": {
+    "pdb_id": "2rd0",
+    "chain_receptor": "A",
+    "description": "PI3-kinase gamma",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PI3K_2rd0.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PI3K_receptor.pdbqt",
+    "pocket_center": [
+      67.19,
+      63.78,
+      93.75
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "Thrombin": {
+    "pdb_id": "1ppb",
+    "chain_receptor": "H",
+    "description": "Serine protease thrombin",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/Thrombin_1ppb.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/Thrombin_receptor.pdbqt",
+    "pocket_center": [
+      5.04,
+      17.14,
+      18.38
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "FactorXa": {
+    "pdb_id": "1fjs",
+    "chain_receptor": "L",
+    "description": "Coagulation factor Xa",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/FactorXa_1fjs.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/FactorXa_receptor.pdbqt",
+    "pocket_center": [
+      41.26,
+      12.73,
+      31.44
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "BACE1": {
+    "pdb_id": "2b8v",
+    "chain_receptor": "A",
+    "description": "Beta-site APP cleaving enzyme 1",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/BACE1_2b8v.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/BACE1_receptor.pdbqt",
+    "pocket_center": [
+      30.65,
+      41.54,
+      1.86
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "HIV_PR": {
+    "pdb_id": "3oxc",
+    "chain_receptor": "A",
+    "description": "HIV-1 protease",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/HIV_PR_3oxc.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/HIV_PR_receptor.pdbqt",
+    "pocket_center": [
+      5.1,
+      -3.44,
+      15.31
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "MMP3": {
+    "pdb_id": "1g49",
+    "chain_receptor": "A",
+    "description": "Matrix metalloproteinase 3",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/MMP3_1g49.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/MMP3_receptor.pdbqt",
+    "pocket_center": [
+      2.12,
+      20.28,
+      33.01
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "ACE": {
+    "pdb_id": "1o86",
+    "chain_receptor": "A",
+    "description": "Angiotensin-converting enzyme",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/ACE_1o86.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/ACE_receptor.pdbqt",
+    "pocket_center": [
+      41.71,
+      34.33,
+      45.65
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "Cathepsin_L": {
+    "pdb_id": "2xu3",
+    "chain_receptor": "A",
+    "description": "Cathepsin L",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/Cathepsin_L_2xu3.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/Cathepsin_L_receptor.pdbqt",
+    "pocket_center": [
+      19.4,
+      2.52,
+      3.95
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "DPP4": {
+    "pdb_id": "2bug",
+    "chain_receptor": "A",
+    "description": "Dipeptidyl peptidase 4",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/DPP4_2bug.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/DPP4_receptor.pdbqt",
+    "pocket_center": [
+      0.04,
+      -0.3,
+      0.62
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "NS3_HCV": {
+    "pdb_id": "3kql",
+    "chain_receptor": "A",
+    "description": "HCV NS3/4A protease",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/NS3_HCV_3kql.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/NS3_HCV_receptor.pdbqt",
+    "pocket_center": [
+      -9.51,
+      -1.34,
+      -14.8
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "ERalpha": {
+    "pdb_id": "1ere",
+    "chain_receptor": "A",
+    "description": "Estrogen receptor alpha",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/ERalpha_1ere.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/ERalpha_receptor.pdbqt",
+    "pocket_center": [
+      9.27,
+      46.29,
+      131.21
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "ARec": {
+    "pdb_id": "1t7r",
+    "chain_receptor": "A",
+    "description": "Androgen receptor",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/ARec_1t7r.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/ARec_receptor.pdbqt",
+    "pocket_center": [
+      0.14,
+      30.64,
+      38.42
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "PPARgamma": {
+    "pdb_id": "1prg",
+    "chain_receptor": "A",
+    "description": "PPAR gamma",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PPARgamma_1prg.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PPARgamma_receptor.pdbqt",
+    "pocket_center": [
+      13.56,
+      56.5,
+      16.42
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "GR": {
+    "pdb_id": "1m2z",
+    "chain_receptor": "A",
+    "description": "Glucocorticoid receptor",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/GR_1m2z.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/GR_receptor.pdbqt",
+    "pocket_center": [
+      49.86,
+      6.96,
+      13.17
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "RAR": {
+    "pdb_id": "1fby",
+    "chain_receptor": "A",
+    "description": "Retinoic acid receptor",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/RAR_1fby.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/RAR_receptor.pdbqt",
+    "pocket_center": [
+      15.72,
+      28.03,
+      47.61
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "VDR": {
+    "pdb_id": "1db1",
+    "chain_receptor": "A",
+    "description": "Vitamin D receptor",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/VDR_1db1.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/VDR_receptor.pdbqt",
+    "pocket_center": [
+      11.46,
+      22.97,
+      34.46
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "FXR": {
+    "pdb_id": "1osv",
+    "chain_receptor": "A",
+    "description": "Farnesoid X receptor",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/FXR_1osv.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/FXR_receptor.pdbqt",
+    "pocket_center": [
+      12.19,
+      37.39,
+      16.84
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "Beta2AR": {
+    "pdb_id": "2rh1",
+    "chain_receptor": "A",
+    "description": "Beta-2 adrenergic receptor",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/Beta2AR_2rh1.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/Beta2AR_receptor.pdbqt",
+    "pocket_center": [
+      -37.75,
+      27.97,
+      4.53
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "A2A": {
+    "pdb_id": "3eml",
+    "chain_receptor": "A",
+    "description": "Adenosine A2A receptor",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/A2A_3eml.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/A2A_receptor.pdbqt",
+    "pocket_center": [
+      -5.35,
+      -18.61,
+      43.25
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "D3R": {
+    "pdb_id": "3pbl",
+    "chain_receptor": "A",
+    "description": "Dopamine D3 receptor",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/D3R_3pbl.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/D3R_receptor.pdbqt",
+    "pocket_center": [
+      0.09,
+      -14.83,
+      10.43
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "CXCR4": {
+    "pdb_id": "3odu",
+    "chain_receptor": "A",
+    "description": "Chemokine receptor CXCR4",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/CXCR4_3odu.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/CXCR4_receptor.pdbqt",
+    "pocket_center": [
+      19.78,
+      -6.85,
+      68.11
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "hERG": {
+    "pdb_id": "5va1",
+    "chain_receptor": "A",
+    "description": "hERG potassium channel",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/hERG_5va1.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/hERG_receptor.pdbqt",
+    "pocket_center": [
+      92.83,
+      57.56,
+      52.16
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "CYP3A4": {
+    "pdb_id": "4k9v",
+    "chain_receptor": "A",
+    "description": "Cytochrome P450 3A4",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/CYP3A4_4k9v.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/CYP3A4_receptor.pdbqt",
+    "pocket_center": [
+      20.18,
+      30.9,
+      -10.75
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "CYP2D6": {
+    "pdb_id": "2f9q",
+    "chain_receptor": "A",
+    "description": "Cytochrome P450 2D6",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/CYP2D6_2f9q.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/CYP2D6_receptor.pdbqt",
+    "pocket_center": [
+      -12.38,
+      51.52,
+      -6.83
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "DHFR": {
+    "pdb_id": "1kms",
+    "chain_receptor": "A",
+    "description": "Dihydrofolate reductase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/DHFR_1kms.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/DHFR_receptor.pdbqt",
+    "pocket_center": [
+      13.86,
+      31.24,
+      34.88
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "HMGCR": {
+    "pdb_id": "1hwk",
+    "chain_receptor": "A",
+    "description": "HMG-CoA reductase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/HMGCR_1hwk.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/HMGCR_receptor.pdbqt",
+    "pocket_center": [
+      12.33,
+      9.98,
+      5.91
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "COX2": {
+    "pdb_id": "6cox",
+    "chain_receptor": "A",
+    "description": "Cyclooxygenase-2",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/COX2_6cox.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/COX2_receptor.pdbqt",
+    "pocket_center": [
+      24.55,
+      29.39,
+      34.02
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "MAO_A": {
+    "pdb_id": "2bxr",
+    "chain_receptor": "A",
+    "description": "Monoamine oxidase A",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/MAO_A_2bxr.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/MAO_A_receptor.pdbqt",
+    "pocket_center": [
+      32.3,
+      4.81,
+      7.43
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "MAO_B": {
+    "pdb_id": "2bk3",
+    "chain_receptor": "A",
+    "description": "Monoamine oxidase B",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/MAO_B_2bk3.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/MAO_B_receptor.pdbqt",
+    "pocket_center": [
+      54.9,
+      144.7,
+      19.96
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "ALDH": {
+    "pdb_id": "1o02",
+    "chain_receptor": "A",
+    "description": "Aldehyde dehydrogenase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/ALDH_1o02.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/ALDH_receptor.pdbqt",
+    "pocket_center": [
+      75.07,
+      60.17,
+      55.85
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "IMPDH": {
+    "pdb_id": "1jr1",
+    "chain_receptor": "A",
+    "description": "Inosine 5-monophosphate dehydrogenase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/IMPDH_1jr1.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/IMPDH_receptor.pdbqt",
+    "pocket_center": [
+      67.7,
+      78.31,
+      85.58
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "PNMT": {
+    "pdb_id": "1hnn",
+    "chain_receptor": "A",
+    "description": "Phenylethanolamine N-methyltransferase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PNMT_1hnn.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PNMT_receptor.pdbqt",
+    "pocket_center": [
+      29.05,
+      50.26,
+      20.9
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "TYMS": {
+    "pdb_id": "1syh",
+    "chain_receptor": "A",
+    "description": "Thymidylate synthase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/TYMS_1syh.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/TYMS_receptor.pdbqt",
+    "pocket_center": [
+      21.94,
+      13.8,
+      23.33
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "BRD4": {
+    "pdb_id": "3mxf",
+    "chain_receptor": "A",
+    "description": "Bromodomain BRD4",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/BRD4_3mxf.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/BRD4_receptor.pdbqt",
+    "pocket_center": [
+      28.51,
+      16.61,
+      -1.83
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "HDAC2": {
+    "pdb_id": "3max",
+    "chain_receptor": "A",
+    "description": "Histone deacetylase 2",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/HDAC2_3max.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/HDAC2_receptor.pdbqt",
+    "pocket_center": [
+      59.11,
+      23.56,
+      5.88
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "HDAC8": {
+    "pdb_id": "1t64",
+    "chain_receptor": "A",
+    "description": "Histone deacetylase 8",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/HDAC8_1t64.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/HDAC8_receptor.pdbqt",
+    "pocket_center": [
+      61.34,
+      70.98,
+      12.9
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "EZH2": {
+    "pdb_id": "5ij0",
+    "chain_receptor": "A",
+    "description": "Histone methyltransferase EZH2",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/EZH2_5ij0.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/EZH2_receptor.pdbqt",
+    "pocket_center": [
+      438.23,
+      385.24,
+      378.05
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "LSD1": {
+    "pdb_id": "2z5u",
+    "chain_receptor": "A",
+    "description": "Lysine demethylase LSD1",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/LSD1_2z5u.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/LSD1_receptor.pdbqt",
+    "pocket_center": [
+      27.0,
+      44.57,
+      36.2
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "PRMT5": {
+    "pdb_id": "4x61",
+    "chain_receptor": "A",
+    "description": "Protein arginine methyltransferase 5",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PRMT5_4x61.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PRMT5_receptor.pdbqt",
+    "pocket_center": [
+      20.84,
+      -42.69,
+      -7.47
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "DOT1L": {
+    "pdb_id": "3qow",
+    "chain_receptor": "A",
+    "description": "DOT1-like histone methyltransferase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/DOT1L_3qow.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/DOT1L_receptor.pdbqt",
+    "pocket_center": [
+      21.06,
+      63.06,
+      -7.94
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "SIRT2": {
+    "pdb_id": "3zgv",
+    "chain_receptor": "A",
+    "description": "Sirtuin-2 deacetylase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/SIRT2_3zgv.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/SIRT2_receptor.pdbqt",
+    "pocket_center": [
+      9.09,
+      24.67,
+      -0.33
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "PARP1": {
+    "pdb_id": "4hm9",
+    "chain_receptor": "A",
+    "description": "Poly ADP-ribose polymerase 1",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PARP1_4hm9.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PARP1_receptor.pdbqt",
+    "pocket_center": [
+      -3.63,
+      -14.02,
+      6.97
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "TopoisoII": {
+    "pdb_id": "1zxm",
+    "chain_receptor": "A",
+    "description": "DNA topoisomerase II",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/TopoisoII_1zxm.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/TopoisoII_receptor.pdbqt",
+    "pocket_center": [
+      36.5,
+      -0.17,
+      37.84
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "DNAPK": {
+    "pdb_id": "5lua",
+    "chain_receptor": "A",
+    "description": "DNA-dependent protein kinase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/DNAPK_5lua.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/DNAPK_receptor.pdbqt",
+    "pocket_center": [
+      26.87,
+      -12.35,
+      -17.69
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "WEE1": {
+    "pdb_id": "3cr0",
+    "chain_receptor": "A",
+    "description": "WEE1 kinase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/WEE1_3cr0.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/WEE1_receptor.pdbqt",
+    "pocket_center": [
+      3.63,
+      54.37,
+      27.14
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "CHK1": {
+    "pdb_id": "1nvs",
+    "chain_receptor": "A",
+    "description": "Checkpoint kinase 1",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/CHK1_1nvs.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/CHK1_receptor.pdbqt",
+    "pocket_center": [
+      4.86,
+      6.69,
+      17.54
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "HSP90a": {
+    "pdb_id": "1yet",
+    "chain_receptor": "A",
+    "description": "HSP90 alpha ATPase domain",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/HSP90a_1yet.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/HSP90a_receptor.pdbqt",
+    "pocket_center": [
+      41.2,
+      -46.55,
+      65.6
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "HSP70": {
+    "pdb_id": "2qwl",
+    "chain_receptor": "A",
+    "description": "HSP70 ATPase domain",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/HSP70_2qwl.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/HSP70_receptor.pdbqt",
+    "pocket_center": [
+      -33.43,
+      10.49,
+      4.22
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "KRAS_G12C": {
+    "pdb_id": "6oim",
+    "chain_receptor": "A",
+    "description": "KRAS G12C mutant",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/KRAS_G12C_6oim.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/KRAS_G12C_receptor.pdbqt",
+    "pocket_center": [
+      -1.37,
+      -3.45,
+      2.16
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "RAC1": {
+    "pdb_id": "2c2h",
+    "chain_receptor": "A",
+    "description": "Rac1 GTPase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/RAC1_2c2h.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/RAC1_receptor.pdbqt",
+    "pocket_center": [
+      12.51,
+      -12.27,
+      37.77
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "CDC42": {
+    "pdb_id": "1cf4",
+    "chain_receptor": "A",
+    "description": "CDC42 GTPase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/CDC42_1cf4.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/CDC42_receptor.pdbqt",
+    "pocket_center": [
+      4.17,
+      -4.45,
+      3.54
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "HSA": {
+    "pdb_id": "1ao6",
+    "chain_receptor": "A",
+    "description": "Human serum albumin",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/HSA_1ao6.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/HSA_receptor.pdbqt",
+    "pocket_center": [
+      29.55,
+      31.85,
+      23.56
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "PTP1B": {
+    "pdb_id": "1c83",
+    "chain_receptor": "A",
+    "description": "Protein tyrosine phosphatase 1B",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PTP1B_1c83.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PTP1B_receptor.pdbqt",
+    "pocket_center": [
+      44.66,
+      14.02,
+      2.58
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "SHP2": {
+    "pdb_id": "5ei2",
+    "chain_receptor": "A",
+    "description": "SHP-2 phosphatase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/SHP2_5ei2.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/SHP2_receptor.pdbqt",
+    "pocket_center": [
+      0.26,
+      -35.46,
+      -10.17
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "PP2A": {
+    "pdb_id": "2iae",
+    "chain_receptor": "A",
+    "description": "Protein phosphatase 2A",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PP2A_2iae.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PP2A_receptor.pdbqt",
+    "pocket_center": [
+      118.05,
+      221.03,
+      98.36
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "MDM2": {
+    "pdb_id": "1rv1",
+    "chain_receptor": "A",
+    "description": "MDM2 ubiquitin ligase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/MDM2_1rv1.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/MDM2_receptor.pdbqt",
+    "pocket_center": [
+      17.53,
+      9.27,
+      17.82
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "XIAP_BIR3": {
+    "pdb_id": "1g73",
+    "chain_receptor": "A",
+    "description": "XIAP BIR3 domain",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/XIAP_BIR3_1g73.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/XIAP_BIR3_receptor.pdbqt",
+    "pocket_center": [
+      0.18,
+      -2.05,
+      3.52
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "PCNA": {
+    "pdb_id": "1vym",
+    "chain_receptor": "A",
+    "description": "PCNA sliding clamp",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PCNA_1vym.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PCNA_receptor.pdbqt",
+    "pocket_center": [
+      27.14,
+      10.42,
+      21.86
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "RAD51": {
+    "pdb_id": "1szp",
+    "chain_receptor": "A",
+    "description": "RAD51 recombinase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/RAD51_1szp.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/RAD51_receptor.pdbqt",
+    "pocket_center": [
+      9.22,
+      23.17,
+      54.21
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "ILERS": {
+    "pdb_id": "1ile",
+    "chain_receptor": "A",
+    "description": "Isoleucyl-tRNA synthetase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/ILERS_1ile.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/ILERS_receptor.pdbqt",
+    "pocket_center": [
+      -28.81,
+      3.37,
+      -24.81
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "PDE4B": {
+    "pdb_id": "1ro6",
+    "chain_receptor": "A",
+    "description": "Phosphodiesterase 4B",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PDE4B_1ro6.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PDE4B_receptor.pdbqt",
+    "pocket_center": [
+      32.33,
+      76.51,
+      21.3
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "PDE5": {
+    "pdb_id": "1t9s",
+    "chain_receptor": "A",
+    "description": "Phosphodiesterase 5A",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PDE5_1t9s.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PDE5_receptor.pdbqt",
+    "pocket_center": [
+      40.21,
+      46.85,
+      1.2
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "CA2": {
+    "pdb_id": "1ca2",
+    "chain_receptor": "A",
+    "description": "Carbonic anhydrase II",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/CA2_1ca2.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/CA2_receptor.pdbqt",
+    "pocket_center": [
+      -9.67,
+      -1.67,
+      15.94
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "AChE": {
+    "pdb_id": "1eve",
+    "chain_receptor": "A",
+    "description": "Acetylcholinesterase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/AChE_1eve.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/AChE_receptor.pdbqt",
+    "pocket_center": [
+      1.62,
+      67.73,
+      62.8
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "LDHA": {
+    "pdb_id": "1i0z",
+    "chain_receptor": "A",
+    "description": "Lactate dehydrogenase A",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/LDHA_1i0z.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/LDHA_receptor.pdbqt",
+    "pocket_center": [
+      14.18,
+      39.55,
+      57.25
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "IDH1": {
+    "pdb_id": "4umx",
+    "chain_receptor": "A",
+    "description": "Isocitrate dehydrogenase 1",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/IDH1_4umx.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/IDH1_receptor.pdbqt",
+    "pocket_center": [
+      1.84,
+      25.26,
+      88.05
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "PKM2": {
+    "pdb_id": "3gr4",
+    "chain_receptor": "A",
+    "description": "Pyruvate kinase M2",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PKM2_3gr4.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/PKM2_receptor.pdbqt",
+    "pocket_center": [
+      -7.13,
+      3.8,
+      8.39
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "GLS": {
+    "pdb_id": "3vod",
+    "chain_receptor": "A",
+    "description": "Glutaminase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/GLS_3vod.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/GLS_receptor.pdbqt",
+    "pocket_center": [
+      -11.02,
+      -27.15,
+      20.39
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "FASN": {
+    "pdb_id": "2vz8",
+    "chain_receptor": "A",
+    "description": "Fatty acid synthase thioesterase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/FASN_2vz8.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/FASN_receptor.pdbqt",
+    "pocket_center": [
+      61.43,
+      97.84,
+      70.97
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "NS5B_HCV": {
+    "pdb_id": "2dxs",
+    "chain_receptor": "A",
+    "description": "HCV RNA polymerase NS5B",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/NS5B_HCV_2dxs.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/NS5B_HCV_receptor.pdbqt",
+    "pocket_center": [
+      -13.28,
+      -3.51,
+      5.9
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  },
+  "RT_HIV": {
+    "pdb_id": "1hni",
+    "chain_receptor": "A",
+    "description": "HIV reverse transcriptase",
+    "pdb_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/RT_HIV_1hni.pdb",
+    "pdbqt_path": "/home/huangym/zjy/ppi_gen_project/structures/offtargets_db/RT_HIV_receptor.pdbqt",
+    "pocket_center": [
+      144.01,
+      -24.55,
+      75.23
+    ],
+    "box_size": [
+      25,
+      25,
+      25
+    ]
+  }
+}
