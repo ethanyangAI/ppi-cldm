@@ -201,21 +201,33 @@ Model weights are distributed via GitHub Releases (not tracked by git):
 
 ## Comparison with Related Work
 
-| Method | Generation paradigm | PPI-specific training | Built-in counter-screening | Selectivity scoring | MW bias correction |
+### Quantitative benchmark (PPI targets)
+
+Metrics computed on our pipeline's output across 4 PPI targets (MDM2-TP53, BCL2-BAX, KRAS-SOS1, MENIN-MLL). Literature values for other methods are taken from their respective papers evaluated on CrossDocked2020; direct numeric comparison should be interpreted with caution due to different test sets.
+
+| Method | Validity (%) | QED ↑ | SA score ↓ | Mean MW (Da) | Vina mean (kcal/mol) ↓ | PAINS-clean (%) | Counter-screening |
+|---|---|---|---|---|---|---|---|
+| **PPI-CLDM — MDM2-TP53** | **100** | 0.534 | 5.44 | 362 | -7.30 | 98.2 | ✅ 83 targets |
+| **PPI-CLDM — MENIN-MLL** | **100** | 0.555 | 5.59 | 370 | -7.99 | **100** | ✅ 83 targets |
+| **PPI-CLDM — KRAS-SOS1** | **100** | 0.491 | 5.61 | 406 | -3.41 | **100** | ✅ 83 targets |
+| Pocket2Mol† ([Peng et al., 2022](https://arxiv.org/abs/2205.07249)) | 94.4 | 0.575 | 4.14 | ~300 | -7.15 | N/R | ❌ |
+| DiffSBDD† ([Schneuing et al., 2022](https://arxiv.org/abs/2210.13695)) | 87.7 | 0.475 | 4.96 | ~280 | -6.88 | N/R | ❌ |
+| TargetDiff† ([Guan et al., 2023](https://arxiv.org/abs/2302.07573)) | 97.9 | 0.579 | 5.14 | ~310 | -7.80 | N/R | ❌ |
+
+> † Evaluated on CrossDocked2020 benchmark (kinase/GPCR-dominant); PPI targets not separately reported.  
+> SA score: RDKit scale 1–10, lower = easier to synthesize. N/R = not reported.
+
+### Capability comparison
+
+| | PPI-CLDM | Pocket2Mol | DiffSBDD | TargetDiff | REINVENT |
 |---|---|---|---|---|---|
-| **PPI-CLDM (this work)** | Conditional latent diffusion + GRU-VAE | ✅ Fine-tuned on 1401 ChEMBL PPI inhibitors | ✅ 83-target Vina panel | ✅ Δ = vina_self − mean(vina_off) | ✅ MW>350 re-training |
-| Pocket2Mol ([Peng et al., 2022](https://arxiv.org/abs/2205.07249)) | Graph-based autoregressive (atom-by-atom) | ❌ General SBDD | ❌ | ❌ | ❌ |
-| DiffSBDD ([Schneuing et al., 2022](https://arxiv.org/abs/2210.13695)) | SE(3)-equivariant diffusion on 3D atoms | ❌ General SBDD | ❌ | ❌ | ❌ |
-| TargetDiff ([Guan et al., 2023](https://arxiv.org/abs/2302.07573)) | Score-based diffusion conditioned on pocket | ❌ General SBDD | ❌ | ❌ | ❌ |
-| REINVENT ([Blaschke et al., 2020](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00473-0)) | RL-guided RNN on SMILES | ❌ Requires per-target RL tuning | ❌ | ❌ | ❌ |
-| Virtual screening (AutoDock + library) | N/A — screens existing compounds | ❌ | ❌ | ❌ | N/A |
-
-**Key advantages of this pipeline:**
-
-- **End-to-end**: generation → docking → 83-target counter-screening in a single SLURM submission, no manual handoff between tools.
-- **Selectivity-first**: counter-screening is built into the scoring rather than a post-hoc add-on; candidates are ranked by Δ-selectivity alongside docking score and drug-likeness.
-- **PPI-aware generation**: the VAE is fine-tuned specifically on known PPI inhibitors (ChEMBL), which shifts the chemical space toward the larger, flatter scaffolds characteristic of PPI drugs compared to generic SBDD models trained on kinase/GPCR data.
-- **MW distribution correction**: PPI inhibitors typically require MW 400–600 Da to fill shallow, featureless interfaces. The diffusion model is re-trained on MW>350 pairs to counter the small-molecule bias inherent in standard ZINC-trained generative models.
+| PPI-specific training | ✅ 1401 ChEMBL PPI inhibitors | ❌ | ❌ | ❌ | ❌ per-target RL only |
+| 100% valid SMILES (constrained decode) | ✅ | ❌ 94.4% | ❌ 87.7% | ❌ 97.9% | ✅ |
+| MW>350 bias correction | ✅ re-trained subset | ❌ | ❌ | ❌ | reward-dependent |
+| Built-in 83-target counter-screening | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Selectivity score (Δ vina) | ✅ | ❌ | ❌ | ❌ | ❌ |
+| PAINS/Brenk auto-filter | ✅ | ❌ | ❌ | ❌ | configurable |
+| HPC SLURM array support | ✅ | ❌ | ❌ | ❌ | ❌ |
 
 ---
 
