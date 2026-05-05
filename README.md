@@ -199,6 +199,26 @@ Model weights are distributed via GitHub Releases (not tracked by git):
 
 ---
 
+## Comparison with Related Work
+
+| Method | Generation paradigm | PPI-specific training | Built-in counter-screening | Selectivity scoring | MW bias correction |
+|---|---|---|---|---|---|
+| **PPI-CLDM (this work)** | Conditional latent diffusion + GRU-VAE | ✅ Fine-tuned on 1401 ChEMBL PPI inhibitors | ✅ 83-target Vina panel | ✅ Δ = vina_self − mean(vina_off) | ✅ MW>350 re-training |
+| Pocket2Mol ([Peng et al., 2022](https://arxiv.org/abs/2205.07249)) | Graph-based autoregressive (atom-by-atom) | ❌ General SBDD | ❌ | ❌ | ❌ |
+| DiffSBDD ([Schneuing et al., 2022](https://arxiv.org/abs/2210.13695)) | SE(3)-equivariant diffusion on 3D atoms | ❌ General SBDD | ❌ | ❌ | ❌ |
+| TargetDiff ([Guan et al., 2023](https://arxiv.org/abs/2302.07573)) | Score-based diffusion conditioned on pocket | ❌ General SBDD | ❌ | ❌ | ❌ |
+| REINVENT ([Blaschke et al., 2020](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00473-0)) | RL-guided RNN on SMILES | ❌ Requires per-target RL tuning | ❌ | ❌ | ❌ |
+| Virtual screening (AutoDock + library) | N/A — screens existing compounds | ❌ | ❌ | ❌ | N/A |
+
+**Key advantages of this pipeline:**
+
+- **End-to-end**: generation → docking → 83-target counter-screening in a single SLURM submission, no manual handoff between tools.
+- **Selectivity-first**: counter-screening is built into the scoring rather than a post-hoc add-on; candidates are ranked by Δ-selectivity alongside docking score and drug-likeness.
+- **PPI-aware generation**: the VAE is fine-tuned specifically on known PPI inhibitors (ChEMBL), which shifts the chemical space toward the larger, flatter scaffolds characteristic of PPI drugs compared to generic SBDD models trained on kinase/GPCR data.
+- **MW distribution correction**: PPI inhibitors typically require MW 400–600 Da to fill shallow, featureless interfaces. The diffusion model is re-trained on MW>350 pairs to counter the small-molecule bias inherent in standard ZINC-trained generative models.
+
+---
+
 ## Citation
 
 If you use this pipeline in your research, please cite:
