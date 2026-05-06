@@ -201,29 +201,54 @@ Model weights are distributed via GitHub Releases (not tracked by git):
 
 ## Comparison with Related Work
 
-### Quantitative benchmark (PPI targets)
+### Quantitative benchmark (6 PPI targets)
 
-Metrics computed on our pipeline's output across 4 PPI targets (MDM2-TP53, BCL2-BAX, KRAS-SOS1, MENIN-MLL). DiffSBDD and TargetDiff were independently re-run on MDM2-TP53 (n=100, GPU A100) using official pretrained checkpoints (Zenodo 8183747 and 14041881 respectively).
+DiffSBDD and TargetDiff were independently re-run on 6 PPI targets (n=100 each, GPU A100) using official pretrained checkpoints (Zenodo 8183747 and 14041881 respectively). Validity = single-fragment molecules with no parse error (RDKit sanitization). SA score approximated from ring count + stereo centers. All runs in clean `targetdiff_env` (conda numpy 1.26.4) to avoid mixed-install reconstruction failures.
 
-| Method | Validity (%) | QED ↑ | SA score ↓ | Mean MW (Da) | Vina mean (kcal/mol) ↓ | PAINS-clean (%) | Counter-screening |
-|---|---|---|---|---|---|---|---|
-| **PPI-CLDM — MDM2-TP53** | **100** | 0.534 | 5.44 | 362 | -7.30 | 98.2 | ✅ 83 targets |
-| **PPI-CLDM — MENIN-MLL** | **100** | 0.555 | 5.59 | 370 | -7.99 | **100** | ✅ 83 targets |
-| **PPI-CLDM — KRAS-SOS1** | **100** | 0.491 | 5.61 | 406 | -3.41 | **100** | ✅ 83 targets |
-| Pocket2Mol† ([Peng et al., 2022](https://arxiv.org/abs/2205.07249)) | 94.4 | 0.575 | 4.14 | ~300 | -7.15 | N/R | ❌ |
-| DiffSBDD‡ ([Schneuing et al., 2022](https://arxiv.org/abs/2210.13695)) | **97** | 0.495 | **4.47** | 360 | N/M | 96.9 | ❌ |
-| TargetDiff‡ ([Guan et al., 2023](https://arxiv.org/abs/2302.07573)) | 60 | 0.404 | 5.02 | 461 | N/M | **100** | ❌ |
+![6-target benchmark](figures/benchmark_6target.png)
 
-> † Evaluated on CrossDocked2020 benchmark (kinase/GPCR-dominant); PPI targets not separately reported.  
-> ‡ Independently measured on MDM2-TP53 pocket (n=100, Zenodo checkpoint, clean targetdiff\_env + A100). Validity = complete single-fragment molecules (91/100 reconstructed by RDKit, 60/100 without disconnected fragments). Vina not run (N/M). Published CrossDocked2020 numbers: validity=97.9%, QED=0.579, SA=5.14, MW≈310, Vina=−7.80.  
-> SA score: RDKit scale 1–10, lower = easier to synthesize. N/R = not reported.
+#### Per-target results
+
+| Method | Target | Valid (%) | QED ↑ | SA ↓ | MW (Da) | PAINS-clean (%) |
+|---|---|---|---|---|---|---|
+| **PPI-CLDM** | MDM2-TP53 | **100** | 0.534 | 7.31 | 362 | 98.2 |
+| **PPI-CLDM** | BCL2-BAX  | **100** | 0.508 | 7.09 | 376 | 98.2 |
+| **PPI-CLDM** | MENIN-MLL | **100** | 0.555 | 7.26 | 370 | **100** |
+| **PPI-CLDM** | KRAS-SOS1 | **100** | 0.491 | 7.79 | 406 | **100** |
+| **PPI-CLDM** | VHL-HIF1A | **100** | 0.589 | 7.28 | 350 | **100** |
+| **PPI-CLDM** | XIAP-SMAC | **100** | 0.509 | 7.18 | 385 | 96.4 |
+| DiffSBDD‡ | MDM2-TP53 | 97 | 0.495 | **6.33** | 360 | 96.9 |
+| DiffSBDD‡ | BCL2-BAX  | **100** | **0.564** | **4.87** | 192 | 99.0 |
+| DiffSBDD‡ | MENIN-MLL | 99 | 0.434 | **6.28** | 385 | **100** |
+| DiffSBDD‡ | KRAS-SOS1 | 99 | 0.400 | **6.53** | 395 | 99.0 |
+| DiffSBDD‡ | VHL-HIF1A | 91 | 0.474 | **5.57** | 310 | 97.8 |
+| DiffSBDD‡ | XIAP-SMAC | 95 | **0.580** | **5.54** | 272 | 98.9 |
+| TargetDiff‡ | MDM2-TP53 | 59 | 0.404 | 6.95 | 461 | **100** |
+| TargetDiff‡ | BCL2-BAX  | 39 | 0.441 | 5.19 | 331 | **100** |
+| TargetDiff‡ | MENIN-MLL | 59 | 0.283 | 6.69 | 492 | 96.6 |
+| TargetDiff‡ | KRAS-SOS1 | 8  | 0.318 | 5.94 | 459 | **100** |
+| TargetDiff‡ | VHL-HIF1A | 78 | 0.397 | 7.14 | 480 | 94.9 |
+| TargetDiff‡ | XIAP-SMAC | 13 | 0.364 | 6.43 | 464 | **100** |
+
+#### 6-target averages
+
+| Method | Validity (%) | QED ↑ | SA score ↓ | Mean MW (Da) | PAINS-clean (%) | Counter-screening |
+|---|---|---|---|---|---|---|
+| **PPI-CLDM** | **100** | 0.531 | 7.32 | 375 | 98.8 | ✅ 83 targets |
+| Pocket2Mol† | 94.4 | **0.575** | **4.14** | ~300 | N/R | ❌ |
+| DiffSBDD‡ | 96.8 | 0.491 | **5.85** | 319 | 98.6 | ❌ |
+| TargetDiff‡ | 42.7 | 0.368 | 6.39 | 448 | 98.6 | ❌ |
+
+> † Pocket2Mol evaluated on CrossDocked2020 benchmark (kinase/GPCR-dominant); PPI targets not separately reported.  
+> ‡ Independently measured on 6 PPI targets (n=100 per target, Zenodo pretrained checkpoints, clean conda env + A100 GPU). Validity = complete single-fragment molecules reconstructed by RDKit. TargetDiff validity drops to 8% on KRAS-SOS1 and 13% on XIAP-SMAC — reflecting distribution shift from its CrossDocked2020 training (kinase/GPCR-dominant) to atypical PPI pockets. Vina not run for baselines (N/M). Published CrossDocked2020 numbers: DiffSBDD validity=97.9%, QED=0.579, SA=5.14; TargetDiff validity=97.9%, QED=0.481.  
+> SA score: RDKit-based approximation (ring count + stereo centers + heavy atom penalty), scale 1–10, lower = easier to synthesize. N/R = not reported. N/M = not measured.
 
 ### Capability comparison
 
 | | PPI-CLDM | Pocket2Mol | DiffSBDD | TargetDiff | REINVENT |
 |---|---|---|---|---|---|
 | PPI-specific training | ✅ 1401 ChEMBL PPI inhibitors | ❌ | ❌ | ❌ | ❌ per-target RL only |
-| 100% valid SMILES (constrained decode) | ✅ | ❌ 94.4% | ❌ 97%‡ | ❌ 60%‡ | ✅ |
+| 100% valid SMILES (constrained decode) | ✅ | ❌ 94.4% | ❌ avg 96.8%‡ | ❌ avg 42.7%‡ | ✅ |
 | MW>350 bias correction | ✅ re-trained subset | ❌ | ❌ | ❌ | reward-dependent |
 | Built-in 83-target counter-screening | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Selectivity score (Δ vina) | ✅ | ❌ | ❌ | ❌ | ❌ |
