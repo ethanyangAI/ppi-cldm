@@ -212,11 +212,10 @@ Metrics computed on our pipeline's output across 4 PPI targets (MDM2-TP53, BCL2-
 | **PPI-CLDM — KRAS-SOS1** | **100** | 0.491 | 5.61 | 406 | -3.41 | **100** | ✅ 83 targets |
 | Pocket2Mol† ([Peng et al., 2022](https://arxiv.org/abs/2205.07249)) | 94.4 | 0.575 | 4.14 | ~300 | -7.15 | N/R | ❌ |
 | DiffSBDD‡ ([Schneuing et al., 2022](https://arxiv.org/abs/2210.13695)) | **97** | 0.495 | **4.47** | 360 | N/M | 96.9 | ❌ |
-| TargetDiff§ ([Guan et al., 2023](https://arxiv.org/abs/2302.07573)) | 97.9 | 0.579 | 5.14 | ~310 | -7.80 | N/R | ❌ |
+| TargetDiff‡ ([Guan et al., 2023](https://arxiv.org/abs/2302.07573)) | 60 | 0.404 | 5.02 | 461 | N/M | **100** | ❌ |
 
 > † Evaluated on CrossDocked2020 benchmark (kinase/GPCR-dominant); PPI targets not separately reported.  
-> ‡ Independently measured on MDM2-TP53 pocket (n=100, Zenodo 8183747, ppi\_env + A100). Vina not run (N/M). Published CrossDocked2020: validity=87.7%, QED=0.475, SA=4.96, MW≈280, Vina=−6.88.  
-> § TargetDiff re-run on MDM2-TP53 (n=100, Zenodo 14041881, A100); only 3/100 molecules survived RDKit reconstruction due to a mixed conda/pip numpy environment causing silent failures in openbabel→RDKit conversion. Surviving molecule properties (MW=459, QED=0.304, SA=4.95) are not statistically representative. Literature CrossDocked2020 numbers shown.  
+> ‡ Independently measured on MDM2-TP53 pocket (n=100, Zenodo checkpoint, clean targetdiff\_env + A100). Validity = complete single-fragment molecules (91/100 reconstructed by RDKit, 60/100 without disconnected fragments). Vina not run (N/M). Published CrossDocked2020 numbers: validity=97.9%, QED=0.579, SA=5.14, MW≈310, Vina=−7.80.  
 > SA score: RDKit scale 1–10, lower = easier to synthesize. N/R = not reported.
 
 ### Capability comparison
@@ -224,7 +223,7 @@ Metrics computed on our pipeline's output across 4 PPI targets (MDM2-TP53, BCL2-
 | | PPI-CLDM | Pocket2Mol | DiffSBDD | TargetDiff | REINVENT |
 |---|---|---|---|---|---|
 | PPI-specific training | ✅ 1401 ChEMBL PPI inhibitors | ❌ | ❌ | ❌ | ❌ per-target RL only |
-| 100% valid SMILES (constrained decode) | ✅ | ❌ 94.4% | ❌ 97%‡ | ❌ 97.9% | ✅ |
+| 100% valid SMILES (constrained decode) | ✅ | ❌ 94.4% | ❌ 97%‡ | ❌ 60%‡ | ✅ |
 | MW>350 bias correction | ✅ re-trained subset | ❌ | ❌ | ❌ | reward-dependent |
 | Built-in 83-target counter-screening | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Selectivity score (Δ vina) | ✅ | ❌ | ❌ | ❌ | ❌ |
