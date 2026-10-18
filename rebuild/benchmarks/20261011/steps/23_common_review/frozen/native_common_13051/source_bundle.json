@@ -1,0 +1,230 @@
+{
+  "status": "IMMUTABLE_COMMON_REVIEW_SOURCE_BUNDLE",
+  "created_utc": "2026-10-11T05:11:02.467759+00:00",
+  "freeze_job": "13051",
+  "files": [
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/benchmark_common_review.py",
+        "sha256": "ad8edf0ac5250e587709c26e61957101072ea4343f83514271634b3bf7c36b5b",
+        "bytes": 58825
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/benchmark_common_review.py",
+        "sha256": "876d29f9b8a20cf3f8bbf526262de96b1071a30b47590b632e5d31f97c362391",
+        "bytes": 59077
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/screening_transfer.py",
+        "sha256": "869de5be809d546c937f973e37ef344470b1b8da7f9c4b6e883d5a80747f990a",
+        "bytes": 35700
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/screening_transfer.py",
+        "sha256": "869de5be809d546c937f973e37ef344470b1b8da7f9c4b6e883d5a80747f990a",
+        "bytes": 35700
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/control_msa_check.py",
+        "sha256": "c4a53008639c3e4e4e28d5653487e4cb858e60f81f54752b8c00dae8ac11f205",
+        "bytes": 3592
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/control_msa_check.py",
+        "sha256": "c4a53008639c3e4e4e28d5653487e4cb858e60f81f54752b8c00dae8ac11f205",
+        "bytes": 3592
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/__init__.py",
+        "sha256": "9285a402c879d95d608674005fd9ce245c03b5a5efaa8edb14d6f82e0ae9255c",
+        "bytes": 108
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/src/ppiblocker/__init__.py",
+        "sha256": "9285a402c879d95d608674005fd9ce245c03b5a5efaa8edb14d6f82e0ae9255c",
+        "bytes": 108
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/af2_review.py",
+        "sha256": "5d857a314e1b0f825470de35882cd4b17e67927af2da649ae2af0fd399eb5336",
+        "bytes": 3800
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/src/ppiblocker/af2_review.py",
+        "sha256": "5d857a314e1b0f825470de35882cd4b17e67927af2da649ae2af0fd399eb5336",
+        "bytes": 3800
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/backends.py",
+        "sha256": "fec3a41a03aa9ea7c2e9d716be0825d68053ed272e639e1f8e841daebc501270",
+        "bytes": 10858
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/src/ppiblocker/backends.py",
+        "sha256": "fec3a41a03aa9ea7c2e9d716be0825d68053ed272e639e1f8e841daebc501270",
+        "bytes": 10858
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/benchmark.py",
+        "sha256": "e53861324334104b6e63b84cab5fcaa1081b1762a28c46153c7361b94fe3f30d",
+        "bytes": 7668
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/src/ppiblocker/benchmark.py",
+        "sha256": "e53861324334104b6e63b84cab5fcaa1081b1762a28c46153c7361b94fe3f30d",
+        "bytes": 7668
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/benchmark_adapters.py",
+        "sha256": "d8b07297410a6d1ec4d938459b962da2f1dd578ff43b7205cc866f3c17147c97",
+        "bytes": 6114
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/src/ppiblocker/benchmark_adapters.py",
+        "sha256": "d8b07297410a6d1ec4d938459b962da2f1dd578ff43b7205cc866f3c17147c97",
+        "bytes": 6114
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/cli.py",
+        "sha256": "52f4f13de2e4063f18a821669185bd9d3904a6df3c3d2f07790285f8e824c37e",
+        "bytes": 1379
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/src/ppiblocker/cli.py",
+        "sha256": "52f4f13de2e4063f18a821669185bd9d3904a6df3c3d2f07790285f8e824c37e",
+        "bytes": 1379
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/common.py",
+        "sha256": "bbc4dc9f05a8b73d38f1337ee64721b76e43915bd251a32991f3b14c58268da6",
+        "bytes": 12084
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/src/ppiblocker/common.py",
+        "sha256": "bbc4dc9f05a8b73d38f1337ee64721b76e43915bd251a32991f3b14c58268da6",
+        "bytes": 12084
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/identity.py",
+        "sha256": "83f62aef715ee0ba2b0382b6e8d27a50846af990e2d4600335d8bf4156d80cda",
+        "bytes": 7659
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/src/ppiblocker/identity.py",
+        "sha256": "83f62aef715ee0ba2b0382b6e8d27a50846af990e2d4600335d8bf4156d80cda",
+        "bytes": 7659
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/pipeline.py",
+        "sha256": "5b51914ca14f20eff9a511d0346234d9e5307756ae08ecde66f17dc37a84132a",
+        "bytes": 23711
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/src/ppiblocker/pipeline.py",
+        "sha256": "5b51914ca14f20eff9a511d0346234d9e5307756ae08ecde66f17dc37a84132a",
+        "bytes": 23711
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/runtime_probe.py",
+        "sha256": "3b813954c54c1f15543f4f0fe05fcb41b50cd0083308cf63b42067561f852aa0",
+        "bytes": 1365
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/src/ppiblocker/runtime_probe.py",
+        "sha256": "3b813954c54c1f15543f4f0fe05fcb41b50cd0083308cf63b42067561f852aa0",
+        "bytes": 1365
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/structure.py",
+        "sha256": "cc5e488c4bf9b104c208749de0c94638153a80b3938ff957b4a9dfaf51c082cd",
+        "bytes": 10995
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/src/ppiblocker/structure.py",
+        "sha256": "cc5e488c4bf9b104c208749de0c94638153a80b3938ff957b4a9dfaf51c082cd",
+        "bytes": 10995
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/vendor/IPSAE_6174cf9e71cb/ipsae.py",
+        "sha256": "10cf9b08c68c91e06cb28526cf2026f47a3980c9048fd3226d13e3304eaf1c27",
+        "bytes": 45140
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/vendor/ipsae.py",
+        "sha256": "10cf9b08c68c91e06cb28526cf2026f47a3980c9048fd3226d13e3304eaf1c27",
+        "bytes": 45140
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/03_af2_restore/inference_env.sh",
+        "sha256": "2ee115993cf837c9bb2b5b18820a9f75642802451fd828f569cb1bddc02f72ec",
+        "bytes": 859
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/runtime_entries/af2_inference_env.sh",
+        "sha256": "2ee115993cf837c9bb2b5b18820a9f75642802451fd828f569cb1bddc02f72ec",
+        "bytes": 859
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/env/colabfold/bin/colabfold_batch",
+        "sha256": "2bdee1ae29c1137de4c8b982fec72f595b28a3ca2f17ca9828ce2522af5839c6",
+        "bytes": 212
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/runtime_entries/colabfold_batch",
+        "sha256": "2bdee1ae29c1137de4c8b982fec72f595b28a3ca2f17ca9828ce2522af5839c6",
+        "bytes": 212
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/bin/boltz",
+        "sha256": "602fbcae9af76fe89e509df8ac42bf72c9b0e551fbbc4ea3ec815fa00801ca9d",
+        "bytes": 201
+      },
+      "frozen": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/runtime_entries/boltz",
+        "sha256": "602fbcae9af76fe89e509df8ac42bf72c9b0e551fbbc4ea3ec815fa00801ca9d",
+        "bytes": 201
+      }
+    }
+  ],
+  "source": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/benchmark_common_review.py",
+    "sha256": "876d29f9b8a20cf3f8bbf526262de96b1071a30b47590b632e5d31f97c362391",
+    "bytes": 59077
+  },
+  "runtime_dependency_policy": "Original isolated environment versions and model assets verified by frozen prepare and recorded in inference plan",
+  "scope": "NATIVE_RECOVERY_CONTROLS_ONLY_SAME_EXACT_QUERY_MSA_GATE_COHORT"
+}

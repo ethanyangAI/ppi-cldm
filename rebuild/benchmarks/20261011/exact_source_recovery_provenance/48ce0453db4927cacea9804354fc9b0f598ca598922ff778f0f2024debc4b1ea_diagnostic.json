@@ -1,0 +1,1988 @@
+{
+  "schema": "saved-source-exact-byte-recovery-diagnostic-only.v1",
+  "status": "FINITE_EIGHT_SOURCE_IDENTITIES_SEARCHED_NO_SOURCE_OR_ALIAS_ACCEPTANCE",
+  "job_id": "13310",
+  "actual_allocation": {
+    "job_id": "13310",
+    "scheduler_record": "JobId=13310 JobName=test9_saved_source_diagnostic_v1 UserId=u21111210118(6263900) GroupId=u21111210118(6263900) MCS_label=N/A Priority=1 Nice=0 Account=u21111210118 QOS=normal JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:00 TimeLimit=00:10:00 TimeMin=N/A SubmitTime=2026-10-12T02:29:34 EligibleTime=2026-10-12T02:29:34 AccrueTime=2026-10-12T02:29:34 StartTime=2026-10-12T02:29:34 EndTime=2026-10-12T02:39:34 Deadline=N/A PreemptEligibleTime=2026-10-12T02:29:34 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-12T02:29:34 Scheduler=Main Partition=organ AllocNode:Sid=workstation:2051351 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu1 BatchHost=gpu1 NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:* TRES=cpu=1,node=1,billing=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=1 MinMemoryNode=16G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/source_saved_byte_recovery_diagnostic_v1/diagnostic.sbatch WorkDir=/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery StdErr=/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/logs/source_saved_byte_recovery_diagnostic_13310.err StdIn=/dev/null StdOut=/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/logs/source_saved_byte_recovery_diagnostic_13310.out Power=",
+    "allocated_gpus": 0
+  },
+  "executed_source_files": [
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/source_saved_byte_recovery_diagnostic_v1/diagnostic.py",
+      "bytes": 17115,
+      "sha256": "eefa6783822d5c6ce86eb655d1611898486652e11ec7296e8626b978f244f23f"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/source_saved_byte_recovery_diagnostic_v1/diagnostic.sbatch",
+      "bytes": 931,
+      "sha256": "c4eca9a0d7995377f61158f3240d1841d505682754d6f9d55824b83497306132"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/delivery_core.py",
+      "bytes": 21656,
+      "sha256": "5e1e1f3f2e8a5f2c5771508b7e9433139ee36d58d5b2cc6514bf97333973ca4c"
+    }
+  ],
+  "input_missing_inventory": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_missing_operative_inventory_13308/diagnostic.json",
+    "bytes": 207548,
+    "sha256": "2a22a7f4aa4a787f934b72a1fe7ec4bf84c1891c08944120093519d4b469ba11"
+  },
+  "historical_diagnostic_terminal": {
+    "job_id": "13308",
+    "job_name": "test9_missing_source_diagnostic_v1",
+    "raw_sacct": "13308|u21111210118|u21111210118|organ|test9_missing_source_diagnostic_v1|COMPLETED|0:0|1|billing=1,cpu=1,node=1\n",
+    "actual_completed_exit_zero": true,
+    "allocated_cpus": 1,
+    "allocated_gpus": 0
+  },
+  "original_five_alias_registry": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/manifest.json",
+    "bytes": 11279,
+    "sha256": "43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47"
+  },
+  "existing_five_declared_aliases": [
+    {
+      "registry": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/manifest.json",
+        "bytes": 11279,
+        "sha256": "43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47"
+      },
+      "field": [
+        "historical_exact_byte_aliases",
+        "0"
+      ],
+      "logical_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/formal_benchmark_contract.py",
+        "bytes": 29945,
+        "sha256": "09fd0dff2e9cc1760fc835a586660cc78b3bba685aad8a110b9c610a4eb86063"
+      },
+      "physical_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/history_exact_bytes/formal_contract_v2_tests_13168_source.py",
+        "bytes": 29945,
+        "sha256": "09fd0dff2e9cc1760fc835a586660cc78b3bba685aad8a110b9c610a4eb86063"
+      },
+      "historical_report": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13168/acceptance.json",
+        "bytes": 3201,
+        "sha256": "62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142"
+      },
+      "original_mutable_path_hash_claimed_equal": false,
+      "actual_physical_bytes_verified": true,
+      "new_alias_accepted": false
+    },
+    {
+      "registry": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/manifest.json",
+        "bytes": 11279,
+        "sha256": "43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47"
+      },
+      "field": [
+        "historical_exact_byte_aliases",
+        "1"
+      ],
+      "logical_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/test_formal_benchmark_contract.py",
+        "bytes": 27208,
+        "sha256": "56256254866dd3c784ebfd2ea084ed4fec82e31921542bd142e484cc5e65a396"
+      },
+      "physical_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/history_exact_bytes/formal_contract_v2_tests_13168_contracts.py",
+        "bytes": 27208,
+        "sha256": "56256254866dd3c784ebfd2ea084ed4fec82e31921542bd142e484cc5e65a396"
+      },
+      "historical_report": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13168/acceptance.json",
+        "bytes": 3201,
+        "sha256": "62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142"
+      },
+      "original_mutable_path_hash_claimed_equal": false,
+      "actual_physical_bytes_verified": true,
+      "new_alias_accepted": false
+    },
+    {
+      "registry": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/manifest.json",
+        "bytes": 11279,
+        "sha256": "43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47"
+      },
+      "field": [
+        "historical_exact_byte_aliases",
+        "2"
+      ],
+      "logical_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/freeze_formal_benchmark_v3.py",
+        "bytes": 11563,
+        "sha256": "cd7aabd6d4720e909e92dafa0754ab3bb84f766896e3c89e3cfec4e62aa58666"
+      },
+      "physical_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/history_exact_bytes/formal_contract_v2_tests_13168_reviewed_root_formal_helper.py",
+        "bytes": 11563,
+        "sha256": "cd7aabd6d4720e909e92dafa0754ab3bb84f766896e3c89e3cfec4e62aa58666"
+      },
+      "historical_report": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13168/acceptance.json",
+        "bytes": 3201,
+        "sha256": "62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142"
+      },
+      "original_mutable_path_hash_claimed_equal": false,
+      "actual_physical_bytes_verified": true,
+      "new_alias_accepted": false
+    },
+    {
+      "registry": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/manifest.json",
+        "bytes": 11279,
+        "sha256": "43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47"
+      },
+      "field": [
+        "historical_exact_byte_aliases",
+        "3"
+      ],
+      "logical_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/formal_benchmark_contract.py",
+        "bytes": 46892,
+        "sha256": "13a00de2de298bbc5645f36352bf8da400d3cddb9ce6d5397c623f75d49133ae"
+      },
+      "physical_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/history_exact_bytes/formal_contract_v2_tests_13180_source.py",
+        "bytes": 46892,
+        "sha256": "13a00de2de298bbc5645f36352bf8da400d3cddb9ce6d5397c623f75d49133ae"
+      },
+      "historical_report": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13180/acceptance.json",
+        "bytes": 3201,
+        "sha256": "b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb"
+      },
+      "original_mutable_path_hash_claimed_equal": false,
+      "actual_physical_bytes_verified": true,
+      "new_alias_accepted": false
+    },
+    {
+      "registry": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/manifest.json",
+        "bytes": 11279,
+        "sha256": "43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47"
+      },
+      "field": [
+        "historical_exact_byte_aliases",
+        "4"
+      ],
+      "logical_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/test_formal_benchmark_contract.py",
+        "bytes": 38371,
+        "sha256": "792a805d12d6c48cd75b847c3a400eee6ab1b704793c75176bcd267019571ce4"
+      },
+      "physical_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/history_exact_bytes/formal_contract_v2_tests_13180_contracts.py",
+        "bytes": 38371,
+        "sha256": "792a805d12d6c48cd75b847c3a400eee6ab1b704793c75176bcd267019571ce4"
+      },
+      "historical_report": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13180/acceptance.json",
+        "bytes": 3201,
+        "sha256": "b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb"
+      },
+      "original_mutable_path_hash_claimed_equal": false,
+      "actual_physical_bytes_verified": true,
+      "new_alias_accepted": false
+    }
+  ],
+  "source_bundle_metadata": [
+    {
+      "receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/source_bundle.json",
+        "bytes": 10053,
+        "sha256": "729e3acd0cd371cf2a4dd571850d241c4a9a0fb2470090b178f36d8bc058f500"
+      },
+      "present": true,
+      "source_receipt_pointers": [
+        {
+          "field": [
+            "files",
+            "0",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/benchmark_common_review.py",
+            "sha256": "3f0da7ebbaa0db916c9a39781e83c61ee7b0a136687b4242c5253649abd14740",
+            "bytes": 50747
+          }
+        },
+        {
+          "field": [
+            "files",
+            "0",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/benchmark_common_review.py",
+            "sha256": "78fbf3a5dc7c2b7ca1729ad7d2a94fffd6ca0110c4ab203becddd2a737ceeae4",
+            "bytes": 50999
+          }
+        },
+        {
+          "field": [
+            "files",
+            "1",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/screening_transfer.py",
+            "sha256": "869de5be809d546c937f973e37ef344470b1b8da7f9c4b6e883d5a80747f990a",
+            "bytes": 35700
+          }
+        },
+        {
+          "field": [
+            "files",
+            "1",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/screening_transfer.py",
+            "sha256": "869de5be809d546c937f973e37ef344470b1b8da7f9c4b6e883d5a80747f990a",
+            "bytes": 35700
+          }
+        },
+        {
+          "field": [
+            "files",
+            "2",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/control_msa_check.py",
+            "sha256": "c4a53008639c3e4e4e28d5653487e4cb858e60f81f54752b8c00dae8ac11f205",
+            "bytes": 3592
+          }
+        },
+        {
+          "field": [
+            "files",
+            "2",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/control_msa_check.py",
+            "sha256": "c4a53008639c3e4e4e28d5653487e4cb858e60f81f54752b8c00dae8ac11f205",
+            "bytes": 3592
+          }
+        },
+        {
+          "field": [
+            "files",
+            "3",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/__init__.py",
+            "sha256": "9285a402c879d95d608674005fd9ce245c03b5a5efaa8edb14d6f82e0ae9255c",
+            "bytes": 108
+          }
+        },
+        {
+          "field": [
+            "files",
+            "3",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/src/ppiblocker/__init__.py",
+            "sha256": "9285a402c879d95d608674005fd9ce245c03b5a5efaa8edb14d6f82e0ae9255c",
+            "bytes": 108
+          }
+        },
+        {
+          "field": [
+            "files",
+            "4",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/af2_review.py",
+            "sha256": "5d857a314e1b0f825470de35882cd4b17e67927af2da649ae2af0fd399eb5336",
+            "bytes": 3800
+          }
+        },
+        {
+          "field": [
+            "files",
+            "4",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/src/ppiblocker/af2_review.py",
+            "sha256": "5d857a314e1b0f825470de35882cd4b17e67927af2da649ae2af0fd399eb5336",
+            "bytes": 3800
+          }
+        },
+        {
+          "field": [
+            "files",
+            "5",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/backends.py",
+            "sha256": "fec3a41a03aa9ea7c2e9d716be0825d68053ed272e639e1f8e841daebc501270",
+            "bytes": 10858
+          }
+        },
+        {
+          "field": [
+            "files",
+            "5",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/src/ppiblocker/backends.py",
+            "sha256": "fec3a41a03aa9ea7c2e9d716be0825d68053ed272e639e1f8e841daebc501270",
+            "bytes": 10858
+          }
+        },
+        {
+          "field": [
+            "files",
+            "6",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/benchmark.py",
+            "sha256": "e53861324334104b6e63b84cab5fcaa1081b1762a28c46153c7361b94fe3f30d",
+            "bytes": 7668
+          }
+        },
+        {
+          "field": [
+            "files",
+            "6",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/src/ppiblocker/benchmark.py",
+            "sha256": "e53861324334104b6e63b84cab5fcaa1081b1762a28c46153c7361b94fe3f30d",
+            "bytes": 7668
+          }
+        },
+        {
+          "field": [
+            "files",
+            "7",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/benchmark_adapters.py",
+            "sha256": "d8b07297410a6d1ec4d938459b962da2f1dd578ff43b7205cc866f3c17147c97",
+            "bytes": 6114
+          }
+        },
+        {
+          "field": [
+            "files",
+            "7",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/src/ppiblocker/benchmark_adapters.py",
+            "sha256": "d8b07297410a6d1ec4d938459b962da2f1dd578ff43b7205cc866f3c17147c97",
+            "bytes": 6114
+          }
+        },
+        {
+          "field": [
+            "files",
+            "8",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/cli.py",
+            "sha256": "52f4f13de2e4063f18a821669185bd9d3904a6df3c3d2f07790285f8e824c37e",
+            "bytes": 1379
+          }
+        },
+        {
+          "field": [
+            "files",
+            "8",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/src/ppiblocker/cli.py",
+            "sha256": "52f4f13de2e4063f18a821669185bd9d3904a6df3c3d2f07790285f8e824c37e",
+            "bytes": 1379
+          }
+        },
+        {
+          "field": [
+            "files",
+            "9",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/common.py",
+            "sha256": "bbc4dc9f05a8b73d38f1337ee64721b76e43915bd251a32991f3b14c58268da6",
+            "bytes": 12084
+          }
+        },
+        {
+          "field": [
+            "files",
+            "9",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/src/ppiblocker/common.py",
+            "sha256": "bbc4dc9f05a8b73d38f1337ee64721b76e43915bd251a32991f3b14c58268da6",
+            "bytes": 12084
+          }
+        },
+        {
+          "field": [
+            "files",
+            "10",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/identity.py",
+            "sha256": "83f62aef715ee0ba2b0382b6e8d27a50846af990e2d4600335d8bf4156d80cda",
+            "bytes": 7659
+          }
+        },
+        {
+          "field": [
+            "files",
+            "10",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/src/ppiblocker/identity.py",
+            "sha256": "83f62aef715ee0ba2b0382b6e8d27a50846af990e2d4600335d8bf4156d80cda",
+            "bytes": 7659
+          }
+        },
+        {
+          "field": [
+            "files",
+            "11",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/pipeline.py",
+            "sha256": "5b51914ca14f20eff9a511d0346234d9e5307756ae08ecde66f17dc37a84132a",
+            "bytes": 23711
+          }
+        },
+        {
+          "field": [
+            "files",
+            "11",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/src/ppiblocker/pipeline.py",
+            "sha256": "5b51914ca14f20eff9a511d0346234d9e5307756ae08ecde66f17dc37a84132a",
+            "bytes": 23711
+          }
+        },
+        {
+          "field": [
+            "files",
+            "12",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/runtime_probe.py",
+            "sha256": "3b813954c54c1f15543f4f0fe05fcb41b50cd0083308cf63b42067561f852aa0",
+            "bytes": 1365
+          }
+        },
+        {
+          "field": [
+            "files",
+            "12",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/src/ppiblocker/runtime_probe.py",
+            "sha256": "3b813954c54c1f15543f4f0fe05fcb41b50cd0083308cf63b42067561f852aa0",
+            "bytes": 1365
+          }
+        },
+        {
+          "field": [
+            "files",
+            "13",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/structure.py",
+            "sha256": "cc5e488c4bf9b104c208749de0c94638153a80b3938ff957b4a9dfaf51c082cd",
+            "bytes": 10995
+          }
+        },
+        {
+          "field": [
+            "files",
+            "13",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/src/ppiblocker/structure.py",
+            "sha256": "cc5e488c4bf9b104c208749de0c94638153a80b3938ff957b4a9dfaf51c082cd",
+            "bytes": 10995
+          }
+        },
+        {
+          "field": [
+            "files",
+            "14",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/vendor/IPSAE_6174cf9e71cb/ipsae.py",
+            "sha256": "10cf9b08c68c91e06cb28526cf2026f47a3980c9048fd3226d13e3304eaf1c27",
+            "bytes": 45140
+          }
+        },
+        {
+          "field": [
+            "files",
+            "14",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/vendor/ipsae.py",
+            "sha256": "10cf9b08c68c91e06cb28526cf2026f47a3980c9048fd3226d13e3304eaf1c27",
+            "bytes": 45140
+          }
+        },
+        {
+          "field": [
+            "source"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/benchmark_common_review.py",
+            "sha256": "78fbf3a5dc7c2b7ca1729ad7d2a94fffd6ca0110c4ab203becddd2a737ceeae4",
+            "bytes": 50999
+          }
+        }
+      ]
+    },
+    {
+      "receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/source_bundle.json",
+        "bytes": 10053,
+        "sha256": "c245636654edc1eadabf55689a5f2a2175ce0462bd228046cb5843b0a1436cbb"
+      },
+      "present": true,
+      "source_receipt_pointers": [
+        {
+          "field": [
+            "files",
+            "0",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/benchmark_common_review.py",
+            "sha256": "3f0da7ebbaa0db916c9a39781e83c61ee7b0a136687b4242c5253649abd14740",
+            "bytes": 50747
+          }
+        },
+        {
+          "field": [
+            "files",
+            "0",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/benchmark_common_review.py",
+            "sha256": "78fbf3a5dc7c2b7ca1729ad7d2a94fffd6ca0110c4ab203becddd2a737ceeae4",
+            "bytes": 50999
+          }
+        },
+        {
+          "field": [
+            "files",
+            "1",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/screening_transfer.py",
+            "sha256": "869de5be809d546c937f973e37ef344470b1b8da7f9c4b6e883d5a80747f990a",
+            "bytes": 35700
+          }
+        },
+        {
+          "field": [
+            "files",
+            "1",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/screening_transfer.py",
+            "sha256": "869de5be809d546c937f973e37ef344470b1b8da7f9c4b6e883d5a80747f990a",
+            "bytes": 35700
+          }
+        },
+        {
+          "field": [
+            "files",
+            "2",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/control_msa_check.py",
+            "sha256": "c4a53008639c3e4e4e28d5653487e4cb858e60f81f54752b8c00dae8ac11f205",
+            "bytes": 3592
+          }
+        },
+        {
+          "field": [
+            "files",
+            "2",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/control_msa_check.py",
+            "sha256": "c4a53008639c3e4e4e28d5653487e4cb858e60f81f54752b8c00dae8ac11f205",
+            "bytes": 3592
+          }
+        },
+        {
+          "field": [
+            "files",
+            "3",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/__init__.py",
+            "sha256": "9285a402c879d95d608674005fd9ce245c03b5a5efaa8edb14d6f82e0ae9255c",
+            "bytes": 108
+          }
+        },
+        {
+          "field": [
+            "files",
+            "3",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/src/ppiblocker/__init__.py",
+            "sha256": "9285a402c879d95d608674005fd9ce245c03b5a5efaa8edb14d6f82e0ae9255c",
+            "bytes": 108
+          }
+        },
+        {
+          "field": [
+            "files",
+            "4",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/af2_review.py",
+            "sha256": "5d857a314e1b0f825470de35882cd4b17e67927af2da649ae2af0fd399eb5336",
+            "bytes": 3800
+          }
+        },
+        {
+          "field": [
+            "files",
+            "4",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/src/ppiblocker/af2_review.py",
+            "sha256": "5d857a314e1b0f825470de35882cd4b17e67927af2da649ae2af0fd399eb5336",
+            "bytes": 3800
+          }
+        },
+        {
+          "field": [
+            "files",
+            "5",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/backends.py",
+            "sha256": "fec3a41a03aa9ea7c2e9d716be0825d68053ed272e639e1f8e841daebc501270",
+            "bytes": 10858
+          }
+        },
+        {
+          "field": [
+            "files",
+            "5",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/src/ppiblocker/backends.py",
+            "sha256": "fec3a41a03aa9ea7c2e9d716be0825d68053ed272e639e1f8e841daebc501270",
+            "bytes": 10858
+          }
+        },
+        {
+          "field": [
+            "files",
+            "6",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/benchmark.py",
+            "sha256": "e53861324334104b6e63b84cab5fcaa1081b1762a28c46153c7361b94fe3f30d",
+            "bytes": 7668
+          }
+        },
+        {
+          "field": [
+            "files",
+            "6",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/src/ppiblocker/benchmark.py",
+            "sha256": "e53861324334104b6e63b84cab5fcaa1081b1762a28c46153c7361b94fe3f30d",
+            "bytes": 7668
+          }
+        },
+        {
+          "field": [
+            "files",
+            "7",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/benchmark_adapters.py",
+            "sha256": "d8b07297410a6d1ec4d938459b962da2f1dd578ff43b7205cc866f3c17147c97",
+            "bytes": 6114
+          }
+        },
+        {
+          "field": [
+            "files",
+            "7",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/src/ppiblocker/benchmark_adapters.py",
+            "sha256": "d8b07297410a6d1ec4d938459b962da2f1dd578ff43b7205cc866f3c17147c97",
+            "bytes": 6114
+          }
+        },
+        {
+          "field": [
+            "files",
+            "8",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/cli.py",
+            "sha256": "52f4f13de2e4063f18a821669185bd9d3904a6df3c3d2f07790285f8e824c37e",
+            "bytes": 1379
+          }
+        },
+        {
+          "field": [
+            "files",
+            "8",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/src/ppiblocker/cli.py",
+            "sha256": "52f4f13de2e4063f18a821669185bd9d3904a6df3c3d2f07790285f8e824c37e",
+            "bytes": 1379
+          }
+        },
+        {
+          "field": [
+            "files",
+            "9",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/common.py",
+            "sha256": "bbc4dc9f05a8b73d38f1337ee64721b76e43915bd251a32991f3b14c58268da6",
+            "bytes": 12084
+          }
+        },
+        {
+          "field": [
+            "files",
+            "9",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/src/ppiblocker/common.py",
+            "sha256": "bbc4dc9f05a8b73d38f1337ee64721b76e43915bd251a32991f3b14c58268da6",
+            "bytes": 12084
+          }
+        },
+        {
+          "field": [
+            "files",
+            "10",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/identity.py",
+            "sha256": "83f62aef715ee0ba2b0382b6e8d27a50846af990e2d4600335d8bf4156d80cda",
+            "bytes": 7659
+          }
+        },
+        {
+          "field": [
+            "files",
+            "10",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/src/ppiblocker/identity.py",
+            "sha256": "83f62aef715ee0ba2b0382b6e8d27a50846af990e2d4600335d8bf4156d80cda",
+            "bytes": 7659
+          }
+        },
+        {
+          "field": [
+            "files",
+            "11",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/pipeline.py",
+            "sha256": "5b51914ca14f20eff9a511d0346234d9e5307756ae08ecde66f17dc37a84132a",
+            "bytes": 23711
+          }
+        },
+        {
+          "field": [
+            "files",
+            "11",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/src/ppiblocker/pipeline.py",
+            "sha256": "5b51914ca14f20eff9a511d0346234d9e5307756ae08ecde66f17dc37a84132a",
+            "bytes": 23711
+          }
+        },
+        {
+          "field": [
+            "files",
+            "12",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/runtime_probe.py",
+            "sha256": "3b813954c54c1f15543f4f0fe05fcb41b50cd0083308cf63b42067561f852aa0",
+            "bytes": 1365
+          }
+        },
+        {
+          "field": [
+            "files",
+            "12",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/src/ppiblocker/runtime_probe.py",
+            "sha256": "3b813954c54c1f15543f4f0fe05fcb41b50cd0083308cf63b42067561f852aa0",
+            "bytes": 1365
+          }
+        },
+        {
+          "field": [
+            "files",
+            "13",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/source/src/ppiblocker/structure.py",
+            "sha256": "cc5e488c4bf9b104c208749de0c94638153a80b3938ff957b4a9dfaf51c082cd",
+            "bytes": 10995
+          }
+        },
+        {
+          "field": [
+            "files",
+            "13",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/src/ppiblocker/structure.py",
+            "sha256": "cc5e488c4bf9b104c208749de0c94638153a80b3938ff957b4a9dfaf51c082cd",
+            "bytes": 10995
+          }
+        },
+        {
+          "field": [
+            "files",
+            "14",
+            "original"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/vendor/IPSAE_6174cf9e71cb/ipsae.py",
+            "sha256": "10cf9b08c68c91e06cb28526cf2026f47a3980c9048fd3226d13e3304eaf1c27",
+            "bytes": 45140
+          }
+        },
+        {
+          "field": [
+            "files",
+            "14",
+            "frozen"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/vendor/ipsae.py",
+            "sha256": "10cf9b08c68c91e06cb28526cf2026f47a3980c9048fd3226d13e3304eaf1c27",
+            "bytes": 45140
+          }
+        },
+        {
+          "field": [
+            "source"
+          ],
+          "receipt": {
+            "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/benchmark_common_review.py",
+            "sha256": "78fbf3a5dc7c2b7ca1729ad7d2a94fffd6ca0110c4ab203becddd2a737ceeae4",
+            "bytes": 50999
+          }
+        }
+      ]
+    }
+  ],
+  "finite_source_roots": [
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/code",
+      "present": true,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    },
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/frozen",
+      "present": true,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    },
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/sources",
+      "present": true,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    },
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/engineering_history",
+      "present": true,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    },
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/source_snapshots",
+      "present": false,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    },
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code",
+      "present": true,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    },
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings",
+      "present": true,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    },
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/source",
+      "present": false,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    },
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/sources",
+      "present": false,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    },
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/frozen",
+      "present": false,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    },
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/code",
+      "present": true,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    },
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen",
+      "present": true,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    },
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/code",
+      "present": true,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    },
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen",
+      "present": true,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    },
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/scientific_review/code",
+      "present": true,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    },
+    {
+      "root": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/scientific_review/runs/review_sourcepack_13237/resources",
+      "present": true,
+      "selectors": [
+        "Exact missing basename",
+        "SHA256_missing-basename",
+        "Exact target byte count Python file within explicit source-only roots"
+      ],
+      "role": "DIAGNOSTIC_CONTENT_SEARCH_NOT_RESOLVER_PERMISSION"
+    }
+  ],
+  "source_candidates": [
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/benchmark_common_review.py",
+        "bytes": 58825,
+        "sha256": "ad8edf0ac5250e587709c26e61957101072ea4343f83514271634b3bf7c36b5b"
+      },
+      "matches_missing_receipts": [],
+      "readonly": false,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_benchmark_contract.py",
+        "bytes": 29944,
+        "sha256": "099cd1ff1f50f99df8ed76596b10e2c0531629831a2c07a900fa9569ca2e882f"
+      },
+      "matches_missing_receipts": [],
+      "readonly": false,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_history_candidates/source_50.py",
+        "bytes": 29945,
+        "sha256": "09fd0dff2e9cc1760fc835a586660cc78b3bba685aad8a110b9c610a4eb86063"
+      },
+      "matches_missing_receipts": [
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/formal_benchmark_contract.py",
+          "bytes": 29945,
+          "sha256": "09fd0dff2e9cc1760fc835a586660cc78b3bba685aad8a110b9c610a4eb86063"
+        }
+      ],
+      "readonly": false,
+      "byte_identical_to_declared_missing": true,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_history_candidates/source_64.py",
+        "bytes": 46892,
+        "sha256": "13a00de2de298bbc5645f36352bf8da400d3cddb9ce6d5397c623f75d49133ae"
+      },
+      "matches_missing_receipts": [
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/formal_benchmark_contract.py",
+          "bytes": 46892,
+          "sha256": "13a00de2de298bbc5645f36352bf8da400d3cddb9ce6d5397c623f75d49133ae"
+        }
+      ],
+      "readonly": false,
+      "byte_identical_to_declared_missing": true,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_history_candidates/tests_50.py",
+        "bytes": 27208,
+        "sha256": "56256254866dd3c784ebfd2ea084ed4fec82e31921542bd142e484cc5e65a396"
+      },
+      "matches_missing_receipts": [
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/test_formal_benchmark_contract.py",
+          "bytes": 27208,
+          "sha256": "56256254866dd3c784ebfd2ea084ed4fec82e31921542bd142e484cc5e65a396"
+        }
+      ],
+      "readonly": false,
+      "byte_identical_to_declared_missing": true,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v1/source/formal_benchmark_contract.py",
+        "bytes": 29944,
+        "sha256": "099cd1ff1f50f99df8ed76596b10e2c0531629831a2c07a900fa9569ca2e882f"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v1/source/test_formal_benchmark_contract.py",
+        "bytes": 20461,
+        "sha256": "b263d3095114b7de797f796b9a2b4ae81ed9158f67a301f9c6977708d612bd4d"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/history_exact_bytes/formal_contract_v2_tests_13168_contracts.py",
+        "bytes": 27208,
+        "sha256": "56256254866dd3c784ebfd2ea084ed4fec82e31921542bd142e484cc5e65a396"
+      },
+      "matches_missing_receipts": [
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/test_formal_benchmark_contract.py",
+          "bytes": 27208,
+          "sha256": "56256254866dd3c784ebfd2ea084ed4fec82e31921542bd142e484cc5e65a396"
+        }
+      ],
+      "readonly": true,
+      "byte_identical_to_declared_missing": true,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/history_exact_bytes/formal_contract_v2_tests_13168_reviewed_root_formal_helper.py",
+        "bytes": 11563,
+        "sha256": "cd7aabd6d4720e909e92dafa0754ab3bb84f766896e3c89e3cfec4e62aa58666"
+      },
+      "matches_missing_receipts": [
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/freeze_formal_benchmark_v3.py",
+          "bytes": 11563,
+          "sha256": "cd7aabd6d4720e909e92dafa0754ab3bb84f766896e3c89e3cfec4e62aa58666"
+        }
+      ],
+      "readonly": true,
+      "byte_identical_to_declared_missing": true,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/history_exact_bytes/formal_contract_v2_tests_13168_source.py",
+        "bytes": 29945,
+        "sha256": "09fd0dff2e9cc1760fc835a586660cc78b3bba685aad8a110b9c610a4eb86063"
+      },
+      "matches_missing_receipts": [
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/formal_benchmark_contract.py",
+          "bytes": 29945,
+          "sha256": "09fd0dff2e9cc1760fc835a586660cc78b3bba685aad8a110b9c610a4eb86063"
+        }
+      ],
+      "readonly": true,
+      "byte_identical_to_declared_missing": true,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/history_exact_bytes/formal_contract_v2_tests_13180_contracts.py",
+        "bytes": 38371,
+        "sha256": "792a805d12d6c48cd75b847c3a400eee6ab1b704793c75176bcd267019571ce4"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/history_exact_bytes/formal_contract_v2_tests_13180_source.py",
+        "bytes": 46892,
+        "sha256": "13a00de2de298bbc5645f36352bf8da400d3cddb9ce6d5397c623f75d49133ae"
+      },
+      "matches_missing_receipts": [
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/formal_benchmark_contract.py",
+          "bytes": 46892,
+          "sha256": "13a00de2de298bbc5645f36352bf8da400d3cddb9ce6d5397c623f75d49133ae"
+        }
+      ],
+      "readonly": true,
+      "byte_identical_to_declared_missing": true,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/source/formal_benchmark_contract.py",
+        "bytes": 46984,
+        "sha256": "768c0ca8fbdf942638688ed6a12ea1e88a42b50d7c219b902bbc3d945ddeb4bc"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/source/test_formal_benchmark_contract.py",
+        "bytes": 38371,
+        "sha256": "792a805d12d6c48cd75b847c3a400eee6ab1b704793c75176bcd267019571ce4"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_failed_13208/history_exact_bytes/formal_contract_v2_tests_13168_source.py",
+        "bytes": 29945,
+        "sha256": "09fd0dff2e9cc1760fc835a586660cc78b3bba685aad8a110b9c610a4eb86063"
+      },
+      "matches_missing_receipts": [
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/formal_benchmark_contract.py",
+          "bytes": 29945,
+          "sha256": "09fd0dff2e9cc1760fc835a586660cc78b3bba685aad8a110b9c610a4eb86063"
+        }
+      ],
+      "readonly": true,
+      "byte_identical_to_declared_missing": true,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_failed_13208/source/formal_benchmark_contract.py",
+        "bytes": 46984,
+        "sha256": "768c0ca8fbdf942638688ed6a12ea1e88a42b50d7c219b902bbc3d945ddeb4bc"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_failed_13208/source/test_formal_benchmark_contract.py",
+        "bytes": 38371,
+        "sha256": "792a805d12d6c48cd75b847c3a400eee6ab1b704793c75176bcd267019571ce4"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/formal_benchmark_contract.py",
+        "bytes": 46984,
+        "sha256": "768c0ca8fbdf942638688ed6a12ea1e88a42b50d7c219b902bbc3d945ddeb4bc"
+      },
+      "matches_missing_receipts": [],
+      "readonly": false,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/test_formal_benchmark_contract.py",
+        "bytes": 38371,
+        "sha256": "792a805d12d6c48cd75b847c3a400eee6ab1b704793c75176bcd267019571ce4"
+      },
+      "matches_missing_receipts": [],
+      "readonly": false,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/freeze_formal_benchmark_v2.py",
+        "bytes": 11563,
+        "sha256": "102535e3f5338cf5811bba6e79fb9fb0b93f7b1f50430e82fcbd5e0bb2dc377d"
+      },
+      "matches_missing_receipts": [],
+      "readonly": false,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/freeze_formal_benchmark_v3.py",
+        "bytes": 11994,
+        "sha256": "e23f09c1f01f1459fe1281f2648dd1e3c0d7d0e9704b9024acdaf732b7c3b3d8"
+      },
+      "matches_missing_receipts": [],
+      "readonly": false,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/test_formal_benchmark_contract.py",
+        "bytes": 20461,
+        "sha256": "b263d3095114b7de797f796b9a2b4ae81ed9158f67a301f9c6977708d612bd4d"
+      },
+      "matches_missing_receipts": [],
+      "readonly": false,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v1/source/benchmark_runtime.py",
+        "bytes": 35635,
+        "sha256": "32caa5620abf8604ab2528b1f5723e2d80808ecb4cd1e9d68c6455efda540a08"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v2/source/benchmark_runtime.py",
+        "bytes": 36013,
+        "sha256": "de7eb4e43cc5dfc82673c5c04b7067f54cbeef53d481414c006310348c1af861"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v3/source/benchmark_runtime.py",
+        "bytes": 36014,
+        "sha256": "f3726e2fbbede3678c029ffe3e3f3cac5b52a9826325459d8d3e6756ded505e7"
+      },
+      "matches_missing_receipts": [
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/benchmark_runtime.py",
+          "bytes": 36014,
+          "sha256": "f3726e2fbbede3678c029ffe3e3f3cac5b52a9826325459d8d3e6756ded505e7"
+        }
+      ],
+      "readonly": true,
+      "byte_identical_to_declared_missing": true,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v4/source/benchmark_runtime.py",
+        "bytes": 36023,
+        "sha256": "666b0c93346606a4b2b5542b8161c01e0642e4f2152c5b0004bde29e88961d86"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v5/source/benchmark_runtime.py",
+        "bytes": 37816,
+        "sha256": "773dc1b7d2e0cbbfdaca8c021e07f70323012a3f2c70bcbd6d744bb0ca50fc50"
+      },
+      "matches_missing_receipts": [
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/benchmark_runtime.py",
+          "bytes": 37816,
+          "sha256": "773dc1b7d2e0cbbfdaca8c021e07f70323012a3f2c70bcbd6d744bb0ca50fc50"
+        }
+      ],
+      "readonly": true,
+      "byte_identical_to_declared_missing": true,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v6/source/benchmark_runtime.py",
+        "bytes": 43050,
+        "sha256": "1325556ccac5936bbae456344f040257b5041815190af5b48425cf016bc38e17"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v7/source/benchmark_runtime.py",
+        "bytes": 43050,
+        "sha256": "1325556ccac5936bbae456344f040257b5041815190af5b48425cf016bc38e17"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/benchmark_runtime.py",
+        "bytes": 51064,
+        "sha256": "51b516a692d369f4d9a6ae9e3c39c0294da219c4d065420bbf9538a4af4b6562"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/bbf_input_diagnostic.py",
+        "bytes": 24842,
+        "sha256": "d2eefb850802a0b93a6724051218c5e686d556c9358d08ab17c7a28dabc247ca"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/benchmark_common_review.py",
+        "bytes": 59077,
+        "sha256": "876d29f9b8a20cf3f8bbf526262de96b1071a30b47590b632e5d31f97c362391"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/common_core_v2_13130/code/benchmark_common_review.py",
+        "bytes": 59077,
+        "sha256": "876d29f9b8a20cf3f8bbf526262de96b1071a30b47590b632e5d31f97c362391"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/benchmark_common_review.py",
+        "bytes": 50999,
+        "sha256": "78fbf3a5dc7c2b7ca1729ad7d2a94fffd6ca0110c4ab203becddd2a737ceeae4"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13023/code/benchmark_common_review.py",
+        "bytes": 50999,
+        "sha256": "78fbf3a5dc7c2b7ca1729ad7d2a94fffd6ca0110c4ab203becddd2a737ceeae4"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13031/code/benchmark_common_review.py",
+        "bytes": 56962,
+        "sha256": "479ade6915ae28fdb4f656a4519db0c50b3f5ad1a7569b7d958019902addc1ad"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13033/code/benchmark_common_review.py",
+        "bytes": 56979,
+        "sha256": "f207439b8ebdc1f7912019e3d621ed77933af27b8075d8ad75dbfb24ae0873b5"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13045/code/benchmark_common_review.py",
+        "bytes": 57585,
+        "sha256": "56601d7153712213e30ee39214b0785b6ebbc97590567cf758bf5cdfd0d849b2"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13047/code/benchmark_common_review.py",
+        "bytes": 57624,
+        "sha256": "b2443b58bdcdb706ba57a9a3460f655440a5130829ad546b35bb2b8ddef7c9c3"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    },
+    {
+      "physical_content_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/benchmark_common_review.py",
+        "bytes": 59077,
+        "sha256": "876d29f9b8a20cf3f8bbf526262de96b1071a30b47590b632e5d31f97c362391"
+      },
+      "matches_missing_receipts": [],
+      "readonly": true,
+      "byte_identical_to_declared_missing": false,
+      "source_acceptance": false,
+      "new_alias_accepted": false,
+      "current_execution_authorized": false
+    }
+  ],
+  "targets": [
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/benchmark_common_review.py",
+      "sha256": "3f0da7ebbaa0db916c9a39781e83c61ee7b0a136687b4242c5253649abd14740",
+      "bytes": 50747
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/bbf_input_diagnostic.py",
+      "sha256": "a0adf54bfca538dafa17adde810455f8d883354a28038d9c0d241246c87277d3",
+      "bytes": 23056
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/benchmark_runtime.py",
+      "bytes": 36014,
+      "sha256": "f3726e2fbbede3678c029ffe3e3f3cac5b52a9826325459d8d3e6756ded505e7"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/benchmark_runtime.py",
+      "bytes": 37816,
+      "sha256": "773dc1b7d2e0cbbfdaca8c021e07f70323012a3f2c70bcbd6d744bb0ca50fc50"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/formal_benchmark_contract.py",
+      "bytes": 46892,
+      "sha256": "13a00de2de298bbc5645f36352bf8da400d3cddb9ce6d5397c623f75d49133ae"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/freeze_formal_benchmark_v3.py",
+      "bytes": 11563,
+      "sha256": "cd7aabd6d4720e909e92dafa0754ab3bb84f766896e3c89e3cfec4e62aa58666"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/test_formal_benchmark_contract.py",
+      "bytes": 27208,
+      "sha256": "56256254866dd3c784ebfd2ea084ed4fec82e31921542bd142e484cc5e65a396"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/formal_benchmark_contract.py",
+      "bytes": 29945,
+      "sha256": "09fd0dff2e9cc1760fc835a586660cc78b3bba685aad8a110b9c610a4eb86063"
+    }
+  ],
+  "matched_identity_count": 6,
+  "reconstructed_historical_identity_count": 1,
+  "recorded_common_reconstruction": {
+    "status": "RECONSTRUCTED_EXACT_HISTORICAL_SOURCE_FROM_RECORDED_FREEZER_REVERSE_AND_FORWARD_REPLAY_NOT_CURRENT_EXECUTION",
+    "classification": "RECONSTRUCTED_HISTORICAL_SOURCE_NOT_FOUND_ORIGINAL",
+    "original_logical_receipt": {
+      "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/benchmark_common_review.py",
+      "bytes": 50747,
+      "sha256": "3f0da7ebbaa0db916c9a39781e83c61ee7b0a136687b4242c5253649abd14740"
+    },
+    "historical_bundle": {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/source_bundle.json",
+      "bytes": 10053,
+      "sha256": "729e3acd0cd371cf2a4dd571850d241c4a9a0fb2470090b178f36d8bc058f500"
+    },
+    "source_field": [
+      "files",
+      "0"
+    ],
+    "recorded_freezer": {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/code/freeze_native_review.py",
+      "bytes": 6790,
+      "sha256": "1306a59077d99702da69c88f8b142e6e09a0ce5affcf5c45028009df069ea9fd"
+    },
+    "frozen_source": {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/code/benchmark_common_review.py",
+      "bytes": 50999,
+      "sha256": "78fbf3a5dc7c2b7ca1729ad7d2a94fffd6ca0110c4ab203becddd2a737ceeae4"
+    },
+    "reconstructed_source": {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_saved_byte_recovery_diagnostic_13310/reconstructed_historical_source/3f0da7ebbaa0db916c9a39781e83c61ee7b0a136687b4242c5253649abd14740_benchmark_common_review.py",
+      "bytes": 50747,
+      "sha256": "3f0da7ebbaa0db916c9a39781e83c61ee7b0a136687b4242c5253649abd14740"
+    },
+    "exact_twelve_replacements": [
+      [
+        "STEP=ROOT/\"steps/23_common_review\"",
+        "STEP=ROOT/\"steps/23_common_review\"\nFROZEN_DIR=Path(__file__).resolve().parent"
+      ],
+      [
+        "sys.path.insert(0,str(ROOT/\"source/src\"))",
+        "sys.path.insert(0,str(FROZEN_DIR/\"src\"))"
+      ],
+      [
+        "ROOT/\"source/rebuild/screening_transfer.py\"",
+        "FROZEN_DIR/\"screening_transfer.py\""
+      ],
+      [
+        "ROOT/\"source/rebuild/control_msa_check.py\"",
+        "FROZEN_DIR/\"control_msa_check.py\""
+      ],
+      [
+        "ROOT/\"source/src/ppiblocker/structure.py\"",
+        "FROZEN_DIR/\"src/ppiblocker/structure.py\""
+      ],
+      [
+        "ROOT/\"steps/03_af2_restore/inference_env.sh\"",
+        "FROZEN_DIR/\"runtime_entries/af2_inference_env.sh\""
+      ],
+      [
+        "ROOT/\"env/colabfold/bin/colabfold_batch\"",
+        "FROZEN_DIR/\"runtime_entries/colabfold_batch\""
+      ],
+      [
+        "ROOT/\"env/boltz/bin/boltz\"",
+        "FROZEN_DIR/\"runtime_entries/boltz\""
+      ],
+      [
+        "ROOT/\"vendor\"/(\"IPSAE_\"+REVISION[:12])/\"ipsae.py\"",
+        "FROZEN_DIR/\"vendor/ipsae.py\""
+      ],
+      [
+        "str(ROOT/\"source/rebuild\"),job[\"input\"][\"path\"]",
+        "str(FROZEN_DIR),job[\"input\"][\"path\"]"
+      ],
+      [
+        "method_origin_present=False)",
+        "method_origin_present=False,frozen_source_bundle=rec(FROZEN_DIR.parent/\"source_bundle.json\"))"
+      ],
+      [
+        "allocation=allocated,runs=runs)",
+        "allocation=allocated,runs=runs,source=plan[\"source\"],frozen_source_bundle=plan[\"frozen_source_bundle\"],runtime_locks=plan[\"runtime_locks\"],receipt_policy=\"CPU_PRECOMPUTED_SOURCE_AND_DEPENDENCY_HASH_REFERENCES_NO_GPU_HASH_TASK\")"
+      ]
+    ],
+    "reverse_log": [
+      {
+        "recorded_index": 11,
+        "source_line": 38,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 10,
+        "source_line": 37,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 9,
+        "source_line": 36,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 8,
+        "source_line": 35,
+        "replacements": 2
+      },
+      {
+        "recorded_index": 7,
+        "source_line": 34,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 6,
+        "source_line": 33,
+        "replacements": 2
+      },
+      {
+        "recorded_index": 5,
+        "source_line": 32,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 4,
+        "source_line": 31,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 3,
+        "source_line": 30,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 2,
+        "source_line": 29,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 1,
+        "source_line": 28,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 0,
+        "source_line": 27,
+        "replacements": 1
+      }
+    ],
+    "forward_log": [
+      {
+        "recorded_index": 0,
+        "source_line": 27,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 1,
+        "source_line": 28,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 2,
+        "source_line": 29,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 3,
+        "source_line": 30,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 4,
+        "source_line": 31,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 5,
+        "source_line": 32,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 6,
+        "source_line": 33,
+        "replacements": 2
+      },
+      {
+        "recorded_index": 7,
+        "source_line": 34,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 8,
+        "source_line": 35,
+        "replacements": 2
+      },
+      {
+        "recorded_index": 9,
+        "source_line": 36,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 10,
+        "source_line": 37,
+        "replacements": 1
+      },
+      {
+        "recorded_index": 11,
+        "source_line": 38,
+        "replacements": 1
+      }
+    ],
+    "old_source_size_and_SHA_verified": true,
+    "forward_replay_byte_identical": true,
+    "historical_freezer_executed": false,
+    "reconstructed_source_executed": false,
+    "current_execution_authorized": false,
+    "new_alias_accepted": false,
+    "source_acceptance": false
+  },
+  "unmatched_targets_after_found_original_and_reconstructed": [
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/bbf_input_diagnostic.py",
+      "sha256": "a0adf54bfca538dafa17adde810455f8d883354a28038d9c0d241246c87277d3",
+      "bytes": 23056
+    }
+  ],
+  "unmatched_targets": [
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/benchmark_common_review.py",
+      "sha256": "3f0da7ebbaa0db916c9a39781e83c61ee7b0a136687b4242c5253649abd14740",
+      "bytes": 50747
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/bbf_input_diagnostic.py",
+      "sha256": "a0adf54bfca538dafa17adde810455f8d883354a28038d9c0d241246c87277d3",
+      "bytes": 23056
+    }
+  ],
+  "source_acceptance": false,
+  "new_alias_accepted": false,
+  "source_staged": false,
+  "default_changed": false,
+  "current_execution_authorized": false,
+  "model_inference": false,
+  "formal_outputs_read": false,
+  "E2E_outputs_read": false,
+  "scientific_payload_read": false,
+  "upstream_vendor_tar_payloads_read": false,
+  "source_reconstruction_performed": true,
+  "deterministic_recorded_patch_reconstruction_separate_proof": true,
+  "scope": "Exact content matches only under pureCPU. Existing literal alias registry and byte-preserving candidate lineage remain distinct; any operative alias needs a separately reviewed exact parent/field/provenance source successor."
+}

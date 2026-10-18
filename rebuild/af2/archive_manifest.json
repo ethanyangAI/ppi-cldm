@@ -1,0 +1,117 @@
+{
+  "status": "EXECUTION_DRIVER_ARCHIVE_VERIFIED",
+  "timestamp": 1790943247.6532834,
+  "job_id": "11807",
+  "files": [
+    {
+      "source": "/lustre/users/u21111210118/projects/test9/steps/03_af2_restore/install.sh",
+      "archive": "rebuild/af2/runtime/install.sh",
+      "bytes": 1568,
+      "source_sha256": "18da24495ef9c211e55f3e9ab47e67de7ae064894d710853e775474f8fa86507",
+      "archive_sha256": "0c6deb507b844b34b566248dc3af8773916ec1f2b95775cd7ffab49285505808",
+      "post_execution_changes": [
+        "Noninteractive conda activation PS1 guard; no scientific parameter change."
+      ]
+    },
+    {
+      "source": "/lustre/users/u21111210118/projects/test9/steps/03_af2_restore/download_weights.py",
+      "archive": "rebuild/af2/runtime/download_weights.py",
+      "bytes": 4501,
+      "source_sha256": "b364800c8d91aae2539a0fe346cae18333804417ed104c8dc71cb624a8217c6c",
+      "archive_sha256": "b364800c8d91aae2539a0fe346cae18333804417ed104c8dc71cb624a8217c6c",
+      "post_execution_changes": []
+    },
+    {
+      "source": "/lustre/users/u21111210118/projects/test9/steps/03_af2_restore/download_ptm_weights.py",
+      "archive": "rebuild/af2/runtime/download_ptm_weights.py",
+      "bytes": 3812,
+      "source_sha256": "256d27509e6401d88978b30d281fc902806eff97c763c2af2b2fdd4990186619",
+      "archive_sha256": "256d27509e6401d88978b30d281fc902806eff97c763c2af2b2fdd4990186619",
+      "post_execution_changes": []
+    },
+    {
+      "source": "/lustre/users/u21111210118/projects/test9/steps/03_af2_restore/verify_runtime.py",
+      "archive": "rebuild/af2/runtime/verify_runtime.py",
+      "bytes": 1120,
+      "source_sha256": "eb28b8fb88af086acd675e4faec4f575cf8e8b12dc7f16d8aa61bcea4755c83d",
+      "archive_sha256": "eb28b8fb88af086acd675e4faec4f575cf8e8b12dc7f16d8aa61bcea4755c83d",
+      "post_execution_changes": []
+    },
+    {
+      "source": "/lustre/users/u21111210118/projects/test9/steps/03_af2_restore/verify_all.py",
+      "archive": "rebuild/af2/runtime/verify_all.py",
+      "bytes": 2624,
+      "source_sha256": "4f152cb8b9013d263d85d309685ff73d154c76778a95c4e600e5d203042fba22",
+      "archive_sha256": "4f152cb8b9013d263d85d309685ff73d154c76778a95c4e600e5d203042fba22",
+      "post_execution_changes": []
+    },
+    {
+      "source": "/lustre/users/u21111210118/projects/test9/steps/03_af2_restore/retrieve_msa.py",
+      "archive": "rebuild/af2/runtime/retrieve_msa.py",
+      "bytes": 2185,
+      "source_sha256": "93344ef168f5f08169726f77bb44165ef30510b525e046fdde3ffdaa1d1fe375",
+      "archive_sha256": "93344ef168f5f08169726f77bb44165ef30510b525e046fdde3ffdaa1d1fe375",
+      "post_execution_changes": []
+    },
+    {
+      "source": "/lustre/users/u21111210118/projects/test9/steps/03_af2_restore/inference_env.sh",
+      "archive": "rebuild/af2/runtime/inference_env.sh",
+      "bytes": 881,
+      "source_sha256": "2ee115993cf837c9bb2b5b18820a9f75642802451fd828f569cb1bddc02f72ec",
+      "archive_sha256": "a784e87630aa5bfe2d8c6bfa9cf88ec1bd9bc40354a9fd2ff33012ca1dc889c7",
+      "post_execution_changes": [
+        "Noninteractive conda activation PS1 guard; no scientific parameter change."
+      ]
+    },
+    {
+      "source": "/lustre/users/u21111210118/projects/test9/steps/03_af2_restore/gpu_smoke.py",
+      "archive": "rebuild/af2/runtime/gpu_smoke.py",
+      "bytes": 1071,
+      "source_sha256": "bbb0d35a6f95713da08172722f115371016da7685fa384271e62bca625ba0559",
+      "archive_sha256": "bbb0d35a6f95713da08172722f115371016da7685fa384271e62bca625ba0559",
+      "post_execution_changes": []
+    },
+    {
+      "source": "/lustre/users/u21111210118/projects/test9/steps/03_af2_restore/gpu_diagnostic.py",
+      "archive": "rebuild/af2/runtime/gpu_diagnostic.py",
+      "bytes": 529,
+      "source_sha256": "41d9ad943d31a8cd39203f2e7a7de1fec89588151f5f495a3aa9bed730317907",
+      "archive_sha256": "41d9ad943d31a8cd39203f2e7a7de1fec89588151f5f495a3aa9bed730317907",
+      "post_execution_changes": []
+    },
+    {
+      "source": "/lustre/users/u21111210118/projects/test9/steps/08_candidate_refolds/prepare.py",
+      "archive": "rebuild/af2/refolds/prepare.py",
+      "bytes": 1782,
+      "source_sha256": "22383f6495ccb18550f366db8db61d64342e7349bad3926261db2a969d621be0",
+      "archive_sha256": "22383f6495ccb18550f366db8db61d64342e7349bad3926261db2a969d621be0",
+      "post_execution_changes": []
+    },
+    {
+      "source": "/lustre/users/u21111210118/projects/test9/steps/08_candidate_refolds/worker.py",
+      "archive": "rebuild/af2/refolds/worker.py",
+      "bytes": 3630,
+      "source_sha256": "6d79cfd5f98a3762ae7739c7eb70fe7cbfe6658e933611e8d6d2db556f6df4b0",
+      "archive_sha256": "6d79cfd5f98a3762ae7739c7eb70fe7cbfe6658e933611e8d6d2db556f6df4b0",
+      "post_execution_changes": []
+    },
+    {
+      "source": "/lustre/users/u21111210118/projects/test9/steps/08_candidate_refolds/run.sh",
+      "archive": "rebuild/af2/refolds/run.sh",
+      "bytes": 560,
+      "source_sha256": "640217840505f6bafec0282e7a044bc7e5280f55e0991abd6f60414924bccf9a",
+      "archive_sha256": "8484d3fe3346966cb22786fc3cc90204e1a2d64c72607ad32424b86e8c503ffc",
+      "post_execution_changes": [
+        "Noninteractive conda activation PS1 guard; no scientific parameter change."
+      ]
+    },
+    {
+      "source": "/lustre/users/u21111210118/projects/test9/steps/08_candidate_refolds/validate.py",
+      "archive": "rebuild/af2/refolds/validate.py",
+      "bytes": 3288,
+      "source_sha256": "c2da2a86a4c4d496174d596efebd1371c86eb5a041fff1d3cca82f8dc0ac56e5",
+      "archive_sha256": "c2da2a86a4c4d496174d596efebd1371c86eb5a041fff1d3cca82f8dc0ac56e5",
+      "post_execution_changes": []
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "status": "ARCHIVED_RECONSTRUCTION_CODE_AND_VERSION_RECEIPTS",
+  "files": [
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/05_design_restore/code/fetch_weights.py",
+        "sha256": "3af2c232e14b30a4969d12d3e5c3544bef55473a5c05798f94e1f9a4be17c67f",
+        "bytes": 971
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/05_design_restore/fetch_weights.py",
+        "sha256": "3af2c232e14b30a4969d12d3e5c3544bef55473a5c05798f94e1f9a4be17c67f",
+        "bytes": 971
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/05_design_restore/code/install.sbatch",
+        "sha256": "2125fd48b102dbff88cea9d51534c2a14dd1dd1564610f78033b0eefc3207fd7",
+        "bytes": 1929
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/05_design_restore/install.sbatch",
+        "sha256": "eec31cfe68f5253a1d33302d297001a64efe28967f7936aa619da23148620f07",
+        "bytes": 1951
+      },
+      "changed": true
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/05_design_restore/code/repair.sbatch",
+        "sha256": "8ed5fea062371c5770f02fb4964746c39d2fede230ffa5bea35f91a511510619",
+        "bytes": 1319
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/05_design_restore/repair.sbatch",
+        "sha256": "0d1cf47263e7a83a225441bbbd4d4cfd7c23decb0e9770f48ce3ac56b20a457b",
+        "bytes": 1341
+      },
+      "changed": true
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/05_design_restore/code/smoke.sbatch",
+        "sha256": "0d977bba8a15a172cab48bc3a54dab2d47955ce0b0edc842b60e60e45312f890",
+        "bytes": 1835
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/05_design_restore/smoke.sbatch",
+        "sha256": "63ffabfd7a9b1294d2ccf27006a9fc46d0117b9379f15a5378574c3b70d09f1a",
+        "bytes": 1857
+      },
+      "changed": true
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/09_boltz_restore/code/evaluate_smoke.sh",
+        "sha256": "84b58fd6ad0c0802ee3c9ad50d3ca89e779a0942430114fde7d31dd066946e38",
+        "bytes": 958
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/09_boltz_restore/evaluate_smoke.sh",
+        "sha256": "84b58fd6ad0c0802ee3c9ad50d3ca89e779a0942430114fde7d31dd066946e38",
+        "bytes": 958
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/09_boltz_restore/code/fetch_assets.py",
+        "sha256": "e260510149861df8e7af173f9fb314c126412a5864fa7c484474dcc5db3bb048",
+        "bytes": 3541
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/09_boltz_restore/fetch_assets.py",
+        "sha256": "e260510149861df8e7af173f9fb314c126412a5864fa7c484474dcc5db3bb048",
+        "bytes": 3541
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/09_boltz_restore/code/install.sh",
+        "sha256": "d1212a11741945c8026e7a9fc6ef49d2855a22a9669477766b4ec98ba6b45eb9",
+        "bytes": 1446
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/09_boltz_restore/install.sh",
+        "sha256": "d1212a11741945c8026e7a9fc6ef49d2855a22a9669477766b4ec98ba6b45eb9",
+        "bytes": 1446
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/09_boltz_restore/code/native_predict_smoke.sh",
+        "sha256": "b6f3a3087146bcd49b9d154d439f533c6a54fe7f843befe4fd7a83bc0c5f2ee1",
+        "bytes": 1150
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/09_boltz_restore/native_predict_smoke.sh",
+        "sha256": "b6f3a3087146bcd49b9d154d439f533c6a54fe7f843befe4fd7a83bc0c5f2ee1",
+        "bytes": 1150
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/09_boltz_restore/code/prepare_native_predict.py",
+        "sha256": "138f1af51096cc323d2064ce6dfcbc2a68e716324aca46bbf2deaf35418950b5",
+        "bytes": 1695
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/09_boltz_restore/prepare_native_predict.py",
+        "sha256": "138f1af51096cc323d2064ce6dfcbc2a68e716324aca46bbf2deaf35418950b5",
+        "bytes": 1695
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/09_boltz_restore/code/register_boltz_runtime.py",
+        "sha256": "72330c0d952a31e3ef42a16081d1d2a598f50b7f6486fd08beb627599dbe1ffa",
+        "bytes": 1927
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/09_boltz_restore/register_boltz_runtime.py",
+        "sha256": "72330c0d952a31e3ef42a16081d1d2a598f50b7f6486fd08beb627599dbe1ffa",
+        "bytes": 1927
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/09_boltz_restore/code/verify_auto_discovery.py",
+        "sha256": "ba1dcfca459853fa1e2851363d3e58ee3c897ae22ba25f0d6f7a42e1bef1b236",
+        "bytes": 3515
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/09_boltz_restore/verify_auto_discovery.py",
+        "sha256": "ba1dcfca459853fa1e2851363d3e58ee3c897ae22ba25f0d6f7a42e1bef1b236",
+        "bytes": 3515
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/09_boltz_restore/code/verify_gpu_evaluation.py",
+        "sha256": "7757411c9d3106b5b2292a2cb9dbad5f6e8b38e25f9e5ede17df671835ed6540",
+        "bytes": 3638
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/09_boltz_restore/verify_gpu_evaluation.py",
+        "sha256": "7757411c9d3106b5b2292a2cb9dbad5f6e8b38e25f9e5ede17df671835ed6540",
+        "bytes": 3638
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/09_boltz_restore/code/verify_native_predict.py",
+        "sha256": "88b8835b52ff550cdaf33ca7e900cd68c029a90a8d33756a5c07784cbc814aca",
+        "bytes": 4515
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/09_boltz_restore/verify_native_predict.py",
+        "sha256": "88b8835b52ff550cdaf33ca7e900cd68c029a90a8d33756a5c07784cbc814aca",
+        "bytes": 4515
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/09_boltz_restore/code/verify_restore.py",
+        "sha256": "66a6545b27bbe472532e5b8a66c6af8856f8fa838f9408e6a4ff664fc1626a81",
+        "bytes": 1792
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/09_boltz_restore/verify_restore.py",
+        "sha256": "66a6545b27bbe472532e5b8a66c6af8856f8fa838f9408e6a4ff664fc1626a81",
+        "bytes": 1792
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/09_boltz_restore/code/write_validation_report.py",
+        "sha256": "232a06062e2d49c4df8a1231f7e17a1815487072cd6b7036ad1e6f2adb5aafd7",
+        "bytes": 5651
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/09_boltz_restore/write_validation_report.py",
+        "sha256": "232a06062e2d49c4df8a1231f7e17a1815487072cd6b7036ad1e6f2adb5aafd7",
+        "bytes": 5651
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/11_physics_restore/code/compat.sbatch",
+        "sha256": "3bdf487332abd8b84d2efb27ca63b5dff2505eaac908479bb97a44e84dff913c",
+        "bytes": 1028
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/11_physics_restore/compat.sbatch",
+        "sha256": "cfd2ecf5a437d76805f7ca6c45f530bf92eefb97183d7982cc740376526db857",
+        "bytes": 1050
+      },
+      "changed": true
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/11_physics_restore/code/fetch_pyrosetta.py",
+        "sha256": "2791d0ae1250b34e90d787b7e82e58a69ebcdf9ace6fae5c17572cb695ed1f22",
+        "bytes": 1254
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/11_physics_restore/fetch_pyrosetta.py",
+        "sha256": "2791d0ae1250b34e90d787b7e82e58a69ebcdf9ace6fae5c17572cb695ed1f22",
+        "bytes": 1254
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/11_physics_restore/code/install.sbatch",
+        "sha256": "04d12ca16185cbc9403958601be456f1e82fa541a51dad89473ed01863f29562",
+        "bytes": 1365
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/11_physics_restore/install.sbatch",
+        "sha256": "caf51dbe355baa982ba1daea77118ecbeb420461d137ad29ea38d510fb7cb640",
+        "bytes": 1387
+      },
+      "changed": true
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/12_physics_reassessment/code/accept.py",
+        "sha256": "26e14bedcc91a32d22b5c7a741d06d5c7543efff1267bc650e23b878538d61dc",
+        "bytes": 2755
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/12_physics_reassessment/accept.py",
+        "sha256": "26e14bedcc91a32d22b5c7a741d06d5c7543efff1267bc650e23b878538d61dc",
+        "bytes": 2755
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/12_physics_reassessment/code/accept.sbatch",
+        "sha256": "8c58e9c7b6a62834dd31a29d3710ef213ae70ce0df4f116248e4807dcb021ffb",
+        "bytes": 521
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/12_physics_reassessment/accept.sbatch",
+        "sha256": "711e60bab58aa219b0829410d90eb7b704e0577f03c1db5cc1d758491b8aa7d5",
+        "bytes": 543
+      },
+      "changed": true
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/12_physics_reassessment/code/prepare.py",
+        "sha256": "e9dff039ef421540ff6d3792bc695f4f3859dabbad0b9e60f956baa206b7cb33",
+        "bytes": 2402
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/12_physics_reassessment/prepare.py",
+        "sha256": "e9dff039ef421540ff6d3792bc695f4f3859dabbad0b9e60f956baa206b7cb33",
+        "bytes": 2402
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/12_physics_reassessment/code/prepare.sbatch",
+        "sha256": "cea7cc48e60bd546bf1c7a46b0714d61678aee2d46848d43840731cf5893a9d7",
+        "bytes": 503
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/12_physics_reassessment/prepare.sbatch",
+        "sha256": "c623c8d5347890b1e21c0c375db8119e8043fbf8a2c3497fcda73cb7d57dd39e",
+        "bytes": 525
+      },
+      "changed": true
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/12_physics_reassessment/code/worker.sbatch",
+        "sha256": "297452614e952af8fcfedc52d63c065d2406bd0dc3d3f660a9c869a203905277",
+        "bytes": 727
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/12_physics_reassessment/worker.sbatch",
+        "sha256": "297452614e952af8fcfedc52d63c065d2406bd0dc3d3f660a9c869a203905277",
+        "bytes": 727
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/13_backup_validation/code/build_completed_supplement.py",
+        "sha256": "6dc504e056f54166e142d96c411c8821e513b63c5127b703521b13235f554969",
+        "bytes": 7780
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/13_backup_validation/build_completed_supplement.py",
+        "sha256": "6dc504e056f54166e142d96c411c8821e513b63c5127b703521b13235f554969",
+        "bytes": 7780
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/13_backup_validation/code/build_data_archive.py",
+        "sha256": "8654d04561d097abe6588f1d664d054563eb6dd9eba54b468f01efb966bca0b9",
+        "bytes": 9898
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/13_backup_validation/build_data_archive.py",
+        "sha256": "8654d04561d097abe6588f1d664d054563eb6dd9eba54b468f01efb966bca0b9",
+        "bytes": 9898
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/13_backup_validation/code/source_backup.py",
+        "sha256": "9e690b1d0c6a9c39fa4619411dca2dc8bf9e960acc49e7ab48a39405fc453157",
+        "bytes": 4639
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/13_backup_validation/source_backup.py",
+        "sha256": "9e690b1d0c6a9c39fa4619411dca2dc8bf9e960acc49e7ab48a39405fc453157",
+        "bytes": 4639
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/13_backup_validation/code/source_backup.sbatch",
+        "sha256": "11168e37355e6ee010fb15c2668f7aa5863a031480afd02846d08dca6a464dd3",
+        "bytes": 521
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/13_backup_validation/source_backup.sbatch",
+        "sha256": "533a689dbd7c10f8def8591f85565f3bd16fb4dfc65de61b867632801b177453",
+        "bytes": 543
+      },
+      "changed": true
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/13_backup_validation/code/source_backup_final.py",
+        "sha256": "270129bc8401cce26edd0487855700a20295925f877e255edcee0421b5db815b",
+        "bytes": 4668
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/13_backup_validation/source_backup_final.py",
+        "sha256": "270129bc8401cce26edd0487855700a20295925f877e255edcee0421b5db815b",
+        "bytes": 4668
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/13_backup_validation/code/verify_completed_supplement.py",
+        "sha256": "a368a868b2ad5d2620858312189a2081ca42e5b1f0bfab469b8641e59e2d43b7",
+        "bytes": 6207
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/13_backup_validation/verify_completed_supplement.py",
+        "sha256": "a368a868b2ad5d2620858312189a2081ca42e5b1f0bfab469b8641e59e2d43b7",
+        "bytes": 6207
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/13_backup_validation/code/verify_data_archive.py",
+        "sha256": "d21bc5edcbbbe72be941533d91b8802e5eb2c097792ede6a012e62c5bba2c02e",
+        "bytes": 4237
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/deployment/13_backup_validation/verify_data_archive.py",
+        "sha256": "d21bc5edcbbbe72be941533d91b8802e5eb2c097792ede6a012e62c5bba2c02e",
+        "bytes": 4237
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz-cli.txt",
+        "sha256": "8383550a8dfceb7cb96045a29a5cf069f8ecc85da992444b80f89fe9398a5354",
+        "bytes": 5735
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/environment/rebuild-freezes/boltz-cli.txt",
+        "sha256": "8383550a8dfceb7cb96045a29a5cf069f8ecc85da992444b80f89fe9398a5354",
+        "bytes": 5735
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz-explicit.txt",
+        "sha256": "8c8f4ac2cd4c5231ece0be0be032373ff16b292544255be5743c7bd25c1e3a02",
+        "bytes": 2998
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/environment/rebuild-freezes/boltz-explicit.txt",
+        "sha256": "8c8f4ac2cd4c5231ece0be0be032373ff16b292544255be5743c7bd25c1e3a02",
+        "bytes": 2998
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz-freeze.txt",
+        "sha256": "fa7f71895adb33f2d3319a4977e21a93c04d885914d2d6b98ee5cb00e977bb46",
+        "bytes": 1767
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/environment/rebuild-freezes/boltz-freeze.txt",
+        "sha256": "fa7f71895adb33f2d3319a4977e21a93c04d885914d2d6b98ee5cb00e977bb46",
+        "bytes": 1767
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/env/core-explicit.txt",
+        "sha256": "7565b4bb39716a52a6cabe9ea15e9c0059340253690a85be94a75e937f25d157",
+        "bytes": 8153
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/environment/rebuild-freezes/core-explicit.txt",
+        "sha256": "7565b4bb39716a52a6cabe9ea15e9c0059340253690a85be94a75e937f25d157",
+        "bytes": 8153
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/env/physics-explicit.txt",
+        "sha256": "dc4634f0698555cb5ff331cf5f0aa3be30f7a6e5309ece5b59c1f9909e06d370",
+        "bytes": 4858
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/environment/rebuild-freezes/physics-explicit.txt",
+        "sha256": "dc4634f0698555cb5ff331cf5f0aa3be30f7a6e5309ece5b59c1f9909e06d370",
+        "bytes": 4858
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/env/physics-freeze.txt",
+        "sha256": "fc44edeac4b40d26cc8a84900453e8a18056467c73b90dc00d91d285b11772eb",
+        "bytes": 727
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/environment/rebuild-freezes/physics-freeze.txt",
+        "sha256": "fc44edeac4b40d26cc8a84900453e8a18056467c73b90dc00d91d285b11772eb",
+        "bytes": 727
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd-explicit.txt",
+        "sha256": "98ecbc2c7b70adedce014277e5c822e70a3d271b020e9134e126c0e9cc7b8993",
+        "bytes": 2775
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/environment/rebuild-freezes/rfd-explicit.txt",
+        "sha256": "98ecbc2c7b70adedce014277e5c822e70a3d271b020e9134e126c0e9cc7b8993",
+        "bytes": 2775
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd-freeze.txt",
+        "sha256": "d6e55173d2899930c0899219f76a0ecafd3287f28d0d6592e7bf3f69a265b877",
+        "bytes": 1081
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/environment/rebuild-freezes/rfd-freeze.txt",
+        "sha256": "d6e55173d2899930c0899219f76a0ecafd3287f28d0d6592e7bf3f69a265b877",
+        "bytes": 1081
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/assets/boltz/boltz2_aff.ckpt.receipt.json",
+        "sha256": "a185621293d9216890dfd95f2ca28035d6746be45b13e61f27e67cb652985302",
+        "bytes": 588
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/environment/rebuild-assets/boltz/boltz2_aff.ckpt.receipt.json",
+        "sha256": "a185621293d9216890dfd95f2ca28035d6746be45b13e61f27e67cb652985302",
+        "bytes": 588
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/assets/boltz/boltz2_conf.ckpt.receipt.json",
+        "sha256": "f6c85717b72d8b590c188fab04db4f60183f92f7c46add833f8f7d0095fc9430",
+        "bytes": 590
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/environment/rebuild-assets/boltz/boltz2_conf.ckpt.receipt.json",
+        "sha256": "f6c85717b72d8b590c188fab04db4f60183f92f7c46add833f8f7d0095fc9430",
+        "bytes": 590
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/assets/boltz/mols.tar.receipt.json",
+        "sha256": "65299908e5102aad2a07f1219fec00f64be7068be1253cafc38f9f9d20bcbdc6",
+        "bytes": 574
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/environment/rebuild-assets/boltz/mols.tar.receipt.json",
+        "sha256": "65299908e5102aad2a07f1219fec00f64be7068be1253cafc38f9f9d20bcbdc6",
+        "bytes": 574
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/assets/pyrosetta/receipt.json",
+        "sha256": "bea70bcbdd691160db296905e0d852ab207951cd7831178fd93459b3033360af",
+        "bytes": 520
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/environment/rebuild-assets/pyrosetta/receipt.json",
+        "sha256": "bea70bcbdd691160db296905e0d852ab207951cd7831178fd93459b3033360af",
+        "bytes": 520
+      },
+      "changed": false
+    },
+    {
+      "source": {
+        "path": "/lustre/users/u21111210118/projects/test9/assets/rfdiffusion/Complex_base_ckpt.receipt.json",
+        "sha256": "53785044644ef1125110ceeb4a77743a5923d0f703129c8cdaa4c86f7cca52cd",
+        "bytes": 409
+      },
+      "archived": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/environment/rebuild-assets/rfdiffusion/Complex_base_ckpt.receipt.json",
+        "sha256": "53785044644ef1125110ceeb4a77743a5923d0f703129c8cdaa4c86f7cca52cd",
+        "bytes": 409
+      },
+      "changed": false
+    }
+  ]
+}

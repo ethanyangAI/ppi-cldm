@@ -1,0 +1,180 @@
+{
+  "schema": "paired-budget-source-snapshot-v4",
+  "status": "IMMUTABLE_ARRAY_ACCOUNTING_PILOT_BUDGET_SNAPSHOT",
+  "slurm_job_id": "13089",
+  "scheduler": "JobId=13089 JobName=ppi_budget_v4_snapshot UserId=u21111210118(6263900) GroupId=u21111210118(6263900) MCS_label=N/A Priority=1 Nice=0 Account=u21111210118 QOS=normal JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:00 TimeLimit=00:05:00 TimeMin=N/A SubmitTime=2026-10-11T13:35:17 EligibleTime=2026-10-11T13:35:17 AccrueTime=2026-10-11T13:35:17 StartTime=2026-10-11T13:35:18 EndTime=2026-10-11T13:40:18 Deadline=N/A PreemptEligibleTime=2026-10-11T13:35:18 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-11T13:35:18 Scheduler=Main Partition=organ AllocNode:Sid=workstation:3982601 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu1 BatchHost=gpu1 NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:* TRES=cpu=1,node=1,billing=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=1 MinMemoryNode=1G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/snapshot_budget_v4.sbatch WorkDir=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark StdErr=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/logs/snapshot_budget_v4_13089.log StdIn=/dev/null StdOut=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/logs/snapshot_budget_v4_13089.log Power= \n",
+  "scheduler_alloc_tres": "cpu=1,node=1,billing=1",
+  "files": [
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/paired_budget_benchmark.py",
+        "bytes": 84446,
+        "sha256": "b37227bd862ee1425a59f5308be1ee3f4824042dea5d71c1269ad0f406b318f9"
+      },
+      "snapshot": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v4/source/paired_budget_benchmark.py",
+        "bytes": 84446,
+        "sha256": "b37227bd862ee1425a59f5308be1ee3f4824042dea5d71c1269ad0f406b318f9"
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/paired_budget_independent.py",
+        "bytes": 37640,
+        "sha256": "5128ce9776371dd88a48bac7c95fbe0a6e2c8496253394d0ea657799768aaa54"
+      },
+      "snapshot": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v4/source/paired_budget_independent.py",
+        "bytes": 37640,
+        "sha256": "5128ce9776371dd88a48bac7c95fbe0a6e2c8496253394d0ea657799768aaa54"
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/test_paired_budget_benchmark.py",
+        "bytes": 70116,
+        "sha256": "3f9908ecce1e5f0be266f5cd7b6801b5f72064735c09623b0b282582fbce6189"
+      },
+      "snapshot": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v4/source/test_paired_budget_benchmark.py",
+        "bytes": 70116,
+        "sha256": "3f9908ecce1e5f0be266f5cd7b6801b5f72064735c09623b0b282582fbce6189"
+      }
+    },
+    {
+      "original": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/PAIRED_BUDGET_API.md",
+        "bytes": 25269,
+        "sha256": "8a0341afd2d1fcdc1b7db31d608c1beca0cc2408baa496ee277da87047b9a718"
+      },
+      "snapshot": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v4/source/PAIRED_BUDGET_API.md",
+        "bytes": 25269,
+        "sha256": "8a0341afd2d1fcdc1b7db31d608c1beca0cc2408baa496ee277da87047b9a718"
+      }
+    }
+  ],
+  "contract_tests": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/tests_13088/receipt.json",
+    "bytes": 1592,
+    "sha256": "f82df0e04f7a4c289368bedfee8779864b29b1ac8b325e20b84097531ca99e6b"
+  },
+  "n_tests": 74,
+  "previous_snapshots_preserved": [
+    {
+      "snapshot": "pilot_v1",
+      "all_original_bytes_unchanged": true,
+      "receipts": [
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v1/source/snapshot_manifest.json",
+          "bytes": 4154,
+          "sha256": "62a985429fe4c67ec1660d12ac97ba415864cfd52452e42ab2ea8d6c01ed922d"
+        },
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v1/source/paired_budget_benchmark.py",
+          "bytes": 71002,
+          "sha256": "858aa2c994dbe168caecd55e589ef901e987406eeefca20051197b150788d7e2"
+        },
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v1/source/paired_budget_independent.py",
+          "bytes": 27898,
+          "sha256": "64f3c408d0138c9046191b5bc636ea353c5791b5607f6f498f63e5faab04e4f1"
+        },
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v1/source/test_paired_budget_benchmark.py",
+          "bytes": 50692,
+          "sha256": "891527da8a128f6ff7447378e733471f4e32e3ea9eebc7107d76d76968a00164"
+        },
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v1/source/PAIRED_BUDGET_API.md",
+          "bytes": 16070,
+          "sha256": "156eab7cc36a64c69c39b57a56d177398070d5037b9b61bb4c78cb647197491c"
+        },
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/tests_13006/receipt.json",
+          "bytes": 1082,
+          "sha256": "25736406186cd36e8217a5780e375941ea0c58b95c3a083c2882c245c8ff8b6a"
+        }
+      ]
+    },
+    {
+      "snapshot": "pilot_budget_v2",
+      "all_original_bytes_unchanged": true,
+      "receipts": [
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v2/source/snapshot_manifest.json",
+          "bytes": 6622,
+          "sha256": "429a4232dd1f52b438e36985f404d75f208a6031c2c54fd1d54dfd913923a22c"
+        },
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v2/source/paired_budget_benchmark.py",
+          "bytes": 78406,
+          "sha256": "633075ce84aa554bfb74d3fc1ddf1cc033840e791335e5d3572ebd47c3dd7f3f"
+        },
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v2/source/paired_budget_independent.py",
+          "bytes": 33828,
+          "sha256": "0917b855efe622593eb407d0c80ec46a75ca053206e6e698b14f2cbbbbfdc2ea"
+        },
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v2/source/test_paired_budget_benchmark.py",
+          "bytes": 57581,
+          "sha256": "9748d4dfb15290abc5af1b79c2893293c33dd38c740a3e96d19af65f57ea9e23"
+        },
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v2/source/PAIRED_BUDGET_API.md",
+          "bytes": 20058,
+          "sha256": "72e8ca0584bb08e74faed2b885ce55c6e34feff285d7844cbc039190d6dbe09c"
+        },
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/tests_13056/receipt.json",
+          "bytes": 1592,
+          "sha256": "9ef0056535c6ef330b366970419e6656122d374793aa297852b789bb9b60a52a"
+        }
+      ]
+    },
+    {
+      "snapshot": "pilot_budget_v3",
+      "all_original_bytes_unchanged": true,
+      "receipts": [
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v3/source/snapshot_manifest.json",
+          "bytes": 8176,
+          "sha256": "b995f33dc45931198e7212384c3d07e9b90d4ccebd98f4f9a098dc7478e36e8e"
+        },
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v3/source/paired_budget_benchmark.py",
+          "bytes": 82575,
+          "sha256": "85a3561a3b9acd01d4bc87fc9769017a112f503727e6cd67e036906bde7fcac2"
+        },
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v3/source/paired_budget_independent.py",
+          "bytes": 36591,
+          "sha256": "99ed755d8384833a7a60714eeedeb72cbc842e199903671c086bd218f1ba1e19"
+        },
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v3/source/test_paired_budget_benchmark.py",
+          "bytes": 65798,
+          "sha256": "ac66d4a4abf87ba85de21d2555784e2e77df68c2c16e5fe295b00d6433b6ba2e"
+        },
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v3/source/PAIRED_BUDGET_API.md",
+          "bytes": 23177,
+          "sha256": "e5f209774435c537219d2730aa1fb089d46220ee0aa7baa42725950d44637cea"
+        },
+        {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/tests_13079/receipt.json",
+          "bytes": 1592,
+          "sha256": "c27d046f5e47b74087eb8ffc258c89d92adfcca4ba0dec5fb8abfb4501e476e7"
+        }
+      ]
+    }
+  ],
+  "fix": "Unique selected original scontrol record; numeric physical allocation ID/array alias; scoped RUNNING/StartTime/TRES; 8/9-field sacct",
+  "scope": "CPU software snapshot only; no GPU/model inference or scientific results",
+  "snapshot_utility": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/snapshot_budget_v4_sources.py",
+    "bytes": 3889,
+    "sha256": "deadd2cd0fbdd40dc37f2732e883d1622ad9580e8206cd2b6c08a6404cd37476"
+  }
+}

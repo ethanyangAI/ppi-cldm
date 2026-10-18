@@ -1,0 +1,25 @@
+{
+  "schema": "source-delivery-refresh-incomplete.v3",
+  "status": "SOURCE_REFRESH_INCOMPLETE_NO_STAGING_NO_RESULT_PROMOTION",
+  "failed_stage": "EXACT_CURRENT_SOURCE_AND_RECEIPT_CLOSURE",
+  "error_type": "FileNotFoundError",
+  "error": "Exact operative bytes unavailable: /lustre/users/u21111210118/projects/test9/source/rebuild/benchmark_common_review.py 3f0da7ebbaa0db916c9a39781e83c61ee7b0a136687b4242c5253649abd14740",
+  "traceback": "Traceback (most recent call last):\n  File \"/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/source_delivery_refresh_v9.py\", line 505, in audit\n    try:return _audit(out,software_acceptance_path)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/source_delivery_refresh_v9.py\", line 410, in _audit\n    p,basis=resolve(r)\n            ^^^^^^^^^^\n  File \"/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/source_delivery_refresh_v9.py\", line 378, in resolve\n    if not found:raise FileNotFoundError(\"Exact operative bytes unavailable: \"+r[\"path\"]+\" \"+r[\"sha256\"])\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: Exact operative bytes unavailable: /lustre/users/u21111210118/projects/test9/source/rebuild/benchmark_common_review.py 3f0da7ebbaa0db916c9a39781e83c61ee7b0a136687b4242c5253649abd14740\n",
+  "failed_previous_source_job": "13262",
+  "failed_previous_relative_source_job": "13279",
+  "failed_previous_context_source_job": "13293",
+  "failed_previous_five_context_source_job": "13297",
+  "diagnostic_only_jobs": [
+    "13285",
+    "13290",
+    "13295",
+    "13298",
+    "13299"
+  ],
+  "previous_failure_retained": true,
+  "external_files_read": false,
+  "source_staged": false,
+  "ACTIVE_changed": false,
+  "GPU_submitted": false,
+  "models_recomputed": false
+}

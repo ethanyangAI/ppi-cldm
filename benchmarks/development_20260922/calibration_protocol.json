@@ -1,0 +1,84 @@
+{
+  "id": "LOCAL-BOLTZ2-CALIBRATION-20260922-v1",
+  "purpose": "Retrospective evaluator diagnostic; no experimental blockade inference",
+  "inputs": [
+    "/lustre/users/u21111210118/projects/test9/steps/41_control_constructs/runs/20260922T101321Z_2f8f58bad35d/outputs/controls.json"
+  ],
+  "selection": "60 preselected by sequence ID hash within published target and label; 10 positive and 10 negative per target; model scores not used",
+  "split": {
+    "Mdm2": "MDM2_family",
+    "IL7Ra": "immunoglobulin_superfamily_receptors",
+    "Pdl1": "immunoglobulin_superfamily_receptors"
+  },
+  "sequence_homology_audit": "required_before_stronger_independence_claim",
+  "protocol": {
+    "model": "boltz2",
+    "samples": 3,
+    "recycles": 3,
+    "sampling_steps": 200,
+    "seed": 1042,
+    "msa": "empty_target_and_binder",
+    "templates": false,
+    "constraints": false
+  },
+  "candidate_rules": [
+    {
+      "name": "legacy_v1",
+      "min_pair_iptm": 0.75,
+      "max_interface_pae": 8,
+      "min_complex_plddt": 0.8,
+      "min_partner_plddt": 0.8,
+      "min_interface_plddt": 0.8
+    },
+    {
+      "name": "interface_focused_v1",
+      "min_pair_iptm": 0.75,
+      "max_interface_pae": 8,
+      "min_interface_plddt": 0.8
+    },
+    {
+      "name": "core_interface_v1",
+      "min_pair_iptm": 0.75,
+      "max_interface_pae": 8,
+      "min_interface_plddt": 0.8,
+      "min_binder_core_plddt": 0.8,
+      "core_definition": "design_CA_has_at_least_8_CA_neighbors_within_10A_excluding_self; otherwise_not_estimable"
+    }
+  ],
+  "all_rules_require": "at_least_3_interface_residues_per_chain; minimum_heavy_atom_distance>=1.5A; 2_of_3_samples",
+  "exploratory_threshold_search": {
+    "iptm": [
+      0.5,
+      0.6,
+      0.7,
+      0.75,
+      0.8
+    ],
+    "pae": [
+      5,
+      8,
+      10
+    ],
+    "interface_plddt": [
+      0.7,
+      0.8
+    ],
+    "objective": "training target-macro balanced accuracy",
+    "ties": "higher iptm then lower pae then higher plddt",
+    "validation": "leave_conservative_family_out; no test-fold parameter selection",
+    "status": "diagnostic_only_if_less_than_3_qualified_families"
+  },
+  "endpoints": [
+    "sensitivity",
+    "specificity",
+    "target_macro_balanced_accuracy",
+    "ROC_AUC"
+  ],
+  "excluded_claims": [
+    "population_PPV_from_case_control_sample",
+    "binding_probability_without_assay_adjudication",
+    "competition_from_binding_label"
+  ],
+  "missing": "inference_failure and missing_assay_metadata separately reported; never drop failure from workflow_yield denominator",
+  "promotion": "requires >=3 qualified target families with resolved assay constructs and usable positive/negative binding labels; independent prospective confirmation; this 60-control panel alone has only 2 conservative family groups"
+}

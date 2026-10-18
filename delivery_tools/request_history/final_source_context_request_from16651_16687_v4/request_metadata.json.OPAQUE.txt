@@ -1,0 +1,30 @@
+{
+  "schema": "root-new-source-materialized-adapter-request-text-preparation-metadata.v1",
+  "prepared_at_UTC": "2026-10-15T12:03:09.886423Z",
+  "metadata_only": true,
+  "no_login_hash": true,
+  "request_metadata": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/final_source_context_request_from16651_16687_v4/request.json",
+    "bytes": 1263,
+    "inode": 144115643443090881,
+    "mtime_ns": 1792065789000000000,
+    "mode": 436,
+    "nlink": 1,
+    "regular": true,
+    "nonlink": true
+  },
+  "old_request_immutable": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/submissions/final_source_materialized_context_from16557_plan_v3_request/request.json",
+  "exact13_fields_only_current_software_and_actual_new_Plan_changed": true,
+  "actual_Plan_CPU_job_id_as_scalar": "16687",
+  "actual_Plan_CPU_capture_control_as_scalar": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/final_source_plan_v4_ownsha_16687/capture.json",
+  "actual_Plan_CPU_terminal_RO_control_as_scalar": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/submissions/final_source_plan_v4_ownsha16687_actual_terminal_metadata_seal/receipt.json",
+  "actual_Plan_CPU_terminal_RO_control_bytes_as_scalar": 62458,
+  "base_and_maps_and_exact17_remain_from_Plan": true,
+  "three_false_and_five_empty_alias_arrays_unchanged": true,
+  "root_and_independent_actual_16687_terminal_RO_readback_PASS": true,
+  "request_readonly_seal_not_yet_performed": true,
+  "request_own_SHA_not_yet_captured": true,
+  "Source_audit_submitted_or_executed": false,
+  "stage_publication_or_science_acceptance": false,
+  "own_created_controls_LATE_Composer_not_Plan_prerequisites": true
+}

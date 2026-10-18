@@ -1,0 +1,114 @@
+{
+  "protocol_id": "PPI-BLOCKER-DEVELOPMENT-20260922-v1",
+  "status": "FROZEN_DEVELOPMENT_PROTOCOL_NOT_CALIBRATED",
+  "baseline_commit": "6e9392dad5c004fa8aa165e64817b7094332b59d",
+  "scope": "protein_or_peptide_blockers",
+  "historical_data_role": "development_only_never_independent_test",
+  "development_targets": [
+    "P01_MDM2_TP53",
+    "P06_WDR5_KMT2A",
+    "P09_KEAP1_NFE2L2"
+  ],
+  "excluded": [
+    "P32_HSP90_CDC37_construct_mismatch"
+  ],
+  "primary_scientific_endpoint": "experimentally_confirmed_specific_competitive_blockers_per_preallocated_assay_slot",
+  "endpoints_separate": [
+    "expression",
+    "folding",
+    "binding",
+    "competition",
+    "selectivity",
+    "cellular_function"
+  ],
+  "missing_semantics": "unmeasured_is_not_negative; expression_failure_is_pipeline_loss_not_nonbinding_label",
+  "calibration": {
+    "sources": [
+      "doi:10.1016/j.isci.2025.112621",
+      "doi:10.5281/zenodo.15722219",
+      "doi:10.1038/s41586-025-09429-6"
+    ],
+    "label_requirement": "sequence_construct_assay_provenance; binding_only_does_not_qualify_competition",
+    "split": "target_family_grouped; near_homologs_and_duplicate_sequences_same_partition",
+    "threshold_search": "development_only; never_use_holdout_for_parameter_choice",
+    "transfer": "published_model_metrics_do_not_calibrate_different_local_model_version_or_inference_protocol",
+    "candidate_rules": [
+      "legacy_v1",
+      "interface_focused_without_whole_short_peptide_mean",
+      "binder_core_plus_interface"
+    ],
+    "minimum_qualification": "at_least_three_qualified_target_families_with_positive_and_negative_labels_for_cross_family_calibration; competition_requires_competition_labels"
+  },
+  "diagnostic": {
+    "no_gate_changes": true,
+    "metrics": [
+      "binder_self_aligned_CA_RMSD",
+      "binder_target_aligned_CA_RMSD",
+      "target_CA_RMSD",
+      "core_CA_RMSD",
+      "terminal_CA_RMSD",
+      "pair_distance_RMSD",
+      "design_chain_CA_gaps",
+      "motif_recovery"
+    ],
+    "all_historical_generated_candidates": 32
+  },
+  "generation": {
+    "round_A": {
+      "targets": [
+        "P06",
+        "P09"
+      ],
+      "conditions": [
+        "contact_top3",
+        "contact_diverse3",
+        "full_native_motif",
+        "contact_core_motif"
+      ],
+      "seeds": [
+        142,
+        1142
+      ],
+      "backbones_per_cell": 8,
+      "sequences_per_backbone": 2,
+      "binder_length": 65,
+      "max_sequences": 256
+    },
+    "round_B": {
+      "conditional": true,
+      "max_sequences": 256,
+      "lengths": [
+        65,
+        90
+      ],
+      "max_selected_conditions_per_target": 2,
+      "selection": "frozen calibrated gate passing fraction; tie smaller self_RMSD; then fixed condition order"
+    },
+    "promotion": {
+      "per_target_candidates": 8,
+      "structural_clusters": 3,
+      "independent_seeds": 2
+    },
+    "stop": "no scaling after two failed bounded development rounds"
+  },
+  "main_benchmark": {
+    "conditional": true,
+    "targets": 6,
+    "methods": [
+      "RFdiffusion_ProteinMPNN",
+      "BoltzGen",
+      "BindCraft",
+      "RFdiffusion3"
+    ],
+    "seeds": 2,
+    "sequences_per_cell": 64,
+    "total": 3072,
+    "qualification": "all targets independent of development/calibration families; >=3 interface categories; exact construct and supported context; all methods runtime accepted"
+  },
+  "experimental": {
+    "status": "PLATFORM_AND_BUDGET_PENDING",
+    "proposed_selection_slots": 192,
+    "controls_additional": true,
+    "not_ordered": true
+  }
+}

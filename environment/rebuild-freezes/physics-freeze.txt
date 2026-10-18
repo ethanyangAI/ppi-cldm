@@ -1,0 +1,6 @@
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1682210193659/work
+OpenMM==8.1.1
+packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1785888127/work
+pdbfixer @ file:///home/conda/feedstock_root/build_artifacts/pdbfixer_1684358331657/work
+pyrosetta @ file:///lustre/users/u21111210118/projects/test9/assets/pyrosetta/pyrosetta-2026.29%2Breleasequarterly.80a0635615-cp310-cp310-linux_x86_64.whl#sha256=4383d8d1a14fd3aff52983de936908791cc77bc6ac418e3bc53bb963a42c5242
+scipy @ file:///home/conda/feedstock_root/build_artifacts/scipy-split_1706041478791/work/dist/scipy-1.12.0-cp310-cp310-linux_x86_64.whl#sha256=2f498a77f15907a2dfec49ca55a78d94633a6c8be7ef034a116c41cbea5c4241

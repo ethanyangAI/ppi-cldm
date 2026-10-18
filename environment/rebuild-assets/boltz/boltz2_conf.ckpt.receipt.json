@@ -1,0 +1,20 @@
+{
+  "name": "boltz2_conf.ckpt",
+  "status": "HASH_VERIFIED",
+  "url": "https://hf-mirror.com/boltz-community/boltz-2/resolve/6fdef46d763fee7fbb83ca5501ccceff43b85607/boltz2_conf.ckpt",
+  "hf_commit": "6fdef46d763fee7fbb83ca5501ccceff43b85607",
+  "bytes": 2286561469,
+  "sha256": "090e82ac8c92f5e943fa1b39e7410a44027bea7243c0bbb3caa67a77fc1428e1",
+  "attempts": [
+    {
+      "host": "https://huggingface.co",
+      "attempt": 1,
+      "error_type": "ConnectionError"
+    },
+    {
+      "host": "https://huggingface.co",
+      "attempt": 2,
+      "error_type": "ConnectionError"
+    }
+  ]
+}

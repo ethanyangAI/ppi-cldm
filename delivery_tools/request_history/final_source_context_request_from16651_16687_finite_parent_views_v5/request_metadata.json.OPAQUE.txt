@@ -1,0 +1,472 @@
+{
+  "schema": "root-finite-parent-view-alias-request-text-preparation-metadata.v1",
+  "prepared_at_UTC": "2026-10-15T13:41:56.811893Z",
+  "metadata_only": true,
+  "text_preparation_only": true,
+  "no_login_hash": true,
+  "request_current_initial_metadata": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/final_source_context_request_from16651_16687_finite_parent_views_v5/request.json",
+    "bytes": 6549,
+    "inode": 144115643443091292,
+    "mtime_ns": 1792071716000000000,
+    "ctime_ns": 1792071716000000000,
+    "mode": 436,
+    "nlink": 1,
+    "regular": true,
+    "nonlink": true
+  },
+  "old_request_retained_unchanged_as_scalar": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/final_source_context_request_from16651_16687_v4/request.json",
+  "old_request_metadata_retained_unchanged_as_scalar": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/final_source_context_request_from16651_16687_v4/request_metadata.json",
+  "exact13_key_order_unchanged": true,
+  "only_request_field_changed": "finite_source_parent_aliases",
+  "existing_reader_parameter": "VerifiedFiniteSourceReader.parent_aliases",
+  "existing_qualified_scope": "EXACT_EXISTING_6_SOURCE_5_PROOF_1_GENERATED_LOGICAL_PARENTS",
+  "finite_parent_alias_n": 8,
+  "finite_source_parent_copy_n": 3,
+  "finite_proof_parent_copy_n": 5,
+  "ordered_Plan17_indices": [
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    16
+  ],
+  "ordered_BaseI_files_indices": [
+    238,
+    249,
+    265,
+    263,
+    250,
+    283,
+    228,
+    239
+  ],
+  "finite_parent_alias_scope_rows": [
+    {
+      "plan17_index": 7,
+      "BaseI_files_index": 238,
+      "reader_group": "FINITE_SOURCE_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/manifest.json",
+        "bytes": 11279,
+        "sha256": "43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47_manifest.json",
+        "bytes": 11279,
+        "sha256": "43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/manifest.json",
+        "bytes": 11279,
+        "inode": 144115639668211355,
+        "mtime_ns": 1791726075000000000,
+        "ctime_ns": 1791726075000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47_manifest.json",
+        "bytes": 11279,
+        "inode": 144115639668233103,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true,
+      "accepted_BaseI_source_kind": "CONFIGURATION_OR_LAUNCHER",
+      "accepted_BaseI_source_roles": [
+        "EXACT_SOURCE_RECOVERY_BYTES_AND_REPLAY_PROVENANCE"
+      ],
+      "accepted_BaseI_repository_relative": "rebuild/benchmarks/20261011/exact_source_recovery_provenance/43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47_manifest.json"
+    },
+    {
+      "plan17_index": 8,
+      "BaseI_files_index": 249,
+      "reader_group": "FINITE_SOURCE_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13168/acceptance.json",
+        "bytes": 3201,
+        "sha256": "62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142_acceptance.json",
+        "bytes": 3201,
+        "sha256": "62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13168/acceptance.json",
+        "bytes": 3201,
+        "inode": 144115639668207719,
+        "mtime_ns": 1791699615000000000,
+        "ctime_ns": 1791699615000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142_acceptance.json",
+        "bytes": 3201,
+        "inode": 144115639668233110,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true,
+      "accepted_BaseI_source_kind": "CONFIGURATION_OR_LAUNCHER",
+      "accepted_BaseI_source_roles": [
+        "EXACT_SOURCE_RECOVERY_BYTES_AND_REPLAY_PROVENANCE"
+      ],
+      "accepted_BaseI_repository_relative": "rebuild/benchmarks/20261011/exact_source_recovery_provenance/62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142_acceptance.json"
+    },
+    {
+      "plan17_index": 9,
+      "BaseI_files_index": 265,
+      "reader_group": "FINITE_SOURCE_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13180/acceptance.json",
+        "bytes": 3201,
+        "sha256": "b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb_acceptance.json",
+        "bytes": 3201,
+        "sha256": "b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13180/acceptance.json",
+        "bytes": 3201,
+        "inode": 144115639668209198,
+        "mtime_ns": 1791699932000000000,
+        "ctime_ns": 1791699932000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb_acceptance.json",
+        "bytes": 3201,
+        "inode": 144115639668233123,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true,
+      "accepted_BaseI_source_kind": "CONFIGURATION_OR_LAUNCHER",
+      "accepted_BaseI_source_roles": [
+        "EXACT_SOURCE_RECOVERY_BYTES_AND_REPLAY_PROVENANCE"
+      ],
+      "accepted_BaseI_repository_relative": "rebuild/benchmarks/20261011/exact_source_recovery_provenance/b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb_acceptance.json"
+    },
+    {
+      "plan17_index": 10,
+      "BaseI_files_index": 263,
+      "reader_group": "FINITE_PROOF_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/source_bundle.json",
+        "bytes": 8124,
+        "sha256": "9b89ed8b673597002e6ce52cc6561e009ad2041a253b6484cfacaa7896c8c1e9"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/9b89ed8b673597002e6ce52cc6561e009ad2041a253b6484cfacaa7896c8c1e9_source_bundle.json",
+        "bytes": 8124,
+        "sha256": "9b89ed8b673597002e6ce52cc6561e009ad2041a253b6484cfacaa7896c8c1e9"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/source_bundle.json",
+        "bytes": 8124,
+        "inode": 144115639668186111,
+        "mtime_ns": 1791695838000000000,
+        "ctime_ns": 1791695838000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/9b89ed8b673597002e6ce52cc6561e009ad2041a253b6484cfacaa7896c8c1e9_source_bundle.json",
+        "bytes": 8124,
+        "inode": 144115639668233121,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true,
+      "accepted_BaseI_source_kind": "CONFIGURATION_OR_LAUNCHER",
+      "accepted_BaseI_source_roles": [
+        "EXACT_SOURCE_RECOVERY_BYTES_AND_REPLAY_PROVENANCE"
+      ],
+      "accepted_BaseI_repository_relative": "rebuild/benchmarks/20261011/exact_source_recovery_provenance/9b89ed8b673597002e6ce52cc6561e009ad2041a253b6484cfacaa7896c8c1e9_source_bundle.json"
+    },
+    {
+      "plan17_index": 12,
+      "BaseI_files_index": 250,
+      "reader_group": "FINITE_PROOF_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/source_bundle.json",
+        "bytes": 10053,
+        "sha256": "729e3acd0cd371cf2a4dd571850d241c4a9a0fb2470090b178f36d8bc058f500"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/729e3acd0cd371cf2a4dd571850d241c4a9a0fb2470090b178f36d8bc058f500_source_bundle.json",
+        "bytes": 10053,
+        "sha256": "729e3acd0cd371cf2a4dd571850d241c4a9a0fb2470090b178f36d8bc058f500"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/source_bundle.json",
+        "bytes": 10053,
+        "inode": 144115639668182965,
+        "mtime_ns": 1791694497000000000,
+        "ctime_ns": 1791694497000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/729e3acd0cd371cf2a4dd571850d241c4a9a0fb2470090b178f36d8bc058f500_source_bundle.json",
+        "bytes": 10053,
+        "inode": 144115639668233111,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true,
+      "accepted_BaseI_source_kind": "CONFIGURATION_OR_LAUNCHER",
+      "accepted_BaseI_source_roles": [
+        "EXACT_SOURCE_RECOVERY_BYTES_AND_REPLAY_PROVENANCE"
+      ],
+      "accepted_BaseI_repository_relative": "rebuild/benchmarks/20261011/exact_source_recovery_provenance/729e3acd0cd371cf2a4dd571850d241c4a9a0fb2470090b178f36d8bc058f500_source_bundle.json"
+    },
+    {
+      "plan17_index": 13,
+      "BaseI_files_index": 283,
+      "reader_group": "FINITE_PROOF_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_bbf_recorded_recovery_diagnostic_13313/diagnostic.json",
+        "bytes": 34363,
+        "sha256": "f77e8e0ec5331da3003349792dcb735f4d8836d014d7fa484e07321c1b3b5f3f"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/f77e8e0ec5331da3003349792dcb735f4d8836d014d7fa484e07321c1b3b5f3f_diagnostic.json",
+        "bytes": 34363,
+        "sha256": "f77e8e0ec5331da3003349792dcb735f4d8836d014d7fa484e07321c1b3b5f3f"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_bbf_recorded_recovery_diagnostic_13313/diagnostic.json",
+        "bytes": 34363,
+        "inode": 144115639668231787,
+        "mtime_ns": 1791743996000000000,
+        "ctime_ns": 1791743996000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/f77e8e0ec5331da3003349792dcb735f4d8836d014d7fa484e07321c1b3b5f3f_diagnostic.json",
+        "bytes": 34363,
+        "inode": 144115639668233136,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true,
+      "accepted_BaseI_source_kind": "CONFIGURATION_OR_LAUNCHER",
+      "accepted_BaseI_source_roles": [
+        "EXACT_SOURCE_RECOVERY_BYTES_AND_REPLAY_PROVENANCE"
+      ],
+      "accepted_BaseI_repository_relative": "rebuild/benchmarks/20261011/exact_source_recovery_provenance/f77e8e0ec5331da3003349792dcb735f4d8836d014d7fa484e07321c1b3b5f3f_diagnostic.json"
+    },
+    {
+      "plan17_index": 14,
+      "BaseI_files_index": 228,
+      "reader_group": "FINITE_PROOF_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_missing_operative_inventory_13308/diagnostic.json",
+        "bytes": 207548,
+        "sha256": "2a22a7f4aa4a787f934b72a1fe7ec4bf84c1891c08944120093519d4b469ba11"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/2a22a7f4aa4a787f934b72a1fe7ec4bf84c1891c08944120093519d4b469ba11_diagnostic.json",
+        "bytes": 207548,
+        "sha256": "2a22a7f4aa4a787f934b72a1fe7ec4bf84c1891c08944120093519d4b469ba11"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_missing_operative_inventory_13308/diagnostic.json",
+        "bytes": 207548,
+        "inode": 144115639668231474,
+        "mtime_ns": 1791742363000000000,
+        "ctime_ns": 1791742363000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/2a22a7f4aa4a787f934b72a1fe7ec4bf84c1891c08944120093519d4b469ba11_diagnostic.json",
+        "bytes": 207548,
+        "inode": 144115639668233095,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true,
+      "accepted_BaseI_source_kind": "CONFIGURATION_OR_LAUNCHER",
+      "accepted_BaseI_source_roles": [
+        "EXACT_SOURCE_RECOVERY_BYTES_AND_REPLAY_PROVENANCE"
+      ],
+      "accepted_BaseI_repository_relative": "rebuild/benchmarks/20261011/exact_source_recovery_provenance/2a22a7f4aa4a787f934b72a1fe7ec4bf84c1891c08944120093519d4b469ba11_diagnostic.json"
+    },
+    {
+      "plan17_index": 16,
+      "BaseI_files_index": 239,
+      "reader_group": "FINITE_PROOF_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_saved_byte_recovery_diagnostic_13310/diagnostic.json",
+        "bytes": 75704,
+        "sha256": "48ce0453db4927cacea9804354fc9b0f598ca598922ff778f0f2024debc4b1ea"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/48ce0453db4927cacea9804354fc9b0f598ca598922ff778f0f2024debc4b1ea_diagnostic.json",
+        "bytes": 75704,
+        "sha256": "48ce0453db4927cacea9804354fc9b0f598ca598922ff778f0f2024debc4b1ea"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_saved_byte_recovery_diagnostic_13310/diagnostic.json",
+        "bytes": 75704,
+        "inode": 144115639668231762,
+        "mtime_ns": 1791743378000000000,
+        "ctime_ns": 1791743378000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/48ce0453db4927cacea9804354fc9b0f598ca598922ff778f0f2024debc4b1ea_diagnostic.json",
+        "bytes": 75704,
+        "inode": 144115639668233104,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 292,
+        "nlink": 1,
+        "regular": true,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true,
+      "accepted_BaseI_source_kind": "CONFIGURATION_OR_LAUNCHER",
+      "accepted_BaseI_source_roles": [
+        "EXACT_SOURCE_RECOVERY_BYTES_AND_REPLAY_PROVENANCE"
+      ],
+      "accepted_BaseI_repository_relative": "rebuild/benchmarks/20261011/exact_source_recovery_provenance/48ce0453db4927cacea9804354fc9b0f598ca598922ff778f0f2024debc4b1ea_diagnostic.json"
+    }
+  ],
+  "accepted_BaseI": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/source_inclusion_v3.json",
+    "bytes": 784715,
+    "sha256": "8909e49a5a5396827135e9492af393bdc369e2a28d766cc8767ff24f03914f6a"
+  },
+  "accepted_Mapper": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/exact_context_mapper_v4_13319/acceptance.json",
+    "bytes": 15049,
+    "sha256": "a66b8186aa4ba2c737fe3e607f84bb90ecc35b35f271022bbcb66ac3cb327890"
+  },
+  "accepted_Mapper_finite_source_read_view_proof": {
+    "bytes": 766915,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/exact_context_mapper_v4_13319/finite_source_read_view_proof.json",
+    "sha256": "cfeee0eecbf012f14165c3d76990616b5cfa6ec42e7848c9bb4c67aa9caa58b7"
+  },
+  "accepted_Plan": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/final_source_plan_from14706_14925_16651_16671_v4/final_source_plan.json",
+    "bytes": 1941606,
+    "sha256": "b7a8c58b5794ab9b221a70e46fc47614395af20b1fb3f32ef86bd507e387bf30"
+  },
+  "accepted_library_software": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/final_source_finite_worker_alias_software_16651/acceptance.json",
+    "bytes": 6590,
+    "sha256": "5a8bfa759754985cd72bd35cb50192eb2aefef0df3fc73c28aebd4aed00adfe5"
+  },
+  "actual16744_observation": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/submissions/source_byte_identity_failure_observer_16744/observation.json",
+    "bytes": 36244,
+    "sha256": "1b7ab221b669c9082846896c41bde47463b9677470d384778f6ccc49b5a980d4"
+  },
+  "actual16744_observation_current_metadata": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/submissions/source_byte_identity_failure_observer_16744/observation.json",
+    "bytes": 36244,
+    "inode": 144115643493397472,
+    "mtime_ns": 1792070451000000000,
+    "ctime_ns": 1792070451000000000,
+    "mode": 292,
+    "nlink": 1,
+    "regular": true,
+    "nonlink": true
+  },
+  "actual16744_terminal_RO_path_as_scalar": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/submissions/final_source_byte_identity_observer16744_actual_failed_diagnostic_terminal_metadata_seal/receipt.json",
+  "actual16744_terminal_RO_current_metadata_as_scalar": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/submissions/final_source_byte_identity_observer16744_actual_failed_diagnostic_terminal_metadata_seal/receipt.json",
+    "bytes": 1161493,
+    "inode": 144115643443091247,
+    "mtime_ns": 1792070769000000000,
+    "ctime_ns": 1792070769000000000,
+    "mode": 292,
+    "nlink": 1,
+    "regular": true,
+    "nonlink": true
+  },
+  "actual16744_terminal_RO_own_SHA_not_CPU_captured": true,
+  "root_and_two_independent_actual16744_content_readback_PASS": true,
+  "root_and_independent_actual16744_terminal_RO_readback_PASS": true,
+  "actual16744_evidence_scope": "FAILED328_FIXED_SOURCE_IDENTITY_DIAGNOSTIC_ONLY_NOT_SOURCE_PRODUCTION_ACCEPTANCE",
+  "original16700_failure_context_not_retroactively_identified": true,
+  "request_current_mode_is_draft_0664": true,
+  "request_readonly_seal_not_yet_performed": true,
+  "new_request_own_SHA_not_yet_captured": true,
+  "Source_audit_accepted": false,
+  "new_request_executed": false,
+  "source_staged": false,
+  "published": false,
+  "ACTIVE_changed": false,
+  "scientific_acceptance": false,
+  "raw_JSON_changed": false,
+  "generic_relative_permission_added": false,
+  "generic_external_permission_added": false,
+  "new_logical_parent_permission_added": false,
+  "exact17_logical_parents_unchanged": true,
+  "three_Plan_aliases_unchanged": true,
+  "Source_IDs_and_existing22_late_hazard_classification_unchanged": true,
+  "no_new_role_or_software_gate": true,
+  "current_execution_authorized": false,
+  "inventories_matched_exact_complete_receipts_without_glob_or_filename_hash_inference": true,
+  "scientific_receipt_children_opened": false,
+  "own_created_controls_LATE_Composer_not_Plan_prerequisites": true
+}

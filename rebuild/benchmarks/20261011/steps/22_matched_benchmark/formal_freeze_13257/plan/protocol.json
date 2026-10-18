@@ -1,0 +1,244 @@
+{
+  "accounting_tolerance_seconds": 2,
+  "aggregation_policy": "complete_selected_candidate_median_then_both_replicate_mean",
+  "binder_length": 65,
+  "budget_gpu_seconds": 3600,
+  "common_review_gate": {
+    "aggregation": "all_required_models_median",
+    "operator": ">=",
+    "scope": "COMPUTATIONAL_ONLY",
+    "score": "R0",
+    "threshold": 1.0
+  },
+  "common_review_primary": {
+    "endpoint": "R1_official_ipSAE_10A_max_continuous",
+    "engine": "boltz",
+    "models": 3,
+    "operational_pass": null,
+    "seeds": [
+      31011,
+      31012,
+      31013
+    ]
+  },
+  "common_review_secondary": {
+    "endpoint": "separate_R1_R0",
+    "engine": "af2",
+    "model_order": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "models": 5,
+    "pooled_with_primary": false,
+    "seed": 31021
+  },
+  "completion_policy": {
+    "actual_gpu_seconds": 3600,
+    "all_gpu_children_terminated_before_receipt": true,
+    "allowed_scheduler_states": [
+      "COMPLETED",
+      "TIMEOUT"
+    ],
+    "engineering_failure_is_comparable": false,
+    "generation_cutoff_wall_seconds": 3590,
+    "requires_durable_receipt_and_complete_raw_ledger": true,
+    "tolerance_seconds": 2
+  },
+  "concurrency_cap": 2,
+  "engineering_acceptance": {
+    "bytes": 3888,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_freeze_13257/engineering_combined.json",
+    "sha256": "a2cfce1846d9c82e24be7d817a689e9bd9a7f3446e5669c056b5b74029725edb"
+  },
+  "execution_mode": "persistent_session",
+  "gpu_count": 1,
+  "hardware": {
+    "gpu_name": "NVIDIA A100-PCIE-40GB",
+    "minimum_memory_mib": 40000
+  },
+  "inference": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 4142,
+    "minimum_targets": 6,
+    "mode": "descriptive_only"
+  },
+  "input_bridge": {
+    "bytes": 11368,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/prepared_inputs.json",
+    "sha256": "d39f03d805251aba5cc6563ea477e948a385649aa5b67ac840a92fae6cc0c169"
+  },
+  "methods": [
+    {
+      "adapter_receipts": [
+        {
+          "bytes": 51064,
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/benchmark_runtime.py",
+          "sha256": "51b516a692d369f4d9a6ae9e3c39c0294da219c4d065420bbf9538a4af4b6562"
+        },
+        {
+          "bytes": 619,
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/rfd_env.sh",
+          "sha256": "bcc590bf014010ea835ff56cfc74019257e07a9dcf293b74f75595631fcd8c78"
+        }
+      ],
+      "config_receipt": {
+        "bytes": 4512,
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/rf_diffusion.json",
+        "sha256": "fca63440b363148b688e95330e0086d171dc05485ecead3b07662db2c7807fba"
+      },
+      "method_id": "rf_diffusion",
+      "native_score_direction": "lower",
+      "native_score_name": "native_single_AF2_PTM_pae_interaction",
+      "session_start": [
+        "bash",
+        "-c",
+        "source /lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/rfd_env.sh; exec python /lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/benchmark_runtime.py method-session --method rf_diffusion --session-dir \"$1\" --target-manifest \"$2\" --config \"$3\" --config-sha256 \"$4\"",
+        "method-session",
+        "{session_dir}",
+        "{target_manifest}",
+        "{method_config}",
+        "{method_config_sha256}"
+      ]
+    },
+    {
+      "adapter_receipts": [
+        {
+          "bytes": 51064,
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/benchmark_runtime.py",
+          "sha256": "51b516a692d369f4d9a6ae9e3c39c0294da219c4d065420bbf9538a4af4b6562"
+        },
+        {
+          "bytes": 936,
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/bindcraft_env.sh",
+          "sha256": "1ae3baafe2cac87dc60b7ad7f32075ec11deab07b5d2d4eadfe3241535332245"
+        }
+      ],
+      "config_receipt": {
+        "bytes": 3684,
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/bindcraft.json",
+        "sha256": "ede838ddf98e459aceb1175c682df47439dc38f2125afd3c9c328c286e70c29f"
+      },
+      "method_id": "bindcraft",
+      "native_score_direction": "higher",
+      "native_score_name": "native_BindCraft_average_AF2_iptm",
+      "session_start": [
+        "bash",
+        "-c",
+        "source /lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/bindcraft_env.sh; exec python /lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/benchmark_runtime.py method-session --method bindcraft --session-dir \"$1\" --target-manifest \"$2\" --config \"$3\" --config-sha256 \"$4\"",
+        "method-session",
+        "{session_dir}",
+        "{target_manifest}",
+        "{method_config}",
+        "{method_config_sha256}"
+      ]
+    }
+  ],
+  "missing_rule": "Typed unresolved remains in fixed denominator. Empty cohort quality is null; fully observed empty sequence pool may have observed fixed-cohort recovery yield zero.",
+  "native_cohort": "Independent secondary cohort, method-native fixed score top2 with unavailable score excluded and underfill retained.",
+  "native_score_audit": {
+    "bundle_schema": "formal_native_output_audit_bundle.v1",
+    "collector_source": {
+      "bytes": 16372,
+      "path": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/runs/native_collector_contracts_13166/source/audit_native_confidence_v8.py",
+      "sha256": "eca561182d06eca52bde005b45f02dd261d57b916d70ea5e34e99e86a79830b5"
+    },
+    "independent_raw_array_recomputation_required": true,
+    "native_top_k_only_after_raw_score_identity_verification": true,
+    "scope": "all_actual_attempts_and_all_native_updates_including_rejected_unavailable_partial_and_boundary"
+  },
+  "physical_hardware_inventory": {
+    "bytes": 3668,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/inputs/proc_gpu_inventory_13044.json",
+    "sha256": "eb4a7eb9d026b85d228a2983e85c60a883a117c6438babadecbcbe106e1a29e7"
+  },
+  "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+  "purpose": "Controlled same-target same-GPU-budget computational comparison; all six primary target pairs retained",
+  "quality_rule": "Candidate median requires every frozen engine model; task median requires nonempty selected cohort and every selected candidate; target mean requires both fixed replicates; macro requires all six paired targets.",
+  "replicate_seeds": [
+    21011,
+    21012
+  ],
+  "sampling": {
+    "native_top_k_per_replicate": 2,
+    "salt": "PPI-PAIRED-20261011-FIXED-BEFORE-GENERATION",
+    "uniform_n_per_replicate": 3
+  },
+  "schema": "paired-budget-v1",
+  "scientific_scope": "COMPUTATIONAL_ONLY",
+  "sensitivity_rule": "All native controls plus the minimum fixed uniform sampling hash candidate from each arm; natural target single-MSA Boltz sensitivity; BBF primary single MSA.",
+  "shutdown_reserve_seconds": 10,
+  "source_entry": {
+    "bytes": 11994,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/freeze_formal_benchmark_v3.py",
+    "sha256": "e23f09c1f01f1459fe1281f2648dd1e3c0d7d0e9704b9024acdaf732b7c3b3d8"
+  },
+  "targets": [
+    {
+      "analysis_role": "primary",
+      "input_manifest": {
+        "bytes": 4981,
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/MDM2_1YCR/input_manifest.json",
+        "sha256": "309ba5cc683d0aefca74dfbbc6e8aa0d6452e8b3472cf6e61966fea5ec2380ec"
+      },
+      "target_id": "MDM2_1YCR"
+    },
+    {
+      "analysis_role": "primary",
+      "input_manifest": {
+        "bytes": 8438,
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/KEAP1_2FLU/input_manifest.json",
+        "sha256": "c12846eeadb8b7d3fa58119237d2f8c4a9ee0ef31966779db6c41a51b07c4c8f"
+      },
+      "target_id": "KEAP1_2FLU"
+    },
+    {
+      "analysis_role": "primary",
+      "input_manifest": {
+        "bytes": 7126,
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/EGFR_DIII_1IVO/input_manifest.json",
+        "sha256": "d236aebeded3f571d93d272520983b1cc04d05a556228f6f724a85f44d8530f0"
+      },
+      "target_id": "EGFR_DIII_1IVO"
+    },
+    {
+      "analysis_role": "primary",
+      "input_manifest": {
+        "bytes": 6716,
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/BCLXL_2M04/input_manifest.json",
+        "sha256": "5c9b2816aed0c9f4c768df0475f0400c08833ef296b672ae4fc6432b13497a51"
+      },
+      "target_id": "BCLXL_2M04"
+    },
+    {
+      "analysis_role": "primary",
+      "input_manifest": {
+        "bytes": 7605,
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/HRAS_4G0N/input_manifest.json",
+        "sha256": "a8484fc37df6668a69b89f041b54dc08fdd5afa61b90d0aed3a9289bdb6c0692"
+      },
+      "target_id": "HRAS_4G0N"
+    },
+    {
+      "analysis_role": "primary",
+      "input_manifest": {
+        "bytes": 4528,
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/CRK_SH3_1CKA/input_manifest.json",
+        "sha256": "0f2022fd7dfd040044608b53cd57f98fccd2bf37b4e43cc54dda334ace2e793b"
+      },
+      "target_id": "CRK_SH3_1CKA"
+    },
+    {
+      "analysis_role": "diagnostic",
+      "input_manifest": {
+        "bytes": 7322,
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/BBF111_9HAG/input_manifest.json",
+        "sha256": "641344f09921377a52b580bc91ef37f8dcc6831e4d44ed30908f3ec476ab8a91"
+      },
+      "target_id": "BBF111_9HAG"
+    }
+  ],
+  "uniform_pool": "All canonical complete 65aa sequences first observed before the generation cutoff, including native rejected and native score unavailable. Sequence unique within task."
+}

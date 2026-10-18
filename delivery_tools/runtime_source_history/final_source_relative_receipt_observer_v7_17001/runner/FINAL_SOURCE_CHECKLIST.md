@@ -1,0 +1,22 @@
+# Fixed13299 history DATA successor REV1 checklist — prepared, not executed
+
+- [ ] Root plus two independent whole OWN6 SOURCE reviews, including initial32 plus four genuine inherited-route tests and old122 definition/semantic retention.
+- [ ] Root readonly Source6/P seal and independent exact metadata readback; no old G/P changes.
+- [ ] Unique owned CPU software158 using test9_final_source_inventory_history_rev1_v3, CPU1/task1/16G30organ/GPU0, CORE -B/no-I and required import/thread isolation.
+- [ ] Actual compile, Bash syntax,158 unique tests/zero failures/errors, original→frozen6/Core before/end/after output; actual software A/full tuple/fresh terminal/readonly seals independently read back.
+- [ ] New readonly plan/request uses actual new software/source tuples; preserve nine roles,17 parents/finite8, Base683/four entrypoints, prior322, original seven Plan aliases and all history.
+- [ ] Fixed history DATA full parent10963/fcaeb, leaf590526/8bc, exact two-part field; default actual plus finaltools prospective ONLY.
+- [ ] Genuine fixtures reach nested add(r), add(logical), inherited BaseC physical alias and resolve guards; exact caller/stage/direct error, no DATA copy/noA; no production hook.
+- [ ] Before-seen guard rejects wrong context/tuple/known-FP clone and every direct gate/Source/seed/context/alias/resolve/add route; ordered actual contexts remain complete.
+- [ ] At least one actual default; prospective finaltools occurrence is optional and never fabricated.
+- [ ] Strict own UTF8/JSON/flags/2/588/193+395 metadata shape; no member path interpretation, stat/open/hash or archive/scientific acceptance.
+- [ ] Independent BaseA original13297 producer and software58 ordinary traversal preserved; no claim they were inherited BaseI Source rows.
+- [ ] Original/BaseA0444 singlelink unchanged; exclusive fsync444 OPAQUE.txt,555 one-file directory, full bytes/metadata pre/end/after A/after CA/final readonly checks.
+- [ ] New proof/index pointers equal across A/CA/I/C; full three-argument saved verifier passes under actual allocation; pure proof validator performs no FS/source reads.
+- [ ] Root outer uses the future actual qualified frozen adapter directly after Source12/software/Core/request/plan preimport guards; no pending launcher fallback.
+- [ ] All six own Source/docs and actual late executed Root code/docs receive explicit public Source rows; proof/DATA remains evidence, not Source promotion.
+- [ ] Future F explicitly receives actual history alias index; same-byte READONLY_BYTE_IDENTICAL_ALIAS only, no original JSON duplicate physical index/recursive seed.
+- [ ] Existing F/package/extract/full indexed RAW restore completes separately; no claim current F130 validates new history semantics.
+- [ ] New pure validator and indexed restored own-byte equality/shape/A-CA-I-C/ordered context checks complete after restore, no live fallback; old production metadata remains provenance rather than restored inode equality.
+- [ ] All old/new failures, Root claims/HUMANs/raw/logs/seals/CAPs/current production controls preserved with finite late routes and no own-plan cycle.
+- [ ] Clean committed public Source parity/private bundle/full index/restore/final fences precede ACTIVE.

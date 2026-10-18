@@ -1,0 +1,66 @@
+{
+  "id": "AF2-REVIEW-V2-20260923",
+  "scope": "bounded paired diagnostic, not superiority benchmark or prospective independent validation",
+  "selection": "All three existing Boltz-pass candidates; one positive and one negative per each of five public targets by salted ID hash, independent of AF2 scores. Ten controls, four conservative family groups; insufficient for precise sensitivity/specificity.",
+  "prediction": {
+    "model_type": "alphafold2_multimer_v3",
+    "model_order": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "seeds": [
+      1042,
+      1043,
+      1044
+    ],
+    "max_recycles": 12,
+    "recycle_early_stop_tolerance": 0.5,
+    "max_msa": "128:256",
+    "templates": false,
+    "initial_guess": false,
+    "dropout": false,
+    "msa": "reuse pinned target MSA and single binder, BBF14 target single sequence",
+    "expected_models_per_entry": 15
+  },
+  "comparison": "model1 same seeds paired with historical max3-recycle predictions; all15 summarized by model and seed, never best-model-only; missing bb145 legacy arm must be generated",
+  "relaxation": {
+    "method": "AlphaFold AmberRelaxation, CPU",
+    "max_iterations": 2000,
+    "max_outer_iterations": 3,
+    "tolerance": 2.39,
+    "stiffness": 10,
+    "timeout_per_model_seconds": 600
+  },
+  "scoring": {
+    "legacy_thresholds": "unchanged and reported on raw structures",
+    "axes": [
+      "sequence identity",
+      "confidence from original unrelaxed predictions",
+      "fold recovery",
+      "target-aligned pose recovery",
+      "native epitope coverage for candidates only",
+      "minimum distance and interchain heavy-atom overlap",
+      "raw versus relaxed backbone movement",
+      "pairwise pose dispersion"
+    ],
+    "ipsae": {
+      "pae_cutoffs": [
+        10,
+        15
+      ],
+      "distance_cutoff": 15,
+      "threshold_promotion": false
+    },
+    "relaxation_gate": "No automatic rescue or promotion; retain raw clashes and failed relaxations. Report backbone versus sidechain clashes separately; no claim of MolProbity clashscore.",
+    "controls": "author design geometry is recovery only, never native competition"
+  },
+  "sources": [
+    "https://doi.org/10.1038/s41586-025-09429-6",
+    "https://github.com/sokrypton/ColabFold/wiki/v1.5.0/702284308448d74c2a49b85036283631f8781484",
+    "https://github.com/DunbrackLab/IPSAE"
+  ],
+  "promotion": "None. No gate tuning on these three candidates; binding is not blockade; scaffold/target independence unestablished."
+}

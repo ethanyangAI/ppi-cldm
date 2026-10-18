@@ -1,0 +1,20 @@
+{
+  "name": "mols.tar",
+  "status": "HASH_VERIFIED",
+  "url": "https://hf-mirror.com/boltz-community/boltz-2/resolve/6fdef46d763fee7fbb83ca5501ccceff43b85607/mols.tar",
+  "hf_commit": "6fdef46d763fee7fbb83ca5501ccceff43b85607",
+  "bytes": 1855662080,
+  "sha256": "39e076d96dbec6b4e86982bbda16f3a53a2a60c9bdc17828d88f6f9a0c7d1fd7",
+  "attempts": [
+    {
+      "host": "https://huggingface.co",
+      "attempt": 1,
+      "error_type": "ConnectionError"
+    },
+    {
+      "host": "https://huggingface.co",
+      "attempt": 2,
+      "error_type": "ConnectionError"
+    }
+  ]
+}

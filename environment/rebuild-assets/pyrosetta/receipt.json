@@ -1,0 +1,8 @@
+{
+  "url": "https://west.rosettacommons.org/pyrosetta/quarterly/release.cxx11thread.serialization/pyrosetta-2026.29%2Breleasequarterly.80a0635615-cp310-cp310-linux_x86_64.whl",
+  "path": "/lustre/users/u21111210118/projects/test9/assets/pyrosetta/pyrosetta-2026.29+releasequarterly.80a0635615-cp310-cp310-linux_x86_64.whl",
+  "bytes": 1667097173,
+  "sha256": "4383d8d1a14fd3aff52983de936908791cc77bc6ac418e3bc53bb963a42c5242",
+  "status": "VERSION_PINNED_DOWNLOAD_CRC_VERIFIED",
+  "historical_sha_match_claimed": false
+}

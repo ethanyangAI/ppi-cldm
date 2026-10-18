@@ -1,0 +1,23 @@
+{
+  "id": "LOCAL-CALIBRATION-EXTENSION-20260922-v1",
+  "selection": "All 18 BBF-14 and BetV1 published designs with nonmissing primary binding labels; no selection by computed scores",
+  "sources": [
+    "doi:10.1038/s41586-025-09429-6",
+    "doi:10.5281/zenodo.14249738"
+  ],
+  "groups": {
+    "BBF-14": "de_novo_beta_barrel",
+    "BetV1": "PR10_allergen"
+  },
+  "parent_rules": "calibration_protocol.json unchanged",
+  "assay": "Primary SPR binding labels and exact author model core sequences; tags and full assay construct are not established by model-core identity",
+  "inference": {
+    "samples": 3,
+    "recycles": 3,
+    "sampling_steps": 200,
+    "seed": 1042,
+    "allow_single_sequence": true,
+    "allow_external_msa": false
+  },
+  "promotion": "No automatic promotion from retrospective performance; construct and assay context adjudication required"
+}

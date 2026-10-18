@@ -1,0 +1,160 @@
+{
+  "status": "BBF110_SCIENTIFIC_INPUTS_AND_SOURCE_CONTENT_ACCEPTED_AWAIT_NEW_BUDGET_GUARD_LAUNCHER",
+  "cpu_job": "13061",
+  "plan": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/plan.json",
+    "sha256": "76104b6530447e4b15be0cc11b5da22b038711903789f519c7601aa1fd554b9e",
+    "bytes": 110374
+  },
+  "source": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/bbf_input_diagnostic.py",
+    "sha256": "d2eefb850802a0b93a6724051218c5e686d556c9358d08ab17c7a28dabc247ca",
+    "bytes": 24842
+  },
+  "source_files": [
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/bbf_input_diagnostic.py",
+      "sha256": "d2eefb850802a0b93a6724051218c5e686d556c9358d08ab17c7a28dabc247ca",
+      "bytes": 24842
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/benchmark_common_review.py",
+      "sha256": "876d29f9b8a20cf3f8bbf526262de96b1071a30b47590b632e5d31f97c362391",
+      "bytes": 59077
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/control_msa_check.py",
+      "sha256": "c4a53008639c3e4e4e28d5653487e4cb858e60f81f54752b8c00dae8ac11f205",
+      "bytes": 3592
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/runtime_entries/af2_inference_env.sh",
+      "sha256": "2ee115993cf837c9bb2b5b18820a9f75642802451fd828f569cb1bddc02f72ec",
+      "bytes": 859
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/runtime_entries/boltz",
+      "sha256": "602fbcae9af76fe89e509df8ac42bf72c9b0e551fbbc4ea3ec815fa00801ca9d",
+      "bytes": 201
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/runtime_entries/colabfold_batch",
+      "sha256": "2bdee1ae29c1137de4c8b982fec72f595b28a3ca2f17ca9828ce2522af5839c6",
+      "bytes": 212
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/screening_transfer.py",
+      "sha256": "869de5be809d546c937f973e37ef344470b1b8da7f9c4b6e883d5a80747f990a",
+      "bytes": 35700
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/src/ppiblocker/__init__.py",
+      "sha256": "9285a402c879d95d608674005fd9ce245c03b5a5efaa8edb14d6f82e0ae9255c",
+      "bytes": 108
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/src/ppiblocker/af2_review.py",
+      "sha256": "5d857a314e1b0f825470de35882cd4b17e67927af2da649ae2af0fd399eb5336",
+      "bytes": 3800
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/src/ppiblocker/backends.py",
+      "sha256": "fec3a41a03aa9ea7c2e9d716be0825d68053ed272e639e1f8e841daebc501270",
+      "bytes": 10858
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/src/ppiblocker/benchmark.py",
+      "sha256": "e53861324334104b6e63b84cab5fcaa1081b1762a28c46153c7361b94fe3f30d",
+      "bytes": 7668
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/src/ppiblocker/benchmark_adapters.py",
+      "sha256": "d8b07297410a6d1ec4d938459b962da2f1dd578ff43b7205cc866f3c17147c97",
+      "bytes": 6114
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/src/ppiblocker/cli.py",
+      "sha256": "52f4f13de2e4063f18a821669185bd9d3904a6df3c3d2f07790285f8e824c37e",
+      "bytes": 1379
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/src/ppiblocker/common.py",
+      "sha256": "bbc4dc9f05a8b73d38f1337ee64721b76e43915bd251a32991f3b14c58268da6",
+      "bytes": 12084
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/src/ppiblocker/identity.py",
+      "sha256": "83f62aef715ee0ba2b0382b6e8d27a50846af990e2d4600335d8bf4156d80cda",
+      "bytes": 7659
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/src/ppiblocker/pipeline.py",
+      "sha256": "5b51914ca14f20eff9a511d0346234d9e5307756ae08ecde66f17dc37a84132a",
+      "bytes": 23711
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/src/ppiblocker/runtime_probe.py",
+      "sha256": "3b813954c54c1f15543f4f0fe05fcb41b50cd0083308cf63b42067561f852aa0",
+      "bytes": 1365
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/src/ppiblocker/structure.py",
+      "sha256": "cc5e488c4bf9b104c208749de0c94638153a80b3938ff957b4a9dfaf51c082cd",
+      "bytes": 10995
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/vendor/ipsae.py",
+      "sha256": "10cf9b08c68c91e06cb28526cf2026f47a3980c9048fd3226d13e3304eaf1c27",
+      "bytes": 45140
+    }
+  ],
+  "common_source": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/code/benchmark_common_review.py",
+    "sha256": "876d29f9b8a20cf3f8bbf526262de96b1071a30b47590b632e5d31f97c362391",
+    "bytes": 59077
+  },
+  "backend": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/frozen/bbf_backend_v2/bbf_feature_backend.py",
+    "sha256": "ea568fb4fa1905d54c304a60d7f6b78af4a01a80941d5cf0c0152c1254d361b3",
+    "bytes": 15084
+  },
+  "backend_env": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/frozen/bbf_backend_v2/bindcraft_env.sh",
+    "sha256": "1ae3baafe2cac87dc60b7ad7f32075ec11deab07b5d2d4eadfe3241535332245",
+    "bytes": 936
+  },
+  "original_feature_capture": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/runs/bbf_features_13057/outputs/feature_manifest.json",
+    "sha256": "72e16e4e6298fe5dd7266eeaebcfb19f58b0e29b4d7f10c380240441b7f2c732",
+    "bytes": 42623
+  },
+  "feature_manifest": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/feature_manifest.json",
+    "sha256": "def94edcff78f15ca5632a9dd54c73a88e964dac164461e94031a30a1404f733",
+    "bytes": 43237
+  },
+  "feature_acceptance": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/feature_acceptance.json",
+    "sha256": "341345f436ae6ef78ccba0e3cad6d6ecf9367fc75f257aa4500ff08a333bc062",
+    "bytes": 20427
+  },
+  "original_plan": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/inputs/plan_v2.json",
+    "sha256": "df19c8d6a06afa220844a4c7d713fcbbcd0b7e9972de5e80b62efbbfff7ed7e6",
+    "bytes": 110268
+  },
+  "scientific_jobs_exactly_unchanged": true,
+  "tests": {
+    "status": "PASSED",
+    "n_tests": 5
+  },
+  "expected_models": 110,
+  "expected_jobs": 22,
+  "scope": "DEVELOPMENT_ONLY_NO_GPU_SUBMITTED",
+  "budget_guard": null,
+  "hardware_inventory": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/inputs/proc_gpu_inventory_13044.json",
+    "sha256": "eb4a7eb9d026b85d228a2983e85c60a883a117c6438babadecbcbe106e1a29e7",
+    "bytes": 3668
+  }
+}

@@ -1,0 +1,713 @@
+{
+  "schema": "root-plan-v13-strict-finite-parent-view-request-text-preparation-metadata.v1",
+  "prepared_at_UTC": "2026-10-16T17:28:34.012023Z",
+  "metadata_only": true,
+  "text_preparation_only": true,
+  "no_login_hash": true,
+  "request_current_initial_metadata": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/final_source_context_request_from17722_v13/request.json",
+    "bytes": 6550,
+    "inode": 144115643443094569,
+    "mtime_ns": 1792171714000000000,
+    "ctime_ns": 1792171714000000000,
+    "mode": 33204,
+    "dev": 1119461688,
+    "nlink": 1,
+    "uid": 6263900,
+    "gid": 6263900,
+    "regular": true,
+    "directory": false,
+    "nonlink": true
+  },
+  "request_schema": "final-source-materialized-context-read-view-request.v3",
+  "exact13_key_order": [
+    "schema",
+    "root_owned",
+    "raw_JSON_rewrite_allowed",
+    "generic_relative_resolution_allowed",
+    "generic_external_resolution_allowed",
+    "library_software_acceptance",
+    "mapper_software_acceptance",
+    "final_source_plan",
+    "bbf_parent_aliases",
+    "historical_parent_aliases",
+    "recovered_parent_aliases",
+    "archive_parent_aliases",
+    "finite_source_parent_aliases"
+  ],
+  "only_request_fields_changed": [
+    "library_software_acceptance",
+    "final_source_plan"
+  ],
+  "old_request_retained_unchanged_LATE_scalar": {
+    "logical_path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/final_source_context_request_from17118_v12/request.json",
+    "metadata_bytes_as_scalar": 6552,
+    "immutable_original_preserved": true
+  },
+  "old_request_metadata_retained_unchanged_LATE_scalar": {
+    "logical_path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/final_source_context_request_from17118_v12/request_metadata.json",
+    "metadata_bytes_as_scalar": 43937,
+    "immutable_original_preserved": true
+  },
+  "accepted_Plan": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/final_source_plan_from14706_14925_17722_v13/final_source_plan.json",
+    "bytes": 2063544,
+    "sha256": "cd26a4d4b340979a8e833896971cc71a8d38929c18bb8921fc0707f29d617653"
+  },
+  "accepted_Plan_HANDOFF": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/final_source_plan_from14706_14925_17722_v13/HANDOFF.md",
+    "bytes": 21636,
+    "sha256": "77c11da27facf1a1799b0b7eccff0f8e0cc3c0b7d18a448afbcd3fa402e99e91"
+  },
+  "accepted_library_software": {
+    "bytes": 6668,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/final_source_catalog_msa_gap_contracts_software_17722/acceptance.json",
+    "sha256": "edb92387fc2c6e3b37cee25968e06445f8180d9a3bef85af937232329d124a9a"
+  },
+  "accepted_Mapper": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/exact_context_mapper_v4_13319/acceptance.json",
+    "bytes": 15049,
+    "sha256": "a66b8186aa4ba2c737fe3e607f84bb90ecc35b35f271022bbcb66ac3cb327890"
+  },
+  "actual17807_Plan_own_capture": {
+    "bytes": 65003,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/final_source_plan_v13_ownsha_17807/capture.json",
+    "sha256": "a35e971c9cb9b0304b4b46d31180ed442931c36a2f1b69294d30d8e32d719858"
+  },
+  "actual17807_terminal_RO_reference_scalar": {
+    "logical_path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/submissions/final_source_plan_v13_ownsha17807_actual_terminal_metadata_readonly_seal/receipt.json",
+    "metadata_bytes_as_scalar": 15497494,
+    "current_metadata": {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/submissions/final_source_plan_v13_ownsha17807_actual_terminal_metadata_readonly_seal/receipt.json",
+      "bytes": 15497494,
+      "inode": 144115643443094567,
+      "mtime_ns": 1792171342000000000,
+      "ctime_ns": 1792171342000000000,
+      "mode": 33060,
+      "dev": 1119461688,
+      "nlink": 1,
+      "uid": 6263900,
+      "gid": 6263900,
+      "regular": true,
+      "directory": false,
+      "nonlink": true
+    },
+    "own_SHA_not_yet_CPU_captured": true,
+    "schema": "root-fixed-plan-v13-ownsha17807-terminal-metadata-readonly-seal.v1",
+    "status": "ACTUAL_PLAN13_OWN_SHA17807_COMPLETED_CONTENT_AND_TERMINAL_READONLY_PASS_NOT_SOURCE_AUDIT",
+    "captured_at": "2026-10-16T17:22:22.146007Z",
+    "actual_fresh_terminal_nine_column_row": [
+      "17807",
+      "test9_source_plan_v13_ownsha_cpu",
+      "COMPLETED",
+      "0:0",
+      "17",
+      "1",
+      "billing=1,cpu=1,node=1",
+      "2026-10-16T17:13:17",
+      "2026-10-16T17:13:34"
+    ],
+    "actual_fresh_terminal_nine_column_columns": [
+      "JobIDRaw",
+      "JobName",
+      "State",
+      "ExitCode",
+      "ElapsedRaw",
+      "AllocCPUS",
+      "AllocTRES",
+      "Start",
+      "End"
+    ],
+    "actual_current_CPU1_GPU0_allocation": {
+      "job_id": "17807",
+      "scheduler_record": "17807|RUNNING|billing=1,cpu=1,node=1|u21111210118|u21111210118|organ\n",
+      "numeric_sacct_row": [
+        "17807",
+        "RUNNING",
+        "billing=1,cpu=1,node=1",
+        "u21111210118",
+        "u21111210118",
+        "organ"
+      ],
+      "allocated_CPUs": 1,
+      "allocated_gpus": 0
+    },
+    "actual_current_readiness_selected_attempt": 3,
+    "whole_actual_content_evidence": [
+      {
+        "role": "Root",
+        "whole_actual_content_PASS": true,
+        "evidence": [
+          {
+            "session": 78728,
+            "chunk": "50c5c6",
+            "rc": 0
+          }
+        ],
+        "read_lock_released": true
+      },
+      {
+        "role": "common_review_readiness",
+        "whole_actual_content_PASS": true,
+        "evidence": [
+          {
+            "session": 15880,
+            "chunk": "7e49a6",
+            "rc": 0
+          }
+        ],
+        "read_lock_released": true
+      },
+      {
+        "role": "successor_independent_review",
+        "whole_actual_content_PASS": true,
+        "evidence": [
+          {
+            "session": 15326,
+            "chunk": "99cd27",
+            "rc": 0
+          }
+        ],
+        "read_lock_released": true
+      }
+    ],
+    "Root_terminal_RO_evidence": {
+      "session": 57205,
+      "chunk": "5ee3a8",
+      "rc": 0,
+      "read_lock_released": true
+    },
+    "independent_terminal_RO_evidence": {
+      "role": "common_review_readiness",
+      "whole_TRO36_PASS": true,
+      "evidence": [
+        {
+          "session": 52793,
+          "chunk": "aec7db",
+          "rc": 0
+        },
+        {
+          "session": 34047,
+          "chunk": "1beccc",
+          "rc": 0
+        }
+      ],
+      "read_lock_released": true
+    },
+    "Root_operational_Human_history_LATE_scalar": {
+      "executed_by_actual17807": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/handoffs/ROOT_FIXED_PLAN_V13_OWN_SHA_FROM17722_20261016_REV1.md",
+        "bytes": 76360,
+        "sha256": "f78a2ed396b3510434a30eeed11a8cdddb8137755cc9f6d43ecca6dc6a971832"
+      },
+      "current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/handoffs/ROOT_FIXED_PLAN_V13_OWN_SHA_FROM17722_20261016_REV1.md",
+        "bytes": 76360,
+        "inode": 144115643443094546,
+        "mtime_ns": 1792170421000000000,
+        "ctime_ns": 1792170598000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "actual_precreated_wrap": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/submissions/final_source_plan_v13_ownsha_from17722_primary_claim/wrap.sh",
+        "bytes": 67665,
+        "sha256": "195d7eb46525b62e8992e20fc87e90c799e13dcd42561f37ba5624489a351071"
+      },
+      "actual_precreated_wrap_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/submissions/final_source_plan_v13_ownsha_from17722_primary_claim/wrap.sh",
+        "bytes": 67665,
+        "inode": 144115643443094550,
+        "mtime_ns": 1792170797000000000,
+        "ctime_ns": 1792170797000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "paired_Human_RO": {
+        "logical_path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/submissions/root_plan_v13_ownsha_paired_human_metadata_readonly_seal/receipt.json",
+        "metadata_bytes_as_scalar": 15460175,
+        "current_metadata": {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/submissions/root_plan_v13_ownsha_paired_human_metadata_readonly_seal/receipt.json",
+          "bytes": 15460175,
+          "inode": 144115643443094548,
+          "mtime_ns": 1792170599000000000,
+          "ctime_ns": 1792170599000000000,
+          "mode": 33060,
+          "dev": 1119461688,
+          "nlink": 1,
+          "uid": 6263900,
+          "gid": 6263900,
+          "regular": true,
+          "directory": false,
+          "nonlink": true
+        },
+        "own_SHA_not_asserted_here": true
+      },
+      "initial_unexecuted_Human_LATE": {
+        "logical_path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/handoffs/ROOT_FIXED_PLAN_V13_OWN_SHA_FROM17722_20261016.md",
+        "metadata_bytes_as_scalar": 75399,
+        "current_metadata": {
+          "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/handoffs/ROOT_FIXED_PLAN_V13_OWN_SHA_FROM17722_20261016.md",
+          "bytes": 75399,
+          "inode": 144115643443094545,
+          "mtime_ns": 1792170112000000000,
+          "ctime_ns": 1792170598000000000,
+          "mode": 33060,
+          "dev": 1119461688,
+          "nlink": 1,
+          "uid": 6263900,
+          "gid": 6263900,
+          "regular": true,
+          "directory": false,
+          "nonlink": true
+        },
+        "executed_or_qualified": false
+      }
+    },
+    "full_CAP_claims_controls_RO_readiness_raw_logs_terminal_LATE_not_own_Plan_prerequisites": true,
+    "all_inherited_original_revision_histories_preserved_via_old_immutable_Q_and_M": true,
+    "qualified_terminal_protected_metadata_n": 14514,
+    "current_complete_finite_union_n_as_Root_qualified": 14532,
+    "current_complete_finite_union_files_n_as_Root_qualified": 14046,
+    "current_complete_finite_union_directories_n_as_Root_qualified": 486
+  },
+  "root_and_two_independent_actual17807_content_readback_PASS": true,
+  "root_and_independent_actual17807_terminal_RO_readback_PASS": true,
+  "actual17807_scope": "ACTUAL_NEW_PLAN_V13_OWN_SHA_AND14_PINNED_SOURCE_DOC_ADDITIONS_CPU_VERIFIED_NOT_SOURCE_AUDIT_ACCEPTANCE",
+  "finite_parent_alias_n": 8,
+  "finite_source_parent_copy_n": 3,
+  "finite_proof_parent_copy_n": 5,
+  "ordered_Plan17_indices": [
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    16
+  ],
+  "ordered_BaseI_files_indices": [
+    238,
+    249,
+    265,
+    263,
+    250,
+    283,
+    228,
+    239
+  ],
+  "finite_parent_alias_scope_rows": [
+    {
+      "plan17_index": 7,
+      "BaseI_files_index": 238,
+      "reader_group": "FINITE_SOURCE_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/manifest.json",
+        "bytes": 11279,
+        "sha256": "43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47_manifest.json",
+        "bytes": 11279,
+        "sha256": "43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/manifest.json",
+        "bytes": 11279,
+        "inode": 144115639668211355,
+        "mtime_ns": 1791726075000000000,
+        "ctime_ns": 1791726075000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47_manifest.json",
+        "bytes": 11279,
+        "inode": 144115639668233103,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true
+    },
+    {
+      "plan17_index": 8,
+      "BaseI_files_index": 249,
+      "reader_group": "FINITE_SOURCE_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13168/acceptance.json",
+        "bytes": 3201,
+        "sha256": "62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142_acceptance.json",
+        "bytes": 3201,
+        "sha256": "62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13168/acceptance.json",
+        "bytes": 3201,
+        "inode": 144115639668207719,
+        "mtime_ns": 1791699615000000000,
+        "ctime_ns": 1791699615000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142_acceptance.json",
+        "bytes": 3201,
+        "inode": 144115639668233110,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true
+    },
+    {
+      "plan17_index": 9,
+      "BaseI_files_index": 265,
+      "reader_group": "FINITE_SOURCE_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13180/acceptance.json",
+        "bytes": 3201,
+        "sha256": "b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb_acceptance.json",
+        "bytes": 3201,
+        "sha256": "b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13180/acceptance.json",
+        "bytes": 3201,
+        "inode": 144115639668209198,
+        "mtime_ns": 1791699932000000000,
+        "ctime_ns": 1791699932000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb_acceptance.json",
+        "bytes": 3201,
+        "inode": 144115639668233123,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true
+    },
+    {
+      "plan17_index": 10,
+      "BaseI_files_index": 263,
+      "reader_group": "FINITE_PROOF_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/source_bundle.json",
+        "bytes": 8124,
+        "sha256": "9b89ed8b673597002e6ce52cc6561e009ad2041a253b6484cfacaa7896c8c1e9"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/9b89ed8b673597002e6ce52cc6561e009ad2041a253b6484cfacaa7896c8c1e9_source_bundle.json",
+        "bytes": 8124,
+        "sha256": "9b89ed8b673597002e6ce52cc6561e009ad2041a253b6484cfacaa7896c8c1e9"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/source_bundle.json",
+        "bytes": 8124,
+        "inode": 144115639668186111,
+        "mtime_ns": 1791695838000000000,
+        "ctime_ns": 1791695838000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/9b89ed8b673597002e6ce52cc6561e009ad2041a253b6484cfacaa7896c8c1e9_source_bundle.json",
+        "bytes": 8124,
+        "inode": 144115639668233121,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true
+    },
+    {
+      "plan17_index": 12,
+      "BaseI_files_index": 250,
+      "reader_group": "FINITE_PROOF_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/source_bundle.json",
+        "bytes": 10053,
+        "sha256": "729e3acd0cd371cf2a4dd571850d241c4a9a0fb2470090b178f36d8bc058f500"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/729e3acd0cd371cf2a4dd571850d241c4a9a0fb2470090b178f36d8bc058f500_source_bundle.json",
+        "bytes": 10053,
+        "sha256": "729e3acd0cd371cf2a4dd571850d241c4a9a0fb2470090b178f36d8bc058f500"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/source_bundle.json",
+        "bytes": 10053,
+        "inode": 144115639668182965,
+        "mtime_ns": 1791694497000000000,
+        "ctime_ns": 1791694497000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/729e3acd0cd371cf2a4dd571850d241c4a9a0fb2470090b178f36d8bc058f500_source_bundle.json",
+        "bytes": 10053,
+        "inode": 144115639668233111,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true
+    },
+    {
+      "plan17_index": 13,
+      "BaseI_files_index": 283,
+      "reader_group": "FINITE_PROOF_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_bbf_recorded_recovery_diagnostic_13313/diagnostic.json",
+        "bytes": 34363,
+        "sha256": "f77e8e0ec5331da3003349792dcb735f4d8836d014d7fa484e07321c1b3b5f3f"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/f77e8e0ec5331da3003349792dcb735f4d8836d014d7fa484e07321c1b3b5f3f_diagnostic.json",
+        "bytes": 34363,
+        "sha256": "f77e8e0ec5331da3003349792dcb735f4d8836d014d7fa484e07321c1b3b5f3f"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_bbf_recorded_recovery_diagnostic_13313/diagnostic.json",
+        "bytes": 34363,
+        "inode": 144115639668231787,
+        "mtime_ns": 1791743996000000000,
+        "ctime_ns": 1791743996000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/f77e8e0ec5331da3003349792dcb735f4d8836d014d7fa484e07321c1b3b5f3f_diagnostic.json",
+        "bytes": 34363,
+        "inode": 144115639668233136,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true
+    },
+    {
+      "plan17_index": 14,
+      "BaseI_files_index": 228,
+      "reader_group": "FINITE_PROOF_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_missing_operative_inventory_13308/diagnostic.json",
+        "bytes": 207548,
+        "sha256": "2a22a7f4aa4a787f934b72a1fe7ec4bf84c1891c08944120093519d4b469ba11"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/2a22a7f4aa4a787f934b72a1fe7ec4bf84c1891c08944120093519d4b469ba11_diagnostic.json",
+        "bytes": 207548,
+        "sha256": "2a22a7f4aa4a787f934b72a1fe7ec4bf84c1891c08944120093519d4b469ba11"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_missing_operative_inventory_13308/diagnostic.json",
+        "bytes": 207548,
+        "inode": 144115639668231474,
+        "mtime_ns": 1791742363000000000,
+        "ctime_ns": 1791742363000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/2a22a7f4aa4a787f934b72a1fe7ec4bf84c1891c08944120093519d4b469ba11_diagnostic.json",
+        "bytes": 207548,
+        "inode": 144115639668233095,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true
+    },
+    {
+      "plan17_index": 16,
+      "BaseI_files_index": 239,
+      "reader_group": "FINITE_PROOF_PARENT",
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_saved_byte_recovery_diagnostic_13310/diagnostic.json",
+        "bytes": 75704,
+        "sha256": "48ce0453db4927cacea9804354fc9b0f598ca598922ff778f0f2024debc4b1ea"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/48ce0453db4927cacea9804354fc9b0f598ca598922ff778f0f2024debc4b1ea_diagnostic.json",
+        "bytes": 75704,
+        "sha256": "48ce0453db4927cacea9804354fc9b0f598ca598922ff778f0f2024debc4b1ea"
+      },
+      "logical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_saved_byte_recovery_diagnostic_13310/diagnostic.json",
+        "bytes": 75704,
+        "inode": 144115639668231762,
+        "mtime_ns": 1791743378000000000,
+        "ctime_ns": 1791743378000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "physical_current_metadata": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/48ce0453db4927cacea9804354fc9b0f598ca598922ff778f0f2024debc4b1ea_diagnostic.json",
+        "bytes": 75704,
+        "inode": 144115639668233104,
+        "mtime_ns": 1791745491000000000,
+        "ctime_ns": 1791745491000000000,
+        "mode": 33060,
+        "dev": 1119461688,
+        "nlink": 1,
+        "uid": 6263900,
+        "gid": 6263900,
+        "regular": true,
+        "directory": false,
+        "nonlink": true
+      },
+      "logical_and_physical_nonlink_ancestry_verified": true
+    }
+  ],
+  "accepted_BaseI": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/source_inclusion_v3.json",
+    "bytes": 784715,
+    "sha256": "8909e49a5a5396827135e9492af393bdc369e2a28d766cc8767ff24f03914f6a"
+  },
+  "accepted_Mapper_finite_source_read_view_proof": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/exact_context_mapper_v4_13319/finite_source_read_view_proof.json",
+    "bytes": 766915,
+    "sha256": "cfeee0eecbf012f14165c3d76990616b5cfa6ec42e7848c9bb4c67aa9caa58b7"
+  },
+  "exact17_logical_parents_unchanged": true,
+  "Plan_alias_n": 7,
+  "request_does_not_modify_Plan_aliases": true,
+  "Source_IDs_and_existing22_late_hazard_classification_unchanged": true,
+  "no_new_role_or_software_gate": true,
+  "new_request_own_SHA_not_yet_captured": true,
+  "request_readonly_seal_not_yet_performed": true,
+  "request_current_mode_is_draft_0664": true,
+  "new_request_executed": false,
+  "Source_audit_accepted": false,
+  "source_staged": false,
+  "published": false,
+  "ACTIVE_changed": false,
+  "scientific_acceptance": false,
+  "raw_JSON_changed": false,
+  "generic_relative_permission_added": false,
+  "generic_external_permission_added": false,
+  "new_logical_parent_permission_added": false,
+  "scientific_receipt_children_opened": false,
+  "current_execution_authorized": false,
+  "own_created_controls_LATE_Composer_not_Plan_prerequisites": true
+}

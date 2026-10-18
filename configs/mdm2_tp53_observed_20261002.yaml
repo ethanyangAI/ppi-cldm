@@ -1,0 +1,54 @@
+schema_version: 1
+modality: protein_binder
+proteins:
+- uniprot: Q00987
+  taxon: 9606
+  residues:
+  - 25
+  - 109
+- uniprot: P04637
+  taxon: 9606
+  residues:
+  - 17
+  - 29
+structure:
+  pdb: 1YCR
+  assembly: '1'
+context_review:
+  native_interaction_supported: true
+  interaction_evidence: 1YCR observed MDM2 25-109 and p53 17-29; original requested15-29
+    rejected due to missing15-16, explicit structural fragment benchmark
+  soluble_construct: true
+  no_required_unmodelled_context: true
+prediction:
+  samples: 3
+  seed: 42
+  allow_external_msa: false
+  allow_single_sequence: true
+  recycles: 3
+refold:
+  samples: 3
+  seed: 1042
+  allow_external_msa: false
+  allow_single_sequence: true
+  recycles: 3
+design:
+  backbones: 2
+  sequences_per_backbone: 2
+  binder_length: 65
+  seed: 42
+  temperature: 0.1
+gates:
+  min_identity: 0.95
+  min_coverage: 0.8
+  min_interface_residues: 3
+  min_partner_residues: 3
+  contact_cutoff: 5.0
+  min_pair_iptm: 0.75
+  max_interface_pae: 8.0
+  min_plddt: 0.8
+  max_ensemble_partner_rmsd: 5.0
+  max_binder_rmsd: 2.0
+  max_target_rmsd: 2.0
+  min_interface_overlap: 0.5
+  min_partner_overlap_atoms: 5

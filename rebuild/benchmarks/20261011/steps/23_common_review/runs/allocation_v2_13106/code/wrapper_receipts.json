@@ -1,0 +1,112 @@
+{
+  "status": "CPU_PREHASHED_TECHNICAL_ALLOCATION_WRAPPER_REFERENCES",
+  "wrapper": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/runs/allocation_v2_13106/code/common_allocation_v2.py",
+    "sha256": "edfa4f2d99fa16df4db504612a185352adf3315d4ced061ba281abc75ca122fa",
+    "bytes": 3330
+  },
+  "scientific_source": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/benchmark_common_review.py",
+    "bytes": 59077,
+    "sha256": "876d29f9b8a20cf3f8bbf526262de96b1071a30b47590b632e5d31f97c362391"
+  },
+  "scientific_plan": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/runs/native_controls_frozen_13051/inference_plan.json",
+    "bytes": 30895,
+    "sha256": "9c90d720d39f306e9c601a8281afaca0d29ac986872805dd6b913eb8f2e9373b"
+  },
+  "settings": {
+    "schema": "common-review.v1",
+    "scope": "COMPUTATIONAL_ONLY",
+    "boltz": {
+      "version": "2.2.1",
+      "seeds": [
+        31011,
+        31012,
+        31013
+      ],
+      "models_per_seed": 1,
+      "recycles": 3,
+      "sampling_steps": 200,
+      "templates": false,
+      "initial_guess": false
+    },
+    "af2": {
+      "model_type": "alphafold2_multimer_v3",
+      "model_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "seed": 31021,
+      "recycles": 3,
+      "early_stop_tolerance": 0.5,
+      "natural_max_msa": "128:256",
+      "synthetic_max_msa": "1:1",
+      "templates": false,
+      "initial_guess": false
+    },
+    "ipsae": {
+      "revision": "6174cf9e71cb1bd660cc805856a18c4871a6dec3",
+      "PAE_cutoffs_A": [
+        10,
+        15
+      ],
+      "distance_cutoff_A": 15
+    },
+    "geometry": {
+      "contact_cutoff_A": 5,
+      "partner_atom_overlap_A": 2.5,
+      "contact_sensitivity_A": [
+        4,
+        8
+      ],
+      "native_recovery_target_RMSD_A": 2,
+      "native_recovery_contact_target_F1": 0.5
+    },
+    "primary_MSA_rule": "natural: frozen target-only unpaired; synthetic_BBF: single; binder: single",
+    "primary_endpoint": "R1_continuous",
+    "fixed_computational_recovery": "R0_median_ge_1",
+    "operational_gate": null,
+    "probability": null
+  },
+  "native_job_signatures": [
+    "b510e73f9abc6bfc0ff5cb7466943bae633abc3d477499a0ec56ea8a78b4d150",
+    "bfac4d027a32771672b5190b2ac668e84022d654ad8dc2c18dc25e26994acc71",
+    "70afbbc6b136573012049afb50370bd976a1a1144c8359459e583fe790067455",
+    "bf5aa8dfee1c849c37ff98bf0953b486a24f1b04c5cdfdf9a87073639687a827",
+    "288e8825870b913eb9438459ec69f61c1a76039ec0689f49dc21d8866014bd42",
+    "4440fdc60fe6faf7416724725cdd7e33269338d5a9b602811289c7c48a176395",
+    "1b14b378f4445b1647ee8f11b35f29f000f23be486fbc9c0b8df0cabd37f86df",
+    "b4da331daee9983f1c7332247994104f5aebb8b90ec3e36d7de67ce9ef134be2",
+    "d69d1e0ec7970660a0783c288ed72d839d866f9371e8c2465f1a10f8f3105bba",
+    "d2fad69689f7030d48ebd11aedca9fedb5f89bca7caec85a09f7344b366af925",
+    "99ac144933d39ae8cfa5d3da6cbbee47ca70a35df9fc56f830199403a29f5fc1",
+    "f7d39c248005de1e6ce94d6ae80fb32380fb54b18a9e631b99bbd56978a36b10",
+    "a863beeccead6be842c1af5b8045de48adbc42d507f772b509b6f6a7bb99a3b4",
+    "d0e301f7ae5a240310d9dc241cc2c2fd4a568943e310a289e42b6de16f98781f",
+    "e7b5911f93841585b676fb068fec9882356b29e84aadc2d8bd929e84eec7c98c",
+    "9d62adfbec97400fdb786a918ea0e2268a8da7369c502ec0dadf2d1215a1fdcb",
+    "5a220235f83229638cbb2950e5e519a6bdfc6316a19983898ffa3de4c80ee743",
+    "039a77ec5bedab5e3e6738766f54b11444fdd066c35802effefbd68dbecd7832",
+    "28e806b0d81702c56bcb8c837923b208e3d5b0beba9892bf3a25e0b0e37191d1",
+    "469ea4b899a274945f077543e08c4abc6045e9cae65380762365604740b30574"
+  ],
+  "guard": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v4/source/paired_budget_benchmark.py",
+    "bytes": 84446,
+    "sha256": "b37227bd862ee1425a59f5308be1ee3f4824042dea5d71c1269ad0f406b318f9"
+  },
+  "guard_snapshot_manifest": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v4/source/snapshot_manifest.json",
+    "sha256": "c1b17378498e72a10267e4c3d14434512a65b4fe62bdb633281f490e435f8c0d",
+    "bytes": 9989
+  },
+  "guard_contract_tests": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/tests_13088/receipt.json",
+    "bytes": 1592,
+    "sha256": "f82df0e04f7a4c289368bedfee8779864b29b1ac8b325e20b84097531ca99e6b"
+  }
+}

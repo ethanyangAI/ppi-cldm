@@ -1,0 +1,8 @@
+{
+  "status": "WEIGHT_HASH_MATCHES_HISTORICAL",
+  "path": "/lustre/users/u21111210118/projects/test9/assets/rfdiffusion/Complex_base_ckpt.pt",
+  "url": "https://files.ipd.uw.edu/pub/RFdiffusion/e29311f6f1bf1af907f9ef9f44b8328b/Complex_base_ckpt.pt",
+  "bytes": 483619179,
+  "sha256": "76e4e260aefee3b582bd76b77ab95d2592e64f00c51bf344968ab9239f3250bc",
+  "historical_source": "task session RF_WEIGHTS output"
+}

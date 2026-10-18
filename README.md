@@ -1,271 +1,88 @@
-# PPI-CLDM: Conditional Latent Diffusion for PPI Inhibitor Discovery
+# Structure-first PPI blocker workflow
 
-A **Conditional Latent Diffusion Model (CLDM)** that generates de novo small-molecule inhibitors targeting protein-protein interactions (PPIs). The pipeline combines interface-aware pocket conditioning, GRU-VAE constrained decoding, AutoDock Vina docking, and 83-target counter-screening to produce selective, drug-like candidates.
+Project authority: `/lustre/users/u21111210118/projects/test9`, account `u21111210118`.
+Submit jobs through public_cluster_2 at `192.168.81.6:22560`.
+Read `../CLUSTER_BINDING.md` and `../00_admin/reconstruction_20261002.json` before execution.
 
----
+This checkout reconstructs the September protein-binder workflow from GitHub commit
+`e2984a94674ffcb75b280680038df5e9f39d684d`, recorded source bodies, and reviewed
+text edits. It is a new checkout. Source recovery records are in
+`../01_raw/history/` and `../steps/01_recovery/work/history_handoff_receipt.json`.
+The legacy `core/denovo` small-molecule code is retained as historical material.
 
-## Architecture
+## Active workflow
 
-```
-PDB complex
-    │
-    ▼
-interface_extractor.py ──→ PocketEncoder ──→ cond vector c [256]
-                                                    │
-                                     DDPM reverse diffusion (T=1000)
-                                     z_T ~ N(0,I) ──→ z_0
-                                                    │
-                                     GRU-VAE constrained decode
-                                     (token-level SMILES validity filter)
-                                                    │
-                                     Lipinski + PAINS + chemically_reasonable
-                                                    │
-                                     Tanimoto diversity filter (threshold=0.4)
-                                                    │
-                                     AutoDock Vina  ←── receptor.pdbqt
-                                                    │
-                                     Counter-screen (83 off-targets)
-                                     Selectivity = vina_self − mean(vina_off)
-                                                    │
-                                              candidates.csv
-                                          full_screened.csv
-```
+Run `scripts/submit_public.sh STAGE CONFIG_OR_MANIFEST` from this checkout.
+Every stage executes through Slurm and consumes an explicit input.
 
-### Key Components
+| Stage | Resource | Result |
+| --- | --- | --- |
+| prepare | CPU | Validate two proteins, species, constructs, and assembly; retrieve an accepted experimental pair if available |
+| predict | One GPU | Infer native-pair poses when an accepted experimental pose is unavailable |
+| design | One GPU | Generate interface-directed RFdiffusion backbones and ProteinMPNN sequences |
+| evaluate | One GPU | Independently repredict the binder complex and compute separate evidence axes |
+| reevaluate | CPU | Recompute metrics from verified existing model artifacts |
 
-| File | Role |
-|------|------|
-| `gru_vae.py` | GRU-VAE encoder/decoder; character-level SMILES tokenizer |
-| `latent_diffusion.py` | DDPM + DenoiseMLP (Transformer blocks) + PocketEncoder |
-| `interface_extractor.py` | PPI interface residue extraction → pocket feature tensor |
-| `ppi_pipeline_universal.py` | **Main entry point** — generation → docking → screening |
-| `ppi_targets.py` | Builds `ppi_target_db.json` (downloads PDB, computes pocket centers) |
-| `build_offtarget_db.py` | Builds `offtarget_db.json` (~83 diverse human drug targets) |
-| `counter_screen_module.py` | Off-target Vina docking + PAINS/Brenk filtering |
-| `full_counter_screen.py` | SLURM-array batch version of counter-screening |
-| `run_retrosynthesis.py` | AiZynthFinder retrosynthesis analysis |
-| `complex_builder.py` | ColabFold/ESMFold complex modeling for novel targets |
-| `train_vae.py` | GRU-VAE training on ZINC 100k |
-| `train_diffusion.py` | DDPM training on pocket-ligand pairs |
-| `train_diffusion_large.py` | Fine-tuning on MW>350 subset for larger molecules |
+Each downstream stage checks its upstream manifest and file hashes. Missing assets,
+malformed structures, wrong chains, and environment changes stop execution.
+Runtime locks are explicitly registered; inference never refreshes them automatically.
+Use `scripts/register_runtime_locks.py --help` to register a missing component.
+An existing lock must not be overwritten merely to suppress an error.
 
----
+Example:
 
-## Supported Targets
-
-10 canonical PPI targets pre-registered in `ppi_target_db.json`:
-
-| Target | Disease | Known Inhibitors |
-|--------|---------|-----------------|
-| MDM2_TP53 | Cancer (p53 pathway) | Nutlin-3a, AMG232 |
-| BCL2_BAX | Apoptosis / Cancer | Venetoclax |
-| KRAS_SOS1 | Lung/Pancreatic Cancer | BI-3406 |
-| PD1_PDL1 | Immunotherapy | CA-170, BMS-202 |
-| MENIN_MLL | Leukemia | Revumenib |
-| MYC_MAX | Pan-cancer | 10058-F4 |
-| VHL_HIF1A | Renal cancer | Belzutifan |
-| XIAP_SMAC | Apoptosis resistance | Birinapant |
-| IL2_IL2RA | Autoimmune | SP4206 |
-| BRD4_HISTONE | Cancer / Inflammation | JQ1 |
-
-Custom targets can be added via `complex_builder.py`.
-
----
-
-## Installation
-
-```bash
-# 1. Clone
-git clone https://github.com/ethanyangAI/ppi-cldm.git
-cd ppi-cldm
-
-# 2. Conda environment
-conda create -n ppi_env python=3.10
-conda activate ppi_env
-pip install -r requirements.txt
-
-# 3. Install AutoDock Vina
-conda install -c conda-forge vina
-
-# 4. Download model weights  ← see Releases tab
-# Place in: core/denovo/checkpoints/
-#   vae_ppi.pt                (~40 MB)
-#   diffusion_cleaned_mw350.pt (~51 MB)
-
-# 5. Build target databases (downloads PDB files)
-cd core/denovo
-python ppi_targets.py            # ppi_target_db.json
-python build_offtarget_db.py     # offtarget_db.json
+```sh
+cd /lustre/users/u21111210118/projects/test9/source
+bash scripts/submit_public.sh prepare configs/KEAP1_observed_rebuild.yaml
+# Pass the exact accepted manifest printed by this job to design.
+# Pass the resulting design manifest to evaluate.
 ```
 
----
+The original MDM2 request used p53 residues 15–29, but 1YCR observes 17–29.
+`configs/MDM2_observed_rebuild.yaml` explicitly declares the observed fragment.
+KEAP1 uses 2FLU and Q14145 residues 325–609 / Q16236 residues 69–84.
+Neither example silently substitutes a requested construct.
 
-## Quick Start
+## Rebuild validation
 
-```bash
-cd core/denovo
-conda activate ppi_env
+Recovered tests include `tests/` and
+`benchmarks/computational_strengthening_20260923/test_strengthening.py`.
+Run `python -m pytest` in the core environment and retain the receipt.
+New rebuild modules add their own validation and receipts.
 
-# List available targets
-python ppi_pipeline_universal.py --list
+Three historical candidate sequences were recovered from two recorded outputs.
+Their original generated backbones and predicted coordinates remain unavailable.
+New refolds have new run identities and cannot establish RMSD to a missing original
+design backbone. The new AF2 protocol uses five models and three seeds for each
+complex and monomer, checks effective MSA depth, and verifies all 90 outputs.
+Pose reassessment uses all models, complete-link clustering, explicit medoids,
+all co-major ties, and a separate monomer-fold comparison.
 
-# Generate 100 candidates for MDM2-TP53
-python ppi_pipeline_universal.py --target MDM2_TP53 --n 100
+The 78-control identities, sequences, recorded labels, and author structure inputs
+were reconstructed. The 60-row historical JSON is byte-identical. Reconstruction
+does not qualify each label against its primary assay. Eligibility is stored explicitly.
 
-# Full pipeline: generation + docking + counter-screening
-python ppi_pipeline_universal.py \
-    --target MENIN_MLL --n 100 \
-    --vae vae_ppi.pt \
-    --counter_screen --cs_top_n 30 --cs_workers 4
-```
+Historical MD trajectories, calibration outputs, and candidate rankings were not
+recovered. Archived reports describe previous results only.
+Historical benchmark scripts embed missing run identities and old Slurm wrappers:
+preserve them for provenance; execute the newly bound `rebuild/` and `../steps/`
+workflows for this deployment.
 
-### SLURM Jobs (HPC)
+Confidence, monomer folding, interface physics, competition, and specificity remain
+separate evidence axes. A failed joint filter must not be presented as an improvement.
+Neither a successful execution nor a computational candidate establishes binding,
+blockade, experimental specificity, or benchmark superiority.
 
-```bash
-# Standard generation (GPU)
-sbatch slurm_generate.sh
+## Environments and reproducibility
 
-# Full pipeline with counter-screening (GPU + CPU)
-TARGET=KRAS_SOS1 N_MOLS=200 sbatch slurm_full_pipeline.sh
+Private project environments: core, rfd, colabfold, boltz, and physics.
+Downloads, installation, validation, physics diagnostics, and reports use CPU.
+Model inference uses the organ partition, one GPU per job with `--oversubscribe`.
+Preserve the injected NVIDIA driver library paths.
+All caches, temporary files, and logs remain under this project. GPU MD is not enabled.
 
-# Counter-screening array (40 tasks × CPU)
-sbatch slurm_counter_screen.sh
-```
-
-### Training from Scratch
-
-```bash
-# 1. Train GRU-VAE on ZINC 100k
-sbatch submit_vae_train.sh          # → checkpoints/vae_best.pt
-
-# 2. Train DDPM conditioned on pockets
-sbatch submit_diffusion_train.sh    # → checkpoints/diffusion_best.pt
-
-# 3. Fine-tune on MW>350 molecules
-python train_diffusion_large.py     # → diffusion_cleaned_mw350.pt
-```
-
-### Retrosynthesis
-
-```bash
-# Analyze top candidates for synthetic accessibility
-python run_retrosynthesis.py --csv results/MDM2_TP53_candidates.csv --top 5
-
-# Single SMILES
-python run_retrosynthesis.py --smiles "CCO" --name test_mol
-```
-
----
-
-## Output Files
-
-| File | Description |
-|------|-------------|
-| `results/{TARGET}_candidates.csv` | Generated + docked candidates |
-| `results/{TARGET}_full_screened.csv` | After 83-target counter-screening |
-| `results/{TARGET}_manifest.latest.json` | Run metadata + statistics |
-
-Key columns in `full_screened.csv`:
-
-| Column | Meaning |
-|--------|---------|
-| `vina_self` | Docking score to target (kcal/mol; lower = stronger) |
-| `selectivity` | `vina_self − mean(vina_offtargets)`; **negative = target-selective** |
-| `composite` | Multi-objective score (lower = better) |
-| `pains_flag` | PAINS/Brenk alert (empty = clean) |
-| `qed` | Drug-likeness (0–1; higher = better) |
-| `vina_CYP3A4` | CYP3A4 off-target score (metabolic liability) |
-| `vina_hERG` | hERG off-target score (cardiac safety) |
-
----
-
-## Composite Score
-
-```
-composite = vina × 0.6  −  qed × 3.0  +  size_penalty(MW)
-```
-Lower is better. When `--counter_screen` is used, results are re-ranked by selectivity.
-
----
-
-## Checkpoints
-
-Model weights are distributed via GitHub Releases (not tracked by git):
-
-| File | Size | Description |
-|------|------|-------------|
-| `vae_ppi.pt` | ~40 MB | GRU-VAE fine-tuned on 1401 ChEMBL PPI inhibitors |
-| `diffusion_cleaned_mw350.pt` | ~51 MB | DDPM trained on MW>350 pocket-ligand pairs |
-
----
-
-## Comparison with Related Work
-
-### Quantitative benchmark (6 PPI targets)
-
-DiffSBDD and TargetDiff were independently re-run on 6 PPI targets (n=100 each, GPU A100) using official pretrained checkpoints (Zenodo 8183747 and 14041881 respectively). Validity = single-fragment molecules with no parse error (RDKit sanitization). SA score approximated from ring count + stereo centers. All runs in clean `targetdiff_env` (conda numpy 1.26.4) to avoid mixed-install reconstruction failures.
-
-![6-target benchmark](figures/benchmark_6target.png)
-
-#### Per-target results
-
-| Method | Target | Valid (%) | QED ↑ | SA ↓ | MW (Da) | PAINS-clean (%) |
-|---|---|---|---|---|---|---|
-| **PPI-CLDM** | MDM2-TP53 | **100** | 0.534 | 7.31 | 362 | 98.2 |
-| **PPI-CLDM** | BCL2-BAX  | **100** | 0.508 | 7.09 | 376 | 98.2 |
-| **PPI-CLDM** | MENIN-MLL | **100** | 0.555 | 7.26 | 370 | **100** |
-| **PPI-CLDM** | KRAS-SOS1 | **100** | 0.491 | 7.79 | 406 | **100** |
-| **PPI-CLDM** | VHL-HIF1A | **100** | 0.589 | 7.28 | 350 | **100** |
-| **PPI-CLDM** | XIAP-SMAC | **100** | 0.509 | 7.18 | 385 | 96.4 |
-| DiffSBDD‡ | MDM2-TP53 | 97 | 0.495 | **6.33** | 360 | 96.9 |
-| DiffSBDD‡ | BCL2-BAX  | **100** | **0.564** | **4.87** | 192 | 99.0 |
-| DiffSBDD‡ | MENIN-MLL | 99 | 0.434 | **6.28** | 385 | **100** |
-| DiffSBDD‡ | KRAS-SOS1 | 99 | 0.400 | **6.53** | 395 | 99.0 |
-| DiffSBDD‡ | VHL-HIF1A | 91 | 0.474 | **5.57** | 310 | 97.8 |
-| DiffSBDD‡ | XIAP-SMAC | 95 | **0.580** | **5.54** | 272 | 98.9 |
-| TargetDiff‡ | MDM2-TP53 | 59 | 0.404 | 6.95 | 461 | **100** |
-| TargetDiff‡ | BCL2-BAX  | 39 | 0.441 | 5.19 | 331 | **100** |
-| TargetDiff‡ | MENIN-MLL | 59 | 0.283 | 6.69 | 492 | 96.6 |
-| TargetDiff‡ | KRAS-SOS1 | 8  | 0.318 | 5.94 | 459 | **100** |
-| TargetDiff‡ | VHL-HIF1A | 78 | 0.397 | 7.14 | 480 | 94.9 |
-| TargetDiff‡ | XIAP-SMAC | 13 | 0.364 | 6.43 | 464 | **100** |
-
-#### 6-target averages
-
-| Method | Validity (%) | QED ↑ | SA score ↓ | Mean MW (Da) | PAINS-clean (%) | Counter-screening |
-|---|---|---|---|---|---|---|
-| **PPI-CLDM** | **100** | 0.531 | 7.32 | 375 | 98.8 | ✅ 83 targets |
-| Pocket2Mol† | 94.4 | **0.575** | **4.14** | ~300 | N/R | ❌ |
-| DiffSBDD‡ | 96.8 | 0.491 | **5.85** | 319 | 98.6 | ❌ |
-| TargetDiff‡ | 42.7 | 0.368 | 6.39 | 448 | 98.6 | ❌ |
-
-> † Pocket2Mol evaluated on CrossDocked2020 benchmark (kinase/GPCR-dominant); PPI targets not separately reported.  
-> ‡ Independently measured on 6 PPI targets (n=100 per target, Zenodo pretrained checkpoints, clean conda env + A100 GPU). Validity = complete single-fragment molecules reconstructed by RDKit. TargetDiff validity drops to 8% on KRAS-SOS1 and 13% on XIAP-SMAC — reflecting distribution shift from its CrossDocked2020 training (kinase/GPCR-dominant) to atypical PPI pockets. Vina not run for baselines (N/M). Published CrossDocked2020 numbers: DiffSBDD validity=97.9%, QED=0.579, SA=5.14; TargetDiff validity=97.9%, QED=0.481.  
-> SA score: RDKit-based approximation (ring count + stereo centers + heavy atom penalty), scale 1–10, lower = easier to synthesize. N/R = not reported. N/M = not measured.
-
-### Capability comparison
-
-| | PPI-CLDM | Pocket2Mol | DiffSBDD | TargetDiff | REINVENT |
-|---|---|---|---|---|---|
-| PPI-specific training | ✅ 1401 ChEMBL PPI inhibitors | ❌ | ❌ | ❌ | ❌ per-target RL only |
-| 100% valid SMILES (constrained decode) | ✅ | ❌ 94.4% | ❌ avg 96.8%‡ | ❌ avg 42.7%‡ | ✅ |
-| MW>350 bias correction | ✅ re-trained subset | ❌ | ❌ | ❌ | reward-dependent |
-| Built-in 83-target counter-screening | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Selectivity score (Δ vina) | ✅ | ❌ | ❌ | ❌ | ❌ |
-| PAINS/Brenk auto-filter | ✅ | ❌ | ❌ | ❌ | configurable |
-| HPC SLURM array support | ✅ | ❌ | ❌ | ❌ | ❌ |
-
----
-
-## Citation
-
-If you use this pipeline in your research, please cite:
-
-```bibtex
-@software{ppi_cldm_2026,
-  title  = {PPI-CLDM: Conditional Latent Diffusion for PPI Inhibitor Discovery},
-  author = {Yang, Zijian},
-  year   = {2026},
-  url    = {https://github.com/ethanyangAI/ppi-cldm}
-}
-```
+The top-level reconstruction registry records current states and exact evidence paths.
+Version-pinned model assets have download receipts and SHA-256 checks.
+Source commits and Git bundles are independently restored and checked.
+A bundle stored on this same filesystem is not an off-site backup.
+GitHub publication is separate from this reconstruction.

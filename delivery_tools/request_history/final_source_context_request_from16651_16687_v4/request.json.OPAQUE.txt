@@ -1,0 +1,27 @@
+{
+  "schema": "final-source-materialized-context-read-view-request.v3",
+  "root_owned": true,
+  "raw_JSON_rewrite_allowed": false,
+  "generic_relative_resolution_allowed": false,
+  "generic_external_resolution_allowed": false,
+  "library_software_acceptance": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/final_source_finite_worker_alias_software_16651/acceptance.json",
+    "bytes": 6590,
+    "sha256": "5a8bfa759754985cd72bd35cb50192eb2aefef0df3fc73c28aebd4aed00adfe5"
+  },
+  "mapper_software_acceptance": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/exact_context_mapper_v4_13319/acceptance.json",
+    "bytes": 15049,
+    "sha256": "a66b8186aa4ba2c737fe3e607f84bb90ecc35b35f271022bbcb66ac3cb327890"
+  },
+  "final_source_plan": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/final_source_plan_from14706_14925_16651_16671_v4/final_source_plan.json",
+    "bytes": 1941606,
+    "sha256": "b7a8c58b5794ab9b221a70e46fc47614395af20b1fb3f32ef86bd507e387bf30"
+  },
+  "bbf_parent_aliases": [],
+  "historical_parent_aliases": [],
+  "recovered_parent_aliases": [],
+  "archive_parent_aliases": [],
+  "finite_source_parent_aliases": []
+}

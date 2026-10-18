@@ -1,0 +1,8 @@
+{
+  "id": "DEVELOPMENT-ORTHOGONAL-20260922-v1",
+  "scope": "64 of 256 candidate slots, stratified across all 16 target-condition-seed cells",
+  "selection": "Four distinct backbone SHA256 groups per cell, deterministic hash order using prefix orthogonal-dev-v1; choose one sequence within each group by SHA256 with sequence-choice-v1; selection ignores all predicted scores",
+  "inference": "AF2 multimer v3 model1, seeds1042-1044, max3 recycles, public target MSA128:256, single binder, no templates, no relaxation",
+  "interpretation": "Orthogonal computational sensitivity; no superiority or experimental blockade claim; subsample cannot be reported as all 256 AF2-tested",
+  "calibration_reference": "78 controls under same AF2 protocol, with explicit de novo target exception"
+}

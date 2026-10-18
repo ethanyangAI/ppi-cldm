@@ -1,0 +1,992 @@
+{
+  "component": "boltz",
+  "environment": {
+    "executable": {
+      "bytes": 25916456,
+      "path": "/lustre/users/u21111210118/projects/test9/env/boltz/bin/python3.11",
+      "sha256": "a2e034edaacaec8f1964c854dfb2537bb691299f2e54ac4286c7cf2ec3282f2c"
+    },
+    "model_distribution_files": [
+      {
+        "bytes": 201,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/bin/boltz",
+        "sha256": "602fbcae9af76fe89e509df8ac42bf72c9b0e551fbbc4ea3ec815fa00801ca9d"
+      },
+      {
+        "bytes": 4,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz-2.2.1.dist-info/INSTALLER",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "bytes": 7684,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz-2.2.1.dist-info/METADATA",
+        "sha256": "05f5bbdff6062a4279759df5822a4eeddef9a42c280e452272c8673cf47f68dd"
+      },
+      {
+        "bytes": 16564,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz-2.2.1.dist-info/RECORD",
+        "sha256": "591f1fc0af4f2ee71a2caafbf2df650786e52222af0608821fddbc47938806c4"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz-2.2.1.dist-info/REQUESTED",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 91,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz-2.2.1.dist-info/WHEEL",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b"
+      },
+      {
+        "bytes": 41,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz-2.2.1.dist-info/entry_points.txt",
+        "sha256": "9f96b9237e67b6ef659b2af5ea86601cf158d1bd18c638a2c58ee6ee76cc4cb7"
+      },
+      {
+        "bytes": 1102,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz-2.2.1.dist-info/licenses/LICENSE",
+        "sha256": "f0667fd5e66c51e1ba8ddaa0249c6d7225b30037e02c45782d8f2c2943ac2617"
+      },
+      {
+        "bytes": 6,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz-2.2.1.dist-info/top_level.txt",
+        "sha256": "32053725f6fe72d5a6d3b60632db3af0f3234a1f6fdba0f481f1b77454665450"
+      },
+      {
+        "bytes": 187,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/__init__.py",
+        "sha256": "17ffaca374b8d2266b499f3d19ee134ba699ab05b2657abf1f801718395b03f8"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 26779,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/const.py",
+        "sha256": "d4cfbcf19e8791f298e8c90db6a723ddbf4ffa85fdc445e5ba1dea33fbbc74d5"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/crop/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 5732,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/crop/affinity.py",
+        "sha256": "36a1adbc8f3788eb561839805704e95f2233c5e4920070dab860ab9b1aafb18b"
+      },
+      {
+        "bytes": 9840,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/crop/boltz.py",
+        "sha256": "6e5a0ff6f93a726288678cd9a0ed3821785ba2e488105bca6f1054a0b1034071"
+      },
+      {
+        "bytes": 1145,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/crop/cropper.py",
+        "sha256": "0460e017035550fc8166f72a9c9c0fc87fc87d9d4d018099fca3306d07f81cae"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/feature/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 44522,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/feature/featurizer.py",
+        "sha256": "fb0a7ecbbb42d5e02ef85d26e399a4bbb807773bcb5fbb3149a50923f697f860"
+      },
+      {
+        "bytes": 91444,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/feature/featurizerv2.py",
+        "sha256": "af1f9e6ec0c3d7289eb1f7503c3c1c3ee0d9f03436778dd4a7d412b8f7bd9f94"
+      },
+      {
+        "bytes": 22214,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/feature/symmetry.py",
+        "sha256": "244ab11b85dc72ceeae14288c4b3d42d7b2fe70622344dc164c0c7d26b0168d0"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/filter/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/filter/dynamic/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 2078,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/filter/dynamic/date.py",
+        "sha256": "33d92cd4fcfda7433df7ec69a27aeebfefc51df351dc7bf7a17b7f35134c396a"
+      },
+      {
+        "bytes": 516,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/filter/dynamic/filter.py",
+        "sha256": "ae7ca9f3e84258c1df3954ca6c3a3ed000efc35ce8bc6c23fd8f8fb8ffe9c625"
+      },
+      {
+        "bytes": 1071,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/filter/dynamic/max_residues.py",
+        "sha256": "b6f61a7e4f02e3efedf7a9d6487209e7bcaac568c7ae5257e4bf0a8e9b8a6c4d"
+      },
+      {
+        "bytes": 868,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/filter/dynamic/resolution.py",
+        "sha256": "38b84f8f462e992f2de39c7440a2c173a1116f04aa6c539907ca6e11dd7b51f6"
+      },
+      {
+        "bytes": 1087,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/filter/dynamic/size.py",
+        "sha256": "7f1f6d65f7f4c723536259da0c3792a2ae8ca4d2bf53e859a67035c581ea4c0a"
+      },
+      {
+        "bytes": 1106,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/filter/dynamic/subset.py",
+        "sha256": "c49fcb51e2d635af432046f1a07e3c2e9fc6d17374acb17d7a9e97c9f0ecfaa7"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/filter/static/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 555,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/filter/static/filter.py",
+        "sha256": "2bb4ae77861327b8bd44d2bb68f6ccd2e22e3bfd577cbae466b3ca823563eb22"
+      },
+      {
+        "bytes": 1042,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/filter/static/ligand.py",
+        "sha256": "2da982f99f488d88f70e67f1c0c1663db28106144c6f2dee5908fbe300d65497"
+      },
+      {
+        "bytes": 9386,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/filter/static/polymer.py",
+        "sha256": "2cdb1032c38e9e162978ab8cf404ad92da1340f3191371f4caee26460fa3c0f7"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/module/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 8149,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/module/inference.py",
+        "sha256": "3f19e1cc43cb6f2815b8f088ad3b4cdd18903b42c56e4daaa7576c332d6881f7"
+      },
+      {
+        "bytes": 12695,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/module/inferencev2.py",
+        "sha256": "675235dff103d698dc65f2ebaca85a62b664ab28cd09f4b1c0166e6e56b47db4"
+      },
+      {
+        "bytes": 22621,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/module/training.py",
+        "sha256": "9a4e3f1487e1056b97ecc2ee50b584a059c6dd8949040a02ab81a20f3c868030"
+      },
+      {
+        "bytes": 21276,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/module/trainingv2.py",
+        "sha256": "66c6141d85f17ee3e02296d3c028f940b3b45cafffc63b2a230e8601148d196d"
+      },
+      {
+        "bytes": 34268,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/mol.py",
+        "sha256": "99a3a93c71065f55555c220563aa5034617b8140593c07e04afb8f7f640ed727"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/msa/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 10559,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/msa/mmseqs2.py",
+        "sha256": "7537c23ca2d6863639187b8815011d592ee433bb145e6fdc86082ca836d3a6e7"
+      },
+      {
+        "bytes": 2066,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/pad.py",
+        "sha256": "3b808638e7394f016eb9678fee12a330822c96375f2e3f9526d5d07955c5c7cb"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/parse/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 3318,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/parse/a3m.py",
+        "sha256": "2399c3d7a918556d4d3ca78b10c9bb2381a7110aed664f5b16dc70f3dc262a2d"
+      },
+      {
+        "bytes": 2518,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/parse/csv.py",
+        "sha256": "1dcabcac95b69e37336a112bf237ddfe8fb3c4b68d4a0277608a02f6cac8aa9c"
+      },
+      {
+        "bytes": 3906,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/parse/fasta.py",
+        "sha256": "63828f22d66a859dcc7a3ecfa3799dcdf6c44f2a472fef494f8d34962b4654f4"
+      },
+      {
+        "bytes": 36822,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/parse/mmcif.py",
+        "sha256": "db99045c2931f8eb9a6b002cedc773d1fc5d46ee7f0823b4015d34bbce0fae34"
+      },
+      {
+        "bytes": 51473,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/parse/mmcif_with_constraints.py",
+        "sha256": "5876197244aa530bbe35bf6f9959b11e60bbbb1c15ac5ec05547952ac739c064"
+      },
+      {
+        "bytes": 1433,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/parse/pdb.py",
+        "sha256": "7aa50724cd70fdbd8a4acaeba8ceca0bd76ba9cc95099592a1ddcd1e53081a69"
+      },
+      {
+        "bytes": 62148,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/parse/schema.py",
+        "sha256": "c0dae4c89c4c4a22175a433b5a0c68860329d2a292c76224328bdde19b73b743"
+      },
+      {
+        "bytes": 1505,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/parse/yaml.py",
+        "sha256": "19115132d0c3e0f4383c8a40fd2d638f4bd1684bb62e565dfe0e2b375cd4acda"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/sample/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 8175,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/sample/cluster.py",
+        "sha256": "f52c7ca8fef3199380c84b29c1816d0936c64c1667b8dfb37c22856db03fea82"
+      },
+      {
+        "bytes": 1789,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/sample/distillation.py",
+        "sha256": "001cecb76141aff139e0aa995881dcd5b62d298afbf65c5124cecf9d2e227cad"
+      },
+      {
+        "bytes": 1142,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/sample/random.py",
+        "sha256": "8e67a79c335f92eab6501ca7e79c2b413c0d3c2381baeebf8c1253e15ada2f6f"
+      },
+      {
+        "bytes": 1095,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/sample/sampler.py",
+        "sha256": "2d757814b40f74c0bf8dae0c8cf8f4922704aebf145d25ab29e84f045e733b14"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/tokenize/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 7164,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/tokenize/boltz.py",
+        "sha256": "53c62f3952d95f8d523a258375b0d23431336f0c19db218207ef0c4381f68cd3"
+      },
+      {
+        "bytes": 13530,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/tokenize/boltz2.py",
+        "sha256": "e35aeb4b1c63df7abc402cf71ac3261447fd2374e557ab1aebd57ce4ff054422"
+      },
+      {
+        "bytes": 484,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/tokenize/tokenizer.py",
+        "sha256": "f689243bcf40d51bd0779b5c5bd54b20a6424afbd400ba2ccb68ad74dd660c81"
+      },
+      {
+        "bytes": 22170,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/types.py",
+        "sha256": "e7e5ede40e0c208bcb966acd04caebb3b017e8a50b85b1aa3cae4cdf83b71707"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/write/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 12213,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/write/mmcif.py",
+        "sha256": "ebf4c5773903bb4f5dbe8121ece2def65855c7f5947157586cca74d26ec3337c"
+      },
+      {
+        "bytes": 6278,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/write/pdb.py",
+        "sha256": "a7ec3450deaec04fe4c030a99e778df5ed23a6f483b286d10fed00fa22aa6db9"
+      },
+      {
+        "bytes": 539,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/write/utils.py",
+        "sha256": "d8fcef78ce2a67b01a76bbb5433a22d83862b7fb382d7973e1c797a46262e32d"
+      },
+      {
+        "bytes": 12997,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/data/write/writer.py",
+        "sha256": "65b7fd13f6fdd0d06c0f241a9b717529cf1bbe5e2d5fb70e1aa068400ac2f815"
+      },
+      {
+        "bytes": 45798,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/main.py",
+        "sha256": "b5ded4dac1552af2e079c335d56e64ea580b4d5ca0202a9542385ce3e318c3b3"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 3782,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/attention.py",
+        "sha256": "ae47793d3228541d644b30e706b65fbade03a041ca1c10b0b836f5a7425f49c9"
+      },
+      {
+        "bytes": 3130,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/attentionv2.py",
+        "sha256": "ae9bbc1eeb56c8dcd403d49693c84cd616ffd6772226364214ffd61d328cd8da"
+      },
+      {
+        "bytes": 8533,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/confidence_utils.py",
+        "sha256": "50cc0fe50e6088127c04ae715875e612c0f8a690ee8114b86a5ad41aebc63db7"
+      },
+      {
+        "bytes": 763,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/dropout.py",
+        "sha256": "cb22161a9683a8d9d16866f4fd3d1ece2cce663e2e4ed738bcd3bd23f47a77b6"
+      },
+      {
+        "bytes": 2463,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/initialize.py",
+        "sha256": "2a72bdb547c6bc25a47706dc2ef258a0bf969a5a3d61c21c281b5dad76941b7d"
+      },
+      {
+        "bytes": 3140,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/outer_product_mean.py",
+        "sha256": "c7966c776a9f5b8075f2d75c59ec88cc0ea2ba38694b568167c64ede619a774c"
+      },
+      {
+        "bytes": 4332,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/pair_averaging.py",
+        "sha256": "5d7662a723a5c59bf8411e1493670851ef0ec3f5e9af8e5e102aac5a8b8d015b"
+      },
+      {
+        "bytes": 10264,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/pairformer.py",
+        "sha256": "794efe7648927a1681a236cb54bb65cb3125acc48a89a72cf205bbc551be2f2e"
+      },
+      {
+        "bytes": 1875,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/relative.py",
+        "sha256": "7cb3b00031b95430dd1f61aa8acf8be8bc3c867586c423e37d5eadf2461e1087"
+      },
+      {
+        "bytes": 2290,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/transition.py",
+        "sha256": "cc50a51a6aa669455420549de16e29558d7b96f8a7d8da6f69930ab9e738cf37"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/triangular_attention/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 4977,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/triangular_attention/attention.py",
+        "sha256": "deaaa0c28d2864d630d83c586d3d6b3f3499909cad01579753ce1c35a9c465c7"
+      },
+      {
+        "bytes": 11961,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/triangular_attention/primitives.py",
+        "sha256": "d7245ffe8eefa580c693967e047da9950ed2b366c3595804e19a4477d789a412"
+      },
+      {
+        "bytes": 12394,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/triangular_attention/utils.py",
+        "sha256": "1236df24edde965ec06fcbfc006ef3b16f0a9359fa6e519f0b21cf47e34ecdb5"
+      },
+      {
+        "bytes": 6000,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/layers/triangular_mult.py",
+        "sha256": "458319d62723c19a672fa650b11a601feaff8ee195179e37e6a43b34a92b3a94"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/loss/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 1462,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/loss/bfactor.py",
+        "sha256": "cd7f4922518011347734c71ba6d0118f34ab870586feb5ab1bca47ac75ab13ff"
+      },
+      {
+        "bytes": 19087,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/loss/confidence.py",
+        "sha256": "ca018acad7e8a7ccf05e58dd9625623f45c62816e70a03dc076e5fbf53d47808"
+      },
+      {
+        "bytes": 21969,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/loss/confidencev2.py",
+        "sha256": "3c58b678c5c78735ed3f5d78e74e3fe4ccf0bfc6a46f75e6e1961e1ef07b5a24"
+      },
+      {
+        "bytes": 5044,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/loss/diffusion.py",
+        "sha256": "e71b74b36a09a4f31241de704fc31fe4bcca821a0abbef035cf3872f77b81076"
+      },
+      {
+        "bytes": 5086,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/loss/diffusionv2.py",
+        "sha256": "c7eca07579fde88efb6c232ccd7b3964721cb91c70f17df1583de5f43cbe503b"
+      },
+      {
+        "bytes": 1178,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/loss/distogram.py",
+        "sha256": "79006491376335f9e46b480c34570c797fe8ecacec4d8e134d97e6fa80db5ee0"
+      },
+      {
+        "bytes": 3845,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/loss/distogramv2.py",
+        "sha256": "74580c1b0a5d2cae3eb241c9c2fa44446d7429f1776543754fdfe1523fa25900"
+      },
+      {
+        "bytes": 33501,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/loss/validation.py",
+        "sha256": "818a5b6a0f66ba58391c93d78ce50568c57d5d2617fecd9b210d22623880a30d"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/models/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 51873,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/models/boltz1.py",
+        "sha256": "dc506b7d313187c1082a7e2f8dcf663a899d43a2cefe499cb2ca7367f0d78754"
+      },
+      {
+        "bytes": 51678,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/models/boltz2.py",
+        "sha256": "c3f21a4c5e31bdcb81709da131b201944c48d11e00e52aaadd15b3e2512568ab"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/modules/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 7041,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/modules/affinity.py",
+        "sha256": "164b48db0ae40eab2318724ebafcd5ad92bbf0c38f8d4eb940dd25eac07540f4"
+      },
+      {
+        "bytes": 17475,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/modules/confidence.py",
+        "sha256": "b171b29998a232d7d73e452f1e96b62820af358efd0fc8d75c4c7d1b3dab345b"
+      },
+      {
+        "bytes": 5254,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/modules/confidence_utils.py",
+        "sha256": "2b71b1e9b675544d8cfc435b27df2e2adb719319ea44f94fffb806a05359c88c"
+      },
+      {
+        "bytes": 18581,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/modules/confidencev2.py",
+        "sha256": "1b48b2194a9361e46a8b67d845d630e92e2e293fd05f93cb4e30413b463eb80f"
+      },
+      {
+        "bytes": 32220,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/modules/diffusion.py",
+        "sha256": "61d13ffd2314fd0520f311c1e63b73fe64b77b86556eba83476fa6e828a6dcbb"
+      },
+      {
+        "bytes": 3682,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/modules/diffusion_conditioning.py",
+        "sha256": "6500f3bd894c27d072581810be5548250eba18f1e400af637d554aebc20ce719"
+      },
+      {
+        "bytes": 26623,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/modules/diffusionv2.py",
+        "sha256": "9eacc8cf7daeb62dffa81a09a1f93d2e268a4b7b68b5b88c2058c5ebf5ca4057"
+      },
+      {
+        "bytes": 20412,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/modules/encoders.py",
+        "sha256": "cc3aecc74a80a92a65188a0e3211f8856dfb701269fb543a02da2ed5ecd9c18c"
+      },
+      {
+        "bytes": 18716,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/modules/encodersv2.py",
+        "sha256": "2938af17252607d056106fc04a3afa0ea96b145fa7485764ebf33d646c99e0d4"
+      },
+      {
+        "bytes": 9078,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/modules/transformers.py",
+        "sha256": "2e427fb4940106053a99f4eba9de9966eda3abb1755a93736207a6577fb5b74f"
+      },
+      {
+        "bytes": 7269,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/modules/transformersv2.py",
+        "sha256": "4fbecbe835ec2d7286d5a46e408cb9134b2378bce8dd443df58b80392736f982"
+      },
+      {
+        "bytes": 21538,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/modules/trunk.py",
+        "sha256": "44b4e5b73714d1032cd8ae680abcd5715e38b7dd06991f9b3e1692ae5f4e898d"
+      },
+      {
+        "bytes": 27386,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/modules/trunkv2.py",
+        "sha256": "6efdf74176e06237e7a0e601b534a0eb74addc60f42de56609930a2ec8d5dad9"
+      },
+      {
+        "bytes": 10041,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/modules/utils.py",
+        "sha256": "9752c1ad82549c9cf2638c484f576ce411436130cd1d43265362be38b46bf0f8"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/optim/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 11512,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/optim/ema.py",
+        "sha256": "ae3d5df44e53589d84516eb3fca86b80e1007bf8f3077763ecee65c099e9acc7"
+      },
+      {
+        "bytes": 3505,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/optim/scheduler.py",
+        "sha256": "9c1e23cf4099e294789f4f0b427804c4bfe937270875823c0175681cf9d9590f"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/potentials/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 28810,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/potentials/potentials.py",
+        "sha256": "1e4a79f1454e5a71ca5a3eb82fca5451a7dc2bed8a45df9f0a814f62a6219f38"
+      },
+      {
+        "bytes": 1002,
+        "path": "/lustre/users/u21111210118/projects/test9/env/boltz/lib/python3.11/site-packages/boltz/model/potentials/schedules.py",
+        "sha256": "3c4fe0ca97a122e8d3148dc7e5401b2ac1b112f3806a2e98351d719086e9534f"
+      }
+    ],
+    "packages": [
+      {
+        "name": "aiohappyeyeballs",
+        "version": "2.7.1"
+      },
+      {
+        "name": "aiohttp",
+        "version": "3.14.3"
+      },
+      {
+        "name": "aiosignal",
+        "version": "1.4.0"
+      },
+      {
+        "name": "antlr4-python3-runtime",
+        "version": "4.9.3"
+      },
+      {
+        "name": "attrs",
+        "version": "26.1.0"
+      },
+      {
+        "name": "biopython",
+        "version": "1.84"
+      },
+      {
+        "name": "boltz",
+        "version": "2.2.1"
+      },
+      {
+        "name": "certifi",
+        "version": "2026.7.22"
+      },
+      {
+        "name": "charset-normalizer",
+        "version": "3.5.2"
+      },
+      {
+        "name": "chembl-structure-pipeline",
+        "version": "1.2.2"
+      },
+      {
+        "name": "click",
+        "version": "8.1.7"
+      },
+      {
+        "name": "cloudpickle",
+        "version": "3.1.2"
+      },
+      {
+        "name": "contourpy",
+        "version": "1.3.3"
+      },
+      {
+        "name": "cycler",
+        "version": "0.12.1"
+      },
+      {
+        "name": "dm-tree",
+        "version": "0.1.8"
+      },
+      {
+        "name": "docker-pycreds",
+        "version": "0.4.0"
+      },
+      {
+        "name": "einops",
+        "version": "0.8.0"
+      },
+      {
+        "name": "einx",
+        "version": "0.3.0"
+      },
+      {
+        "name": "fairscale",
+        "version": "0.4.13"
+      },
+      {
+        "name": "filelock",
+        "version": "3.32.3"
+      },
+      {
+        "name": "fonttools",
+        "version": "4.66.1"
+      },
+      {
+        "name": "frozendict",
+        "version": "2.4.7"
+      },
+      {
+        "name": "frozenlist",
+        "version": "1.8.0"
+      },
+      {
+        "name": "fsspec",
+        "version": "2026.7.0"
+      },
+      {
+        "name": "gemmi",
+        "version": "0.6.5"
+      },
+      {
+        "name": "gitdb",
+        "version": "4.0.12"
+      },
+      {
+        "name": "gitpython",
+        "version": "3.2.0"
+      },
+      {
+        "name": "hydra-core",
+        "version": "1.3.2"
+      },
+      {
+        "name": "idna",
+        "version": "3.20"
+      },
+      {
+        "name": "ihm",
+        "version": "2.11"
+      },
+      {
+        "name": "jinja2",
+        "version": "3.1.6"
+      },
+      {
+        "name": "joblib",
+        "version": "1.6.0"
+      },
+      {
+        "name": "kiwisolver",
+        "version": "1.5.1"
+      },
+      {
+        "name": "lightning-utilities",
+        "version": "0.15.3"
+      },
+      {
+        "name": "llvmlite",
+        "version": "0.44.0"
+      },
+      {
+        "name": "markupsafe",
+        "version": "3.0.3"
+      },
+      {
+        "name": "mashumaro",
+        "version": "3.14"
+      },
+      {
+        "name": "matplotlib",
+        "version": "3.9.4"
+      },
+      {
+        "name": "modelcif",
+        "version": "1.2"
+      },
+      {
+        "name": "mpmath",
+        "version": "1.3.0"
+      },
+      {
+        "name": "msgpack",
+        "version": "1.2.3"
+      },
+      {
+        "name": "multidict",
+        "version": "6.9.1"
+      },
+      {
+        "name": "networkx",
+        "version": "3.6.1"
+      },
+      {
+        "name": "numba",
+        "version": "0.61.0"
+      },
+      {
+        "name": "numpy",
+        "version": "1.26.4"
+      },
+      {
+        "name": "nvidia-cublas-cu11",
+        "version": "11.11.3.6"
+      },
+      {
+        "name": "nvidia-cuda-cupti-cu11",
+        "version": "11.8.87"
+      },
+      {
+        "name": "nvidia-cuda-nvrtc-cu11",
+        "version": "11.8.89"
+      },
+      {
+        "name": "nvidia-cuda-runtime-cu11",
+        "version": "11.8.89"
+      },
+      {
+        "name": "nvidia-cudnn-cu11",
+        "version": "9.1.0.70"
+      },
+      {
+        "name": "nvidia-cufft-cu11",
+        "version": "10.9.0.58"
+      },
+      {
+        "name": "nvidia-curand-cu11",
+        "version": "10.3.0.86"
+      },
+      {
+        "name": "nvidia-cusolver-cu11",
+        "version": "11.4.1.48"
+      },
+      {
+        "name": "nvidia-cusparse-cu11",
+        "version": "11.7.5.86"
+      },
+      {
+        "name": "nvidia-nccl-cu11",
+        "version": "2.21.5"
+      },
+      {
+        "name": "nvidia-nvtx-cu11",
+        "version": "11.8.86"
+      },
+      {
+        "name": "omegaconf",
+        "version": "2.3.1"
+      },
+      {
+        "name": "packaging",
+        "version": "26.3"
+      },
+      {
+        "name": "pandas",
+        "version": "2.2.3"
+      },
+      {
+        "name": "pillow",
+        "version": "12.3.0"
+      },
+      {
+        "name": "pip",
+        "version": "26.2.1"
+      },
+      {
+        "name": "platformdirs",
+        "version": "4.12.2"
+      },
+      {
+        "name": "propcache",
+        "version": "0.5.4"
+      },
+      {
+        "name": "protobuf",
+        "version": "5.29.6"
+      },
+      {
+        "name": "psutil",
+        "version": "7.2.2"
+      },
+      {
+        "name": "pyparsing",
+        "version": "3.3.3"
+      },
+      {
+        "name": "python-dateutil",
+        "version": "2.9.0.post0"
+      },
+      {
+        "name": "pytorch-lightning",
+        "version": "2.5.0"
+      },
+      {
+        "name": "pytz",
+        "version": "2026.4"
+      },
+      {
+        "name": "pyyaml",
+        "version": "6.0.2"
+      },
+      {
+        "name": "rdkit",
+        "version": "2024.9.6"
+      },
+      {
+        "name": "requests",
+        "version": "2.32.3"
+      },
+      {
+        "name": "scikit-learn",
+        "version": "1.6.1"
+      },
+      {
+        "name": "scipy",
+        "version": "1.13.1"
+      },
+      {
+        "name": "sentry-sdk",
+        "version": "2.71.0"
+      },
+      {
+        "name": "setproctitle",
+        "version": "1.3.8"
+      },
+      {
+        "name": "setuptools",
+        "version": "84.0.0"
+      },
+      {
+        "name": "six",
+        "version": "1.17.0"
+      },
+      {
+        "name": "smmap",
+        "version": "5.0.3"
+      },
+      {
+        "name": "sympy",
+        "version": "1.13.1"
+      },
+      {
+        "name": "threadpoolctl",
+        "version": "3.7.0"
+      },
+      {
+        "name": "torch",
+        "version": "2.5.1+cu118"
+      },
+      {
+        "name": "torchmetrics",
+        "version": "1.9.0"
+      },
+      {
+        "name": "tqdm",
+        "version": "4.70.1"
+      },
+      {
+        "name": "triton",
+        "version": "3.1.0"
+      },
+      {
+        "name": "types-requests",
+        "version": "2.33.0.20260906"
+      },
+      {
+        "name": "typing-extensions",
+        "version": "4.16.0"
+      },
+      {
+        "name": "tzdata",
+        "version": "2026.4"
+      },
+      {
+        "name": "urllib3",
+        "version": "2.8.0"
+      },
+      {
+        "name": "wandb",
+        "version": "0.18.7"
+      },
+      {
+        "name": "wheel",
+        "version": "0.48.0"
+      },
+      {
+        "name": "yarl",
+        "version": "1.25.1"
+      }
+    ],
+    "python": "3.11.16 (main, Sep  2 2026, 23:39:52) [GCC 15.3.0]"
+  },
+  "assets": {
+    "boltz2_conf.ckpt": {
+      "path": "/lustre/users/u21111210118/projects/test9/assets/boltz/boltz2_conf.ckpt",
+      "sha256": "090e82ac8c92f5e943fa1b39e7410a44027bea7243c0bbb3caa67a77fc1428e1",
+      "bytes": 2286561469
+    },
+    "boltz2_conf.ckpt_receipt": {
+      "path": "/lustre/users/u21111210118/projects/test9/assets/boltz/boltz2_conf.ckpt.receipt.json",
+      "sha256": "f6c85717b72d8b590c188fab04db4f60183f92f7c46add833f8f7d0095fc9430",
+      "bytes": 590
+    },
+    "boltz2_aff.ckpt": {
+      "path": "/lustre/users/u21111210118/projects/test9/assets/boltz/boltz2_aff.ckpt",
+      "sha256": "dcc5cd3722b1c9eaa34267e4ae32f55cbbf1963f4c19319381ccfa30fdd2ca9e",
+      "bytes": 2062139170
+    },
+    "boltz2_aff.ckpt_receipt": {
+      "path": "/lustre/users/u21111210118/projects/test9/assets/boltz/boltz2_aff.ckpt.receipt.json",
+      "sha256": "a185621293d9216890dfd95f2ca28035d6746be45b13e61f27e67cb652985302",
+      "bytes": 588
+    }
+  },
+  "vendor_files": {},
+  "molecule_tree": {
+    "path_root": "/lustre/users/u21111210118/projects/test9/assets/boltz/mols",
+    "file_count": 45227,
+    "bytes": 1820698819,
+    "tree_sha256": "56da6bf00fdbe47ed8c813ba4c3adb86b86438522e60633a08532d7039fd94ae"
+  }
+}
