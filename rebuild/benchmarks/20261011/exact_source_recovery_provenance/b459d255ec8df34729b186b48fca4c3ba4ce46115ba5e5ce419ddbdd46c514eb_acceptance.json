@@ -1,0 +1,39 @@
+{
+  "status": "INDEPENDENT_FORMAL_V2_METADATA_COMBINATION_CONTRACTS_PASS",
+  "allocation": {
+    "job_id": "13180",
+    "scheduler_record": "JobId=13180 JobName=ppi_formal2_meta_contracts UserId=u21111210118(6263900) GroupId=u21111210118(6263900) MCS_label=N/A Priority=1 Nice=0 Account=u21111210118 QOS=normal JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:00 TimeLimit=00:10:00 TimeMin=N/A SubmitTime=2026-10-11T14:25:27 EligibleTime=2026-10-11T14:25:27 AccrueTime=2026-10-11T14:25:27 StartTime=2026-10-11T14:25:28 EndTime=2026-10-11T14:35:28 Deadline=N/A PreemptEligibleTime=2026-10-11T14:25:28 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-11T14:25:28 Scheduler=Main Partition=organ AllocNode:Sid=workstation:57747 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu1 BatchHost=gpu1 NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:* TRES=cpu=1,node=1,billing=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=1 MinMemoryNode=4G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/test_formal_v2.sbatch WorkDir=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark StdErr=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/logs/formal2_meta_contracts_13180.log StdIn=/dev/null StdOut=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/logs/formal2_meta_contracts_13180.log Power= \n",
+    "allocated_tres": "cpu=1,node=1,billing=1"
+  },
+  "tests_run": 64,
+  "errors": 0,
+  "failures": 0,
+  "source": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/formal_benchmark_contract.py",
+    "bytes": 46892,
+    "sha256": "13a00de2de298bbc5645f36352bf8da400d3cddb9ce6d5397c623f75d49133ae"
+  },
+  "contracts": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/test_formal_benchmark_contract.py",
+    "bytes": 38371,
+    "sha256": "792a805d12d6c48cd75b847c3a400eee6ab1b704793c75176bcd267019571ce4"
+  },
+  "reviewed_root_builder": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/combine_engineering_acceptance_v1.py",
+    "bytes": 4538,
+    "sha256": "0cb377a068ce893b08637ae50142dd5ac7a48f735279b74fecdde2ab2f37dd49"
+  },
+  "reviewed_root_engineering_helper": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/freeze_engineering_pilot_v5.py",
+    "bytes": 5773,
+    "sha256": "d364d72fe7ad5706fcaed1e1a74f49057f52cd251badf3b7ea60918ae2c3013f"
+  },
+  "reviewed_root_formal_helper": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/freeze_formal_benchmark_v3.py",
+    "bytes": 11994,
+    "sha256": "e23f09c1f01f1459fe1281f2648dd1e3c0d7d0e9704b9024acdaf732b7c3b3d8"
+  },
+  "no_gpu_submission": true,
+  "no_formal_freeze": true,
+  "scope": "Software-only synthetic receipt fixtures; no generation or scientific acceptance."
+}

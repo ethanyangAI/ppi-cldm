@@ -1,0 +1,72 @@
+{
+  "actual_allocation_required": true,
+  "amendment": "Only SBATCH cpus-per-task4->3; exact original science/config/seed/default calls/hardware/GPU budget unchanged",
+  "arm_specific_resource_overrides_allowed": false,
+  "cgroup_cpu_isolation_status": "UNOBSERVED",
+  "cpu_allocation": {
+    "actual_allocated_tres": "cpu=2,node=1,billing=2",
+    "allocated_gpu_count": 0,
+    "job_id": "13259",
+    "scheduler_record_full": "JobId=13259 JobName=audit_formal_pre_generation_v1.sbatch UserId=u21111210118(6263900) GroupId=u21111210118(6263900) MCS_label=N/A Priority=1 Nice=0 Account=u21111210118 QOS=normal JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:00 TimeLimit=00:15:00 TimeMin=N/A SubmitTime=2026-10-11T22:22:02 EligibleTime=2026-10-11T22:22:02 AccrueTime=2026-10-11T22:22:02 StartTime=2026-10-11T22:22:03 EndTime=2026-10-11T22:37:03 Deadline=N/A PreemptEligibleTime=2026-10-11T22:22:03 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-11T22:22:03 Scheduler=Main Partition=organ AllocNode:Sid=workstation:1854945 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu1 BatchHost=gpu1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* TRES=cpu=2,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryNode=8G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/audit_formal_pre_generation_v1.sbatch WorkDir=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark StdErr=/lustre/users/u21111210118/projects/test9/logs/formal-pregen-audit-13259.err StdIn=/dev/null StdOut=/lustre/users/u21111210118/projects/test9/logs/formal-pregen-audit-13259.out Power= \n",
+    "selected_scheduler_record": "JobId=13259 JobName=audit_formal_pre_generation_v1.sbatch UserId=u21111210118(6263900) GroupId=u21111210118(6263900) MCS_label=N/A Priority=1 Nice=0 Account=u21111210118 QOS=normal JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:00 TimeLimit=00:15:00 TimeMin=N/A SubmitTime=2026-10-11T22:22:02 EligibleTime=2026-10-11T22:22:02 AccrueTime=2026-10-11T22:22:02 StartTime=2026-10-11T22:22:03 EndTime=2026-10-11T22:37:03 Deadline=N/A PreemptEligibleTime=2026-10-11T22:22:03 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-11T22:22:03 Scheduler=Main Partition=organ AllocNode:Sid=workstation:1854945 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu1 BatchHost=gpu1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* TRES=cpu=2,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryNode=8G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/audit_formal_pre_generation_v1.sbatch WorkDir=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark StdErr=/lustre/users/u21111210118/projects/test9/logs/formal-pregen-audit-13259.err StdIn=/dev/null StdOut=/lustre/users/u21111210118/projects/test9/logs/formal-pregen-audit-13259.out Power=\n"
+  },
+  "cpu_bottleneck_possible": true,
+  "cpus_per_task": 3,
+  "created_at_epoch": 1791728523.7237575,
+  "expected_task_count": 28,
+  "gpu_count": 1,
+  "gpu_name": "NVIDIA A100-PCIE-40GB",
+  "hardware_changes_allowed": false,
+  "launcher": {
+    "bytes": 1539,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_launchpolicy_13259/formal_generation_cpu3.sbatch",
+    "sha256": "5f02bf6ce198c26f2751a5eb3e32bc57530270ef99094572a229d6d313ef91fb"
+  },
+  "memory_observation_policy": "Require64G scheduler MinMemory; AllocTRES mem if present reported; absent memory TRES is UNAVAILABLE, never zero",
+  "memory_request_gib": 64,
+  "minimum_gpu_memory_mib": 40000,
+  "omp_num_threads_literal": 4,
+  "openblas_num_threads_literal": 1,
+  "original_launcher": {
+    "bytes": 1539,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_freeze_13257/plan/formal_generation.sbatch",
+    "sha256": "17275e9a2f3ef5290168e52cffa0466013e71e638b7d3e74f79d763034afe339"
+  },
+  "original_launcher_execution_status": "AUDITED_NOT_EXECUTED",
+  "plan": {
+    "bytes": 20295,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_freeze_13257/plan/frozen_plan.json",
+    "sha256": "e913d1bbccd531bf88a73f6ba60e8a0de85bb03ad8bcd3455d8952ca4effe0b6"
+  },
+  "protocol": {
+    "bytes": 10451,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_freeze_13257/plan/protocol.json",
+    "sha256": "26875ac0fa8382d812b89d9ed101428bd3cb2b79d661a987513a31ce309d2724"
+  },
+  "schema": "paired_formal_resource_policy.v1",
+  "scope": "ALL28_FORMAL_GENERATION_TASKS_AND_ALL_TECHNICAL_RERUNS",
+  "sequence_universe": {
+    "backbone_intermediates": "Separate actual RF backbone artifact/lineage and phase denominator retained",
+    "binder_length": 65,
+    "eligibility": "Original complete canonical65aa MPNN proposal first observed before scientific cutoff; unique sequence within task; all raw lineage IDs retained",
+    "include_native_rejected": true,
+    "include_native_score_unavailable": true,
+    "intermediates_in_primary_candidate_pool": false,
+    "model_calls_parameters_seeds_filters_changed": false,
+    "native_cohort": "Same eligible MPNN universe; fixed native score top2 after independent raw native-score verification",
+    "primary_candidate_kind": "complete_original_MPNN_proposal",
+    "reporting_rule": "Zero MPNN proposals is not zero total complete optimized sequences; all trajectory/native-reject and engineering outcomes retained",
+    "runtime_source": {
+      "bytes": 51064,
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/benchmark_runtime.py",
+      "sha256": "51b516a692d369f4d9a6ae9e3c39c0294da219c4d065420bbf9538a4af4b6562"
+    },
+    "status": "PREGNERATION_SCOPE_CLARIFICATION_OF_EXISTING_MPNN_LEDGER_NOT_ELIGIBILITY_EXPANSION",
+    "trajectory_hard_and_pseudo_sequences": "Separate complete optimized trajectory intermediate inventory, source/export identity and native phase/rejection denominator retained"
+  },
+  "source": {
+    "bytes": 17811,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/resource_contract_v3/source/independent_resource_policy.py",
+    "sha256": "8449b40f4ffbe3d9e321335bccb9bfcc163291ac3f67497c66fe1555bcd2f6bc"
+  }
+}

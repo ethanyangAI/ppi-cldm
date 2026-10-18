@@ -1,0 +1,61 @@
+{
+  "scope": "remote_evidence_pointers_only",
+  "project_root": "/lustre/users/u21111210118/projects/test9",
+  "accepted": [
+    {
+      "project_relative_path": "steps/02_controls_recovery/runs/20261002T113406Z_11698/manifest.json",
+      "sha256": "a43fc5b39b4a3463c8ae82691c759129e9b0ccd9cb36691e0f5ffa5a9c5f7d16",
+      "bytes": 27152
+    },
+    {
+      "project_relative_path": "steps/02_controls_recovery/runs/20261002T113406Z_11698/outputs/independent_validation_11705.json",
+      "sha256": "3b39606f351fa8728f3afd480bf65f75226fdc94d49b21f9f43c48a26f4ccb76",
+      "bytes": 578
+    },
+    {
+      "project_relative_path": "steps/02_controls_recovery/runs/20261002T114639Z_11731_author_models/manifest.json",
+      "sha256": "6a631ea228b55b0c7ae6ee79a26df74da194484c30b710288a6fcf952b2145c8",
+      "bytes": 1230
+    },
+    {
+      "project_relative_path": "steps/02_controls_recovery/runs/20261002T114639Z_11731_author_models/outputs/independent_validation_11758.json",
+      "sha256": "1eb859b8be68d36e3fa1d5a7946051162dc6301656378a08079f032fbbe16ceb",
+      "bytes": 22083
+    },
+    {
+      "project_relative_path": "steps/06_native_diagnostics/runs/20261002T114000Z_11716/manifest.json",
+      "sha256": "e298192afca8b13328e788e857820a13c992fa4dbada1f718c47eb14b2545ddd",
+      "bytes": 3908
+    },
+    {
+      "project_relative_path": "steps/06_native_diagnostics/runs/20261002T114000Z_11716/outputs/independent_validation_11722.json",
+      "sha256": "e0f5af67b675d92da744ffd7d75b521ffe33390b85f62fd9bdc0c950d36f7cc6",
+      "bytes": 3093
+    },
+    {
+      "project_relative_path": "steps/06_native_diagnostics/runs/20261002T114903Z_11737/manifest.json",
+      "sha256": "e363991d2ad84f2bc04db3974793f360cef99ef52b24e140befd818c4dc15fbb",
+      "bytes": 2572
+    },
+    {
+      "project_relative_path": "steps/06_native_diagnostics/runs/20261002T114903Z_11737/outputs/independent_validation_11749.json",
+      "sha256": "aeb6fa1a1fe0d5ed7f03be396f3691072d11d7587262dc104f5d760742232391",
+      "bytes": 1815
+    },
+    {
+      "project_relative_path": "steps/10_pose_reassessment/runs/20261002T120539Z_11761/manifest.json",
+      "sha256": "3043b73923b7d95832f7ce9917f8bd6f77dc703cabf44a1e4af30a7fb9a866da",
+      "bytes": 65448
+    },
+    {
+      "project_relative_path": "steps/10_pose_reassessment/runs/20261002T120539Z_11761/outputs/independent_validation_11786.json",
+      "sha256": "f12e06cd00fff1a64e8b6d547bc372b47fef90e2873d8215d5a6ad933b52366c",
+      "bytes": 4602
+    },
+    {
+      "project_relative_path": "steps/02_controls_recovery/runs/20261002T121226Z_11797_coverage_audit/manifest.json",
+      "sha256": "f83c74470a492755e056f09e409cb087412ecdd009aa36dd260fe569b54340b8",
+      "bytes": 3402
+    }
+  ]
+}

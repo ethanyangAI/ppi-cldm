@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "tests": 92,
+  "failures": 0,
+  "errors": 0,
+  "log": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_relative_contracts_13307/contracts.txt",
+    "bytes": 13787,
+    "sha256": "d016d3cbbf03af49c4a112995b581fb0d749a745614bc6d4c65b021869e9a33c"
+  }
+}

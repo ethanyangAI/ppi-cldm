@@ -1,0 +1,17 @@
+{
+  "RFdiffusion": {
+    "repository": "https://github.com/RosettaCommons/RFdiffusion",
+    "commit": "86507b6538f51fce57b5a72477165f03999ed7ae",
+    "sha256": "068c5efc5097c71c2dde521af685d1c25618ee3e473c46a9b1443643860c4276"
+  },
+  "ProteinMPNN": {
+    "repository": "https://github.com/dauparas/ProteinMPNN",
+    "commit": "8907e6671bfbfc92303b5f79c4b5e6ce47cdef57",
+    "sha256": "2e11f385074facb06e12496acde80756b34504f0f70bf78714fb07fe9244f398"
+  },
+  "dllogger": {
+    "repository": "https://github.com/NVIDIA/dllogger",
+    "commit": "0478734ff7be75adde8d160e04872664d1c62e5f",
+    "sha256": "0d0a5e991b1e599a4c4644d0041074f8ca0f3665d15a54e59a607e8b8cbe2f7a"
+  }
+}

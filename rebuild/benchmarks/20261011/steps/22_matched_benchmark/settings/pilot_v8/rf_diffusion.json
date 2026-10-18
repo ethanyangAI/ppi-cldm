@@ -1,0 +1,117 @@
+{
+  "schema": "matched_method_adapter.v1",
+  "method": "rf_diffusion",
+  "binder_length": 65,
+  "execution_mode": "persistent_session",
+  "rfd": {
+    "overrides": {
+      "inference.write_trajectory": false
+    }
+  },
+  "mpnn": {
+    "num_seq_per_target": 8,
+    "sampling_temp": 0.0001,
+    "use_soluble_model": false,
+    "batch_size": 1,
+    "omit_aas": "C"
+  },
+  "native_af2": {
+    "model_name": "model_1_ptm",
+    "use_multimer": false,
+    "use_initial_guess": true,
+    "num_recycles": 3,
+    "params_dir": "/lustre/users/u21111210118/projects/test9/assets/colabfold",
+    "rm_target_seq": false,
+    "rm_target_sc": false,
+    "environment_script": {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/bindcraft_env.sh",
+      "bytes": 936,
+      "sha256": "1ae3baafe2cac87dc60b7ad7f32075ec11deab07b5d2d4eadfe3241535332245"
+    },
+    "criteria": [
+      {
+        "metric": "binder_plddt",
+        "op": "ge",
+        "threshold": 0.8
+      },
+      {
+        "metric": "cross_pae_mean_angstrom",
+        "op": "le",
+        "threshold": 10.0
+      },
+      {
+        "metric": "binder_backbone_rmsd",
+        "op": "le",
+        "threshold": 1.0
+      }
+    ]
+  },
+  "input_receipts": [
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/benchmark_runtime.py",
+      "bytes": 51064,
+      "sha256": "51b516a692d369f4d9a6ae9e3c39c0294da219c4d065420bbf9538a4af4b6562"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/bindcraft_env.sh",
+      "bytes": 936,
+      "sha256": "1ae3baafe2cac87dc60b7ad7f32075ec11deab07b5d2d4eadfe3241535332245"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/runs/observation_v8_delivery_13155/outputs/current_observation_dependency.json",
+      "bytes": 3251,
+      "sha256": "36e6f24212419751e58be098ae39905c2b18ff70a3793477b57b72413d718fa7"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/runs/pilot_v6_bridge_features_13097/outputs/native_rf_all_channels_contract.json",
+      "bytes": 3850,
+      "sha256": "77e29eacd1d67d69848e63fb715df53d4d5fe0a5f100697d5d956ec69e5ec31c"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/runs/pilot_v6_bridge_features_13097/outputs/actual_rfd_identity_proof.json",
+      "bytes": 13045,
+      "sha256": "b2af1fbcb6c770294b69a0702e7afedd848ee4ce6b92d3bd2785b1e8b77a9ce8"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/runs/pilot_v6_mpnn_13098/outputs/acceptance.json",
+      "bytes": 3828,
+      "sha256": "c2f51c5af54be0e54ab2910d5c2ebf47ede7f61883ca23076772da2c0dbd9af1"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/KEAP1_2FLU/input_manifest.json",
+      "bytes": 8438,
+      "sha256": "c12846eeadb8b7d3fa58119237d2f8c4a9ee0ef31966779db6c41a51b07c4c8f"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/rfd_env.sh",
+      "bytes": 619,
+      "sha256": "bcc590bf014010ea835ff56cfc74019257e07a9dcf293b74f75595631fcd8c78"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/runs/observation_v8_contracts_13153/outputs/acceptance.json",
+      "bytes": 5808,
+      "sha256": "afa56d86af8a6e70aac30eae668d43293fa1defe531806fab04ae7fc6709b259"
+    }
+  ],
+  "native_score_name": "native_single_AF2_PTM_pae_interaction",
+  "native_score_direction": "lower_is_better",
+  "engineering_revision": "pilot_v8 observation-only durable native AF2 raw confidence/PDB logging; all native scientific settings and model calls unchanged from v7; clean current13133 readiness plus31 CPU observation contracts",
+  "native_output_observation": {
+    "schema": "native_af2_observation.v1",
+    "raw_arrays": [
+      "pae",
+      "plddt",
+      "aatype",
+      "i_ptm",
+      "ptm"
+    ],
+    "pae_units": "angstrom",
+    "plddt_units": "fraction",
+    "raw_pdb": "same actual prediction aux through official serializer",
+    "capture_scope": "RF native validation; BC native complex PTM validation including early rejection",
+    "additional_predictions": 0,
+    "rng_draws": 0,
+    "cpu_collector_hashes_outputs": true,
+    "durable_before_native_update": true
+  }
+}

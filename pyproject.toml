@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ppiblocker"
+version = "0.1.0"
+description = "Structure-first, evidence-separated PPI binder research workflow"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<2", "scipy==1.13.1", "biopython==1.84", "requests>=2.32", "PyYAML>=6", "gemmi==0.6.5"]
+
+[project.scripts]
+ppiblocker = "ppiblocker.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "benchmarks/computational_strengthening_20260923/test_strengthening.py"]
+

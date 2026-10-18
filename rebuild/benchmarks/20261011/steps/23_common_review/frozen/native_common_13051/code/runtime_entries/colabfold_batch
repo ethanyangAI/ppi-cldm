@@ -1,0 +1,6 @@
+#!/lustre/users/u21111210118/projects/test9/env/colabfold/bin/python
+import sys
+from colabfold.batch import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())

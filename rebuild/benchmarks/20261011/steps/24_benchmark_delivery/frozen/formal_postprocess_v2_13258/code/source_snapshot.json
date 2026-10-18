@@ -1,0 +1,84 @@
+{
+  "schema": "formal_postprocess_source.v2",
+  "status": "CPU_ORCHESTRATION_SOURCE_FROZEN_NO_INFERENCE",
+  "entry": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/formal_postprocess_v2_13258/code/formal_postprocess_v2.py",
+    "bytes": 35372,
+    "sha256": "b04fc8e8c01b7b5a646a854e031aba519081ba4dc2c13c38d83870146b1727a2"
+  },
+  "files": [
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/formal_postprocess_v2_13258/code/formal_postprocess_contracts_v2.py",
+      "bytes": 17346,
+      "sha256": "479ca4e7d7cfce4367565c518348495474e7f302a5634b48fb1fa9cdb489b5f7"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/formal_postprocess_v2_13258/code/formal_postprocess_contracts_v2.sbatch",
+      "bytes": 1528,
+      "sha256": "5873048b01407336104f25794cbe17baac42754f8c9024ea3d507c0370ae4b6e"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/formal_postprocess_v2_13258/code/formal_postprocess_cpu_v2.sbatch",
+      "bytes": 929,
+      "sha256": "25bb4cd13af5534fef5cc8bb5d42768d6a505bf83768e08c2084ef1cce8674b4"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/formal_postprocess_v2_13258/code/formal_postprocess_v2.py",
+      "bytes": 35372,
+      "sha256": "b04fc8e8c01b7b5a646a854e031aba519081ba4dc2c13c38d83870146b1727a2"
+    }
+  ],
+  "source_pins": {
+    "resource": {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/resource_contract_v3/source/independent_resource_policy.py",
+      "bytes": 17811,
+      "sha256": "8449b40f4ffbe3d9e321335bccb9bfcc163291ac3f67497c66fe1555bcd2f6bc"
+    },
+    "budget": {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v4/source/paired_budget_benchmark.py",
+      "bytes": 84446,
+      "sha256": "b37227bd862ee1425a59f5308be1ee3f4824042dea5d71c1269ad0f406b318f9"
+    },
+    "independent": {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v4/source/paired_budget_independent.py",
+      "bytes": 37640,
+      "sha256": "5128ce9776371dd88a48bac7c95fbe0a6e2c8496253394d0ea657799768aaa54"
+    },
+    "formal": {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/source/formal_benchmark_contract.py",
+      "bytes": 46984,
+      "sha256": "768c0ca8fbdf942638688ed6a12ea1e88a42b50d7c219b902bbc3d945ddeb4bc"
+    },
+    "native": {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/runs/native_collector_contracts_13166/source/audit_native_confidence_v8.py",
+      "bytes": 16372,
+      "sha256": "eca561182d06eca52bde005b45f02dd261d57b916d70ea5e34e99e86a79830b5"
+    },
+    "common": {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/common_core_v2_13130/code/benchmark_common_review_v2.py",
+      "bytes": 62153,
+      "sha256": "7d72314e0409fa1fb2a6ed86f593b198cf3e5c99f747c58d8cfa7d1fd0404d17"
+    },
+    "msa": {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/runs/msa_content_12983/msa.json",
+      "bytes": 10412,
+      "sha256": "edfd913d745b84e8412bcb13a46dd2862f63fc9757d8e9c69c7e7ff153b9e61f"
+    },
+    "previous_registry": {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/inputs/registry7_bridge13010.json",
+      "bytes": 37816,
+      "sha256": "e46a7a3985d6675d6f27ffba5e0870b3c665d275142dd21b68ae993d5ea6cae8"
+    }
+  },
+  "allocation": {
+    "job_id": "13258",
+    "scheduler_record": "JobId=13258 JobName=ppi_formal_postprocess_contracts UserId=u21111210118(6263900) GroupId=u21111210118(6263900) MCS_label=N/A Priority=1 Nice=0 Account=u21111210118 QOS=normal JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:00 TimeLimit=00:20:00 TimeMin=N/A SubmitTime=2026-10-11T22:20:11 EligibleTime=2026-10-11T22:20:11 AccrueTime=2026-10-11T22:20:11 StartTime=2026-10-11T22:20:12 EndTime=2026-10-11T22:40:12 Deadline=N/A PreemptEligibleTime=2026-10-11T22:20:12 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-11T22:20:12 Scheduler=Main Partition=organ AllocNode:Sid=workstation:1846606 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu1 BatchHost=gpu1 NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:* TRES=cpu=1,node=1,billing=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=1 MinMemoryNode=4G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/code/formal_postprocess_contracts_v2.sbatch WorkDir=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark StdErr=/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/logs/formal_postprocess_contracts_13258.err StdIn=/dev/null StdOut=/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/logs/formal_postprocess_contracts_13258.out Power= \n",
+    "allocated_tres": "cpu=1,node=1,billing=1"
+  },
+  "prepared_inputs": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/prepared_inputs.json",
+    "bytes": 11368,
+    "sha256": "d39f03d805251aba5cc6563ea477e948a385649aa5b67ac840a92fae6cc0c169"
+  },
+  "no_settings_or_selection_changes": true
+}

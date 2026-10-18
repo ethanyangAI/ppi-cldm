@@ -1,0 +1,124 @@
+{
+  "schema": "final-source-materialized-context-read-view-request.v3",
+  "root_owned": true,
+  "raw_JSON_rewrite_allowed": false,
+  "generic_relative_resolution_allowed": false,
+  "generic_external_resolution_allowed": false,
+  "library_software_acceptance": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/final_source_inherited_mapping_contracts_software_17118/acceptance.json",
+    "bytes": 6759,
+    "sha256": "a6bc7216e10063ef7bd1fa3dbdc8555deb5d5056d46fd540413d4bcf71ec6e7e"
+  },
+  "mapper_software_acceptance": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/exact_context_mapper_v4_13319/acceptance.json",
+    "bytes": 15049,
+    "sha256": "a66b8186aa4ba2c737fe3e607f84bb90ecc35b35f271022bbcb66ac3cb327890"
+  },
+  "final_source_plan": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/final_source_plan_from14706_14925_17118_v12/final_source_plan.json",
+    "bytes": 2051027,
+    "sha256": "d662372e24f243cae6acfe12ec66e20a1b791c07cc6637cb96d0593d84845e50"
+  },
+  "bbf_parent_aliases": [],
+  "historical_parent_aliases": [],
+  "recovered_parent_aliases": [],
+  "archive_parent_aliases": [],
+  "finite_source_parent_aliases": [
+    {
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/manifest.json",
+        "bytes": 11279,
+        "sha256": "43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47_manifest.json",
+        "bytes": 11279,
+        "sha256": "43cd4a6e3c0cc91890e06401bf65db1a6f5969ab1d6d8e3d10da4514d6714e47"
+      }
+    },
+    {
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13168/acceptance.json",
+        "bytes": 3201,
+        "sha256": "62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142_acceptance.json",
+        "bytes": 3201,
+        "sha256": "62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142"
+      }
+    },
+    {
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13180/acceptance.json",
+        "bytes": 3201,
+        "sha256": "b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb_acceptance.json",
+        "bytes": 3201,
+        "sha256": "b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb"
+      }
+    },
+    {
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/bbf_diagnostics/frozen/bbf_common_13061/source_bundle.json",
+        "bytes": 8124,
+        "sha256": "9b89ed8b673597002e6ce52cc6561e009ad2041a253b6484cfacaa7896c8c1e9"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/9b89ed8b673597002e6ce52cc6561e009ad2041a253b6484cfacaa7896c8c1e9_source_bundle.json",
+        "bytes": 8124,
+        "sha256": "9b89ed8b673597002e6ce52cc6561e009ad2041a253b6484cfacaa7896c8c1e9"
+      }
+    },
+    {
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13022/source_bundle.json",
+        "bytes": 10053,
+        "sha256": "729e3acd0cd371cf2a4dd571850d241c4a9a0fb2470090b178f36d8bc058f500"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/729e3acd0cd371cf2a4dd571850d241c4a9a0fb2470090b178f36d8bc058f500_source_bundle.json",
+        "bytes": 10053,
+        "sha256": "729e3acd0cd371cf2a4dd571850d241c4a9a0fb2470090b178f36d8bc058f500"
+      }
+    },
+    {
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_bbf_recorded_recovery_diagnostic_13313/diagnostic.json",
+        "bytes": 34363,
+        "sha256": "f77e8e0ec5331da3003349792dcb735f4d8836d014d7fa484e07321c1b3b5f3f"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/f77e8e0ec5331da3003349792dcb735f4d8836d014d7fa484e07321c1b3b5f3f_diagnostic.json",
+        "bytes": 34363,
+        "sha256": "f77e8e0ec5331da3003349792dcb735f4d8836d014d7fa484e07321c1b3b5f3f"
+      }
+    },
+    {
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_missing_operative_inventory_13308/diagnostic.json",
+        "bytes": 207548,
+        "sha256": "2a22a7f4aa4a787f934b72a1fe7ec4bf84c1891c08944120093519d4b469ba11"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/2a22a7f4aa4a787f934b72a1fe7ec4bf84c1891c08944120093519d4b469ba11_diagnostic.json",
+        "bytes": 207548,
+        "sha256": "2a22a7f4aa4a787f934b72a1fe7ec4bf84c1891c08944120093519d4b469ba11"
+      }
+    },
+    {
+      "logical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_saved_byte_recovery_diagnostic_13310/diagnostic.json",
+        "bytes": 75704,
+        "sha256": "48ce0453db4927cacea9804354fc9b0f598ca598922ff778f0f2024debc4b1ea"
+      },
+      "physical": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/source_refresh_relative_v10_13316/readonly_source_bytes/48ce0453db4927cacea9804354fc9b0f598ca598922ff778f0f2024debc4b1ea_diagnostic.json",
+        "bytes": 75704,
+        "sha256": "48ce0453db4927cacea9804354fc9b0f598ca598922ff778f0f2024debc4b1ea"
+      }
+    }
+  ]
+}

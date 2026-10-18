@@ -1,0 +1,56 @@
+{
+  "schema": "reference_free_e2e_predeclared_scope.v1",
+  "declared_epoch": 1791739513.791896,
+  "frozen_before_actual_requalification": true,
+  "old_prediction_manifest": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/02_predict/runs/20261002T121305Z_be69fbefc530/manifest.json",
+    "sha256": "a1096d4e0a31c174f67ca86fb403a44a71adc6e5d81678f1e612907b11d6fc40"
+  },
+  "original_prepare_manifest": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/01_pose/runs/20261002T121202Z_7f2aa04cc5b0/manifest.json",
+    "sha256": "2c8b2b9b6efe6ac2762c8bda1360585a0cc9ef65a1047b808e3e617762677bb4"
+  },
+  "all_three_original_raw_models_required": true,
+  "old_native_model_zero_is_never_manually_replaced": true,
+  "physical_policy": "Fixed interchain protein heavy-atom minimum strictly <1.5 Angstrom rejects before eligibility",
+  "ensemble_rule": "Original max compatible neighborhood / first ties; >=60% of all requested models and >=2",
+  "new_native_inference": false,
+  "new_seed_search": false,
+  "new_coordinates_or_reference_template": false,
+  "design": {
+    "backbones": 1,
+    "sequences_per_backbone": 1,
+    "binder_length": 65,
+    "seed": 42,
+    "temperature": 0.1
+  },
+  "refold": {
+    "samples": 3,
+    "seed": 1042,
+    "recycles": 3,
+    "allow_external_msa": false,
+    "allow_single_sequence": true
+  },
+  "comparison_scope": "Separate engineering E2E complement; not formal 28-task benchmark or holdout",
+  "existing_model_stage_CPU_bookkeeping": "May run inside allocated true model-stage job; independent audit remains CPU only",
+  "GPU_for_metadata_or_scoring_kernels": false,
+  "reviewed_runtime_override_acceptance": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/generic_runtime_repair_13289/runtime_override_acceptance.json",
+    "bytes": 19962,
+    "sha256": "b6ecab48b0b3010c6e3f658c3225f862896d79da6054494ad28d66e02bff7df6"
+  },
+  "materialization_acceptance": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/runs/rfd_cache_materialization_13281/acceptance.json",
+    "bytes": 6818,
+    "sha256": "aca5cea2c0d99de16626940025f8784f6921d24f7da58e6767b1b3701dcc1a88"
+  },
+  "default_source_and_three_old_locks_unchanged": true,
+  "engineering_resource_policy": {
+    "scheduler_CPUs": 3,
+    "GPU_count": 1,
+    "requested_memory_GiB": 64,
+    "OMP_NUM_THREADS": 4,
+    "GPU_name": "NVIDIA A100-PCIE-40GB",
+    "GPU_memory_MiB": 40960
+  }
+}

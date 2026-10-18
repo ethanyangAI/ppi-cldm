@@ -1,0 +1,41 @@
+{
+  "schema": "paired_formal_resource_submission.v1",
+  "job_id": "13260",
+  "submit_argv": [
+    "sbatch",
+    "--parsable",
+    "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_launchpolicy_13259/formal_generation_cpu3.sbatch"
+  ],
+  "launcher": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_launchpolicy_13259/formal_generation_cpu3.sbatch",
+    "bytes": 1539,
+    "sha256": "5f02bf6ce198c26f2751a5eb3e32bc57530270ef99094572a229d6d313ef91fb"
+  },
+  "resource_policy": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_launchpolicy_13259/resource_policy.json",
+    "bytes": 6712,
+    "sha256": "a996cac084eb6630dc4c34a62b581f2bf298d5d720350f4f702476adb8df073e"
+  },
+  "plan": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_freeze_13257/plan/frozen_plan.json",
+    "bytes": 20295,
+    "sha256": "e913d1bbccd531bf88a73f6ba60e8a0de85bb03ad8bcd3455d8952ca4effe0b6"
+  },
+  "pre_generation_independent_gate": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_pre_generation_13259/acceptance.json",
+    "bytes": 147692,
+    "sha256": "0dbbf862c607311ae498b2d7aa4910f8b0bc40ec872927febc51ec5a02f7af23"
+  },
+  "current_seeded_supplemental_independent_gate": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/seeded_supplemental13246_audit_13254/acceptance.json",
+    "bytes": 16093,
+    "sha256": "c94d0d7f3cf05a83f1d6b6b621936296bdaeaccda00b852b314165e4bb35b04f"
+  },
+  "submitted_at_epoch": 1791728706.0880406,
+  "root_owned_primary_array": true,
+  "raw_sbatch_stdout": "13260\n",
+  "raw_sbatch_stderr": "",
+  "global_project_gpu_concurrency_cap": 2,
+  "source_settings_unchanged": true,
+  "cpu_cgroup_isolation_status": "UNOBSERVED"
+}

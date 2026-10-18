@@ -1,0 +1,97 @@
+{
+  "schema": "source-refresh-relative-software-source.v9",
+  "source_receipts": [
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/source_delivery_refresh_v9.py",
+      "bytes": 54320,
+      "sha256": "2ed1fea8c16bcda0899842548cb6cbc366c576cc7c909e637b103c45fc95f58f"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/historical_archive_member_context.py",
+      "bytes": 9577,
+      "sha256": "7fac432308b602dc02ef12d206923f9811cac92d296620e53c647fec5eafe2bd"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/relative_receipt_policy.py",
+      "bytes": 3691,
+      "sha256": "e870b97aedfba700c0a549292e66109e7e922245619fb31b132973922e58b69a"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/test_relative_receipt_policy.py",
+      "bytes": 31012,
+      "sha256": "4ac1ecd97b33019f47393f33812f4af1d9d3217f3e35ef475a9640da657b1a70"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/source_refresh_bootstrap.py",
+      "bytes": 4610,
+      "sha256": "3515355851b7a0847d730e6017d390d05242b60669289b2250dab977b05a390c"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/source_refresh_cpu.sbatch",
+      "bytes": 2008,
+      "sha256": "c2f0258b5d6afff7569ea856c2ad7de067b2598b3899f22fcf25307611a6b427"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/HANDOFF.md",
+      "bytes": 10415,
+      "sha256": "aff6b1bb9b41f7deb0bbec9ab7360a5720ef3a823316a503a507066cac92ffd2"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/delivery_core.py",
+      "bytes": 21656,
+      "sha256": "5e1e1f3f2e8a5f2c5771508b7e9433139ee36d58d5b2cc6514bf97333973ca4c"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/delivery_graph_v2.py",
+      "bytes": 8774,
+      "sha256": "e14b12e01c8e2b9a70ecb30d70d2194bbe89147c01eb02dd305be4075276f98d"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/provenance_aliases_v2.py",
+      "bytes": 5048,
+      "sha256": "1de9f0ba13cf8774f6de0fbe4410fd41b8dacf5e9e6d5f1f969b9842f1d8bd01"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/native_resource_closure_v2.py",
+      "bytes": 20444,
+      "sha256": "33a1a8103efbf5d467e9e8360b9bac2f04624e1f1a5929caaa3cc282c6a66c48"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_relative_v9_13307/code/reference_source_delivery_refresh_v1.py",
+      "bytes": 17160,
+      "sha256": "36e6153cc528f8c5845fcb1e931c1f0bb10776495a974ae70013bea33d1201f8"
+    }
+  ],
+  "failed13262_reference": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_v1_13262/code/source_delivery_refresh_v1.py",
+    "bytes": 17160,
+    "sha256": "36e6153cc528f8c5845fcb1e931c1f0bb10776495a974ae70013bea33d1201f8"
+  },
+  "frozen_dependency_receipts": [
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_v1_13262/code/delivery_core.py",
+      "bytes": 21656,
+      "sha256": "5e1e1f3f2e8a5f2c5771508b7e9433139ee36d58d5b2cc6514bf97333973ca4c"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_v1_13262/code/delivery_graph_v2.py",
+      "bytes": 8774,
+      "sha256": "e14b12e01c8e2b9a70ecb30d70d2194bbe89147c01eb02dd305be4075276f98d"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_v1_13262/code/provenance_aliases_v2.py",
+      "bytes": 5048,
+      "sha256": "1de9f0ba13cf8774f6de0fbe4410fd41b8dacf5e9e6d5f1f969b9842f1d8bd01"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/frozen/source_refresh_v1_13262/code/native_resource_closure_v2.py",
+      "bytes": 20444,
+      "sha256": "33a1a8103efbf5d467e9e8360b9bac2f04624e1f1a5929caaa3cc282c6a66c48"
+    }
+  ],
+  "allocation": {
+    "job_id": "13307",
+    "scheduler_record": "JobId=13307 JobName=test9_source_relative_v9 UserId=u21111210118(6263900) GroupId=u21111210118(6263900) MCS_label=N/A Priority=1 Nice=0 Account=u21111210118 QOS=normal JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:00 TimeLimit=00:10:00 TimeMin=N/A SubmitTime=2026-10-12T02:00:44 EligibleTime=2026-10-12T02:00:44 AccrueTime=2026-10-12T02:00:44 StartTime=2026-10-12T02:00:45 EndTime=2026-10-12T02:10:45 Deadline=N/A PreemptEligibleTime=2026-10-12T02:00:45 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-12T02:00:45 Scheduler=Backfill Partition=organ AllocNode:Sid=workstation:2033994 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu1 BatchHost=gpu1 NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:* TRES=cpu=1,node=1,billing=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=1 MinMemoryNode=16G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/pending/source_refresh_relative_v9/source_refresh_cpu.sbatch audit WorkDir=/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery StdErr=/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/logs/source_relative_v9_13307.err StdIn=/dev/null StdOut=/lustre/users/u21111210118/projects/test9/steps/24_benchmark_delivery/logs/source_relative_v9_13307.out Power=",
+    "allocated_gpus": 0
+  }
+}

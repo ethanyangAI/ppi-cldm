@@ -1,0 +1,84 @@
+{
+  "schema": "native-msa-history-disposition.v2",
+  "status": "TWO_EXACT_HISTORICAL_MSA_DERIVATION_GAPS_DECLARED_NOT_CURRENT_EXECUTABLE_SOURCE",
+  "decision": "Root approved only these exact parent, field, hash combinations; actual native source remains876d, actual A3M/query/features bytes are reviewed with retained source. No exemption for other missing source.",
+  "entries": [
+    {
+      "logical_path": "/lustre/users/u21111210118/projects/test9/source/rebuild/benchmark_common_review.py",
+      "expected_sha256": "74915aaf1ae3f21b5c2d7169ff53f1fd5d776772e0c89ea778f4572db831df9e",
+      "expected_bytes": 46425,
+      "parent_path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/runs/msa_content_12983/msa.json",
+      "parent_sha256": "edfd913d745b84e8412bcb13a46dd2862f63fc9757d8e9c69c7e7ff153b9e61f",
+      "field": [
+        "source"
+      ],
+      "status": "HISTORICAL_UNRESOLVED_MSA_DERIVATION",
+      "current_execution_allowed": false,
+      "role": "OLD_MSA_CONTENT_VALIDATOR_GENERATOR_LINEAGE",
+      "root_decision": "Exact root authorization received2026-10-11; retain unresolved source only as historical MSA derivation. Operative current science uses accepted frozen native876d source and exact actual A3M/query/features.",
+      "actual_operative_scientific_source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/benchmark_common_review.py",
+        "sha256": "876d29f9b8a20cf3f8bbf526262de96b1071a30b47590b632e5d31f97c362391",
+        "bytes": 59077
+      },
+      "shortest_receipt_chain": [
+        {
+          "parent_path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/runs/native_controls_frozen_13051/inference_plan.json",
+          "parent_sha256": "9c90d720d39f306e9c601a8281afaca0d29ac986872805dd6b913eb8f2e9373b",
+          "field": [
+            "msa"
+          ]
+        },
+        {
+          "parent_path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/runs/msa_content_12983/msa.json",
+          "parent_sha256": "edfd913d745b84e8412bcb13a46dd2862f63fc9757d8e9c69c7e7ff153b9e61f",
+          "field": [
+            "source"
+          ]
+        }
+      ]
+    },
+    {
+      "logical_path": "/lustre/users/u21111210118/projects/test9/source/rebuild/benchmark_common_review.py",
+      "expected_sha256": "e52a1598f3736e4c83512811e7a84037206a9cb1c13066981492345554b42d08",
+      "expected_bytes": 46094,
+      "parent_path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/runs/msa_12975/msa.json",
+      "parent_sha256": "7084743586acf57dceef5260060949962b25ebb11d2e311650b9586208734d00",
+      "field": [
+        "source"
+      ],
+      "status": "HISTORICAL_UNRESOLVED_MSA_DERIVATION",
+      "current_execution_allowed": false,
+      "role": "OLD_MSA_DOWNLOAD_GENERATOR_LINEAGE",
+      "root_decision": "Exact root authorization received2026-10-11; retain unresolved source only as historical MSA derivation. Operative current science uses accepted frozen native876d source and exact actual A3M/query/features.",
+      "actual_operative_scientific_source": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/frozen/native_common_13051/code/benchmark_common_review.py",
+        "sha256": "876d29f9b8a20cf3f8bbf526262de96b1071a30b47590b632e5d31f97c362391",
+        "bytes": 59077
+      },
+      "shortest_receipt_chain": [
+        {
+          "parent_path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/runs/native_controls_frozen_13051/inference_plan.json",
+          "parent_sha256": "9c90d720d39f306e9c601a8281afaca0d29ac986872805dd6b913eb8f2e9373b",
+          "field": [
+            "msa"
+          ]
+        },
+        {
+          "parent_path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/runs/msa_content_12983/msa.json",
+          "parent_sha256": "edfd913d745b84e8412bcb13a46dd2862f63fc9757d8e9c69c7e7ff153b9e61f",
+          "field": [
+            "original_download_results"
+          ]
+        },
+        {
+          "parent_path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/runs/msa_12975/msa.json",
+          "parent_sha256": "7084743586acf57dceef5260060949962b25ebb11d2e311650b9586208734d00",
+          "field": [
+            "source"
+          ]
+        }
+      ]
+    }
+  ]
+}

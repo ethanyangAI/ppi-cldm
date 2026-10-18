@@ -1,0 +1,2467 @@
+{
+  "component": "rfd",
+  "environment": {
+    "executable": {
+      "bytes": 17273264,
+      "path": "/lustre/users/u21111210118/projects/test9/env/rfd/bin/python3.10",
+      "sha256": "91c4c3a9b8de6819f5bdcc1b9f4645429a6146f4effda28d17c94c04adc568bc"
+    },
+    "model_distribution_files": [
+      {
+        "bytes": 6510,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/bin/run_inference.py",
+        "sha256": "b6be026bc8da73b0ab110a422688540e57a92365504e205e7a459c941458918b"
+      },
+      {
+        "bytes": 93,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/__editable__.rfdiffusion-1.1.0.pth",
+        "sha256": "fd07e49503a76978efb6be9cfce207e703a01bd95b9a03fc091752e782c8e45f"
+      },
+      {
+        "bytes": 3431,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/__editable___rfdiffusion_1_1_0_finder.py",
+        "sha256": "7861d2b0f555ef7427b864d9a195c42e843cbb5bfd2e98813ed878cccacd778b"
+      },
+      {
+        "bytes": 4,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl-1.1.3+cu117.dist-info/INSTALLER",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "bytes": 553,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl-1.1.3+cu117.dist-info/METADATA",
+        "sha256": "3beae4689629a884a895fd963b6b3f048f043b7f41e3b80643587de3342c7419"
+      },
+      {
+        "bytes": 44342,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl-1.1.3+cu117.dist-info/RECORD",
+        "sha256": "ea2b1335b53e8ce5b412215e5d80b91e5b54ded9b525d161a145d90688c1da83"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl-1.1.3+cu117.dist-info/REQUESTED",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 110,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl-1.1.3+cu117.dist-info/WHEEL",
+        "sha256": "d9ac22f3ce885176e03dd0da60407e12a2fb7ed4636c00a7e8a07a877bf6a8ba"
+      },
+      {
+        "bytes": 4,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl-1.1.3+cu117.dist-info/top_level.txt",
+        "sha256": "2ea5374672fd2c397ee0f24a5f87715b8a88187c87559e3fbd3c452a6c99aa41"
+      },
+      {
+        "bytes": 1615,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/__init__.py",
+        "sha256": "cdd630152e7e6829fa27cec83616b9a9f2e2cecdac32f4c13e179ef70c15ac53"
+      },
+      {
+        "bytes": 35,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_api_internal.py",
+        "sha256": "4f283de6270207177bd7c9f3e6b631e26441d3fb23d8fb0be01e4645f0ff06de"
+      },
+      {
+        "bytes": 350,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/__init__.py",
+        "sha256": "88be9b7bce2637bba0ba4bcefffad867a418a404ed92057836f001a79bc9f9b1"
+      },
+      {
+        "bytes": 44,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/_ctypes/__init__.py",
+        "sha256": "31a1e673e8c4229a334521bd7fc34367ce5aa5b83af5ad59c768df612280de21"
+      },
+      {
+        "bytes": 9417,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/_ctypes/function.py",
+        "sha256": "0a84d8d3627e20cebef91aa558bad5ca65968ebe39e8d411d49e25372389d246"
+      },
+      {
+        "bytes": 4229,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/_ctypes/ndarray.py",
+        "sha256": "2d956e7abe4c3cd0e7fdc1923b8430e72ada5e0f506380d530345d0208eec1c8"
+      },
+      {
+        "bytes": 3153,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/_ctypes/object.py",
+        "sha256": "3c9f050ce4ce13ea2822bddf50c2c7c4bd03dd934906f584f4bf189d1bcdf160"
+      },
+      {
+        "bytes": 2338,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/_ctypes/types.py",
+        "sha256": "78fa3b2f37ef6c1753bfed052feb581fd2b054fc79e2af5c38c743d50ad5dafc"
+      },
+      {
+        "bytes": 24,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/_cy2/__init__.py",
+        "sha256": "6d1c9d09ace8bd62a6bc4f69329f9e3c400eae8c260a29879b08bfd3a777920d"
+      },
+      {
+        "bytes": 24,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/_cy3/__init__.py",
+        "sha256": "f017885d07429335d01c7a9fe6973a724ccd3b959333b179f6ef0334f1d96022"
+      },
+      {
+        "bytes": 1080328,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/_cy3/core.cpython-310-x86_64-linux-gnu.so",
+        "sha256": "5267a8016c56d1dd881381bd36b035be179933cb495cc497aa06473fdbc3232c"
+      },
+      {
+        "bytes": 819491,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/_cython/core.cpp",
+        "sha256": "ac90ad0e1dd4de0aff1b2a8febfd8c5854b7715e4ca43cdc8217c2bcf6242703"
+      },
+      {
+        "bytes": 3982,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/base.py",
+        "sha256": "55fb40d37aecfaf9b09ef6860318240070b878454f43e7244c065a2faa391a13"
+      },
+      {
+        "bytes": 123,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/capi.py",
+        "sha256": "1f4f295457dfbdb5d2f59fbb4d3a3ee67a1a6ef45ae1e05ed75dfe7fac432314"
+      },
+      {
+        "bytes": 9350,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/function.py",
+        "sha256": "d0db366b380c3c70c2b06c0cd33110f7dd6260c6184b9517a0de7521b691da15"
+      },
+      {
+        "bytes": 3261,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/libinfo.py",
+        "sha256": "352fa6b2cc0f462146c3f79e852035da3aa194cdfb600eb3f43aaf9ebf020830"
+      },
+      {
+        "bytes": 12436,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/ndarray.py",
+        "sha256": "1b1130b64f2e6e2c20c72ae4fa76634f49e5bf002358e20a5d937bc32c026fe4"
+      },
+      {
+        "bytes": 3750,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/object.py",
+        "sha256": "8f3f89a22668caf6aaa4521c5426b3820d94b9f70c8e084e8b7844ea9684371e"
+      },
+      {
+        "bytes": 1622,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/object_generic.py",
+        "sha256": "0d09949c0981052b77643da14b7c86a0facb13c4258293ef68ffbc4a96b58825"
+      },
+      {
+        "bytes": 7253,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/runtime_ctypes.py",
+        "sha256": "3b82492c6cc56158d636ed68fb4be9cdd00989f817e013f133e3b566fdddef77"
+      },
+      {
+        "bytes": 1126,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_ffi/streams.py",
+        "sha256": "08d8d2da9e49eac29171d4ab435633047740b53c73c82cf712e654f4d6853d4f"
+      },
+      {
+        "bytes": 32827,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/_sparse_ops.py",
+        "sha256": "41c531185a6d98a01414d0e37324de91bd5c8ced7e790c096d4a04ed194ec24c"
+      },
+      {
+        "bytes": 4465,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/backend/__init__.py",
+        "sha256": "2f7a9b9464c41ac8aa37ce9b36a6eff8f6c27ede98974a3d7bf5eaf39f80d97f"
+      },
+      {
+        "bytes": 47280,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/backend/backend.py",
+        "sha256": "1b197549e11ab1642f2567cb122dc08d483641497592b0f0554f7b83e612dded"
+      },
+      {
+        "bytes": 44,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/backend/mxnet/__init__.py",
+        "sha256": "ca7b4614353ce01ea9690316503b13ae32ffa266e92f541a5066029519b1b1e6"
+      },
+      {
+        "bytes": 17803,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/backend/mxnet/sparse.py",
+        "sha256": "08a6bec28e732a8dcb0a56ed66cb99c3f440630c15d3ad5118eb0b38713667f5"
+      },
+      {
+        "bytes": 50,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/backend/mxnet/sparse_optim.py",
+        "sha256": "66156d20f0f7c6bf6382fe7041fcccad3f5fcaac5098add8e592fbe809711472"
+      },
+      {
+        "bytes": 13279,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/backend/mxnet/tensor.py",
+        "sha256": "5040c78a69ef5d17f8eeba6788a7014450532b95d90e4737a7c8428b931e02a2"
+      },
+      {
+        "bytes": 44,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/backend/pytorch/__init__.py",
+        "sha256": "ca7b4614353ce01ea9690316503b13ae32ffa266e92f541a5066029519b1b1e6"
+      },
+      {
+        "bytes": 40333,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/backend/pytorch/sparse.py",
+        "sha256": "2d1ef7b7e0c4c28d6553d4f518131fc08da7215227df625409ead807a7e27c7e"
+      },
+      {
+        "bytes": 12183,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/backend/pytorch/tensor.py",
+        "sha256": "2fce02fb394d959053df43890631d8d8178947c8f1552aac40b25ddee43ada66"
+      },
+      {
+        "bytes": 1063,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/backend/set_default_backend.py",
+        "sha256": "e8bc2bac49fdbd2ee83091207af47ed66458024b93e61006192ceb3105488503"
+      },
+      {
+        "bytes": 105,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/backend/tensorflow/__init__.py",
+        "sha256": "e15119817a287ff062011d48013139dae31bacbe4a4fca82dd453f9319857555"
+      },
+      {
+        "bytes": 13781,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/backend/tensorflow/sparse.py",
+        "sha256": "192aaa98cfbc718a2f1406ee6c9c942c532f76aded54168ff7bcc3a718abbbf0"
+      },
+      {
+        "bytes": 55,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/backend/tensorflow/sparse_optim.py",
+        "sha256": "e210177db42a58cbec63c43921821f4d8c94c4b1d0d97671a9683ebf1be563e1"
+      },
+      {
+        "bytes": 14521,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/backend/tensorflow/tensor.py",
+        "sha256": "b2c152e0626f16380e9fa5435464e2772470250a3f9107b6637eafeb0662ffab"
+      },
+      {
+        "bytes": 1608,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/base.py",
+        "sha256": "a99a02ad3d92746fdca29fbafa1c78af43c4db253ab76a0b85ca739b07a93634"
+      },
+      {
+        "bytes": 18719,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/batch.py",
+        "sha256": "4ba4dfacef4dfbd4f64c473484afae50d7339c0e94826423128ea61cceebc85d"
+      },
+      {
+        "bytes": 2993,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/container.py",
+        "sha256": "ae7c94ce18e7e439896a3d4654cce254193e18a1d4782325b706b7294ada3331"
+      },
+      {
+        "bytes": 75504,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/convert.py",
+        "sha256": "68d60cc7a53a12a7e50bde14d91b8cd6ea6375b219321e50eeea0a85af4977b5"
+      },
+      {
+        "bytes": 14371,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/core.py",
+        "sha256": "16a40cf6949f51897186fd23cf231ef114da64d9b2681492b5760008e3141fae"
+      },
+      {
+        "bytes": 150,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/cuda/__init__.py",
+        "sha256": "6a449f1025ed5869f6e99eedcb0e6b5af44055ae124121fbe4f1f8ef41142bf6"
+      },
+      {
+        "bytes": 2854,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/cuda/gpu_cache.py",
+        "sha256": "e8895bfa0230b6cf721cabf0082e1ab71bba1401566b3e5ad0d9731c5e705e38"
+      },
+      {
+        "bytes": 6801,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/cuda/nccl.py",
+        "sha256": "01262256dfce1ce37e935338f28f510462193162f7823d07f585d52fee36ffcc"
+      },
+      {
+        "bytes": 2719,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/__init__.py",
+        "sha256": "0b108c85526f581ebbee49935906e7c441ecbf725e4dc563300b4fd30d67e6d6"
+      },
+      {
+        "bytes": 4514,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/actor.py",
+        "sha256": "31d2a9d1fdbee54010dd7d87c067c7983018452568b7ea93d76224c0514494a8"
+      },
+      {
+        "bytes": 23880,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/adapter.py",
+        "sha256": "984e94601b5c2e0836d85f72a568252a1b0178ca9dfe5d23b85b196f2032f0f3"
+      },
+      {
+        "bytes": 5620,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/bitcoinotc.py",
+        "sha256": "bb3e9647df02b656548f056ad94d3e707f2e3d90f0e99ffc24609df13f8bf385"
+      },
+      {
+        "bytes": 28516,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/citation_graph.py",
+        "sha256": "cd6c55e0b37637d35c17d60037a9be77c804adec38353b091d689d81680d118a"
+      },
+      {
+        "bytes": 3836,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/cluster.py",
+        "sha256": "02cb30793612e1efc9efa77cada047787108000518e88fde49a8ca469e11954d"
+      },
+      {
+        "bytes": 7733,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/csv_dataset.py",
+        "sha256": "7bf25935da9cbe8db9d717df0f34595d5362f439bd4ae4ba06f96176bad128fb"
+      },
+      {
+        "bytes": 14049,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/csv_dataset_base.py",
+        "sha256": "65aaf645fc35da7a530fe53a09a44e8a43562186d16a12b39b2df29649cfdb7d"
+      },
+      {
+        "bytes": 10494,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/dgl_dataset.py",
+        "sha256": "a9a76590d2ac177ac6f53004e6d1a6f3cd6738e38adf65dc77790c406f258aee"
+      },
+      {
+        "bytes": 7892,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/fakenews.py",
+        "sha256": "e1b49f0f2f935b0b539482924ab15e24400fe191225d8d75c189a168ac25bc48"
+      },
+      {
+        "bytes": 5280,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/flickr.py",
+        "sha256": "db8cb166d219e4c972aeab649c2ffc37bd6cd2a27a7bc15719b064222a3f2f3c"
+      },
+      {
+        "bytes": 13482,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/fraud.py",
+        "sha256": "929caf1e1da4cc6bd1f2d506223da5b1a194d5adec096f18385ef9799c514814"
+      },
+      {
+        "bytes": 5743,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/gdelt.py",
+        "sha256": "dc42635bd6991990e007396d098deb84584d3d0917566abbb8fca234828dc0f3"
+      },
+      {
+        "bytes": 14477,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/geom_gcn.py",
+        "sha256": "4c259f4fbb2e4263783575266825544a3f8e07e843d597ebbea2f9d5f97f4195"
+      },
+      {
+        "bytes": 14315,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/gindt.py",
+        "sha256": "af8bc5a3b77626f032f97560561855cc711b31fcd79312bc250a4dcc91fdd702"
+      },
+      {
+        "bytes": 16582,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/gnn_benchmark.py",
+        "sha256": "0fe0fdb2a0b1a0b0708ac045d2d108d18a868557ff3fa8a9db9db1421ea9aa6a"
+      },
+      {
+        "bytes": 8936,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/graph_serialize.py",
+        "sha256": "7ff31d4e377604515912e84bd7fbb9a360ea37f38ef86631ec7402b38b6e5fb5"
+      },
+      {
+        "bytes": 2844,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/heterograph_serialize.py",
+        "sha256": "1e24e418900eaa39adbdbf80e4011783ac6f02c8f6d8a6056324b8c3341b5ec1"
+      },
+      {
+        "bytes": 4962,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/icews18.py",
+        "sha256": "984ec4d473233d8013e9371f055e4334ff48da8b418f25342887d04c236a2f89"
+      },
+      {
+        "bytes": 2624,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/karate.py",
+        "sha256": "8fd207cec33aa03a2986b01bfac62dd25eba2fd4d4f638f9c0de6b6b35ea7703"
+      },
+      {
+        "bytes": 24132,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/knowledge_graph.py",
+        "sha256": "49e1624a8dcc8099d1e6d82b513251701acebeb9f33aadeaf46561e0e6542c79"
+      },
+      {
+        "bytes": 7509,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/minigc.py",
+        "sha256": "3da140ae2309673547658e1a23fe60ff74e663463b60849352739b46501d89ab"
+      },
+      {
+        "bytes": 3952,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/pattern.py",
+        "sha256": "ee7e0e3e3a76feb90d98bb39e32decaf8f6ae57fc038339e58b02362cd14b844"
+      },
+      {
+        "bytes": 6311,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/ppi.py",
+        "sha256": "eca494057bfb831c9fa811ff16158c1a7ea4854680b47c3fa784011162f2a04a"
+      },
+      {
+        "bytes": 4923,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/qm7b.py",
+        "sha256": "08d851c7654dbebfa0afcc49588dd8a341e3b73b0b160eeb9535d5e88b9ac8fc"
+      },
+      {
+        "bytes": 10605,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/qm9.py",
+        "sha256": "750d5ac13e1a6da399df9144b15ac0f8a83b34cf574028d76e39627ceb991175"
+      },
+      {
+        "bytes": 14442,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/qm9_edge.py",
+        "sha256": "7cd617b7e97916941542693d0c4d688fa314cd5532788298cd75128c8d552be9"
+      },
+      {
+        "bytes": 36099,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/rdf.py",
+        "sha256": "a74851cf594d66aafdf9aa42464c7b5c8eaddc5ef824c9ae63d42f4b8891707d"
+      },
+      {
+        "bytes": 7109,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/reddit.py",
+        "sha256": "40924f6414708047f1b27e6eb919a2b7c304441a65e4c1d95c2c7a8eb04e6e79"
+      },
+      {
+        "bytes": 8508,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/sbm.py",
+        "sha256": "eba3f4294e2b59b497000dca428fd9edde1379917474fd14bf078102f0b90123"
+      },
+      {
+        "bytes": 27587,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/synthetic.py",
+        "sha256": "b6e2ae3680f00332481cc73de802ecd6133cb3e3e580ae5cde23f065be7cf3f8"
+      },
+      {
+        "bytes": 1883,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/tensor_serialize.py",
+        "sha256": "72ea022d4797265232a11678df8eed7ea43e5e3e25dd07272addff41b6c3c3dd"
+      },
+      {
+        "bytes": 9293,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/tree.py",
+        "sha256": "aad950e78f507c255d6ba1644dc59bee0e3070981cfa5075df468d3bf80dbf1f"
+      },
+      {
+        "bytes": 18212,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/tu.py",
+        "sha256": "1b8682d66c7df544e2d6ac0865412f8b22e30f65b1040c9c6c049a43ff9a026d"
+      },
+      {
+        "bytes": 21976,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/utils.py",
+        "sha256": "d1ecf029c12fe9d49aed4994dbab6b169253d943e3da78c2eaabe10cf8b5530c"
+      },
+      {
+        "bytes": 5893,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/wikics.py",
+        "sha256": "2e207bd54a46e603586191dc7b359c0c5c7844d3a2985de645cf4e062d0ef103"
+      },
+      {
+        "bytes": 5227,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/yelp.py",
+        "sha256": "9cf2d0ff5f1728254f9ae370ede8d898a5421413b9865a9483411e613ca30102"
+      },
+      {
+        "bytes": 3695,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/data/zinc.py",
+        "sha256": "0593460a9928aa7315eeab832cfeb1f46418f23847ed85a91746eb85d1e33c67"
+      },
+      {
+        "bytes": 399,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/dataloading/__init__.py",
+        "sha256": "b2105926290efe04b6bdcf689e73aaf37818ba4bc741efcccddb78c8442a4475"
+      },
+      {
+        "bytes": 24179,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/dataloading/base.py",
+        "sha256": "22284ed51280909b66a5ce2520be91361d72d50f99eb05c65cd37af8dd91aeb6"
+      },
+      {
+        "bytes": 5741,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/dataloading/cluster_gcn.py",
+        "sha256": "caca05023ca23872ed723af65b3c89d0acd521a30cd4122a5fa5463d7653f60a"
+      },
+      {
+        "bytes": 56279,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/dataloading/dataloader.py",
+        "sha256": "032885f5ea5d24eac9e435b26c207f9ccff0f68709b7bec58c978cdbe87f93cb"
+      },
+      {
+        "bytes": 26307,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/dataloading/dist_dataloader.py",
+        "sha256": "e1dcb9daa83df3a89617b018aee2fa4599ccb2ed9680792c6146f7469b7c47e3"
+      },
+      {
+        "bytes": 5955,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/dataloading/graphsaint.py",
+        "sha256": "f5ce9ecf23e583eea5984e894087985b936fb298582724137689a1738c58bd60"
+      },
+      {
+        "bytes": 11295,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/dataloading/labor_sampler.py",
+        "sha256": "4ead0bd334fddec476b37254cd94fbd0c389ae6e93784a688c0281ab65dd50dd"
+      },
+      {
+        "bytes": 4347,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/dataloading/negative_sampler.py",
+        "sha256": "70d9ce82ad4908bc0de8c455e2b5e6a9fda1af1df16cb2800ad77bc42ddea177"
+      },
+      {
+        "bytes": 9579,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/dataloading/neighbor_sampler.py",
+        "sha256": "bcb2db627744939762fb1f2e8fc211486a5429585caf4c92aba8b59a8a7064ad"
+      },
+      {
+        "bytes": 5210,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/dataloading/shadow.py",
+        "sha256": "1ecaa08b71511c74d5dcb1b7d47ddfe15a9e0a8653ed6f0110e81a188a11d3fc"
+      },
+      {
+        "bytes": 3542,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/dataloading/spot_target.py",
+        "sha256": "828e35d707bf221c916a3d1f5b4a467605c7c07eb79cab6e82db74e6a2245428"
+      },
+      {
+        "bytes": 740320,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/dgl_sparse/libdgl_sparse_pytorch_1.13.0.so",
+        "sha256": "49e0558a09a6504eac39765a15f5212fc4b31c5b5d45a658f14b0d6079ea769c"
+      },
+      {
+        "bytes": 740320,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/dgl_sparse/libdgl_sparse_pytorch_1.13.1.so",
+        "sha256": "8d8c9007f0a1f6f1ea020233067a9b863d2734977a2f2e1e7bdb3b410f096c1a"
+      },
+      {
+        "bytes": 768840,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/dgl_sparse/libdgl_sparse_pytorch_2.0.0.so",
+        "sha256": "bda924fc4fb21d58ba6ecedb847850e580c69101a228d5ccd0497a390cd610c5"
+      },
+      {
+        "bytes": 768840,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/dgl_sparse/libdgl_sparse_pytorch_2.0.1.so",
+        "sha256": "e60901572d211aed6b7cc36b30ff8df3c959f98cfe6d96a7e4c91331be38a7f9"
+      },
+      {
+        "bytes": 111,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distgnn/__init__.py",
+        "sha256": "62e91ec3e914b32ad33235cd0eeae7056276f4c26567c4add7316083b3a875c9"
+      },
+      {
+        "bytes": 100,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distgnn/partition/__init__.py",
+        "sha256": "9631cf67de8bd87fe99528b13ecdd2dd2055c91cb8d1cca823764e2ab87d63f3"
+      },
+      {
+        "bytes": 11682,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distgnn/partition/libra_partition.py",
+        "sha256": "b9d0a6e1ca1635e5be328d87c2d6e13d50371eec288cfb1e78469f926faa49f3"
+      },
+      {
+        "bytes": 114,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distgnn/tools/__init__.py",
+        "sha256": "c60b4aab2e70f85abd7e8697cf63a9f6bd69967687483f1ef617be3399f4dff7"
+      },
+      {
+        "bytes": 4252,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distgnn/tools/tools.py",
+        "sha256": "565fc1136f35e2002a4bde44b5ba0c9a650b94cb3dd2d5d6e7e198c6dca0d4e0"
+      },
+      {
+        "bytes": 685,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/__init__.py",
+        "sha256": "b4dfbb9f91b56cb2858ec265c5eea448e8f7f1b224ad4891bd89f77df641a14b"
+      },
+      {
+        "bytes": 274,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/constants.py",
+        "sha256": "651f320442b91c254f6e411fb73c2c8dedd69d33c671218409054b5cd1c9a504"
+      },
+      {
+        "bytes": 12830,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/dist_context.py",
+        "sha256": "f209a09de201a80d0c23530024efbe95dd6994f29c92cadac406fee420253dc2"
+      },
+      {
+        "bytes": 6396,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/dist_dataloader.py",
+        "sha256": "edbc3e60df96b8f3a432f4ff138ac0497dd78990c7a1bb21dc3597b032ca139f"
+      },
+      {
+        "bytes": 62406,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/dist_graph.py",
+        "sha256": "01599eec840ece5091dd42ac7fdfe520a033e1c9c948d16bb15a10157d056590"
+      },
+      {
+        "bytes": 11972,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/dist_tensor.py",
+        "sha256": "291c26b119f6725dbc837cedd88968f6de6f8d3d222f729682d3d4462fbbc11c"
+      },
+      {
+        "bytes": 39870,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/graph_partition_book.py",
+        "sha256": "1cb08030ec6aa818b74d72852d1344ce0382ad71720246a125e854d9489b9fa9"
+      },
+      {
+        "bytes": 34754,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/graph_services.py",
+        "sha256": "a2478bf6bae39da9f27719c2481e764cd8440606712dd5fe5533c79973b474c4"
+      },
+      {
+        "bytes": 6414,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/id_map.py",
+        "sha256": "f26d6ae9e45ee3a5cba3a41a0f2e14911ddc6604eda73ff77b004f6ec736b667"
+      },
+      {
+        "bytes": 50544,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/kvstore.py",
+        "sha256": "c87dc1e57e97947566526d2d5f15ae4ae59c289e469b4d2ebb31ce2ec8a7e412"
+      },
+      {
+        "bytes": 377,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/nn/__init__.py",
+        "sha256": "14ca0f42121a0558c62acbe5620f5d1139c6649993f347935d0946bf9fcd46b8"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/nn/mxnet/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 90,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/nn/pytorch/__init__.py",
+        "sha256": "5e58ae4de1ce0bc4a2ba4a64e1152f2017ed6f3390ef94669cbfa3e9f7380d7d"
+      },
+      {
+        "bytes": 6622,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/nn/pytorch/sparse_emb.py",
+        "sha256": "30102e0a3931a84825b2440c1337a4751cabf0d776058fe543dd8e27dec0738c"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/nn/tensorflow/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 377,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/optim/__init__.py",
+        "sha256": "14ca0f42121a0558c62acbe5620f5d1139c6649993f347935d0946bf9fcd46b8"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/optim/mxnet/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 104,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/optim/pytorch/__init__.py",
+        "sha256": "d219f6d75874ba4ce4bc4369957febccdf6c72951eeb6df5c9178f1cca8bae9c"
+      },
+      {
+        "bytes": 27178,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/optim/pytorch/sparse_optim.py",
+        "sha256": "e247de777395974b37769c2639184e6effc8a9eac1de490887f71998be05ca90"
+      },
+      {
+        "bytes": 1922,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/optim/pytorch/utils.py",
+        "sha256": "380ac5d83f2edcce7430f0e029801a2a1ed72ee35d118d37955893c1a6fb185f"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/optim/tensorflow/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 49181,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/partition.py",
+        "sha256": "ba8400c17a2a672ef3a41b08c2b9edc7b3f0e3b9d62834ff54d4b6df07974871"
+      },
+      {
+        "bytes": 7175,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/role.py",
+        "sha256": "9bfb20f5177709024c037040869785aa1befa73bb26d2b0604f896cf89b89454"
+      },
+      {
+        "bytes": 37948,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/rpc.py",
+        "sha256": "af208b5997c3e2c646342791de138c5108a2d60432dc864410470a2608388547"
+      },
+      {
+        "bytes": 9137,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/rpc_client.py",
+        "sha256": "a4376f72c557972a5d21702e69049694758f9a8d620b8c14a11063002e1d99f0"
+      },
+      {
+        "bytes": 6684,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/rpc_server.py",
+        "sha256": "88736fe29c287a7f69f278181117825bb0d4c22ed0087281ec47c58b8702659e"
+      },
+      {
+        "bytes": 2516,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/server_state.py",
+        "sha256": "1c61a1864599a17bf533e23a11dbfb8386704117436c88f0a2fd575df0f81609"
+      },
+      {
+        "bytes": 740,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/shared_mem_utils.py",
+        "sha256": "05e8f758b224df2d5e95b2a1e32c2ccc313303f6b0e6f7b3fee583a788fac91d"
+      },
+      {
+        "bytes": 3813,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/distributed/standalone_kvstore.py",
+        "sha256": "6d6a2308ae9f35dce28a98cafd4487c66fb34459832fdf0435727600b14ebb55"
+      },
+      {
+        "bytes": 33811,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/frame.py",
+        "sha256": "20f71311e308f21580cb2fd447b725eeac937121cdd4893b65a5d03a7f2728bf"
+      },
+      {
+        "bytes": 169,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/function/__init__.py",
+        "sha256": "c6cd8b90289c6572a264dae6a748213038d6e1b1c66adb22932fdacf3e4fcef0"
+      },
+      {
+        "bytes": 604,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/function/base.py",
+        "sha256": "0c602a18dc28eb11d330b4c6d78ef329ffa3f6d3a7708bf41d510a083303555c"
+      },
+      {
+        "bytes": 4968,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/function/message.py",
+        "sha256": "0f2579e4dbfdf3994cca821fd85f57e0112f8f0664f3ea35d9e4875da5cfa82c"
+      },
+      {
+        "bytes": 1983,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/function/reducer.py",
+        "sha256": "d16ea1bae6c4f187fa757d3b5f6fcf7d4a66f425cf186a423aaef0d72d7a601f"
+      },
+      {
+        "bytes": 4264,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/generators.py",
+        "sha256": "7c07d16da370b495f195f645531bd4832d089501e93c3e4a3b4cb77d1bf3d8be"
+      },
+      {
+        "bytes": 329,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/geometry/__init__.py",
+        "sha256": "2366229ea70a4de85fe32edc5c23ad0874fa829f8039fa0d13a8576a7bba4889"
+      },
+      {
+        "bytes": 3930,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/geometry/capi.py",
+        "sha256": "4f3183648a4c8e1ab1125f8ae02d365ef125d3b3be4617626f4106556e47120a"
+      },
+      {
+        "bytes": 2294,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/geometry/edge_coarsening.py",
+        "sha256": "694713c91c74baaffe7622b7e6ea1e036d9d080f0a627e3e307712c8e24494c1"
+      },
+      {
+        "bytes": 2162,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/geometry/fps.py",
+        "sha256": "4f7b5cc63cb71ad1005794da8408e8e286f4b2e1eab6409101ea32dc6ed2c954"
+      },
+      {
+        "bytes": 813,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/global_config.py",
+        "sha256": "1e3b2327441c34eab175eeed7f1d8f07c29ea3e8a5f1471534a0ed4554f1a475"
+      },
+      {
+        "bytes": 38125,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/graph_index.py",
+        "sha256": "dd1c8404f621b827069756a03c5d523b218cc3addea4c8fdcf085b155dd796dc"
+      },
+      {
+        "bytes": 244116,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/heterograph.py",
+        "sha256": "27bbe7de12c1bdb45db7a57bf5e5dbca4cf134920998e315255df3ed10c488ea"
+      },
+      {
+        "bytes": 48047,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/heterograph_index.py",
+        "sha256": "4e04c9b30978909ee31e06aeed2ebc94ad3d90f738b1f532ede07a1345f4d721"
+      },
+      {
+        "bytes": 5649,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/homophily.py",
+        "sha256": "0cb1ff518893109e2667b8451fd33c7641b2e8c7a74bf3d4b33ec3445c83ede0"
+      },
+      {
+        "bytes": 1823,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/init.py",
+        "sha256": "dd6203cd0ef4fe2adb54e66b3722750998ba7907f8949816fd614aeeb400d6b8"
+      },
+      {
+        "bytes": 369916672,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/libdgl.so",
+        "sha256": "9e2221b703d86ba3c5cc54364e7ed85322d638ee67a703f6cfd86da78055ba33"
+      },
+      {
+        "bytes": 863,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/logging.py",
+        "sha256": "05c942101414ef4914488df6dc2771a1040ee05dd5abbb59fac1fde04d2f916b"
+      },
+      {
+        "bytes": 3741,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/merge.py",
+        "sha256": "faf7ccbde74ef0310acf1fa93aabb9e443ccbcfcda74f7dc985ea5430a882c06"
+      },
+      {
+        "bytes": 113,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/mpops/__init__.py",
+        "sha256": "bba322a9db9a361fc944737a093961dbb6223c0196b529b4c9ae328eea985abb"
+      },
+      {
+        "bytes": 6596,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/mpops/edgewise.py",
+        "sha256": "f7c8c3beb155f346219969c8bf348edf56df98e7b22eb69cb29b2a8af10abbd5"
+      },
+      {
+        "bytes": 72,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/mpops/fused.py",
+        "sha256": "da97f2e54f012d788eeb6d090360ba4f1aba6ef53095ffb93fbc7c014931683e"
+      },
+      {
+        "bytes": 65,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/mpops/nodewise.py",
+        "sha256": "b0b55461c58a4e1d94a7364825dcf8b0a57ed4aa0c3f579399ef950f44fa2fe3"
+      },
+      {
+        "bytes": 714,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/multiprocessing/__init__.py",
+        "sha256": "8f0cfff711c6c7e9266a8b927e45141e72c1f79521578fb23aea5f20d08844a8"
+      },
+      {
+        "bytes": 3893,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/multiprocessing/pytorch.py",
+        "sha256": "1cbf2ced47d5c9bc277552d51a57083bcf56224d40327fcb7d5128eee59e841e"
+      },
+      {
+        "bytes": 6524,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/ndarray.py",
+        "sha256": "2278a0586b57542853c01defa0ea3212c92dba779f999b9ce788ec2d7543ff04"
+      },
+      {
+        "bytes": 9601,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/network.py",
+        "sha256": "31e52ba548f6485e89a1146ed9af769891bb6c83d7d2ccee7cc4791200af16e1"
+      },
+      {
+        "bytes": 1362,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/__init__.py",
+        "sha256": "3d624a37c137eccc4bfde13c53cf2cf04d6cbec362ce7196249e5df42c543448"
+      },
+      {
+        "bytes": 76,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/functional/__init__.py",
+        "sha256": "003a739cf9e53fe5c9bfe162bd6e765da514d6fa98d8de600e36657845491fb4"
+      },
+      {
+        "bytes": 160,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/__init__.py",
+        "sha256": "4d61085dbf7cac8d73c2af45e4f5bf38809f9733228a61b1c763000f6c9322dc"
+      },
+      {
+        "bytes": 980,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/__init__.py",
+        "sha256": "b7bf4758b284bc48f6ebe13e5af6f91df227ea006504cd61bee781e3497556e2"
+      },
+      {
+        "bytes": 6229,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/agnnconv.py",
+        "sha256": "223129bc5ed5ec2ade2b0626d3121cf182fe34ca9146cabed065472b6ec1b26a"
+      },
+      {
+        "bytes": 3790,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/appnpconv.py",
+        "sha256": "0798feb7460492787a691e37f557f9522a497109c17790d3cec1f5f4050b2537"
+      },
+      {
+        "bytes": 6064,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/chebconv.py",
+        "sha256": "83958c68719efa8f2ea7237fefbef83f9e7bb6a2b3ef086fd91c2e5962368090"
+      },
+      {
+        "bytes": 3710,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/densechebconv.py",
+        "sha256": "47d0e7e4a42fe0468b5eddb926e9ab6e039d3009928b405849953b5e54b97352"
+      },
+      {
+        "bytes": 4710,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/densegraphconv.py",
+        "sha256": "9b22c38c1c25a4b49fde876b242293bcc8bfb21a0373ed698f29093610631087"
+      },
+      {
+        "bytes": 3860,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/densesageconv.py",
+        "sha256": "1675c775428baade8f8dd42ddb5ec5adf987f080ebbeff4a77ee1c7874747973"
+      },
+      {
+        "bytes": 7000,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/edgeconv.py",
+        "sha256": "6f0077897e266c6d71586214faf79b86d1b050f55b84f6aaf9cf8959171aaef2"
+      },
+      {
+        "bytes": 13914,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/gatconv.py",
+        "sha256": "65d189bf818b9ec733d5496d99ce45ab86a06f9b58febd2bcb27db02691b1335"
+      },
+      {
+        "bytes": 5085,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/gatedgraphconv.py",
+        "sha256": "86f748a1d49a1bf9b6836025605bbaa013d70b657a293b4581f20b5c6c52d951"
+      },
+      {
+        "bytes": 4629,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/ginconv.py",
+        "sha256": "2bd10d6967560e030bfd82a49564268b8cd051fe7f5a4c2f3d637609b6f1f316"
+      },
+      {
+        "bytes": 9940,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/gmmconv.py",
+        "sha256": "7ecacdddbea78d6503c30d92296146903429e5878c0dcbde31b270a81e200c1d"
+      },
+      {
+        "bytes": 12170,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/graphconv.py",
+        "sha256": "a2d39907c1fbc202c8110120ba01551a4ca8f5697cf74a6feecd2f01e4205943"
+      },
+      {
+        "bytes": 6302,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/nnconv.py",
+        "sha256": "09739153f48a2105de68ea86c17fb49970fa7b2c7f2a3e77cf852a1b2a925c06"
+      },
+      {
+        "bytes": 9993,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/relgraphconv.py",
+        "sha256": "ae13c1cb974820ac0a3bf71a571f97d9690244a1c6f864201426ab1d6d8311cf"
+      },
+      {
+        "bytes": 8362,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/sageconv.py",
+        "sha256": "dc5c5655eb96d0c69d3187397e569ac235f9ed9e99b985da09fab4ba6882005b"
+      },
+      {
+        "bytes": 7057,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/sgconv.py",
+        "sha256": "e6e0f35f3c3010d28380d693642da51acca3961552cc0fa312fd0f8ae6c1742a"
+      },
+      {
+        "bytes": 4172,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/conv/tagconv.py",
+        "sha256": "1e7c41b1afbe8421d926df0cd94c26f1210c64ba365dd441277ac76b3f3ed81a"
+      },
+      {
+        "bytes": 9195,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/glob.py",
+        "sha256": "ccfba84105e3ce6a676a73c382b93a5e57862802f4d113e5c53bd465b7da5b7f"
+      },
+      {
+        "bytes": 9018,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/hetero.py",
+        "sha256": "2c8cb4e9e3f66a1d5899f7fdea5f47fd8cc34c33809d10e8387b6449393b8030"
+      },
+      {
+        "bytes": 116,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/softmax.py",
+        "sha256": "6557947ca3bf0d893de421fb30652f483886ebfbe3d712533f097284b92f12cf"
+      },
+      {
+        "bytes": 7796,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/mxnet/utils.py",
+        "sha256": "3113b9fcf2391a33894c259832967dfeeb0e75031eba07f75642cabd7d0d71de"
+      },
+      {
+        "bytes": 382,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/__init__.py",
+        "sha256": "f1aea3507d90f67a45c2c7aa582cfbe3935e0fec8f6c0d8f6ee03f5e0828ea51"
+      },
+      {
+        "bytes": 1980,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/__init__.py",
+        "sha256": "62f7c0b7261b9f4e41252883d3ffd6229f46e17c63a9880cb9c66122c1dcd4ba"
+      },
+      {
+        "bytes": 6200,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/agnnconv.py",
+        "sha256": "7820c576bd8f9ba534eb7c215d1e79a5d1a2b687c8118508737ee1d34f123735"
+      },
+      {
+        "bytes": 4479,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/appnpconv.py",
+        "sha256": "66f567cfc2a375bf81051558183344e5903d3ac279bdb6706e9dc6812a8f3e0a"
+      },
+      {
+        "bytes": 9941,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/atomicconv.py",
+        "sha256": "85814e78b25875d3a8eddf00aec7a84826524c8be8c3c80f426733f081a9d20c"
+      },
+      {
+        "bytes": 4894,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/cfconv.py",
+        "sha256": "b9fcd5778d60dd8f10f1b1a67da5590eb42ed0fe91e30f120739f6b5380c9bca"
+      },
+      {
+        "bytes": 5160,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/chebconv.py",
+        "sha256": "bde0675257b216262fd272c62a5388e4e7222709065f7fc59385494d459d9835"
+      },
+      {
+        "bytes": 2137,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/cugraph_base.py",
+        "sha256": "8d63ef3f2b9b837477bf34274979899c4921d6ab743ecb822c7ff73f42d38e92"
+      },
+      {
+        "bytes": 7067,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/cugraph_gatconv.py",
+        "sha256": "2e0347853d008157c15ebdc2833bc896fc8aa44e39800649bd1299ee80e7f0bc"
+      },
+      {
+        "bytes": 7828,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/cugraph_relgraphconv.py",
+        "sha256": "5bb0bbbb37fb674388807a29db4563dd7dc6d66decc418cc24126accee000278"
+      },
+      {
+        "bytes": 4949,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/cugraph_sageconv.py",
+        "sha256": "a8648791ba9406627197573c8263b1f109f1e1d619645ccdc5ec060e79d37831"
+      },
+      {
+        "bytes": 4092,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/densechebconv.py",
+        "sha256": "5b336304530e4c7b2a2dd606dd7c86ee088733feb64391d8b0a22acdf1666737"
+      },
+      {
+        "bytes": 5171,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/densegraphconv.py",
+        "sha256": "f073b9192cc0a45124f082aa8c237ca6f76869672ef8fbbbb0805d723627dae3"
+      },
+      {
+        "bytes": 4675,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/densesageconv.py",
+        "sha256": "6242d491f7c54220805abaff02b61373578e7ab402b240830ad6d35fafd7295f"
+      },
+      {
+        "bytes": 8979,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/dgnconv.py",
+        "sha256": "9583304db05b75024d8a3fddfb8637d7805942c88ef6f6dd4ede7d709cf74c57"
+      },
+      {
+        "bytes": 9439,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/dotgatconv.py",
+        "sha256": "bbfc62a323f3bbba8f8f97e4299a3e98123ad4462220e959c87c1f1c0592c922"
+      },
+      {
+        "bytes": 7799,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/edgeconv.py",
+        "sha256": "a70cde2c0526eb4259a898e8afbede6827cb8a7321ef8f571a7f001a7cf3286c"
+      },
+      {
+        "bytes": 15785,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/edgegatconv.py",
+        "sha256": "1a4cf09cbc9d02d5eb294cf6b9648af6d635442abb13a778a6d0511436ad39df"
+      },
+      {
+        "bytes": 10332,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/egatconv.py",
+        "sha256": "d194e1c0a156158e9cfa9070cc2e580639cb61b565f2d259088bc06999ac8f26"
+      },
+      {
+        "bytes": 5726,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/egnnconv.py",
+        "sha256": "70875f69db2018ecfa4fb677b922d72c35d7764401b52d42937da060bb50540a"
+      },
+      {
+        "bytes": 15099,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/gatconv.py",
+        "sha256": "1de5cd791dfb4871fbff91d7fb4565ceb67c07a31d21ec3eba132f385429ae1f"
+      },
+      {
+        "bytes": 6229,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/gatedgraphconv.py",
+        "sha256": "82b9bf162d719e71b5d304d5837c1dd268a3702fc30f38a4f4650d51a3e1c2bd"
+      },
+      {
+        "bytes": 13218,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/gatv2conv.py",
+        "sha256": "4808019c4130c2e5d7658efc76136c45e3f3516b8524841ade8f753fa4a3a55d"
+      },
+      {
+        "bytes": 10690,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/gcn2conv.py",
+        "sha256": "64a88249b3e0d0ff4eb7fd44260e6ab6df0d98d6920f7cb0d9e9fa8e81c77d30"
+      },
+      {
+        "bytes": 6414,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/ginconv.py",
+        "sha256": "37f4617c0cd74a4f3ca4b4c28c4288225d54af37c39852691e7b223136e68bc4"
+      },
+      {
+        "bytes": 3697,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/gineconv.py",
+        "sha256": "8931aacd6525c160900bb208aa7a7bd09ea712426363e4a94538e783c439574a"
+      },
+      {
+        "bytes": 10102,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/gmmconv.py",
+        "sha256": "579224dd3fe59b9e73dd8b2f3b30004f62cd0335421e22acca9da30473417be4"
+      },
+      {
+        "bytes": 18520,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/graphconv.py",
+        "sha256": "5d84c047f694fc73147c446a92f4da298473c1df0f13ffdbfffa65a29e940462"
+      },
+      {
+        "bytes": 8622,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/grouprevres.py",
+        "sha256": "d43f9dfb988aa0bc3a33501e67ca63d2f5e45d52b89a200b439823f4fd27ad81"
+      },
+      {
+        "bytes": 7062,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/hgtconv.py",
+        "sha256": "e9d974a5e44e406457dacc07e91996375b028ac85c509374ece1fe8f77a9afc8"
+      },
+      {
+        "bytes": 6576,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/nnconv.py",
+        "sha256": "a7fbae8ae507b388e577422277fae8caafe1330390126b4b94d3526cecd5bff3"
+      },
+      {
+        "bytes": 10689,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/pnaconv.py",
+        "sha256": "46b91adac3e0ece5e4da544597637581ed142885c1c1abd6d43911ee399cb93c"
+      },
+      {
+        "bytes": 6692,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/relgraphconv.py",
+        "sha256": "c6de8d35758069533a3d3f41eec48dfa52ee129e687da304a11217f3caabbb99"
+      },
+      {
+        "bytes": 11302,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/sageconv.py",
+        "sha256": "a8f5272e7bb66f5713266d25f5486d19cf3fdd2107d6b272c5060ce8a57a3f54"
+      },
+      {
+        "bytes": 8002,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/sgconv.py",
+        "sha256": "14f99ed964727d33b84eeb0d4f3f589e7c4e7d2021cc0db8ed0ac490cdb41662"
+      },
+      {
+        "bytes": 4910,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/tagconv.py",
+        "sha256": "05da14dcca1e767830de5333fef9971f2a63a28b1ef3ff2011c36547f0be3c93"
+      },
+      {
+        "bytes": 19654,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/conv/twirlsconv.py",
+        "sha256": "372f951f903343e705c23e14a878b93d64f4c4b5fc7bb026c0223f7d948240dd"
+      },
+      {
+        "bytes": 159,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/explain/__init__.py",
+        "sha256": "eaa8ab22b6eb026c97724d768a8fea24edf511ebb6e2b44d6ebacc33ce34369c"
+      },
+      {
+        "bytes": 37444,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/explain/gnnexplainer.py",
+        "sha256": "3764b1bd2f5130f96826cb07b06ad55e34ed6e7da60702c58248f4a1262c0e62"
+      },
+      {
+        "bytes": 29586,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/explain/subgraphx.py",
+        "sha256": "5816c5dcad136f31ff46830915c214d5fd5f1f3bc9646c7f42f6e1a88a232018"
+      },
+      {
+        "bytes": 14118,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/factory.py",
+        "sha256": "7e1ed40f0d210c4317ab4c368aff87ab7e640bf21418e23186b04079cdc4e2c1"
+      },
+      {
+        "bytes": 45484,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/glob.py",
+        "sha256": "d376ea7f253bc0464e2573a7ceb268d20ceaddec6dff25dc7962096654864e22"
+      },
+      {
+        "bytes": 329,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/gt/__init__.py",
+        "sha256": "372d58b0915356e8d5a9a7dfcb3877d1d4981de5ace855984ed9292a9df1f5de"
+      },
+      {
+        "bytes": 5381,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/gt/biased_mha.py",
+        "sha256": "07e68a80bfc6ccb2d345c48546d302f53f45b6486a7a498f498015e3f0ee1bcc"
+      },
+      {
+        "bytes": 3627,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/gt/degree_encoder.py",
+        "sha256": "0ecbed17caa8e16013b069b42971ad266f8edf5605537ac1218077aa323d3e2b"
+      },
+      {
+        "bytes": 6251,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/gt/egt.py",
+        "sha256": "bf049bde778bd0058cc2db3aed1ee8a419d77b07c1fbe1705630ca581eba886a"
+      },
+      {
+        "bytes": 4191,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/gt/graphormer.py",
+        "sha256": "4ff4a818eaffdfc7ab97f96d184350a62cf01645c75a3bc528db26040aad86d4"
+      },
+      {
+        "bytes": 5454,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/gt/lap_pos_encoder.py",
+        "sha256": "7e7aafd01bd5d41674bb34d47f5837ee686c849f8859ca94b4c1c55905c51adf"
+      },
+      {
+        "bytes": 3238,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/gt/path_encoder.py",
+        "sha256": "5078213de0e1005ce7fcb5b93a1d67c68f4a03eb9672674471a0d5ab5442d360"
+      },
+      {
+        "bytes": 8254,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/gt/spatial_encoder.py",
+        "sha256": "71da88a4c996dec9d58a4ac2a635cfe4a8ce68c7b9e1bf9b9e52327864ae2b94"
+      },
+      {
+        "bytes": 14085,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/hetero.py",
+        "sha256": "6e1f8c19639adc2280683817b5df7592059a133e2c0c7ade2332544ce83536e0"
+      },
+      {
+        "bytes": 7699,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/linear.py",
+        "sha256": "52a39cb84846f292c8abc51c2238368ba1313dfcb1cb439f33313d081585cce6"
+      },
+      {
+        "bytes": 159,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/link/__init__.py",
+        "sha256": "ff12d5beee07ced6195599bc8ed2c1b953329bc4d5df10efa2d3f7c603b622f8"
+      },
+      {
+        "bytes": 4892,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/link/edgepred.py",
+        "sha256": "886a74a76af280cacbc65815d161fda54904532622418ffc072d00e0186204f0"
+      },
+      {
+        "bytes": 2801,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/link/transe.py",
+        "sha256": "807bbb9b74540f7cbfa07f9f0aadcb688e637bd226d192666ad4cde6bdf86104"
+      },
+      {
+        "bytes": 3351,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/link/transr.py",
+        "sha256": "8c2bebcf3cc463d7cbbfeee049359b1dff72dfb202d24ab6f8191f2d7d7e4025"
+      },
+      {
+        "bytes": 15853,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/network_emb.py",
+        "sha256": "8986c00ac070bf053291f205af3bc22d4a2a37eb56e4d42681f70d1f47cf8f1d"
+      },
+      {
+        "bytes": 118,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/softmax.py",
+        "sha256": "9ce05036b76b1b2c4f6fd1ae35ab4a464a1ffc59d10085cf9d13702b4ea669be"
+      },
+      {
+        "bytes": 15231,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/sparse_emb.py",
+        "sha256": "0c261a87a78a1c3db2598050ca11ff3688d229b8161aaa7591a6e04fee638aa0"
+      },
+      {
+        "bytes": 18172,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/pytorch/utils.py",
+        "sha256": "d55b1ed51a00c3a700dfa904c7bf4927d37dd63ee057f4fdcc2588385104bbce"
+      },
+      {
+        "bytes": 156,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/__init__.py",
+        "sha256": "6ecdcce890fe6fb494d10968e4e5812569a955c0891ac5fe4a8317296ef4f19b"
+      },
+      {
+        "bytes": 348,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/conv/__init__.py",
+        "sha256": "3dd0b1bff5499fa5891ea4a51ec59d5ee5603773c5ec694df212263c8cdaa280"
+      },
+      {
+        "bytes": 2473,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/conv/appnpconv.py",
+        "sha256": "439fd912d8c7bdf37d96a26cc44933931cfa67c3f1f28e33a489454f8a2a4d49"
+      },
+      {
+        "bytes": 5476,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/conv/chebconv.py",
+        "sha256": "fa98b4008f22ea14c3f118fe523c9c8e4186d641ddb5a3e5e2d6ac5848e911db"
+      },
+      {
+        "bytes": 3587,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/conv/densechebconv.py",
+        "sha256": "6e45bc7db85627c9dce2adefd8d16c0a343b713592932b1bbee9a199f40e435d"
+      },
+      {
+        "bytes": 5813,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/conv/edgeconv.py",
+        "sha256": "ea447c09d725e35ee0033d1136f514c9a4c1898e00b0640e8eedd6b4af810727"
+      },
+      {
+        "bytes": 13481,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/conv/gatconv.py",
+        "sha256": "bf8ee55bb1a6dc40ca3523b1b4bea6bc8b023b0359d16f875fa9a2c11934e806"
+      },
+      {
+        "bytes": 4589,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/conv/ginconv.py",
+        "sha256": "c7c03268c107844d247d720bc4e681c956e3987e68a1f84c9273f67629762b58"
+      },
+      {
+        "bytes": 12433,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/conv/graphconv.py",
+        "sha256": "1ba3658553fb7f26fc4edf9eca0739edc64b520c92c136160c14eb78733db652"
+      },
+      {
+        "bytes": 12307,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/conv/relgraphconv.py",
+        "sha256": "54add4b2df3e4a5b70f0d611ec5f74c39b5dbbe2af5b5238ea2e09ad9cee7a2b"
+      },
+      {
+        "bytes": 8389,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/conv/sageconv.py",
+        "sha256": "a3402b7feee62c01fd2c039d65ee662d4be87d9fac4d1a0edd5ee956bc667469"
+      },
+      {
+        "bytes": 6955,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/conv/sgconv.py",
+        "sha256": "2586e62ed45975fd4a9121aed917c4a0beb9761abd04f1e7ec62bbd1deedb658"
+      },
+      {
+        "bytes": 7249,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/glob.py",
+        "sha256": "82729251ee631eaa830c6836f07f9b9036e56372ece703011a49ae001f07a7e9"
+      },
+      {
+        "bytes": 8950,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/hetero.py",
+        "sha256": "c02c0636fcfd625f6ad564f7eb7d250b2704d1d45c22caae51b0d2d4cc83ffe6"
+      },
+      {
+        "bytes": 115,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/softmax.py",
+        "sha256": "590e6e2e4ce88641ac97c746fd8a9c555e95c46c2409eaf430822c94e791bb56"
+      },
+      {
+        "bytes": 2463,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/nn/tensorflow/utils.py",
+        "sha256": "c5f16f0d0a24efdeeae679ed0161d318d622a8edc8863c463b2fb07afd992ba8"
+      },
+      {
+        "bytes": 144,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/ops/__init__.py",
+        "sha256": "159051dcd73056660fbe26085d3a736f5e1d8a95d8de52117755740bfee0d264"
+      },
+      {
+        "bytes": 5382,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/ops/edge_softmax.py",
+        "sha256": "8550f601af56e6d04a91c7f3caf6e4e6be2a07a7e74edc1437145a4e9b02585b"
+      },
+      {
+        "bytes": 1430,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/ops/gather_mm.py",
+        "sha256": "d28ca0686b5368fd1db52e6ab115058ee365918136fc2200ae7b5e4655268e03"
+      },
+      {
+        "bytes": 6543,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/ops/sddmm.py",
+        "sha256": "2edf64497b3195bccc08e88b6334cf9a918aad98352c07eda0af8d23f77dd0d9"
+      },
+      {
+        "bytes": 3938,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/ops/segment.py",
+        "sha256": "7fb986cb9645791a2e64bc71f3fff30c9b8412607eaca8aa49f1556e753d665c"
+      },
+      {
+        "bytes": 7709,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/ops/spmm.py",
+        "sha256": "a2a46766c12e5a3c395bb478a2ef4913d0a4218afd07a8506e5441adc92726bf"
+      },
+      {
+        "bytes": 363,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/optim/__init__.py",
+        "sha256": "5948d18d5f9e61b0637df1d889df992ea6988a255f07cfa700f6ab2daab5e35e"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/optim/mxnet/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 92,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/optim/pytorch/__init__.py",
+        "sha256": "5d6a5be1f8ec20f1916747d9983483ede56bc2bdd8ee21f62c0a65610c4593f9"
+      },
+      {
+        "bytes": 39022,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/optim/pytorch/sparse_optim.py",
+        "sha256": "574154b997961950043df94f8a4327f88d17b971903d2b02a67ee5b2b27fc06b"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/optim/tensorflow/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 24432,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/partition.py",
+        "sha256": "f18fe0f2242819f9638d5c6bcdf70b1b1aa11f729df253546b885a874b8ab5fc"
+      },
+      {
+        "bytes": 5788,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/propagate.py",
+        "sha256": "70595f219ef18d2c1438968dca32dfbbe46dd17fb54525b0c9ebed79c72e0824"
+      },
+      {
+        "bytes": 2725,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/random.py",
+        "sha256": "20ad0f64d9fa77ebfe52851b023af4b018436a97bb467ef5edc0d91110ff80d1"
+      },
+      {
+        "bytes": 29015,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/readout.py",
+        "sha256": "0ce60ce84eb93d644fc872c0792b7b7717cb7303b487d5b37b23cff317a62dce"
+      },
+      {
+        "bytes": 517,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sampling/__init__.py",
+        "sha256": "94f5996614d88bb57369a570072e67b5a9e4c8b8d234f234d9194a77528d3cdb"
+      },
+      {
+        "bytes": 14202,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sampling/labor.py",
+        "sha256": "8364e649dfa04a135250ee5182d8d14e9c6dad2b2d7859e35971287aac505e7a"
+      },
+      {
+        "bytes": 4175,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sampling/negative.py",
+        "sha256": "9fe732fb6fa7ef29bd4bc88c4fd21938746e3650a955789a09e1c8be7ddfbfa7"
+      },
+      {
+        "bytes": 36980,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sampling/neighbor.py",
+        "sha256": "4558ab1b412fdf743df1f17926bbc6fc3c4ff9134376caa95461eccfae2cd045"
+      },
+      {
+        "bytes": 3338,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sampling/node2vec_randomwalk.py",
+        "sha256": "6b82f2ae4c9a95bf81889f0fdf8e40764c2c24b8ba045c8664a34e6a565f6aad"
+      },
+      {
+        "bytes": 10278,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sampling/pinsage.py",
+        "sha256": "f28aa31d33c93cc3d54cefbf4b745bed0536346889f622faf64e1ca6913ce2e6"
+      },
+      {
+        "bytes": 11619,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sampling/randomwalks.py",
+        "sha256": "602b257d5e416e65090bc689be8171d489dc5ab3c9780b0f3b83904992510935"
+      },
+      {
+        "bytes": 4262,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sampling/utils.py",
+        "sha256": "24655ca903882431a632ad36e463e65f46f672d938312e27c78aeb344c4b4267"
+      },
+      {
+        "bytes": 1261,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sparse/__init__.py",
+        "sha256": "5442e46d4f8040aee91802d948786fbeee3380a242775ad0454b924dd71c92ed"
+      },
+      {
+        "bytes": 4244,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sparse/broadcast.py",
+        "sha256": "61a10cac1b1720761e3c299b6f6edb43e1a1f50f13ed2708948b4810e04e9303"
+      },
+      {
+        "bytes": 5539,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sparse/elementwise_op.py",
+        "sha256": "955e78e7ebe1c3b859e0a5944d552f4ac8639987ffef2405212172644bfb9e44"
+      },
+      {
+        "bytes": 5836,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sparse/elementwise_op_sp.py",
+        "sha256": "b841196c57c2593d4f8c662b740134838ed039d0166f9dfa2277e3a63521067b"
+      },
+      {
+        "bytes": 6734,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sparse/matmul.py",
+        "sha256": "cdbc87b654de755667a95649475a34bc6b4f934c370d3a7b7550067abc0b32d2"
+      },
+      {
+        "bytes": 12018,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sparse/reduction.py",
+        "sha256": "27fac3d2a5e4614916c7e968135af0411d671820ef82c3e150fe515000c3b85a"
+      },
+      {
+        "bytes": 3306,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sparse/sddmm.py",
+        "sha256": "483c40ced27399bd6686bca2afae42daa86c40d127bbb307d4982691ce97039d"
+      },
+      {
+        "bytes": 2480,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sparse/softmax.py",
+        "sha256": "0b5b3da400b8208080d08292d02843e68e53d9bfa8d0938a695a6a335789120d"
+      },
+      {
+        "bytes": 36968,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sparse/sparse_matrix.py",
+        "sha256": "8fc1523d21611f438cf6c095b23194abdf0367390f3e89827a662f83456ab3b5"
+      },
+      {
+        "bytes": 1673,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sparse/unary_op.py",
+        "sha256": "57c67c9161338a289acf8555cbfd124eff8b63786f33b0083b5016dddc1a0188"
+      },
+      {
+        "bytes": 305,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/sparse/utils.py",
+        "sha256": "dac98843beb17131c7a06b1cd1e0460d28e59dd1892ee98dc9b5aa6486921777"
+      },
+      {
+        "bytes": 327,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/storages/__init__.py",
+        "sha256": "94eb35b7673d8b0b8d29a267b2fbb8641b89f6a1cd93a5489ef714502e0d9722"
+      },
+      {
+        "bytes": 2538,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/storages/base.py",
+        "sha256": "5887f478184debd7bd39317864d88f11405d8eee79a879493336735369f89cb9"
+      },
+      {
+        "bytes": 826,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/storages/numpy.py",
+        "sha256": "2b809a4d9b8b07933a9d7d3ec4437e8e27201b8d9e651e2955bc9b31b521a4da"
+      },
+      {
+        "bytes": 2114,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/storages/pytorch_tensor.py",
+        "sha256": "c715111169e71c8d00287cc0a97ce58bd2ecf27c9b7b397b16a81d98321f69dd"
+      },
+      {
+        "bytes": 548,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/storages/tensor.py",
+        "sha256": "d4243e1be86c2c038aa58821babcad197866a3667cfde5096db9e21bbdea3139"
+      },
+      {
+        "bytes": 45412,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/subgraph.py",
+        "sha256": "411e5c400731211c7558b129352e19bf8441aef4c469fc14cd6e7eee9b98db04"
+      },
+      {
+        "bytes": 63928,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/tensoradapter/pytorch/libtensoradapter_pytorch_1.13.0.so",
+        "sha256": "01c1343f9fe9ceb8281b20b0513763bd2986b148a47d9b87cdf7723a9c26fd50"
+      },
+      {
+        "bytes": 63928,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/tensoradapter/pytorch/libtensoradapter_pytorch_1.13.1.so",
+        "sha256": "8827c1dc48958cf82e10ba72bbbbc73afdc640a92eb9d0c7694f802762d29304"
+      },
+      {
+        "bytes": 64376,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/tensoradapter/pytorch/libtensoradapter_pytorch_2.0.0.so",
+        "sha256": "b12d604f3c5f403bab3fe37822dfa80533bbed4dffac84eb70fcc6493d118b45"
+      },
+      {
+        "bytes": 64376,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/tensoradapter/pytorch/libtensoradapter_pytorch_2.0.1.so",
+        "sha256": "90bbbacf803f54bf8420b35768d4ff88d1db5bbfcc2dc0d5f170cdeca39ab3c2"
+      },
+      {
+        "bytes": 116,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/transforms/__init__.py",
+        "sha256": "f924ec44367e4eb87542deb99d2e63c9c3455cbd8249ddb03e49a993a359e7da"
+      },
+      {
+        "bytes": 142975,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/transforms/functional.py",
+        "sha256": "ef167599835da1e48271d04564419d81b938552a89d5c7c4d2706dc2eec4e1a9"
+      },
+      {
+        "bytes": 67187,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/transforms/module.py",
+        "sha256": "79d6739bd8ce67864aaf7b5347f1564ad701b8413211416728882555bfb0d90a"
+      },
+      {
+        "bytes": 9180,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/transforms/to_block.py",
+        "sha256": "fc0fc4ad4859916d576f5cea516e074e02695751a973d985376cb8efea68d27b"
+      },
+      {
+        "bytes": 10086,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/traversal.py",
+        "sha256": "8889af29187736bd3de42b61ceaa879e169a5c46a5be5255177fdb6e467ed7d4"
+      },
+      {
+        "bytes": 12633,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/udf.py",
+        "sha256": "5306e90efb83cf9da87373bec7b88dda5861f5c8784008ddbddfdc67090e42ac"
+      },
+      {
+        "bytes": 383,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/utils/__init__.py",
+        "sha256": "54104f365d097677a92174de7fbd7c518462ccf943eef6d874b32909163672e2"
+      },
+      {
+        "bytes": 8167,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/utils/checks.py",
+        "sha256": "322f451829eaadac4b8cd4c0d08c7bcb61553724b321b68bcae1bbae313c2bef"
+      },
+      {
+        "bytes": 13141,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/utils/data.py",
+        "sha256": "77561abfcef411f02d6778698225b61907e85a0ea1d96f078557d953ddf82883"
+      },
+      {
+        "bytes": 2582,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/utils/exception.py",
+        "sha256": "81a38a7732e415689bfcb559348a3d6ce02c6eb78dc217da92ff1000a74314ce"
+      },
+      {
+        "bytes": 2163,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/utils/filter.py",
+        "sha256": "0ae38f815a7dbc6571baf49abdbba86959a1ccd69b182d1389ba9309917d9157"
+      },
+      {
+        "bytes": 36550,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/utils/internal.py",
+        "sha256": "18b53789d2d907ce497133e62e3dbb90b4da136e9fd57f52dd6693dd88ebefc1"
+      },
+      {
+        "bytes": 2293,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/utils/pin_memory.py",
+        "sha256": "b9ef66cc637300a85dd1918c246c1b837c857c3a2f5308f3f746effcc9c8cac0"
+      },
+      {
+        "bytes": 281,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/utils/shared_mem.py",
+        "sha256": "3c869e1ce5b3f22d05973aeafd05a44b1d8024108d0316a6fa6462975a94f30b"
+      },
+      {
+        "bytes": 8741,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dgl/view.py",
+        "sha256": "e6af3b6866e0746b8ba6e28d5e3698defb81ac39e6031450b4eb8047d7149dd3"
+      },
+      {
+        "bytes": 4,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dllogger-1.1.0.dist-info/INSTALLER",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "bytes": 4512,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dllogger-1.1.0.dist-info/METADATA",
+        "sha256": "ed167264976b97bfb68b17a17df326f79c0b21eec615df00322083df08c24869"
+      },
+      {
+        "bytes": 927,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dllogger-1.1.0.dist-info/RECORD",
+        "sha256": "ef7276e78f12ae3a918203ed793a54df0a8e289b5a4bbf36724143d4d435d65e"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dllogger-1.1.0.dist-info/REQUESTED",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 91,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dllogger-1.1.0.dist-info/WHEEL",
+        "sha256": "61532836a2b3111b7ec23519c09df7c41180c27165fb872a6d8913b566b88ad1"
+      },
+      {
+        "bytes": 91,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dllogger-1.1.0.dist-info/direct_url.json",
+        "sha256": "bbe6a96b28fc895febc487980445f4163b4e57119a985772e78e94f08cdbc522"
+      },
+      {
+        "bytes": 586,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dllogger-1.1.0.dist-info/licenses/LICENSE",
+        "sha256": "3633730c10a4b25e80a3db86dc3ed5313bf940dd9881f15e5c1a8dea5a55b9b8"
+      },
+      {
+        "bytes": 9,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dllogger-1.1.0.dist-info/top_level.txt",
+        "sha256": "9a18da5034d65585c1ad10b59a0e7fa9d6b27654997334caa692008aefe0f657"
+      },
+      {
+        "bytes": 1607,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dllogger/__init__.py",
+        "sha256": "32fced3c8fd0ef94b610f699e109a8763b6f63f2206908fd28773f2f6f31d6bf"
+      },
+      {
+        "bytes": 4747,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/dllogger/logger.py",
+        "sha256": "aefba8f408f99c6886020b759536000ae2dd52ae83ebe8f438252139f68018ff"
+      },
+      {
+        "bytes": 4,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn-0.3.3.dist-info/INSTALLER",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "bytes": 1389,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn-0.3.3.dist-info/LICENSE",
+        "sha256": "2f875c146f567528415acaf19def2531b65e6dba7fb2485f25d86dd4b3912ad7"
+      },
+      {
+        "bytes": 4978,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn-0.3.3.dist-info/METADATA",
+        "sha256": "aa90a146198657fc12deab63418585bb2f67659252345d43445cb8717f69eb58"
+      },
+      {
+        "bytes": 9120,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn-0.3.3.dist-info/RECORD",
+        "sha256": "7f119ef1a611216fc9f70b0a69240a557d8314ec7cc9295f59f17fb28827aae7"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn-0.3.3.dist-info/REQUESTED",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 92,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn-0.3.3.dist-info/WHEEL",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710"
+      },
+      {
+        "bytes": 5,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn-0.3.3.dist-info/top_level.txt",
+        "sha256": "d624ebd72a183a722934460c3539dda300e9ec4f8f918a81c9778c07aee4a31c"
+      },
+      {
+        "bytes": 823,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/__init__.py",
+        "sha256": "96bd0a40b6c6f288700b392e4ce16f5032ccb461dc31ca2ff68ebcd88ddeff14"
+      },
+      {
+        "bytes": 156,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/io/__init__.py",
+        "sha256": "9aa62f818b843709b95db1244c44a56b44cda9b1ffcca00d14ebbb66669aabe2"
+      },
+      {
+        "bytes": 1881,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/io/_cartesian_tensor.py",
+        "sha256": "2c46c55eb61509e72e3b502f4768f22662fca03ed97fd50c1d2354bee0381787"
+      },
+      {
+        "bytes": 12446,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/io/_spherical_tensor.py",
+        "sha256": "3c8aae0005b2134de20ab3f9779339f99bb4edeeda9dcbe5f94089210ffe65eb"
+      },
+      {
+        "bytes": 387,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/math/__init__.py",
+        "sha256": "03d2affeeb6ed1e7b47ee742b353404582f258e71d8113f57969350fb9eea026"
+      },
+      {
+        "bytes": 2488,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/math/_linalg.py",
+        "sha256": "26abc3b61375b983a536e0356799a371e1e80e557a64b45e23ef2fe53c9123bf"
+      },
+      {
+        "bytes": 1510,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/math/_normalize_activation.py",
+        "sha256": "77c0a8824728bdd5a7862443f723b0329a7e2df5263ba3f92dd8dbba5224f92c"
+      },
+      {
+        "bytes": 4385,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/math/_soft_one_hot_linspace.py",
+        "sha256": "ae7e6c93611f82541f295c4aeefc6bbbf09ebba796677e24ab56ff4ffdf22430"
+      },
+      {
+        "bytes": 1107,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/math/_soft_unit_step.py",
+        "sha256": "992afe00119739238332d22a64bfbc6ca61a763e95692ccbc1a5b3fd853fa8b0"
+      },
+      {
+        "bytes": 377,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/math/group/__init__.py",
+        "sha256": "447a1afcbc648e1244e33d3465f50963724bb8a904358ab14cbf752596cf5670"
+      },
+      {
+        "bytes": 5732,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/math/group/_groups.py",
+        "sha256": "acd563e825138dd906f473d0137ca7170f1b2d0d16e0b50b6ce6acfbdead70bc"
+      },
+      {
+        "bytes": 3797,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/math/group/_reduce.py",
+        "sha256": "64be760fbbcdd6d06f9f8cbd61c631d75ef333eb67a75239d3e4f58959bdc980"
+      },
+      {
+        "bytes": 3213,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/math/perm.py",
+        "sha256": "03f6eb0304c47e7266feae857e94a2d1b616c8a30f36383bd6c115c576aa8551"
+      },
+      {
+        "bytes": 495,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/__init__.py",
+        "sha256": "468c5bbec06cfa48ec590e4cfb94ea1f69a46beb8e1980ec6dcc5279a54d84e4"
+      },
+      {
+        "bytes": 3305,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/_activation.py",
+        "sha256": "9ff18afeebcd490970925b93638411b58e8b02cec32fa88b8445ab6515d77b8d"
+      },
+      {
+        "bytes": 6466,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/_batchnorm.py",
+        "sha256": "07ba0c1d1bd7ef4c10ff2aca6174d9a7b1f044ac2312038a1bf6e40f7fa33838"
+      },
+      {
+        "bytes": 1918,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/_dropout.py",
+        "sha256": "716080cade81d8a996022d955e623484bd76ed4f3f3ace73aabd6a505a94fb1d"
+      },
+      {
+        "bytes": 3231,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/_extract.py",
+        "sha256": "7bdc799df66f01d911646df0e50434c3c158f9e3605199afc7eb9193b8cc7ab2"
+      },
+      {
+        "bytes": 2494,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/_fc.py",
+        "sha256": "fcc83fe9ddb5cc03e76bb3c52a3587960d4ff88101ce6107062fbfc6d21f70e6"
+      },
+      {
+        "bytes": 5414,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/_gate.py",
+        "sha256": "5f1706b26ba0049b337be067d4c20239efd88da0c22e9504f3dbdaf7e164c4e4"
+      },
+      {
+        "bytes": 881,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/_identity.py",
+        "sha256": "76e2a5ef3cfe130218f0ed65403ccc50efc1173ebdd0514767dcf493860147bf"
+      },
+      {
+        "bytes": 3731,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/_normact.py",
+        "sha256": "71de94434166aa16733b0bb8ed5b7472da6742f4664ae85e3c08df01b506c54f"
+      },
+      {
+        "bytes": 4002,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/_s2act.py",
+        "sha256": "65250045adf51cc25e4f7426f6d22482fe18fbcdf045b432c3e9b55e96e19075"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/models/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 11002,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/models/gate_points_2101.py",
+        "sha256": "59f9fe31c41ffdcd28c6fd7a5f5923eaa3aa6d86611982a40f73950bc67b1cb7"
+      },
+      {
+        "bytes": 11373,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/models/gate_points_2102.py",
+        "sha256": "7f9e2871e475a43c9092c4d5d95d433f8501f0c8c1662215da15817279336d39"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/models/v2103/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 4868,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/models/v2103/conv_points_in_out.py",
+        "sha256": "b4a86950c84326b528beee9afe009dac9e753989f49104ab14aee53751fbfcfd"
+      },
+      {
+        "bytes": 5354,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/models/v2103/gate_points_message_passing.py",
+        "sha256": "67e6d91adcdd4579a337b60f7a4ee7f207402ca95a2a4b026bcc77fec09a3af9"
+      },
+      {
+        "bytes": 6689,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/models/v2103/gate_points_networks.py",
+        "sha256": "86290b51fcda438080f9f7f422cd9c58f8e5e9c091028ddfad33d69072b9c5ca"
+      },
+      {
+        "bytes": 3797,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/models/v2103/points_convolution.py",
+        "sha256": "330d84fbbbde2c457a1ec0aa67512298aff09497edc8ca9a5a0ae353483480f1"
+      },
+      {
+        "bytes": 4672,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/models/v2103/voxel_convolution.py",
+        "sha256": "2bd6377c414b841f452fd33df7d9f1ae5f144924c3c283c57a5ccef48b4de199"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/models/v2104/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 5259,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/models/v2104/voxel_convolution.py",
+        "sha256": "88fac4a9122fc7a37cf20067c09e32fb54e02d8c7b907de65bcc594c8cbce3b7"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/models/v2106/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 5854,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/models/v2106/gate_points_message_passing.py",
+        "sha256": "48e20ed86c8f07849fac06811d1f846cd5d5e974d027c55bf765c92ef47f602d"
+      },
+      {
+        "bytes": 7357,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/models/v2106/gate_points_networks.py",
+        "sha256": "54eccd5cc9c4a87d721cb3ae2c164385f921fe0218c4065e63962357bfc80c2d"
+      },
+      {
+        "bytes": 4262,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/nn/models/v2106/points_convolution.py",
+        "sha256": "4e0f00ce3d4e35dce8f9f50da7677a55dbb2b43b6affe69f7935e50af89fcc54"
+      },
+      {
+        "bytes": 2564,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/o3/__init__.py",
+        "sha256": "ad0ca1e6827424b76a0431971da8bd06a35544deecdef4abdd5e8bdb9229e065"
+      },
+      {
+        "bytes": 5156,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/o3/_angular_spherical_harmonics.py",
+        "sha256": "bb216208490b2916f93c8394392aada5017970380a6dbf82b1b84cfd6e26ee8e"
+      },
+      {
+        "bytes": 18035,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/o3/_irreps.py",
+        "sha256": "704539baf7babc981b885750e07a951bb637cd3d50f98125eaab615f9e6f3dce"
+      },
+      {
+        "bytes": 15939,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/o3/_linear.py",
+        "sha256": "0c7ba834b95dcdea09815141bdd94c1f135f235b3e7fa014ae58abb9de4b4993"
+      },
+      {
+        "bytes": 1866,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/o3/_norm.py",
+        "sha256": "27042fdaa939720ab905fb402aa9d5b1fd3b15d16ea46affe1ebb937393b5770"
+      },
+      {
+        "bytes": 10172,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/o3/_reduce.py",
+        "sha256": "53b4285d0b60cacc4fd15b112261e33b2bcedcf2aaf06173bfb5780cc271a9bb"
+      },
+      {
+        "bytes": 16562,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/o3/_rotation.py",
+        "sha256": "0087a5d30e4191de2d98722657a8732d0cc27aedf568426cc842db8995fb3143"
+      },
+      {
+        "bytes": 15212,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/o3/_s2grid.py",
+        "sha256": "648bde2eabb9d0f0beb7694d739fc02c6ef195935b8fef30041fddb760d5226c"
+      },
+      {
+        "bytes": 32877,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/o3/_spherical_harmonics.py",
+        "sha256": "f532829c667bfd6add2297547c383d9cb5d4f52f8779d34a701ab365cc946d9b"
+      },
+      {
+        "bytes": 324,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/o3/_tensor_product/__init__.py",
+        "sha256": "fde7831e80cc21553809d9dd668ec539d3718f2bbe37a0ce2310826dc44b270d"
+      },
+      {
+        "bytes": 25423,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/o3/_tensor_product/_codegen.py",
+        "sha256": "43f8c18eeb697e41fbed336146d6ff926ea20de8b2a0a129dfa955489f8a4840"
+      },
+      {
+        "bytes": 199,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/o3/_tensor_product/_instruction.py",
+        "sha256": "adaa7ed8d88c39c9941af6c30f2e76ac14d944364735596ea69002c16228e75a"
+      },
+      {
+        "bytes": 30667,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/o3/_tensor_product/_tensor_product.py",
+        "sha256": "78ccb5a245c8dc0e8466eaff16013bcb975b4df92e638d84fc94bcea4f9f0b10"
+      },
+      {
+        "bytes": 6787,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/o3/_wigner.py",
+        "sha256": "e32eef83faf0878ccd87cf77bc4d8cb99ea95612054822326f896d30ac3cbc58"
+      },
+      {
+        "bytes": 4716580,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/o3/constants.pt",
+        "sha256": "279fb1f7844b2b85df092550bf7854a70fe3b427b312672f6a1e1fef0a786876"
+      },
+      {
+        "bytes": 370,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/util/__init__.py",
+        "sha256": "2b429cbd6938b90ff09b371a8291d52de7f9a377da7e1f5ca240d45b32fc0ca1"
+      },
+      {
+        "bytes": 5812,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/util/_argtools.py",
+        "sha256": "3e7e80c2ecdd62c703f699875244cf436540496798391c8a78f0d4e343a6ffb2"
+      },
+      {
+        "bytes": 696,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/util/_context.py",
+        "sha256": "77ba1f26073c66db8c4ac55170beb53811277ef40b384081164563d49935baf6"
+      },
+      {
+        "bytes": 69,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/util/codegen/__init__.py",
+        "sha256": "b42930cc1952a1cf091fe15c42f57f55cf0941b2d375eb7a84ff21b939b69571"
+      },
+      {
+        "bytes": 4384,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/util/codegen/_mixin.py",
+        "sha256": "528b55985f2917422be12ee7c51bc45169d214900c2d72db2a68498346c52a18"
+      },
+      {
+        "bytes": 3248,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/util/default_type.py",
+        "sha256": "68591316ea71967aae77c6f7bc28df65ef035ff811484320bd827ac43c027a45"
+      },
+      {
+        "bytes": 8924,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/util/jit.py",
+        "sha256": "094128db1981cd75f910dcacc763a85fd8ff3be0ec119a3dd2cd91547150f8ae"
+      },
+      {
+        "bytes": 17748,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/e3nn/util/test.py",
+        "sha256": "f57792d144e03da169a49b4a98c7b3aa8153554aebb5869c21a980e892c0f870"
+      },
+      {
+        "bytes": 4,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/rfdiffusion-1.1.0.dist-info/INSTALLER",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "bytes": 387,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/rfdiffusion-1.1.0.dist-info/METADATA",
+        "sha256": "4b4f18243356a224e750f411eefa646aeb7f1f92fb94ba515e3075cb4e40f924"
+      },
+      {
+        "bytes": 1105,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/rfdiffusion-1.1.0.dist-info/RECORD",
+        "sha256": "34f3f9b0b7f4abfca196355a304e163bc38c630abaacc70666b2c69707fa3fcf"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/rfdiffusion-1.1.0.dist-info/REQUESTED",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 91,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/rfdiffusion-1.1.0.dist-info/WHEEL",
+        "sha256": "61532836a2b3111b7ec23519c09df7c41180c27165fb872a6d8913b566b88ad1"
+      },
+      {
+        "bytes": 110,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/rfdiffusion-1.1.0.dist-info/direct_url.json",
+        "sha256": "ecf3a9079de386678c6ce5817870446b082b8375cb82fc2d4f150376d6ba37a2"
+      },
+      {
+        "bytes": 1749,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/rfdiffusion-1.1.0.dist-info/licenses/LICENSE",
+        "sha256": "eefc2ae77cb92b1414a6ac76b246642fae2189747b1b07747e92e5ddc696ec24"
+      },
+      {
+        "bytes": 12,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/rfdiffusion-1.1.0.dist-info/top_level.txt",
+        "sha256": "5fee8c983d038451282181b05cefd3835ed48a4ce21f80d75cf97be8c74d9805"
+      },
+      {
+        "bytes": 4,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer-1.0.0.dist-info/INSTALLER",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "bytes": 300,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer-1.0.0.dist-info/METADATA",
+        "sha256": "29ae658e3fa720dffdc932dfce37870e241c124e44200e019c8012b81dc4ca5d"
+      },
+      {
+        "bytes": 4860,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer-1.0.0.dist-info/RECORD",
+        "sha256": "e7ea3547849f6da773030a444adf0d5198cf7afcab674888e3af34ffa7bd09c3"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer-1.0.0.dist-info/REQUESTED",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 91,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer-1.0.0.dist-info/WHEEL",
+        "sha256": "61532836a2b3111b7ec23519c09df7c41180c27165fb872a6d8913b566b88ad1"
+      },
+      {
+        "bytes": 113,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer-1.0.0.dist-info/direct_url.json",
+        "sha256": "9a3d6cc31868b2a50c543f792774836329966a3967760ee6872a10a1448839e5"
+      },
+      {
+        "bytes": 1071,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer-1.0.0.dist-info/licenses/LICENSE",
+        "sha256": "1195ca3cd4b6035cc2fb6cc58e89836a5b6e7951a008994a6a578438db66f5e2"
+      },
+      {
+        "bytes": 280,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer-1.0.0.dist-info/licenses/NOTICE",
+        "sha256": "ef150044596c547c528ae85591c90ad26d95c506eecdf39a0e11cadbf4c297d9"
+      },
+      {
+        "bytes": 22,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer-1.0.0.dist-info/top_level.txt",
+        "sha256": "66c84c4e4dd8f34204b323b73b77fcbbd64e5f6bfe9c878104208d089613044f"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 31,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/data_loading/__init__.py",
+        "sha256": "ba4eeb4a70f349e0476f22289b07cdbda23ac22afa1f74c90f20bc81a25bf062"
+      },
+      {
+        "bytes": 2884,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/data_loading/data_module.py",
+        "sha256": "45f961d53349eb5d4c1fda9d6e07fedcc51891ffcf1f9ac966f1d694fc4bb8c4"
+      },
+      {
+        "bytes": 7998,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/data_loading/qm9.py",
+        "sha256": "075c7f15b62f637f6605d74349b420cf0981f236c787145ae421a590cabef9d4"
+      },
+      {
+        "bytes": 87,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/model/__init__.py",
+        "sha256": "9941b8d90ecc004aab3b867933ddfeb7da076a4fc7c257a4b157f646b090d2c0"
+      },
+      {
+        "bytes": 7812,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/model/basis.py",
+        "sha256": "4d7bbb1f20503560720c77b048fb2769bec3971e4436c485322c590ac0ef7b85"
+      },
+      {
+        "bytes": 5918,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/model/fiber.py",
+        "sha256": "1b20c96b313af48356bb136f6d7b8de177a4c38986c7d6f5b9e013fc926aa162"
+      },
+      {
+        "bytes": 159,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/model/layers/__init__.py",
+        "sha256": "c70926f49bd3507bd65b9894a7a28a064fd23929ee70ed3c7697a557b477bbf9"
+      },
+      {
+        "bytes": 8609,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/model/layers/attention.py",
+        "sha256": "b7ae90e1058500d4dbe748336d5c17fd0b6c4d214fec61ded46ff19bb91f9df8"
+      },
+      {
+        "bytes": 16100,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/model/layers/convolution.py",
+        "sha256": "af0e1d2ddf6412b9134708e1072845c6c7e85fbe673a709f9b06d6fe824f465c"
+      },
+      {
+        "bytes": 2627,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/model/layers/linear.py",
+        "sha256": "d14d8ad4e8ffd1efa78da64c9ca5adea619c2e8e709249bdc9d20bd60c4a1755"
+      },
+      {
+        "bytes": 3761,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/model/layers/norm.py",
+        "sha256": "53a59d4318109eda8d137f6fe3f09eda25a36fb17d4acf7389d62b12c060dd28"
+      },
+      {
+        "bytes": 2430,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/model/layers/pooling.py",
+        "sha256": "1bea529f8d6dbed6d69333a07c5ca63c5a8567446c97997483933502cbbde72f"
+      },
+      {
+        "bytes": 10706,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/model/transformer.py",
+        "sha256": "c8dd58e4c066a7f3790619e91ffc9b732441f04b0841a638a13fcdb9568889e2"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/runtime/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 4059,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/runtime/arguments.py",
+        "sha256": "261113fd49f3930bd5629dfd1aa9a02c08c895b4c3282a4dd0ff631c33597c69"
+      },
+      {
+        "bytes": 5392,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/runtime/callbacks.py",
+        "sha256": "6411ea24ac20888228052b62fa68f2548f8d5e27780d2a1c88e11bd0bc69fe18"
+      },
+      {
+        "bytes": 12815,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/runtime/gpu_affinity.py",
+        "sha256": "d8e6f2fc28cba9d1fa687e3f7898a16469329aec7191988b4aec63817ac074d8"
+      },
+      {
+        "bytes": 5325,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/runtime/inference.py",
+        "sha256": "8676ec4219c1ffa3d132e7746c1b7915d0d5cdf3039a0169c7362e50da901e40"
+      },
+      {
+        "bytes": 4664,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/runtime/loggers.py",
+        "sha256": "70248ec249ed60e025a221867fd07d366280e9fe0e0c333d3e60f2441f034df0"
+      },
+      {
+        "bytes": 2914,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/runtime/metrics.py",
+        "sha256": "1a69a64dc782ce2c47faabd5cee21e422d9406f4711df138a336a9f88f34fb7c"
+      },
+      {
+        "bytes": 9832,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/runtime/training.py",
+        "sha256": "bc487702d4ce6c09ea1511ee50de5d22ea23471ae8d1c1f5029993793f4039d6"
+      },
+      {
+        "bytes": 4608,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/se3_transformer/runtime/utils.py",
+        "sha256": "7a2e1cd12542b6ac8b628e61ef065f835f2ee18cf127f01b1150bfa1bf493fc1"
+      },
+      {
+        "bytes": 0,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/tests/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 3645,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/tests/test_equivariance.py",
+        "sha256": "7c78ec71db78a4d385d131fd78d1cc895620977aec1cd090ae64cf7067810391"
+      },
+      {
+        "bytes": 2080,
+        "path": "/lustre/users/u21111210118/projects/test9/env/rfd/lib/python3.10/site-packages/tests/utils.py",
+        "sha256": "5419c54128b36c5cfdc94987b315b18b924c60b2b37d6fb65db64ad757f245b0"
+      }
+    ],
+    "packages": [
+      {
+        "name": "antlr4-python3-runtime",
+        "version": "4.9.3"
+      },
+      {
+        "name": "asttokens",
+        "version": "3.0.2"
+      },
+      {
+        "name": "biopython",
+        "version": "1.84"
+      },
+      {
+        "name": "certifi",
+        "version": "2026.7.22"
+      },
+      {
+        "name": "charset-normalizer",
+        "version": "3.5.2"
+      },
+      {
+        "name": "cmake",
+        "version": "3.25.0"
+      },
+      {
+        "name": "colorama",
+        "version": "0.4.6"
+      },
+      {
+        "name": "dgl",
+        "version": "1.1.3+cu117"
+      },
+      {
+        "name": "dllogger",
+        "version": "1.1.0"
+      },
+      {
+        "name": "e3nn",
+        "version": "0.3.3"
+      },
+      {
+        "name": "einops",
+        "version": "0.6.1"
+      },
+      {
+        "name": "executing",
+        "version": "2.2.1"
+      },
+      {
+        "name": "filelock",
+        "version": "3.32.3"
+      },
+      {
+        "name": "hydra-core",
+        "version": "1.3.2"
+      },
+      {
+        "name": "icecream",
+        "version": "2.2.0"
+      },
+      {
+        "name": "idna",
+        "version": "3.20"
+      },
+      {
+        "name": "jinja2",
+        "version": "3.1.6"
+      },
+      {
+        "name": "lit",
+        "version": "15.0.7"
+      },
+      {
+        "name": "markupsafe",
+        "version": "3.0.3"
+      },
+      {
+        "name": "mpmath",
+        "version": "1.3.0"
+      },
+      {
+        "name": "networkx",
+        "version": "3.4.2"
+      },
+      {
+        "name": "numpy",
+        "version": "1.26.4"
+      },
+      {
+        "name": "nvidia-cuda-runtime-cu11",
+        "version": "11.8.89"
+      },
+      {
+        "name": "nvidia-cusparse-cu11",
+        "version": "11.7.5.86"
+      },
+      {
+        "name": "omegaconf",
+        "version": "2.3.0"
+      },
+      {
+        "name": "opt-einsum",
+        "version": "3.4.0"
+      },
+      {
+        "name": "opt-einsum-fx",
+        "version": "0.1.4"
+      },
+      {
+        "name": "packaging",
+        "version": "26.3"
+      },
+      {
+        "name": "pip",
+        "version": "26.2.1"
+      },
+      {
+        "name": "psutil",
+        "version": "7.2.2"
+      },
+      {
+        "name": "pygments",
+        "version": "2.21.0"
+      },
+      {
+        "name": "pyrsistent",
+        "version": "0.19.3"
+      },
+      {
+        "name": "pyyaml",
+        "version": "6.0.3"
+      },
+      {
+        "name": "requests",
+        "version": "2.34.2"
+      },
+      {
+        "name": "rfdiffusion",
+        "version": "1.1.0"
+      },
+      {
+        "name": "scipy",
+        "version": "1.13.1"
+      },
+      {
+        "name": "se3-transformer",
+        "version": "1.0.0"
+      },
+      {
+        "name": "setuptools",
+        "version": "84.0.0"
+      },
+      {
+        "name": "sympy",
+        "version": "1.14.0"
+      },
+      {
+        "name": "torch",
+        "version": "2.0.1+cu117"
+      },
+      {
+        "name": "tqdm",
+        "version": "4.70.1"
+      },
+      {
+        "name": "triton",
+        "version": "2.0.0"
+      },
+      {
+        "name": "typing-extensions",
+        "version": "4.16.0"
+      },
+      {
+        "name": "urllib3",
+        "version": "2.8.0"
+      },
+      {
+        "name": "wheel",
+        "version": "0.48.0"
+      }
+    ],
+    "python": "3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:42:31) [GCC 14.4.0]"
+  },
+  "assets": {
+    "checkpoint": {
+      "path": "/lustre/users/u21111210118/projects/test9/assets/rfdiffusion/Complex_base_ckpt.pt",
+      "sha256": "76e4e260aefee3b582bd76b77ab95d2592e64f00c51bf344968ab9239f3250bc",
+      "bytes": 483619179
+    },
+    "receipt": {
+      "path": "/lustre/users/u21111210118/projects/test9/assets/rfdiffusion/Complex_base_ckpt.receipt.json",
+      "sha256": "53785044644ef1125110ceeb4a77743a5923d0f703129c8cdaa4c86f7cca52cd",
+      "bytes": 409
+    }
+  },
+  "vendor_files": {
+    "RFdiffusion": {
+      "path_root": "/lustre/users/u21111210118/projects/test9/vendor/RFdiffusion",
+      "file_count": 226,
+      "bytes": 26855574,
+      "tree_sha256": "60b9d269f39ca9278d7a5fe1758e94502a72813ef2862fd155159f9a45e4568c"
+    },
+    "ProteinMPNN": {
+      "path_root": "/lustre/users/u21111210118/projects/test9/vendor/ProteinMPNN",
+      "file_count": 110,
+      "bytes": 99653132,
+      "tree_sha256": "17efa1569f5a04e3fc9be8f75973a39136cea6edd3b489903b5098dda753d895"
+    },
+    "dllogger": {
+      "path_root": "/lustre/users/u21111210118/projects/test9/vendor/dllogger",
+      "file_count": 18,
+      "bytes": 49400,
+      "tree_sha256": "bde4d2667f0d30d3782a968727d12154027a6fd7b1c9849c71f625873880f210"
+    }
+  }
+}

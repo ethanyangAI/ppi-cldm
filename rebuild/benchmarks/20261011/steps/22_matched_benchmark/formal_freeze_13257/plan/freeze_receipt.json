@@ -1,0 +1,31 @@
+{
+  "CPU_allocation": {
+    "allocated_gpu_count": 0,
+    "allocated_tres": "cpu=1,node=1,billing=1",
+    "scheduler_record_full": "JobId=13257 JobName=test9_formal_freeze_cpu UserId=u21111210118(6263900) GroupId=u21111210118(6263900) MCS_label=N/A Priority=1 Nice=0 Account=u21111210118 QOS=normal JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:10 TimeLimit=00:10:00 TimeMin=N/A SubmitTime=2026-10-11T22:19:28 EligibleTime=2026-10-11T22:19:28 AccrueTime=2026-10-11T22:19:28 StartTime=2026-10-11T22:19:28 EndTime=2026-10-11T22:29:28 Deadline=N/A PreemptEligibleTime=2026-10-11T22:19:28 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-11T22:19:28 Scheduler=Main Partition=organ AllocNode:Sid=workstation:1845933 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu1 BatchHost=gpu1 NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:* TRES=cpu=1,node=1,billing=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=1 MinMemoryNode=8G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_freeze_cpu_v1.sbatch WorkDir=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark StdErr=/lustre/users/u21111210118/projects/test9/logs/formal-freeze-13257.err StdIn=/dev/null StdOut=/lustre/users/u21111210118/projects/test9/logs/formal-freeze-13257.out Power= \n",
+    "selected_scheduler_record": "JobId=13257 JobName=test9_formal_freeze_cpu UserId=u21111210118(6263900) GroupId=u21111210118(6263900) MCS_label=N/A Priority=1 Nice=0 Account=u21111210118 QOS=normal JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:10 TimeLimit=00:10:00 TimeMin=N/A SubmitTime=2026-10-11T22:19:28 EligibleTime=2026-10-11T22:19:28 AccrueTime=2026-10-11T22:19:28 StartTime=2026-10-11T22:19:28 EndTime=2026-10-11T22:29:28 Deadline=N/A PreemptEligibleTime=2026-10-11T22:19:28 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-11T22:19:28 Scheduler=Main Partition=organ AllocNode:Sid=workstation:1845933 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu1 BatchHost=gpu1 NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:* TRES=cpu=1,node=1,billing=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=1 MinMemoryNode=8G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_freeze_cpu_v1.sbatch WorkDir=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark StdErr=/lustre/users/u21111210118/projects/test9/logs/formal-freeze-13257.err StdIn=/dev/null StdOut=/lustre/users/u21111210118/projects/test9/logs/formal-freeze-13257.out Power=\n"
+  },
+  "engineering": {
+    "bytes": 3888,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_freeze_13257/engineering_combined.json",
+    "sha256": "a2cfce1846d9c82e24be7d817a689e9bd9a7f3446e5669c056b5b74029725edb"
+  },
+  "expected_tasks": 28,
+  "launcher": {
+    "bytes": 1539,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_freeze_13257/plan/formal_generation.sbatch",
+    "sha256": "17275e9a2f3ef5290168e52cffa0466013e71e638b7d3e74f79d763034afe339"
+  },
+  "plan": {
+    "bytes": 20295,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_freeze_13257/plan/frozen_plan.json",
+    "sha256": "e913d1bbccd531bf88a73f6ba60e8a0de85bb03ad8bcd3455d8952ca4effe0b6"
+  },
+  "protocol": {
+    "bytes": 10451,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_freeze_13257/plan/protocol.json",
+    "sha256": "26875ac0fa8382d812b89d9ed101428bd3cb2b79d661a987513a31ce309d2724"
+  },
+  "scientific_scope": "COMPUTATIONAL_ONLY",
+  "status": "FROZEN_FULL28_FORMAL_BEFORE_GENERATION"
+}

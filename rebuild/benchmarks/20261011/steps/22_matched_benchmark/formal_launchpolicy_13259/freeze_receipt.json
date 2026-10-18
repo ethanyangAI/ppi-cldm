@@ -1,0 +1,25 @@
+{
+  "cpu_allocation": {
+    "actual_allocated_tres": "cpu=2,node=1,billing=2",
+    "allocated_gpu_count": 0,
+    "job_id": "13259",
+    "scheduler_record_full": "JobId=13259 JobName=audit_formal_pre_generation_v1.sbatch UserId=u21111210118(6263900) GroupId=u21111210118(6263900) MCS_label=N/A Priority=1 Nice=0 Account=u21111210118 QOS=normal JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:00 TimeLimit=00:15:00 TimeMin=N/A SubmitTime=2026-10-11T22:22:02 EligibleTime=2026-10-11T22:22:02 AccrueTime=2026-10-11T22:22:02 StartTime=2026-10-11T22:22:03 EndTime=2026-10-11T22:37:03 Deadline=N/A PreemptEligibleTime=2026-10-11T22:22:03 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-11T22:22:03 Scheduler=Main Partition=organ AllocNode:Sid=workstation:1854945 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu1 BatchHost=gpu1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* TRES=cpu=2,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryNode=8G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/audit_formal_pre_generation_v1.sbatch WorkDir=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark StdErr=/lustre/users/u21111210118/projects/test9/logs/formal-pregen-audit-13259.err StdIn=/dev/null StdOut=/lustre/users/u21111210118/projects/test9/logs/formal-pregen-audit-13259.out Power= \n",
+    "selected_scheduler_record": "JobId=13259 JobName=audit_formal_pre_generation_v1.sbatch UserId=u21111210118(6263900) GroupId=u21111210118(6263900) MCS_label=N/A Priority=1 Nice=0 Account=u21111210118 QOS=normal JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:00 TimeLimit=00:15:00 TimeMin=N/A SubmitTime=2026-10-11T22:22:02 EligibleTime=2026-10-11T22:22:02 AccrueTime=2026-10-11T22:22:02 StartTime=2026-10-11T22:22:03 EndTime=2026-10-11T22:37:03 Deadline=N/A PreemptEligibleTime=2026-10-11T22:22:03 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-11T22:22:03 Scheduler=Main Partition=organ AllocNode:Sid=workstation:1854945 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu1 BatchHost=gpu1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* TRES=cpu=2,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryNode=8G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/audit_formal_pre_generation_v1.sbatch WorkDir=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark StdErr=/lustre/users/u21111210118/projects/test9/logs/formal-pregen-audit-13259.err StdIn=/dev/null StdOut=/lustre/users/u21111210118/projects/test9/logs/formal-pregen-audit-13259.out Power=\n"
+  },
+  "launcher": {
+    "bytes": 1539,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_launchpolicy_13259/formal_generation_cpu3.sbatch",
+    "sha256": "5f02bf6ce198c26f2751a5eb3e32bc57530270ef99094572a229d6d313ef91fb"
+  },
+  "policy": {
+    "bytes": 6712,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_launchpolicy_13259/resource_policy.json",
+    "sha256": "a996cac084eb6630dc4c34a62b581f2bf298d5d720350f4f702476adb8df073e"
+  },
+  "source": {
+    "bytes": 17811,
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/resource_contract_v3/source/independent_resource_policy.py",
+    "sha256": "8449b40f4ffbe3d9e321335bccb9bfcc163291ac3f67497c66fe1555bcd2f6bc"
+  },
+  "status": "SHARED_CPU3_POLICY_FROZEN_BEFORE_GENERATION_NOT_GPU_EXECUTED"
+}

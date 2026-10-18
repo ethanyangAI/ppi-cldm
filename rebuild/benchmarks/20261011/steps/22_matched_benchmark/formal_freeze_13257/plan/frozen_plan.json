@@ -1,0 +1,543 @@
+{
+  "schema": "paired-budget-v1",
+  "status": "FROZEN_BEFORE_GENERATION",
+  "protocol": {
+    "accounting_tolerance_seconds": 2,
+    "aggregation_policy": "complete_selected_candidate_median_then_both_replicate_mean",
+    "binder_length": 65,
+    "budget_gpu_seconds": 3600,
+    "common_review_gate": {
+      "aggregation": "all_required_models_median",
+      "operator": ">=",
+      "scope": "COMPUTATIONAL_ONLY",
+      "score": "R0",
+      "threshold": 1.0
+    },
+    "common_review_primary": {
+      "endpoint": "R1_official_ipSAE_10A_max_continuous",
+      "engine": "boltz",
+      "models": 3,
+      "operational_pass": null,
+      "seeds": [
+        31011,
+        31012,
+        31013
+      ]
+    },
+    "common_review_secondary": {
+      "endpoint": "separate_R1_R0",
+      "engine": "af2",
+      "model_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "models": 5,
+      "pooled_with_primary": false,
+      "seed": 31021
+    },
+    "completion_policy": {
+      "actual_gpu_seconds": 3600,
+      "all_gpu_children_terminated_before_receipt": true,
+      "allowed_scheduler_states": [
+        "COMPLETED",
+        "TIMEOUT"
+      ],
+      "engineering_failure_is_comparable": false,
+      "generation_cutoff_wall_seconds": 3590,
+      "requires_durable_receipt_and_complete_raw_ledger": true,
+      "tolerance_seconds": 2
+    },
+    "concurrency_cap": 2,
+    "engineering_acceptance": {
+      "bytes": 3888,
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_freeze_13257/engineering_combined.json",
+      "sha256": "a2cfce1846d9c82e24be7d817a689e9bd9a7f3446e5669c056b5b74029725edb"
+    },
+    "execution_mode": "persistent_session",
+    "gpu_count": 1,
+    "hardware": {
+      "gpu_name": "NVIDIA A100-PCIE-40GB",
+      "minimum_memory_mib": 40000
+    },
+    "inference": {
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 4142,
+      "minimum_targets": 6,
+      "mode": "descriptive_only"
+    },
+    "input_bridge": {
+      "bytes": 11368,
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/prepared_inputs.json",
+      "sha256": "d39f03d805251aba5cc6563ea477e948a385649aa5b67ac840a92fae6cc0c169"
+    },
+    "methods": [
+      {
+        "adapter_receipts": [
+          {
+            "bytes": 51064,
+            "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/benchmark_runtime.py",
+            "sha256": "51b516a692d369f4d9a6ae9e3c39c0294da219c4d065420bbf9538a4af4b6562"
+          },
+          {
+            "bytes": 619,
+            "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/rfd_env.sh",
+            "sha256": "bcc590bf014010ea835ff56cfc74019257e07a9dcf293b74f75595631fcd8c78"
+          }
+        ],
+        "config_receipt": {
+          "bytes": 4512,
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/rf_diffusion.json",
+          "sha256": "fca63440b363148b688e95330e0086d171dc05485ecead3b07662db2c7807fba"
+        },
+        "method_id": "rf_diffusion",
+        "native_score_direction": "lower",
+        "native_score_name": "native_single_AF2_PTM_pae_interaction",
+        "session_start": [
+          "bash",
+          "-c",
+          "source /lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/rfd_env.sh; exec python /lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/benchmark_runtime.py method-session --method rf_diffusion --session-dir \"$1\" --target-manifest \"$2\" --config \"$3\" --config-sha256 \"$4\"",
+          "method-session",
+          "{session_dir}",
+          "{target_manifest}",
+          "{method_config}",
+          "{method_config_sha256}"
+        ]
+      },
+      {
+        "adapter_receipts": [
+          {
+            "bytes": 51064,
+            "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/benchmark_runtime.py",
+            "sha256": "51b516a692d369f4d9a6ae9e3c39c0294da219c4d065420bbf9538a4af4b6562"
+          },
+          {
+            "bytes": 936,
+            "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/bindcraft_env.sh",
+            "sha256": "1ae3baafe2cac87dc60b7ad7f32075ec11deab07b5d2d4eadfe3241535332245"
+          }
+        ],
+        "config_receipt": {
+          "bytes": 3684,
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/bindcraft.json",
+          "sha256": "ede838ddf98e459aceb1175c682df47439dc38f2125afd3c9c328c286e70c29f"
+        },
+        "method_id": "bindcraft",
+        "native_score_direction": "higher",
+        "native_score_name": "native_BindCraft_average_AF2_iptm",
+        "session_start": [
+          "bash",
+          "-c",
+          "source /lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/bindcraft_env.sh; exec python /lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/benchmark_runtime.py method-session --method bindcraft --session-dir \"$1\" --target-manifest \"$2\" --config \"$3\" --config-sha256 \"$4\"",
+          "method-session",
+          "{session_dir}",
+          "{target_manifest}",
+          "{method_config}",
+          "{method_config_sha256}"
+        ]
+      }
+    ],
+    "missing_rule": "Typed unresolved remains in fixed denominator. Empty cohort quality is null; fully observed empty sequence pool may have observed fixed-cohort recovery yield zero.",
+    "native_cohort": "Independent secondary cohort, method-native fixed score top2 with unavailable score excluded and underfill retained.",
+    "native_score_audit": {
+      "bundle_schema": "formal_native_output_audit_bundle.v1",
+      "collector_source": {
+        "bytes": 16372,
+        "path": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/runs/native_collector_contracts_13166/source/audit_native_confidence_v8.py",
+        "sha256": "eca561182d06eca52bde005b45f02dd261d57b916d70ea5e34e99e86a79830b5"
+      },
+      "independent_raw_array_recomputation_required": true,
+      "native_top_k_only_after_raw_score_identity_verification": true,
+      "scope": "all_actual_attempts_and_all_native_updates_including_rejected_unavailable_partial_and_boundary"
+    },
+    "physical_hardware_inventory": {
+      "bytes": 3668,
+      "path": "/lustre/users/u21111210118/projects/test9/steps/23_common_review/inputs/proc_gpu_inventory_13044.json",
+      "sha256": "eb4a7eb9d026b85d228a2983e85c60a883a117c6438babadecbcbe106e1a29e7"
+    },
+    "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+    "purpose": "Controlled same-target same-GPU-budget computational comparison; all six primary target pairs retained",
+    "quality_rule": "Candidate median requires every frozen engine model; task median requires nonempty selected cohort and every selected candidate; target mean requires both fixed replicates; macro requires all six paired targets.",
+    "replicate_seeds": [
+      21011,
+      21012
+    ],
+    "sampling": {
+      "native_top_k_per_replicate": 2,
+      "salt": "PPI-PAIRED-20261011-FIXED-BEFORE-GENERATION",
+      "uniform_n_per_replicate": 3
+    },
+    "schema": "paired-budget-v1",
+    "scientific_scope": "COMPUTATIONAL_ONLY",
+    "sensitivity_rule": "All native controls plus the minimum fixed uniform sampling hash candidate from each arm; natural target single-MSA Boltz sensitivity; BBF primary single MSA.",
+    "shutdown_reserve_seconds": 10,
+    "source_entry": {
+      "bytes": 11994,
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/freeze_formal_benchmark_v3.py",
+      "sha256": "e23f09c1f01f1459fe1281f2648dd1e3c0d7d0e9704b9024acdaf732b7c3b3d8"
+    },
+    "targets": [
+      {
+        "analysis_role": "primary",
+        "input_manifest": {
+          "bytes": 4981,
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/MDM2_1YCR/input_manifest.json",
+          "sha256": "309ba5cc683d0aefca74dfbbc6e8aa0d6452e8b3472cf6e61966fea5ec2380ec"
+        },
+        "target_id": "MDM2_1YCR"
+      },
+      {
+        "analysis_role": "primary",
+        "input_manifest": {
+          "bytes": 8438,
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/KEAP1_2FLU/input_manifest.json",
+          "sha256": "c12846eeadb8b7d3fa58119237d2f8c4a9ee0ef31966779db6c41a51b07c4c8f"
+        },
+        "target_id": "KEAP1_2FLU"
+      },
+      {
+        "analysis_role": "primary",
+        "input_manifest": {
+          "bytes": 7126,
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/EGFR_DIII_1IVO/input_manifest.json",
+          "sha256": "d236aebeded3f571d93d272520983b1cc04d05a556228f6f724a85f44d8530f0"
+        },
+        "target_id": "EGFR_DIII_1IVO"
+      },
+      {
+        "analysis_role": "primary",
+        "input_manifest": {
+          "bytes": 6716,
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/BCLXL_2M04/input_manifest.json",
+          "sha256": "5c9b2816aed0c9f4c768df0475f0400c08833ef296b672ae4fc6432b13497a51"
+        },
+        "target_id": "BCLXL_2M04"
+      },
+      {
+        "analysis_role": "primary",
+        "input_manifest": {
+          "bytes": 7605,
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/HRAS_4G0N/input_manifest.json",
+          "sha256": "a8484fc37df6668a69b89f041b54dc08fdd5afa61b90d0aed3a9289bdb6c0692"
+        },
+        "target_id": "HRAS_4G0N"
+      },
+      {
+        "analysis_role": "primary",
+        "input_manifest": {
+          "bytes": 4528,
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/CRK_SH3_1CKA/input_manifest.json",
+          "sha256": "0f2022fd7dfd040044608b53cd57f98fccd2bf37b4e43cc54dda334ace2e793b"
+        },
+        "target_id": "CRK_SH3_1CKA"
+      },
+      {
+        "analysis_role": "diagnostic",
+        "input_manifest": {
+          "bytes": 7322,
+          "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/input_preparation/prepared_7_chainfix_13094/BBF111_9HAG/input_manifest.json",
+          "sha256": "641344f09921377a52b580bc91ef37f8dcc6831e4d44ed30908f3ec476ab8a91"
+        },
+        "target_id": "BBF111_9HAG"
+      }
+    ],
+    "uniform_pool": "All canonical complete 65aa sequences first observed before the generation cutoff, including native rejected and native score unavailable. Sequence unique within task."
+  },
+  "protocol_receipt": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/formal_freeze_13257/plan/protocol.json",
+    "bytes": 10451,
+    "sha256": "26875ac0fa8382d812b89d9ed101428bd3cb2b79d661a987513a31ce309d2724"
+  },
+  "orchestrator": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_budget_v4/source/paired_budget_benchmark.py",
+    "bytes": 84446,
+    "sha256": "b37227bd862ee1425a59f5308be1ee3f4824042dea5d71c1269ad0f406b318f9"
+  },
+  "tasks": [
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "MDM2_1YCR",
+      "seed": 21011,
+      "method_id": "rf_diffusion",
+      "task_id": "bd015cd8fa4aa33d5d26873a",
+      "pair_id": "f88d62a6b1dfaddff2d5621a",
+      "budget_gpu_seconds": 3600,
+      "array_index": 0
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "MDM2_1YCR",
+      "seed": 21011,
+      "method_id": "bindcraft",
+      "task_id": "b628953a2b9cc248b275e1be",
+      "pair_id": "f88d62a6b1dfaddff2d5621a",
+      "budget_gpu_seconds": 3600,
+      "array_index": 1
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "MDM2_1YCR",
+      "seed": 21012,
+      "method_id": "rf_diffusion",
+      "task_id": "486a279d73fa13b42d33ee50",
+      "pair_id": "a919bc86f5fed443bbd3883d",
+      "budget_gpu_seconds": 3600,
+      "array_index": 2
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "MDM2_1YCR",
+      "seed": 21012,
+      "method_id": "bindcraft",
+      "task_id": "8a7710bbf2c46462a5b8fa55",
+      "pair_id": "a919bc86f5fed443bbd3883d",
+      "budget_gpu_seconds": 3600,
+      "array_index": 3
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "KEAP1_2FLU",
+      "seed": 21011,
+      "method_id": "rf_diffusion",
+      "task_id": "c896704ac04928db49d2e171",
+      "pair_id": "ee85e6d749645a1d47057410",
+      "budget_gpu_seconds": 3600,
+      "array_index": 4
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "KEAP1_2FLU",
+      "seed": 21011,
+      "method_id": "bindcraft",
+      "task_id": "58fc02fc050798ff876c11ba",
+      "pair_id": "ee85e6d749645a1d47057410",
+      "budget_gpu_seconds": 3600,
+      "array_index": 5
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "KEAP1_2FLU",
+      "seed": 21012,
+      "method_id": "rf_diffusion",
+      "task_id": "105d4f9cc69bcb0bfb197cab",
+      "pair_id": "c91f088eb5b13d1c1d5789bd",
+      "budget_gpu_seconds": 3600,
+      "array_index": 6
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "KEAP1_2FLU",
+      "seed": 21012,
+      "method_id": "bindcraft",
+      "task_id": "55da9ed122e7ca9e9496f1b2",
+      "pair_id": "c91f088eb5b13d1c1d5789bd",
+      "budget_gpu_seconds": 3600,
+      "array_index": 7
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "EGFR_DIII_1IVO",
+      "seed": 21011,
+      "method_id": "rf_diffusion",
+      "task_id": "6af5c15a2aa3f63fc07c3bb8",
+      "pair_id": "f0de58f687e25de707e63fc6",
+      "budget_gpu_seconds": 3600,
+      "array_index": 8
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "EGFR_DIII_1IVO",
+      "seed": 21011,
+      "method_id": "bindcraft",
+      "task_id": "919fcca7ddad9af973ebc4c2",
+      "pair_id": "f0de58f687e25de707e63fc6",
+      "budget_gpu_seconds": 3600,
+      "array_index": 9
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "EGFR_DIII_1IVO",
+      "seed": 21012,
+      "method_id": "rf_diffusion",
+      "task_id": "ad50bb6c3a442a2fa738cefc",
+      "pair_id": "4629cb06829471008af0790b",
+      "budget_gpu_seconds": 3600,
+      "array_index": 10
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "EGFR_DIII_1IVO",
+      "seed": 21012,
+      "method_id": "bindcraft",
+      "task_id": "20146653573175e4ff0d0a0a",
+      "pair_id": "4629cb06829471008af0790b",
+      "budget_gpu_seconds": 3600,
+      "array_index": 11
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "BCLXL_2M04",
+      "seed": 21011,
+      "method_id": "rf_diffusion",
+      "task_id": "0c1ba9e44cf23a00a53a2f1a",
+      "pair_id": "2560100da04eead71824df97",
+      "budget_gpu_seconds": 3600,
+      "array_index": 12
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "BCLXL_2M04",
+      "seed": 21011,
+      "method_id": "bindcraft",
+      "task_id": "b66c9b36b590cad7b538fcdb",
+      "pair_id": "2560100da04eead71824df97",
+      "budget_gpu_seconds": 3600,
+      "array_index": 13
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "BCLXL_2M04",
+      "seed": 21012,
+      "method_id": "rf_diffusion",
+      "task_id": "18b36612d897fa59aad49b20",
+      "pair_id": "26987f968c807c9576148276",
+      "budget_gpu_seconds": 3600,
+      "array_index": 14
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "BCLXL_2M04",
+      "seed": 21012,
+      "method_id": "bindcraft",
+      "task_id": "24997065d44b0fa0bc5388dd",
+      "pair_id": "26987f968c807c9576148276",
+      "budget_gpu_seconds": 3600,
+      "array_index": 15
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "HRAS_4G0N",
+      "seed": 21011,
+      "method_id": "rf_diffusion",
+      "task_id": "f19cf3154db49ca965d0f600",
+      "pair_id": "d30d69ccd024d9496d9d0907",
+      "budget_gpu_seconds": 3600,
+      "array_index": 16
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "HRAS_4G0N",
+      "seed": 21011,
+      "method_id": "bindcraft",
+      "task_id": "40c7d9f41dd0ea5e92298c9a",
+      "pair_id": "d30d69ccd024d9496d9d0907",
+      "budget_gpu_seconds": 3600,
+      "array_index": 17
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "HRAS_4G0N",
+      "seed": 21012,
+      "method_id": "rf_diffusion",
+      "task_id": "010fca0c2959f5a824912a73",
+      "pair_id": "eee695e6fb404f40820470f3",
+      "budget_gpu_seconds": 3600,
+      "array_index": 18
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "HRAS_4G0N",
+      "seed": 21012,
+      "method_id": "bindcraft",
+      "task_id": "4d0f8deb477ce8c7c84ee157",
+      "pair_id": "eee695e6fb404f40820470f3",
+      "budget_gpu_seconds": 3600,
+      "array_index": 19
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "CRK_SH3_1CKA",
+      "seed": 21011,
+      "method_id": "rf_diffusion",
+      "task_id": "ea0acd5663671b3f6c16ad53",
+      "pair_id": "831173460713d89459c069cc",
+      "budget_gpu_seconds": 3600,
+      "array_index": 20
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "CRK_SH3_1CKA",
+      "seed": 21011,
+      "method_id": "bindcraft",
+      "task_id": "5e1f5290e3efa652a46a76bc",
+      "pair_id": "831173460713d89459c069cc",
+      "budget_gpu_seconds": 3600,
+      "array_index": 21
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "CRK_SH3_1CKA",
+      "seed": 21012,
+      "method_id": "rf_diffusion",
+      "task_id": "25e73ebed9d3d055a9abe600",
+      "pair_id": "eec9d741d96e84573e7ae954",
+      "budget_gpu_seconds": 3600,
+      "array_index": 22
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "CRK_SH3_1CKA",
+      "seed": 21012,
+      "method_id": "bindcraft",
+      "task_id": "7c9aaecd8a3933399138a7ac",
+      "pair_id": "eec9d741d96e84573e7ae954",
+      "budget_gpu_seconds": 3600,
+      "array_index": 23
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "BBF111_9HAG",
+      "seed": 21011,
+      "method_id": "rf_diffusion",
+      "task_id": "78975f26e5779cf5acebcae8",
+      "pair_id": "140b6f4186d807adedf30ee8",
+      "budget_gpu_seconds": 3600,
+      "array_index": 24
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "BBF111_9HAG",
+      "seed": 21011,
+      "method_id": "bindcraft",
+      "task_id": "be261bb475d78042e4de0a50",
+      "pair_id": "140b6f4186d807adedf30ee8",
+      "budget_gpu_seconds": 3600,
+      "array_index": 25
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "BBF111_9HAG",
+      "seed": 21012,
+      "method_id": "rf_diffusion",
+      "task_id": "a9e7bdf9ff35a3a0932ad812",
+      "pair_id": "8e7e0ab48ff5357bd4e23242",
+      "budget_gpu_seconds": 3600,
+      "array_index": 26
+    },
+    {
+      "protocol_id": "PPI-PAIRED-BENCHMARK-20261011",
+      "target_id": "BBF111_9HAG",
+      "seed": 21012,
+      "method_id": "bindcraft",
+      "task_id": "8564b2c94d7b05899e031937",
+      "pair_id": "8e7e0ab48ff5357bd4e23242",
+      "budget_gpu_seconds": 3600,
+      "array_index": 27
+    }
+  ],
+  "created_at_utc": "2026-10-11T14:19:38.955527+00:00",
+  "sampling_scope": "All unique complete sequences observed before cutoff, including internally rejected sequences",
+  "statistical_unit": "target; replicates are repeated computational runs"
+}

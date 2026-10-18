@@ -1,0 +1,190 @@
+{
+  "status": "INDEPENDENT_FORMAL_V2_ALL_NATIVE_OUTPUTS_AND112_FAIRNESS_READONLY_SOURCE_SNAPSHOT_PASS",
+  "cpu_job_id": "13210",
+  "allocation": {
+    "job_id": "13210",
+    "scheduler_record": "JobId=13210 JobName=ppi_formal2_snapshot UserId=u21111210118(6263900) GroupId=u21111210118(6263900) MCS_label=N/A Priority=1 Nice=0 Account=u21111210118 QOS=normal JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:01 TimeLimit=00:10:00 TimeMin=N/A SubmitTime=2026-10-11T21:41:07 EligibleTime=2026-10-11T21:41:07 AccrueTime=2026-10-11T21:41:07 StartTime=2026-10-11T21:41:07 EndTime=2026-10-11T21:51:07 Deadline=N/A PreemptEligibleTime=2026-10-11T21:41:07 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-11T21:41:07 Scheduler=Main Partition=organ AllocNode:Sid=workstation:1770780 ReqNodeList=(null) ExcNodeList=(null) NodeList=gpu1 BatchHost=gpu1 NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:* TRES=cpu=1,node=1,billing=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=1 MinMemoryNode=4G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_snapshot.sbatch WorkDir=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark StdErr=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/logs/formal2_snapshot_13210.log StdIn=/dev/null StdOut=/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/logs/formal2_snapshot_13210.log Power= \n",
+    "allocated_tres": "cpu=1,node=1,billing=1"
+  },
+  "n_tests": 64,
+  "failures": 0,
+  "errors": 0,
+  "files": [
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/source/FORMAL_FAIRNESS_ACCEPTANCE.md",
+      "bytes": 10987,
+      "sha256": "b71089e78c727837ac80b714abefdf735769135b3392d5e694eb3a781b0530e4"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/source/formal_benchmark_contract.py",
+      "bytes": 46984,
+      "sha256": "768c0ca8fbdf942638688ed6a12ea1e88a42b50d7c219b902bbc3d945ddeb4bc"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/source/root_combine_engineering_acceptance_v1.py",
+      "bytes": 4538,
+      "sha256": "0cb377a068ce893b08637ae50142dd5ac7a48f735279b74fecdde2ab2f37dd49"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/source/root_freeze_engineering_pilot_v5.py",
+      "bytes": 5773,
+      "sha256": "d364d72fe7ad5706fcaed1e1a74f49057f52cd251badf3b7ea60918ae2c3013f"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/source/root_freeze_formal_benchmark_v3.py",
+      "bytes": 11994,
+      "sha256": "e23f09c1f01f1459fe1281f2648dd1e3c0d7d0e9704b9024acdaf732b7c3b3d8"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/source/snapshot_driver.py",
+      "bytes": 4308,
+      "sha256": "988d237ffc97362ae2ae4bc73fde0f8d06a9c334d9e346bb40ceaa5db3aa8b58"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/source/test_formal_benchmark_contract.py",
+      "bytes": 38371,
+      "sha256": "792a805d12d6c48cd75b847c3a400eee6ab1b704793c75176bcd267019571ce4"
+    }
+  ],
+  "historical_exact_byte_aliases": [
+    {
+      "historical_report": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13168/acceptance.json",
+        "bytes": 3201,
+        "sha256": "62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142"
+      },
+      "logical_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/formal_benchmark_contract.py",
+        "bytes": 29945,
+        "sha256": "09fd0dff2e9cc1760fc835a586660cc78b3bba685aad8a110b9c610a4eb86063"
+      },
+      "resolved_readonly_exact_byte_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/history_exact_bytes/formal_contract_v2_tests_13168_source.py",
+        "bytes": 29945,
+        "sha256": "09fd0dff2e9cc1760fc835a586660cc78b3bba685aad8a110b9c610a4eb86063"
+      },
+      "original_mutable_path_hash_claimed_equal": false
+    },
+    {
+      "historical_report": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13168/acceptance.json",
+        "bytes": 3201,
+        "sha256": "62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142"
+      },
+      "logical_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/test_formal_benchmark_contract.py",
+        "bytes": 27208,
+        "sha256": "56256254866dd3c784ebfd2ea084ed4fec82e31921542bd142e484cc5e65a396"
+      },
+      "resolved_readonly_exact_byte_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/history_exact_bytes/formal_contract_v2_tests_13168_contracts.py",
+        "bytes": 27208,
+        "sha256": "56256254866dd3c784ebfd2ea084ed4fec82e31921542bd142e484cc5e65a396"
+      },
+      "original_mutable_path_hash_claimed_equal": false
+    },
+    {
+      "historical_report": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13168/acceptance.json",
+        "bytes": 3201,
+        "sha256": "62170ec0b5ddbb6179f53825213bd223ba2fa5b9080e33e39747b1483d9ae142"
+      },
+      "logical_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/freeze_formal_benchmark_v3.py",
+        "bytes": 11563,
+        "sha256": "cd7aabd6d4720e909e92dafa0754ab3bb84f766896e3c89e3cfec4e62aa58666"
+      },
+      "resolved_readonly_exact_byte_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/history_exact_bytes/formal_contract_v2_tests_13168_reviewed_root_formal_helper.py",
+        "bytes": 11563,
+        "sha256": "cd7aabd6d4720e909e92dafa0754ab3bb84f766896e3c89e3cfec4e62aa58666"
+      },
+      "original_mutable_path_hash_claimed_equal": false
+    },
+    {
+      "historical_report": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13180/acceptance.json",
+        "bytes": 3201,
+        "sha256": "b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb"
+      },
+      "logical_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/formal_benchmark_contract.py",
+        "bytes": 46892,
+        "sha256": "13a00de2de298bbc5645f36352bf8da400d3cddb9ce6d5397c623f75d49133ae"
+      },
+      "resolved_readonly_exact_byte_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/history_exact_bytes/formal_contract_v2_tests_13180_source.py",
+        "bytes": 46892,
+        "sha256": "13a00de2de298bbc5645f36352bf8da400d3cddb9ce6d5397c623f75d49133ae"
+      },
+      "original_mutable_path_hash_claimed_equal": false
+    },
+    {
+      "historical_report": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_tests_13180/acceptance.json",
+        "bytes": 3201,
+        "sha256": "b459d255ec8df34729b186b48fca4c3ba4ce46115ba5e5ce419ddbdd46c514eb"
+      },
+      "logical_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2_preparation/test_formal_benchmark_contract.py",
+        "bytes": 38371,
+        "sha256": "792a805d12d6c48cd75b847c3a400eee6ab1b704793c75176bcd267019571ce4"
+      },
+      "resolved_readonly_exact_byte_receipt": {
+        "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/history_exact_bytes/formal_contract_v2_tests_13180_contracts.py",
+        "bytes": 38371,
+        "sha256": "792a805d12d6c48cd75b847c3a400eee6ab1b704793c75176bcd267019571ce4"
+      },
+      "original_mutable_path_hash_claimed_equal": false
+    }
+  ],
+  "source": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/source/formal_benchmark_contract.py",
+    "bytes": 46984,
+    "sha256": "768c0ca8fbdf942638688ed6a12ea1e88a42b50d7c219b902bbc3d945ddeb4bc"
+  },
+  "contracts": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/source/test_formal_benchmark_contract.py",
+    "bytes": 38371,
+    "sha256": "792a805d12d6c48cd75b847c3a400eee6ab1b704793c75176bcd267019571ce4"
+  },
+  "API": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/formal_contract_v2/source/FORMAL_FAIRNESS_ACCEPTANCE.md",
+    "bytes": 10987,
+    "sha256": "b71089e78c727837ac80b714abefdf735769135b3392d5e694eb3a781b0530e4"
+  },
+  "reviewed_root_formal_helper": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/freeze_formal_benchmark_v3.py",
+    "bytes": 11994,
+    "sha256": "e23f09c1f01f1459fe1281f2648dd1e3c0d7d0e9704b9024acdaf732b7c3b3d8"
+  },
+  "reviewed_root_builder": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/combine_engineering_acceptance_v1.py",
+    "bytes": 4538,
+    "sha256": "0cb377a068ce893b08637ae50142dd5ac7a48f735279b74fecdde2ab2f37dd49"
+  },
+  "reviewed_engineering_plan": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/engineering_pilot/plan_v5/frozen_plan.json",
+    "bytes": 8182,
+    "sha256": "8b47944f5ba5662c2e382b2f6b52553760d95a0ed678ea4a4c9d44396cb038bb"
+  },
+  "independent_engineering_preflight": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/code/engineering_plan_v5_audit_v3_13167/acceptance.json",
+    "bytes": 111740,
+    "sha256": "2378283d96fd16100dcc92e8169026bc62276baf583c9310ca1b3aa653c24be5"
+  },
+  "collector_source": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/21_method_runtime/runs/native_collector_contracts_13166/source/audit_native_confidence_v8.py",
+    "bytes": 16372,
+    "sha256": "eca561182d06eca52bde005b45f02dd261d57b916d70ea5e34e99e86a79830b5"
+  },
+  "runtime_source": {
+    "path": "/lustre/users/u21111210118/projects/test9/steps/22_matched_benchmark/settings/pilot_v8/source/benchmark_runtime.py",
+    "bytes": 51064,
+    "sha256": "51b516a692d369f4d9a6ae9e3c39c0294da219c4d065420bbf9538a4af4b6562"
+  },
+  "no_formal_freeze": true,
+  "no_gpu_submission": true,
+  "no_accepted_v4_mutation": true,
+  "no_scientific_results": "All unit input arrays/sequences/PDB/receipt objects are explicit software fixtures."
+}

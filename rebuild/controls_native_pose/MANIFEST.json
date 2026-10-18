@@ -1,0 +1,135 @@
+{
+  "status": "SMALL_RECONSTRUCTION_SOURCES_ARCHIVED_AND_SYNTAX_VERIFIED",
+  "job_id": "11810",
+  "created_utc": "2026-10-02T12:15:09.109278+00:00",
+  "source_project_root": "/lustre/users/u21111210118/projects/test9",
+  "file_count": 15,
+  "files": [
+    {
+      "source_relative_path": "steps/02_controls_recovery/code/archive_scripts.py",
+      "archive_relative_path": "steps/02_controls_recovery/code/archive_scripts.py",
+      "sha256": "2c3ebee9ec081abc2afeab619de84101982b310cc030e50b5f9e1037bf94dc12",
+      "bytes": 6300,
+      "role": "faithful_snapshot_of_step_entry_or_acceptance_script"
+    },
+    {
+      "source_relative_path": "steps/02_controls_recovery/code/coverage_audit.py",
+      "archive_relative_path": "steps/02_controls_recovery/code/coverage_audit.py",
+      "sha256": "dac6136fcf3a2cf383aeb16c75910a15b58f2cf07e2f7ad9248a663bc92907fa",
+      "bytes": 9712,
+      "role": "faithful_snapshot_of_step_entry_or_acceptance_script"
+    },
+    {
+      "source_relative_path": "steps/02_controls_recovery/code/recover_author_models.py",
+      "archive_relative_path": "steps/02_controls_recovery/code/recover_author_models.py",
+      "sha256": "171cf7c57268e1d517af09daa10a9669559eaf98f578bee1cd2aced285d22394",
+      "bytes": 5146,
+      "role": "faithful_snapshot_of_step_entry_or_acceptance_script"
+    },
+    {
+      "source_relative_path": "steps/02_controls_recovery/code/recover_controls.py",
+      "archive_relative_path": "steps/02_controls_recovery/code/recover_controls.py",
+      "sha256": "7295b81acd18c091c1614c6cb946f68e6715babaaf3fc3820da8d3de8fd5eacd",
+      "bytes": 9775,
+      "role": "faithful_snapshot_of_step_entry_or_acceptance_script"
+    },
+    {
+      "source_relative_path": "steps/02_controls_recovery/code/run.sh",
+      "archive_relative_path": "steps/02_controls_recovery/code/run.sh",
+      "sha256": "d4932c681863e2efd51829d30bace4c213bd527930e57c6a5a401fb13f803d39",
+      "bytes": 327,
+      "role": "faithful_snapshot_of_step_entry_or_acceptance_script"
+    },
+    {
+      "source_relative_path": "steps/02_controls_recovery/code/validate_author_models.py",
+      "archive_relative_path": "steps/02_controls_recovery/code/validate_author_models.py",
+      "sha256": "9f4d8b299e28311a4e7c74273b568bfec3d9f16614d20bba88903a955eb8f246",
+      "bytes": 3460,
+      "role": "faithful_snapshot_of_step_entry_or_acceptance_script"
+    },
+    {
+      "source_relative_path": "steps/02_controls_recovery/code/validate_recovery.py",
+      "archive_relative_path": "steps/02_controls_recovery/code/validate_recovery.py",
+      "sha256": "58ac00364bb3a79052c12a92a7f10baaf5b42e5a6ac66f3261cf59cbbc6e27b7",
+      "bytes": 2698,
+      "role": "faithful_snapshot_of_step_entry_or_acceptance_script"
+    },
+    {
+      "source_relative_path": "steps/06_native_diagnostics/code/diagnose_native.py",
+      "archive_relative_path": "steps/06_native_diagnostics/code/diagnose_native.py",
+      "sha256": "ac61ed07b8650406f39d98be0b410a99960a4366bf20b1ef31669802ed7149c6",
+      "bytes": 9232,
+      "role": "faithful_snapshot_of_step_entry_or_acceptance_script"
+    },
+    {
+      "source_relative_path": "steps/06_native_diagnostics/code/prepare_keap1.py",
+      "archive_relative_path": "steps/06_native_diagnostics/code/prepare_keap1.py",
+      "sha256": "43870bc33151ae14d8cee8307f039694fe1a67258cb11e8625fca5661c17e680",
+      "bytes": 9927,
+      "role": "faithful_snapshot_of_step_entry_or_acceptance_script"
+    },
+    {
+      "source_relative_path": "steps/06_native_diagnostics/code/validate_keap1.py",
+      "archive_relative_path": "steps/06_native_diagnostics/code/validate_keap1.py",
+      "sha256": "1693d0f0ec78a5ea66e7c4ada70f303ee3c4e77f7d5063235d8009514f25c4d7",
+      "bytes": 3188,
+      "role": "faithful_snapshot_of_step_entry_or_acceptance_script"
+    },
+    {
+      "source_relative_path": "steps/06_native_diagnostics/code/validate_native.py",
+      "archive_relative_path": "steps/06_native_diagnostics/code/validate_native.py",
+      "sha256": "81d035b7689462a6d328a841f780b86a7c95dccc2cde622dae1532eaee66c2ae",
+      "bytes": 3194,
+      "role": "faithful_snapshot_of_step_entry_or_acceptance_script"
+    },
+    {
+      "source_relative_path": "steps/10_pose_reassessment/code/run.sh",
+      "archive_relative_path": "steps/10_pose_reassessment/code/run.sh",
+      "sha256": "cc71191ddf2601a25ebbf35851c218642bab90bc196a9bff7a88c04ca4703bd7",
+      "bytes": 389,
+      "role": "faithful_snapshot_of_step_entry_or_acceptance_script"
+    },
+    {
+      "source_relative_path": "steps/10_pose_reassessment/code/summarize.py",
+      "archive_relative_path": "steps/10_pose_reassessment/code/summarize.py",
+      "sha256": "4361763002eaff7e33fa6efd3eff9b4089541d2680bbffc8dec4946c3ab88dc9",
+      "bytes": 7254,
+      "role": "compact_summary_generator_added_after_archive_initialization"
+    },
+    {
+      "source_relative_path": "steps/10_pose_reassessment/code/validate_pose.py",
+      "archive_relative_path": "steps/10_pose_reassessment/code/validate_pose.py",
+      "sha256": "e0c9575767be0f31b627f221f42fe9b9242a28ef40739408b2f4bb31c24580bc",
+      "bytes": 4834,
+      "role": "faithful_snapshot_of_step_entry_or_acceptance_script"
+    },
+    {
+      "source_relative_path": "steps/10_pose_reassessment/config.json",
+      "archive_relative_path": "steps/10_pose_reassessment/config.json",
+      "sha256": "421e9ae0faf062b3db3c886b25bc2b298d530bc0a55861422224ecc3502e5e21",
+      "bytes": 757,
+      "role": "faithful_snapshot_of_step_entry_or_acceptance_script"
+    }
+  ],
+  "active_pose_implementation": {
+    "repository_relative_path": "rebuild/pose_reassessment.py",
+    "sha256": "97f18c33ba7117425c195a88b845f878af50c3a429458c522b65b8c4eb5adc24",
+    "bytes": 24937,
+    "not_duplicated": true
+  },
+  "documentation": [
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/controls_native_pose/README.md",
+      "bytes": 2690,
+      "sha256": "c53d99465332cbbe9099291030a0ac3822d62017cd57d74c63d298c274fa2d94"
+    },
+    {
+      "path": "/lustre/users/u21111210118/projects/test9/source/rebuild/controls_native_pose/ACCEPTANCE_POINTERS.json",
+      "bytes": 2739,
+      "sha256": "6b909a95e49167bad9e01137381b6ef68eb3ccd0b2fc05ef437bc98093c526a8"
+    }
+  ],
+  "data_copied": false,
+  "runtime_files_modified": false,
+  "finalized_by_job": "11819"
+}
